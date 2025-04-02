@@ -16,4 +16,4 @@ tags:
 
 Pauli propagation methods are a new kid on the block of classical simulation algorithms, and can in some cases already outperform state-of-the-art tensor networks. Our mission is to develop this flexible and high-performance code base for everyone to use in their research.
 
-The package simulates the evolution of objects expressed in the Pauli basis under noiseless and noisy quantum circuits. Commonly, this is used for the Heisenberg picture evolution of an observable. Some opt-in truncations or approximations are particularly suited for estimating expectation values $`Tr[\rho \mathcal{E}^\dagger(\hat{O})]`$ of evolved observables with quantum states.
+The package simulates the evolution of objects expressed in the Pauli basis under noiseless and noisy quantum circuits. Commonly, this is used for the Heisenberg picture evolution of an observable. Some opt-in truncations or approximations are particularly suited for estimating expectation values of evolved observables with quantum states.
