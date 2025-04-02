@@ -3,7 +3,7 @@ title: QuantumSymbolics.jl
 emoji: 🟰⚛️
 project_url: https://github.com/QuantumSavory/QuantumSymbolics.jl/
 metaDescription: Computer algebra tools for symbolic manipulations in quantum mechanics and quantum information
-date: 4/2/2025
+date: 2025-04-02
 summary: Computer algebra tools for symbolic manipulations in quantum mechanics and quantum information
 tags:
   - julia

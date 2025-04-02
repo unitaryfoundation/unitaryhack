@@ -3,7 +3,7 @@ title: graphix
 emoji: 🕸️
 project_url: https://github.com/TeamGraphix/graphix
 metaDescription: Graphix is a measurement-based quantum computing (MBQC) software package.
-date: 4/2/2025
+date: 2025-04-02
 summary: Graphix is a measurement-based quantum computing (MBQC) software package.
 tags:
   - Measurement-based quantum computing

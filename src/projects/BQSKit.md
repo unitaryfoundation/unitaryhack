@@ -3,7 +3,7 @@ title: BQSKit
 emoji: 🍪
 project_url: github.com/bqskit
 metaDescription: The Berkeley Quantum Synthesis Toolkit (BQSKit) [bis • kit] is a powerful and portable quantum compiler framework.
-date: 4/2/2025
+date: 2025-04-02
 summary: The Berkeley Quantum Synthesis Toolkit (BQSKit) [bis • kit] is a powerful and portable quantum compiler framework.
 tags:
   - Compilers

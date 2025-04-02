@@ -3,7 +3,7 @@ title: PyZX
 emoji: 🕷️
 project_url: https://github.com/zxcalc/pyzx
 metaDescription: Python library for quantum circuit rewriting and optimisation using the ZX-calculus
-date: 4/2/2025
+date: 2025-04-02
 summary: Python library for quantum circuit rewriting and optimisation using the ZX-calculus
 tags:
   - compiler

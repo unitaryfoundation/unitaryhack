@@ -3,7 +3,7 @@ title: Pauli Propagation
 emoji: 🇵 🇵
 project_url: https://github.com/MSRudolph/PauliPropagation.jl
 metaDescription: A framework for simulating quantum circuits and quantum systems in the Pauli basis
-date: 4/2/2025
+date: 2025-04-02
 summary: A framework for simulating quantum circuits and quantum systems in the Pauli basis
 tags:
   - Julia

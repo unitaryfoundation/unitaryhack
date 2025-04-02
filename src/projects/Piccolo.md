@@ -3,7 +3,7 @@ title: Piccolo.jl
 emoji: 🪈🎶
 project_url: https://www.harmoniqs.co/
 metaDescription: Fine tuned quantum control inspired by robotics
-date: 4/2/2025
+date: 2025-04-02
 summary: Fine tuned quantum control inspired by robotics
 tags:
   - optimization

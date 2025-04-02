@@ -3,7 +3,7 @@ title: Tequila
 emoji: 
 project_url: https://github.com/tequilahub/tequila
 metaDescription: Abstraction framework for variational quantum algorithms.
-date: 4/2/2025
+date: 2025-04-02
 summary: Abstraction framework for variational quantum algorithms.
 ---
 
