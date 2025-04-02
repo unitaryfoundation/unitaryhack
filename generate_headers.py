@@ -4,6 +4,8 @@ import pandas as pd
 df = pd.read_csv('unitaryHACK_projects.tsv', sep='\t')
 
 # Function to generate markdown header
+# Note that this will print "nan" in place of any blank fields,
+# so be sure all fields are populated, or remove "nan" before publishing
 def generate_markdown_header(row):
     tags_list = [tag.strip() for tag in str(row['tags']).split(',') if tag.strip()]
     tags_yaml = '\n  - '.join(tags_list)
@@ -17,6 +19,7 @@ summary: {row['summary']}
 tags:
   - {tags_yaml}
 ---
+{row['description']}
 """
 
 # Apply the function to each row
