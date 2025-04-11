@@ -62,14 +62,9 @@ Example of Best Practice 4 from [HierarQcal](https://github.com/matt-lourens/hie
 
 ## General best practices (beyond UnitaryHack):
 
-* Consider creating Github issue templates (check out [UCC for examples](https://github.com/unitaryfund/ucc/tree/main/.github/ISSUE_TEMPLATE)):
-* These help the person submitting the issue scope it well from the start, e.g. including an MRE, explaining the context and alternatives considered, etc.
-
-[INSERT EXAMPLES]
+* **Consider creating Github issue templates (check out [UCC for examples](https://github.com/unitaryfund/ucc/tree/main/.github/ISSUE_TEMPLATE))**: These help the person submitting the issue scope it well from the start, e.g. including an MRE, explaining the context and alternatives considered, etc.
 
 <img src="/assets/img/issue_templates.png" alt="When you define issue template files, they appear in the GitHub issue ticket web UI." />
 <br/>
 
-* Create informative, user friendly documentation.
-
-Yeah yeah, docs are usually the last thing on our minds, and their development is not considered as sexy as contributing new features or getting a speedup, but can really help new people get up and running with your project, and will help new devs who want to contribute understand how their work fits into the broader repo.
+* **Create informative, user friendly documentation.**: Yeah yeah, docs are usually the last thing on our minds, and their development is not considered as sexy as contributing new features or getting a speedup, but can really help new people get up and running with your project, and will help new devs who want to contribute understand how their work fits into the broader repo.
