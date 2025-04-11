@@ -30,25 +30,25 @@ This is the biggest one: people don’t know what you’re talking about if you 
 
 Luckily, Tim Berners-Lee invented [URL](https://en.wikipedia.org/wiki/URL) links! What a wondrous invention! Use them :) If you are referencing a section of your code, documentation, or another software package, add a link to it. Always err on the side of more links.
 
-Good example of Best Practice 1:
+Example of best practice 1 from [QuantumToolbox.jl](http://QuantumToolbox.jl):
 
-[INSERT ]
+<img src='/assets/img/BP_1.webp' alt="GitHub screenshot"/>
 
 ### 2. Include a [Minimal Reproducible Example](https://stackoverflow.com/help/minimal-reproducible-example) (MRE)
 
 If the issue is a bug, make sure to include a code snippet, script, or set of instructions that can reproduce the problem. Even if you don’t know exactly where an error is coming from, just understanding a normal workflow will help a contributor get up to speed at isolating and solving the problem.
 
-Good example of Best Practice 2:
+Example of best practice 2 from [Amazon Braket SDK](https://github.com/amazon-braket/amazon-braket-sdk-python/issues/603):
 
-[INSERT ]
+<img src='/assets/img/BP_2.webp' alt="GitHub screenshot"/>
 
 ### 3. Define what’s in scope (and out of scope)
 
 Estimate what is realistic to complete in the hacking period. Maybe what you really want is a full refactor of your entire plotting module, but in the short term, you just need your labels to stop overlapping. Make this clear in the issue, including the broader context if you think it’s relevant.
 
-Good example of Best Practice 3:
+Example of Best Practice 3 from [Qadence](https://github.com/pasqal-io/qadence/issues/368):
 
-[INSERT ]
+<img src='/assets/img/BP_3.webp' alt="GitHub screenshot"/>
 
 ### 4. Explain why it matters
 
@@ -56,20 +56,15 @@ What does this issue do for your project? Is it blocking something else from wor
 
 Answering these questions will help a new person get a sense for why fixing this issue is a priority and gives their work meaning. 
 
-Good example of Best Practice 4:
+Example of Best Practice 4 from [HierarQcal](https://github.com/matt-lourens/hierarqcal/issues/50):
 
-[INSERT ]
+<img src='/assets/img/BP_4.webp' alt="GitHub screenshot"/>
 
 ## General best practices (beyond UnitaryHack):
 
-* Consider creating Github issue templates (check out [UCC for examples](https://github.com/unitaryfund/ucc/tree/main/.github/ISSUE_TEMPLATE)):
-* These help the person submitting the issue scope it well from the start, e.g. including an MRE, explaining the context and alternatives considered, etc.
-
-[INSERT EXAMPLES]
+* **Consider creating Github issue templates (check out [UCC for examples](https://github.com/unitaryfund/ucc/tree/main/.github/ISSUE_TEMPLATE))**: These help the person submitting the issue scope it well from the start, e.g. including an MRE, explaining the context and alternatives considered, etc.
 
 <img src="/assets/img/issue_templates.png" alt="When you define issue template files, they appear in the GitHub issue ticket web UI." />
 <br/>
 
-* Create informative, user friendly documentation.
-
-Yeah yeah, docs are usually the last thing on our minds, and their development is not considered as sexy as contributing new features or getting a speedup, but can really help new people get up and running with your project, and will help new devs who want to contribute understand how their work fits into the broader repo.
+* **Create informative, user friendly documentation.**: Yeah yeah, docs are usually the last thing on our minds, and their development is not considered as sexy as contributing new features or getting a speedup, but can really help new people get up and running with your project, and will help new devs who want to contribute understand how their work fits into the broader repo.
