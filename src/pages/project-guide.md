@@ -55,7 +55,7 @@ Get your project ready for more eyes on it! Some tips:
 - If you have a `good first issue` label, it will be a good time to review it.
 - Ensure you have `CONTRIBUTING.md` and `CODE_OF_CONDUCT.md` files at the root of your repo (or similar) so folks can learn how they should make their contributions.
 
-In April, we will distribute a form to finalize which issues you'd like to put up for bounties, and the associated rewards associated. We will review the issues to make sure there is a good balance across the event. We are keeping the bounties hidden until the day of the event to ensure fairness.
+In April, we will distribute a form to finalize which issues you'd like to put up for bounties, and the associated rewards. We will review the issues to make sure there is a good balance across the event. We are keeping the bounties hidden until the day of the event to ensure fairness.
 
 ### How to choose good issues for participants
 
