@@ -61,6 +61,29 @@ In April, we will distribute a form to finalize which issues you'd like to put u
 
 To make sure that everyone can participate in the hackathon, we encourage project maintainers to tag a variety of issues that may or may not include quantum content, may or may not require devops skills, etc. We understand projects can be very targeted so if this is not possible that's totally fine! Our goal is to help connect eager and skilled contributors to your projects to help make the quantum open source ecosystem better 💖 We encourage you to reference our [Best practices for unitaryHACK Issues]({{ '/best-practices/' | url }}). for help in refining your issues to set contributors up for success.
 
+### Examples of Good Issues
+
+- New features (quantum):
+    - [Example 1](https://github.com/unitaryfoundation/ucc/issues/170) (UCC)
+    - [Example 2](https://github.com/qBraid/qbraid-qir/issues/78) (qBraid)
+    - [Example 3](https://github.com/qutip/QuantumToolbox.jl/issues/95) (quantum-toolbox.jl)
+- Bug fixes:
+    - [Example 1](https://github.com/qutip/qutip/issues/2400) (QuTiP)
+    - [Example 2](https://github.com/amazon-braket/amazon-braket-sdk-python/issues/603) (Amazon Braket SDK)
+    - [Example 3](https://github.com/unitaryfoundation/mitiq/issues/2354) (Mitiq)
+- Tests & profiling:
+    - [Profiling example](https://github.com/unitaryfoundation/mitiq/issues/2161) (Mitiq)
+    - [Tests example 1](https://github.com/scqubits/scqubits/issues/220) (SC Qubits)
+    - [Tests example 2](https://github.com/qBraid/qBraid/issues/624) (qBraid)
+- Docs & examples:
+    - [Docs example](https://github.com/NVIDIA/cuda-quantum/issues/1624) (CUDA Quantum)
+    - [Tutorial example 1](https://github.com/Quantum-Universal-Education/Quantum-Universal-Education.github.io/issues/16) (Universal Quantum Education)
+    - [Tutorial Example 2](https://github.com/tencent-quantum-lab/tensorcircuit/issues/212) (TensorCircuit)
+- Refactoring:
+    - [Example 1](https://github.com/vprusso/toqito/issues/168) (Toqito)
+    - [Example 2](https://github.com/Qiskit/openqasm3_parser/issues/163) (QASM3 Parser)
+    - [Example 3](https://github.com/pasqal-io/qadence/issues/368) (Qadence)
+
 ## 🛠️ During the Hack 🛠️
 
 As the hackathon progresses (and sometimes right away if there are eager folks who read up on the project), you should get some useful PRs! **If a PR does not meet a minimum bar for quality, or if another PR has been accepted, please provide some details through PR comments that it is not accepted.**
