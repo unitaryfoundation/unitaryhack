@@ -6,8 +6,9 @@ metaDescription: Bartiq is a library that allows one to analyze quantum algorith
 date: 2025-04-10
 summary: Bartiq is a library that allows one to analyze quantum algorithms and manipulate symbolic expressions for quantum resource estimates (QRE).
 tags:
-  - Python
-  - QRE
+  - python
+  - resource estimation
+  - algorithms
 ---
 
 Bartiq is a library that allows one to analyze quantum algorithms and manipulate symbolic expressions for quantum resource estimates (QRE).

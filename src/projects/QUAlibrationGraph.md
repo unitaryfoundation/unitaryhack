@@ -6,7 +6,7 @@ metaDescription: QUAlibrationGraph is an advanced, Python-based, open-source cal
 date: 2025-04-10
 summary: QUAlibrationGraph is an advanced, Python-based, open-source calibration platform designed to streamline the calibration process for quantum computers.
 tags:
-  - Python
+  - python
   - QUA
   - hardware control
   - calibration graph

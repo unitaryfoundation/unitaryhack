@@ -6,10 +6,10 @@ metaDescription: A framework for simulating quantum circuits and quantum systems
 date: 2025-04-02
 summary: A framework for simulating quantum circuits and quantum systems in the Pauli basis
 tags:
-  - Julia
-  - Quantum Circuits
-  - Quantum Simulation
-  - Quantum Computing
+  - julia
+  - circuits
+  - simulation
+  - pauli strings
 ---
 
 `PauliPropagation.jl` is a Julia package for Pauli propagation simulation of quantum circuits.

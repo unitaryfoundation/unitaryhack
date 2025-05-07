@@ -7,7 +7,7 @@ date: 2025-03-31
 summary: An end-to-end open source platform for quantum simulation, self-hosted quantum hardware control, calibration and characterization.
 tags:
   - python
-  - quantum simulation
+  - simulation
   - hardware control
   - calibration
   - characterization

@@ -6,17 +6,13 @@ metaDescription: A multithreaded, distributed, GPU-accelerated simulator of quan
 date: 2025-04-03
 summary: A multithreaded, distributed, GPU-accelerated simulator of quantum statevectors and density matrices
 tags:
-  - quantum computing
-  - scientific simulation
+  - simulation
   - C
-  - C11
   - C++
-  - C++20
   - CUDA
   - MPI
   - OpenMP
   - cuQuantum
-  - cuStateVec
   - HIP
 ---
 

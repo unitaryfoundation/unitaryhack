@@ -6,10 +6,9 @@ metaDescription: "|toqito> (Theory of Quantum Information Toolkit) in Python"
 date: 2024-03-28
 summary: "|toqito> (Theory of Quantum Information Toolkit) in Python"
 tags:
-  - quantum-computing
-  - quantum-information
-  - matrix-analysis
-  - linear-algebra
+  - quantum information
+  - matrix analysis
+  - linear algebra
 ---
 
 (Theory of Quantum Information Toolkit)

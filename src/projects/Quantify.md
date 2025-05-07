@@ -6,11 +6,10 @@ metaDescription: Quantify is a hardware-agnostic framework  designed to allow ex
 date: 2025-03-27
 summary: Quantify is a hardware-agnostic framework  designed to allow experimentalists to easily define complex quantum experiments.
 tags:
-  - Data Acquisition
-  - Instrument Control
-  - Quantum Programming
-  - Solid-State Physics
-  - Experimental Physics
+  - data acquisition
+  - instrument control
+  - solid-state physics
+  - experimental physics
 ---
 
 Quantify is a Python-based data acquisition framework focused on Quantum Computing and solid-state physics experiments. 

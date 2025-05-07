@@ -10,7 +10,7 @@ tags:
   - classical simulation
   - tensor networks
   - ZX-calculus
-  - Python
+  - python
 ---
 
 PyZX (pronounce as Pisics) is a Python tool implementing the theory of ZX-calculus for the creation, visualisation, and automated rewriting of large-scale quantum circuits.

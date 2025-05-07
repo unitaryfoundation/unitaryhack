@@ -7,13 +7,13 @@ date: 2025-04-10
 summary: The Backbone of the Munich Quantum Toolkit (MQT) -- A collection of design automation tools and software for quantum computing
 tags:
   - C++
-  - Python
-  - classical simulation
+  - python
+  - simulation
   - compilation
   - MLIR
   - decision diagrams
   - ZX-calculus
-  - neutral atom quantum computing
+  - neutral atoms
   - quantum software stack
 ---
 

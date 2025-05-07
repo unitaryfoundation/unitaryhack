@@ -7,7 +7,8 @@ date: 2023-03-29
 summary: A cross platform error-mitigating compiler that improves the performance of quantum computers.
 tags:
   - python
-  - qem
+  - error mitigation
+  - nisq
 ---
 
 Mitiq is a Python toolkit for implementing error mitigation techniques on quantum computers.

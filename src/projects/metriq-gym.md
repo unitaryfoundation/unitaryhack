@@ -9,7 +9,7 @@ tags:
   - benchmarking
   - hardware
   - cloud
-  - Python
+  - python
 ---
 
 **metriq-gym** is an open-source project created to make writing and running quantum benchmarks easier than ever. If you are familiar with MLPerf for AI, think of metriq-gym as the equivalent for quantum, enabling standardized benchmarking across different quantum devices and providers.

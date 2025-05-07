@@ -6,10 +6,10 @@ metaDescription: Graphix is a measurement-based quantum computing (MBQC) softwar
 date: 2025-04-02
 summary: Graphix is a measurement-based quantum computing (MBQC) software package.
 tags:
-  - Measurement-based quantum computing
-  - Measurement calculus
-  - Python
-  - Optics
+  - MBQC
+  - measurement calculus
+  - python
+  - optics
 ---
 
 Graphix is a measurement-based quantum computing (MBQC) software package, featuring

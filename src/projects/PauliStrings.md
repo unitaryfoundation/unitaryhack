@@ -7,9 +7,8 @@ date: 2025-04-04
 summary: Quantum many body simulations in the Pauli strings representation
 tags:
   - julia
-  - quantum circuits
-  - quantum simulation
-  - pauli propagation
+  - circuits
+  - simulation
   - pauli strings
 ---
 

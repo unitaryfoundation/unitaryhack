@@ -7,7 +7,7 @@ date: 2025-04-10
 summary: The QIR Execution Engine provides interfaces for processing Quantum Intermediate Representation code using the LLVM execution engine.
 tags:
   - compiler
-  - quantum intermediate representation
+  - QIR
   - LLVM
   - hybrid computing
 ---

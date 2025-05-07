@@ -9,18 +9,10 @@ tags:
   - python
   - algorithms
   - simulation
-  - quantum
-  - quantum-computing
-  - quantum-information
-  - quantum-circuit
-  - quantum-programming-language
-  - quantum-algorithms
-  - quantum-computer-simulator
-  - quantum-circuit-simulator
-  - quantum-simulation
-  - quantum-development-kit
+  - quantum information
+  - programming language
   - nisq
-  - quantum-programming
+  - SDK
 ---
 
 Cirq provides useful abstractions for dealing with today’s [noisy intermediate-scale quantum](https://arxiv.org/abs/1801.00862) (NISQ) computers, where the details of quantum hardware are vital to achieving state-of-the-art results. Some of its features include:

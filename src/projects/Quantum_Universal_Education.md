@@ -9,8 +9,7 @@ summary: The community aims to disseminate educational resources on various aspe
 tags:
   - education
   - python
-  - science
-  - css
+  - website
 ---
 
 The community aims to disseminate educational resources on various aspects related to quantum technologies.

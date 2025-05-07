@@ -9,9 +9,8 @@ tags:
   - julia
   - symbolics
   - CAS
-  - representation
 ---
 
 This Symbolics project serves two purposes:
 - QuantumSymbolics.jl provides for algebraic manipulation of mathematical expressions related to your quantum models. Particularly helpful when having to automatically generate or simplify expressions of significant complexity.
-- QuantumSymbolics.jl contains an assortment of ""expression translators"" that can turn a symbolic expression into a numerical one in a variety of formalisms, e.g. state vectors, tensor networks, stabilizer states, Gaussian quantum states, etc.
+- QuantumSymbolics.jl contains an assortment of "expression translators" that can turn a symbolic expression into a numerical one in a variety of formalisms, e.g. state vectors, tensor networks, stabilizer states, Gaussian quantum states, etc.

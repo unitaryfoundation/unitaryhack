@@ -6,7 +6,7 @@ metaDescription: The Berkeley Quantum Synthesis Toolkit (BQSKit) [bis • kit] i
 date: 2025-04-02
 summary: The Berkeley Quantum Synthesis Toolkit (BQSKit) [bis • kit] is a powerful and portable quantum compiler framework.
 tags:
-  - Compilers
+  - compiler
   - circuits
   - synthesis
   - optimization
