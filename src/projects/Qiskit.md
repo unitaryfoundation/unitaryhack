@@ -12,7 +12,7 @@ tags:
   - python
   - circuit optimization
   - compilation
-  - openqasm
+  - OpenQASM
   - AI
 ---
 
