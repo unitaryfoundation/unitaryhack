@@ -14,7 +14,7 @@ No matter your experience in quantum tech or open source communities, you can he
 ## 🗓️ Hacker Timeline 🗓️
 
 > - **ASAP**: Sign up for unitaryHACK!
-> - **May 21st**: unitaryHACK Q&A event on [Discord](http://discord.unitary.foundation/) at 9:30 am Pacific Time.
+> - **Date TBC**: unitaryHACK Q&A event on [Discord](http://discord.unitary.foundation/) at 9:30 am Pacific Time.
 > - **June 11th 5pm AoE**: Deadline to submit pull requests.
 > - **June 20th**: Awardees finalized and contacted.
 
