@@ -36,9 +36,9 @@ We have some outlines below for what you can expect before and during the event,
 ## 🗓️ Maintainer Timeline 🗓️
 
 > - **ASAP** Maintainers from invited projects fill out our [participation form](https://airtable.com/apppeZIiaDZ7dgNya/pagxR9MSOdmHEfALX/form)
-> - **May 5th** Maintainers submit bounties for review
-> - **May 23rd** All issues must be finalized
-> - **May 23 at 9 am PT** Maintainers get together + Q&A
+> - **May 5th** Maintainers begin to submit bounties for review
+> - **May 21st** All issues must be finalized
+> - **May 21st at 9:30 am PT** Maintainers' get together + Q&A
 >   - Review of the event + rules
 >   - Answer any initial questions folks have about the event
 >   - Give a short intro about your project
