@@ -32,7 +32,7 @@ In addition to the SDK, other Qiskit tools participated in UnitaryHack are:
  * [Aer](https://github.com/Qiskit/qiskit-aer/): A high performance simulator for quantum circuits that includes noise models.
  * [Qiskit AI Transpiler](https://github.com/Qiskit/qiskit-ibm-transpiler): A package to run AI and heuristic Qiskit transpiler passes on local and cloud environments.
  * [rustworkx](https://github.com/Qiskit/rustworkx):  A high performance Python graph library implemented in Rust. Used internally in several quantum computing libraries such as Qiskit and Pennylane.
- * [Qiskit documentation](https://github.com/Qiskit/documentation): The documentation content home for [quantum.cloud.ibm.com](https://quantum.cloud.ibm.com/docs) and [docs.quantum.ibm.com](https://docs.quantum.ibm.com) (excluding API reference).
+ * [Qiskit documentation](https://github.com/Qiskit/documentation): The documentation content home for [quantum.cloud.ibm.com](https://quantum.cloud.ibm.com/docs) and [docs.quantum.ibm.com](https://docs.quantum.ibm.com) (excluding API references, they are in the code itself as docstrings).
  
 
 > For support from the community, please request access to the [Qiskit Slack workspace](https://qisk.it/join-slack). The channels [`#qiskit-dev`](https://qiskit.enterprise.slack.com/archives/C025DF09HUJ) and [`#qiskit-pr-help`](https://qiskit.enterprise.slack.com/archives/C024ELK40TW) are a good place for questions on the development and the PRing process respectively. **Do not DM individual IBMers for support.**
