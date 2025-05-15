@@ -14,7 +14,7 @@ No matter your experience in quantum tech or open source communities, you can he
 ## 🗓️ Hacker Timeline 🗓️
 
 > - **ASAP**: Sign up for unitaryHACK!
-> - **May 28th at 9:30 am Pacific Time**: unitaryHACK 2025 begins.
+> - **May 28th**: unitaryHACK 2025 begins.
 > - **June 11th at 5pm AoE**: Deadline to submit pull requests.
 > - **June 20th**: Awardees finalized and contacted.
 
