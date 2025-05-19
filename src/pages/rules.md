@@ -23,7 +23,7 @@ Any submissions made after 5pm AoE on June 11th will not be considered, unless a
 
 ## Code of Conduct and Disciplinary Action
 
-All participants and maintainers must adhere to the project's Code of Conduct as well as Unitary Foundation's [Community Code of Conduct](https://github.com/unitaryfund/unitary.foundation/blob/master/CODE_OF_CONDUCT.md). Violations of any Codes of Conduct associated with unitaryHACK will be addressed by the Unitary Foundation team, with disciplinary actions determined at their discretion and based on the severity of the offense. Those hackers reinvited to unitaryHACK for the subsequent year will be placed on probation, with their participation contingent upon adherence to further conditions, again at the discretion of the UF team. 
+All participants and maintainers must adhere to the project's Code of Conduct as well as Unitary Foundation's [Community Code of Conduct](https://github.com/unitaryfund/unitary.foundation/blob/master/CODE_OF_CONDUCT.md). Violations of any Codes of Conduct associated with unitaryHACK will be addressed by the Unitary Foundation team, with disciplinary actions determined at their discretion and based on the severity of the offense. Those who are reinvited to unitaryHACK for the subsequent year will be placed on probation, with their participation contingent upon adherence to further conditions, again at the discretion of the UF team. 
 
 
 If you have any questions about the event contact us hack@unitary.foundation, or to get in touch with others working on the event, join our [Discord](https://discord.gg/2Y9z9xKKbr)!
