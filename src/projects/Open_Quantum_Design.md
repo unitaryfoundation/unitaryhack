@@ -1,7 +1,7 @@
 ---
 title: Open Quantum Design
 emoji: 
-project_url: https://github.com/OpenQuantumDesign
+project_url: https://github.com/OpenQuantumDesign/oqd-core
 metaDescription: Building the world's first open-source, full-stack quantum computer
 date: 2025-04-02
 summary: Building the world's first open-source, full-stack quantum computer

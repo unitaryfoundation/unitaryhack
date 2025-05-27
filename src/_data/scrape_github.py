@@ -11,6 +11,8 @@ PROJECT_PATH = "../projects"
 
 
 def URL_to_repo_key(url: str) -> str:
+    if "gitlab" in url:
+        return "gitlab"
     repo = re.match("^https:\/\/github\.com\/([\w-]*\/[^\/]*)\/?$", url)
     if repo:
         return repo[1]
@@ -27,6 +29,12 @@ projects = {}
 for project in get_project_info():
     project_url = project["project_url"]
     main_project_repo_key = URL_to_repo_key(project_url)
+    if main_project_repo_key == "gitlab":
+        print(
+            f"Skipping {project['title']} because it is hosted on GitLab. "
+            "This script only supports GitHub projects."
+        )
+        continue
     project_name = main_project_repo_key.split("/")[-1].lower()
     issue_list = []
     amount_available = 0
