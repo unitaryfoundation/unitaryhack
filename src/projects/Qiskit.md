@@ -14,6 +14,20 @@ tags:
   - compilation
   - openqasm
   - AI
+bounties:
+  - issue_num: 14034
+    value: 100
+  - issue_num: 10480
+    value: 100
+  - issue_num: 1431
+    value: 100
+    repo: Qiskit/documentation
+  - issue_num: 3018
+    value: 100
+    repo: Qiskit/documentation
+  - issue_num: 173
+    value: 300
+    repo: Qiskit/qiskit-ibm-transpiler
 ---
 
 The name [Qiskit](https://www.ibm.com/quantum/qiskit) is a general term referring to a collection of software from IBM Quantum for executing programs on quantum computers. Most notably among these software tools is the open-source Qiskit SDK.

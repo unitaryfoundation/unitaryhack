@@ -11,6 +11,13 @@ tags:
   - tensor networks
   - ZX-calculus
   - python
+bounties:
+- issue_num: 293
+  value: 165
+- issue_num: 294
+  value: 165
+- issue_num: 295
+  value: 165
 ---
 
 PyZX (pronounce as Pisics) is a Python tool implementing the theory of ZX-calculus for the creation, visualisation, and automated rewriting of large-scale quantum circuits.

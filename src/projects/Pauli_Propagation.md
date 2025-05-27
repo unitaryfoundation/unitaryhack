@@ -1,5 +1,6 @@
 ---
 title: Pauli Propagation
+id: paulipropagation.jl
 emoji: 🇵 🇵
 project_url: https://github.com/MSRudolph/PauliPropagation.jl
 metaDescription: A framework for simulating quantum circuits and quantum systems in the Pauli basis
@@ -10,6 +11,15 @@ tags:
   - circuits
   - simulation
   - pauli strings
+bounties:
+  - issue_num: 88
+    value: 200
+  - issue_num: 86
+    value: 150
+  - issue_num: 87
+    value: 100
+  - issue_num: 89
+    value: 50
 ---
 
 `PauliPropagation.jl` is a Julia package for Pauli propagation simulation of quantum circuits.

@@ -14,6 +14,19 @@ tags:
   - OpenMP
   - cuQuantum
   - HIP
+bounties:
+  - issue_num: 600
+    value: 25
+  - issue_num: 594
+    value: 50
+  - issue_num: 598
+    value: 50
+  - issue_num: 596
+    value: 100
+  - issue_num: 595
+    value: 125
+  - issue_num: 599
+    value: 150
 ---
 
 The **Quantum Exact Simulation Toolkit** is a high performance simulator of quantum circuits, state-vectors and density matrices. QuEST uses multithreading, GPU acceleration and distribution to run lightning first on laptops, desktops and networked supercomputers. QuEST just works; it is stand-alone, requires no installation, and is trivial to compile and run. QuEST hybridises OpenMP and MPI with huge compiler support to run on all sorts of multicore, multi-CPU and distributed hardware, uses HIP to run on AMD GPUs, integrates cuQuantum and Thrust for cutting-edge performance on modern NVIDIA GPUs, and has a custom kernel backend to run on older CUDA-compatible GPUs. And it hides these deployment modes behind a single, seamless interface.

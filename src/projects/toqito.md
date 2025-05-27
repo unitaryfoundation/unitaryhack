@@ -9,6 +9,17 @@ tags:
   - quantum information
   - matrix analysis
   - linear algebra
+bounties:
+  - issue_num: 1081
+    value: 150
+  - issue_num: 554
+    value: 100
+  - issue_num: 621
+    value: 100
+  - issue_num: 186
+    value: 100
+  - issue_num: 208
+    value: 50
 ---
 
 (Theory of Quantum Information Toolkit)

@@ -1,7 +1,7 @@
 ---
 title: metriq-gym
 emoji: 🏋️‍♀️
-project_url: "https://github.com/unitaryfund/metriq-gym/"
+project_url: https://github.com/unitaryfoundation/metriq-gym/
 metaDescription: A framework to seamlessly run and compare quantum benchmarks across different devices and providers.
 date: 2025-03-29
 summary: A framework to seamlessly run and compare quantum benchmarks across different devices and providers.
@@ -10,6 +10,17 @@ tags:
   - hardware
   - cloud
   - python
+bounties:
+  - issue_num: 233
+    value: 150
+  - issue_num: 322
+    value: 150
+  - issue_num: 234
+    value: 100
+  - issue_num: 238
+    value: 50
+  - issue_num: 301
+    value: 50
 ---
 
 **metriq-gym** is an open-source project created to make writing and running quantum benchmarks easier than ever. If you are familiar with MLPerf for AI, think of metriq-gym as the equivalent for quantum, enabling standardized benchmarking across different quantum devices and providers.

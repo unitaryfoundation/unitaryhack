@@ -1,5 +1,6 @@
 ---
 title: MQT Core
+id: core
 emoji: ⚛️
 project_url: https://github.com/munich-quantum-toolkit/core
 metaDescription: The Backbone of the Munich Quantum Toolkit (MQT) -- A collection of design automation tools and software for quantum computing
@@ -15,8 +16,20 @@ tags:
   - ZX-calculus
   - neutral atoms
   - quantum software stack
+bounties:
+  - issue_num: 644
+    value: 100
+  - issue_num: 898
+    value: 50
+  - issue_num: 923
+    value: 150
+  - issue_num: 27
+    value: 50
+  - issue_num: 924
+    value: 100
+  - issue_num: 925
+    value: 50
 ---
-
 
 Quantum computers are becoming a reality and numerous quantum computing applications with a near-term perspective (e.g., for finance, chemistry, machine learning, and optimization) and with a long-term perspective (e.g., for cryptography or unstructured search) are currently being investigated. However, designing and realizing potential applications for these devices in a scalable fashion requires automated, efficient, and user-friendly software tools that cater to the needs of end users, engineers, and physicists at every level of the entire quantum software stack. Many of the problems to be tackled in that regard are similar to design problems from the classical realm for which sophisticated design automation tools have been developed in the previous decades.
 

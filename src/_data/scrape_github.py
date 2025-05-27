@@ -1,11 +1,19 @@
 import json
 import os
 import re
+from collections import defaultdict
 
 import frontmatter
 import github
+from dotenv import load_dotenv
 
-g = github.Github(os.getenv("GH_TOKEN"))
+load_dotenv("../../.env")
+
+token = os.getenv("GH_TOKEN")
+if token is None:
+    raise RuntimeError("GH_TOKEN not set")
+
+g = github.Github(token)
 
 PROJECT_PATH = "../projects"
 
@@ -29,11 +37,11 @@ projects = {}
 for project in get_project_info():
     project_url = project["project_url"]
     main_project_repo_key = URL_to_repo_key(project_url)
+
+    print(f"Processing {project['title']} ({main_project_repo_key})...")
+
     if main_project_repo_key == "gitlab":
-        print(
-            f"Skipping {project['title']} because it is hosted on GitLab. "
-            "This script only supports GitHub projects."
-        )
+        print(f"Skipping {project['title']} because it is hosted on GitLab. ")
         continue
     project_name = main_project_repo_key.split("/")[-1].lower()
     issue_list = []
@@ -84,8 +92,6 @@ hack_stats = {
     "num_closed_bounties": 0,
     "closed_bounty_value": 0,
 }
-
-from collections import defaultdict
 
 hackers = defaultdict(list)
 for project, data in projects.items():
