@@ -1,5 +1,18 @@
 [
   {
+    "username": "SaashaJoshi",
+    "bounties": [
+      {
+        "url": "https://github.com/qBraid/qBraid/issues/953",
+        "title": "[FEATURE] Support batch jobs for devices from Azure provider",
+        "project": "qbraid",
+        "value": 50
+      }
+    ],
+    "num_projects": 1,
+    "total_value": 50
+  },
+  {
     "username": "ErikQQY",
     "bounties": [
       {

@@ -1087,13 +1087,13 @@
     "url": "https://github.com/zxcalc/pyzx"
   },
   "qbraid": {
-    "amount_available": 500,
+    "amount_available": 450,
     "bounties": [
       {
         "assignees": [
           "SaashaJoshi"
         ],
-        "state": "open",
+        "state": "closed",
         "title": "[FEATURE] Support batch jobs for devices from Azure provider",
         "url": "https://github.com/qBraid/qBraid/issues/953",
         "value": 50
@@ -1130,7 +1130,7 @@
     "emoji": "\ud83c\udfc3\u200d\u2642\ufe0f\u23f1\ufe0f",
     "name": "qBraid-SDK",
     "num_bounties": 5,
-    "num_open_bounties": 5,
+    "num_open_bounties": 4,
     "total_amount": 500,
     "url": "https://github.com/qBraid/qBraid"
   },
@@ -1138,7 +1138,9 @@
     "amount_available": 500,
     "bounties": [
       {
-        "assignees": [],
+        "assignees": [
+          "kingjosmel"
+        ],
         "state": "open",
         "title": "Add tests for `qbraid_qir/qasm3/maps.py`",
         "url": "https://github.com/qBraid/qbraid-qir/issues/196",
@@ -1465,18 +1467,14 @@
         "value": 100
       },
       {
-        "assignees": [
-          "shraddha-aangiras"
-        ],
+        "assignees": [],
         "state": "open",
         "title": "Infographics about the quantum ecosystem",
         "url": "https://github.com/Quantum-Universal-Education/Quantum-Universal-Education.github.io/issues/36",
         "value": 75
       },
       {
-        "assignees": [
-          "shraddha-aangiras"
-        ],
+        "assignees": [],
         "state": "open",
         "title": "Hardware website",
         "url": "https://github.com/Quantum-Universal-Education/Quantum-Universal-Education.github.io/issues/35",
@@ -1857,39 +1855,28 @@
     "amount_available": 500,
     "bounties": [
       {
-        "assignees": [
-          "jkochNU",
-          "petergthatsme"
-        ],
+        "assignees": [],
         "state": "open",
         "title": "Creation of a new jupyter notebook tutorial that involves interfacing `scqubits` with other packages.",
         "url": "https://github.com/scqubits/scqubits/issues/266",
         "value": 125
       },
       {
-        "assignees": [
-          "jkochNU",
-          "petergthatsme"
-        ],
+        "assignees": [],
         "state": "open",
         "title": "Conversion from (`scqubits`'s custom) `NamedSlotsNdarray` to other data formats.",
         "url": "https://github.com/scqubits/scqubits/issues/265",
         "value": 100
       },
       {
-        "assignees": [
-          "jkochNU",
-          "petergthatsme"
-        ],
+        "assignees": [],
         "state": "open",
         "title": "Adding code documentation",
         "url": "https://github.com/scqubits/scqubits/issues/264",
         "value": 75
       },
       {
-        "assignees": [
-          "petergthatsme"
-        ],
+        "assignees": [],
         "state": "open",
         "title": "Short tutorial video on using `scqubits`",
         "url": "https://github.com/scqubits/scqubits/issues/263",
