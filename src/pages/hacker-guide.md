@@ -69,7 +69,7 @@ If you want to team up with other hackers on an issue that you have found, you c
 
 Once you have a good solution to the issue, and have checked out the project's contributing guide (if they have one), you are ready to make your pull request! Check out the guides above if you are not familiar with `git` or GitHub, or if you run into issues making the contribution, just ask on the [Unitary Foundation discord](http://discord.unitary.foundation/)!
 
-We ask that you not have more than 4 pull requests open at one time across all projects. This is to ensure that you are not overwhelming yourself, that other hackers are getting a chance to contribute, and that our maintainers are not inundated with PRs that aren’t fully complete. 
+We ask that you not have more than 4 pull requests open at one time across all unitaryHACK projects. This is to ensure that you are not overwhelming yourself, that other hackers are getting a chance to contribute, and that our maintainers are not inundated with PRs that aren’t fully complete. 
 
 **If your pull request is accepted, in order for our bots to find it you'll need the project maintainers to assign the issue to you.** If it's your first time contributing to the project, you'll need to comment on the issue in order to be "assignable". We ask that you not comment on more than 3-4 projects per day. This is to ensure that you are not overwhelming yourself, the maintainers, or your fellow hackers. Once again, please don't comment on projects and ask to be added as an assignee. **The maintainers will only assign a project to you if they'd like to close the issue with your solution.**
 
