@@ -1,54 +1,60 @@
 [
   {
-    "username": "Qubit1718",
     "bounties": [
       {
-        "url": "https://github.com/unitaryfoundation/qlass/issues/52",
-        "title": "Implement a custom unitary ansatz",
-        "project": "qlass",
-        "value": 60
-      }
-    ],
-    "num_projects": 1,
-    "total_value": 60
-  },
-  {
-    "username": "SaashaJoshi",
-    "bounties": [
-      {
-        "url": "https://github.com/qBraid/qBraid/issues/953",
-        "title": "[FEATURE] Support batch jobs for devices from Azure provider",
-        "project": "qbraid",
-        "value": 50
-      }
-    ],
-    "num_projects": 1,
-    "total_value": 50
-  },
-  {
-    "username": "ErikQQY",
-    "bounties": [
-      {
-        "url": "https://github.com/qojulia/QuantumOptics.jl/issues/442",
-        "title": "Static analysis tests for code quality (with JET and Aqua)",
         "project": "quantumoptics.jl",
+        "title": "Static analysis tests for code quality (with JET and Aqua)",
+        "url": "https://github.com/qojulia/QuantumOptics.jl/issues/442",
         "value": 150
       }
     ],
     "num_projects": 1,
-    "total_value": 150
+    "total_value": 150,
+    "username": "ErikQQY"
   },
   {
-    "username": "jebernate",
     "bounties": [
       {
-        "url": "https://github.com/nicolasloizeau/PauliStrings.jl/issues/34",
-        "title": "Qubit-dependent depolarizing noise",
-        "project": "paulistrings.jl",
+        "project": "qlass",
+        "title": "Implement a custom unitary ansatz",
+        "url": "https://github.com/unitaryfoundation/qlass/issues/52",
+        "value": 60
+      }
+    ],
+    "num_projects": 1,
+    "total_value": 60,
+    "username": "Qubit1718"
+  },
+  {
+    "bounties": [
+      {
+        "project": "qbraid",
+        "title": "[FEATURE] Support batch jobs for devices from Azure provider",
+        "url": "https://github.com/qBraid/qBraid/issues/953",
         "value": 50
       }
     ],
     "num_projects": 1,
-    "total_value": 50
+    "total_value": 50,
+    "username": "SaashaJoshi"
+  },
+  {
+    "bounties": [
+      {
+        "project": "paulistrings.jl",
+        "title": "Qubit-dependent depolarizing noise",
+        "url": "https://github.com/nicolasloizeau/PauliStrings.jl/issues/34",
+        "value": 50
+      },
+      {
+        "project": "paulistrings.jl",
+        "title": "Dephasing noise",
+        "url": "https://github.com/nicolasloizeau/PauliStrings.jl/issues/35",
+        "value": 100
+      }
+    ],
+    "num_projects": 1,
+    "total_value": 150,
+    "username": "jebernate"
   }
 ]
