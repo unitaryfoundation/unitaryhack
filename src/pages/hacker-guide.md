@@ -62,7 +62,7 @@ Once you have found a [project](https://unitaryhack.dev/projects/) you want to w
 
 If you want to team up with other hackers on an issue that you have found, you can make a comment on the GitHub issue. Even if you don't plan to team up, commenting on GitHub may help other hackers know if someone else is working on that issue (that's fine, but depending on the issue, only one pull request may be merged to solve an issue). We ask that you not comment on more than 3-4 projects per day. This is to ensure that you are not overwhelming yourself, the maintainers, or your fellow hackers. 
 
-**Note**: You do not need to comment on an issue to start a Pull Request. You can immediately start working on it. If a maintainer decides that your solution is the best for their issue, they will accept your pull request, assign you to the issue, and close then close it. **Please do not comment on projects and ask to be added as an assignee before you create a PR.**
+**Note**: You do not need to comment on an issue to start a Pull Request. You can immediately start working on it. If a maintainer decides that your solution is the best for their issue, they will accept your pull request, assign you to the issue, and close it. **Please do not comment on projects and ask to be added as an assignee before you create a PR.**
 
 
 ### Make a pull request
