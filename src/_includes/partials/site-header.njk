@@ -19,7 +19,7 @@
       {% set navPages = collections.all | eleventyNavigation %}
       <ul class="site-header__items">
         {%- for entry in navPages %}
-          {% if entry.title != "Bounties" and entry.title != "Leaderboard" %}
+          {% if entry.title != "Leaderboard" %}
           <li class="site-header__item">
             <a
               class="site-header__link"

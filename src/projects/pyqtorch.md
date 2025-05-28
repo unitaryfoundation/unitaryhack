@@ -8,6 +8,17 @@ tags:
   - python
   - simulation
   - machine learning
+bounties:
+  - issue_num: 329
+    value: 100
+  - issue_num: 295
+    value: 100
+  - issue_num: 284
+    value: 100
+  - issue_num: 273
+    value: 100
+  - issue_num: 272
+    value: 100
 ---
 
 **[`pyqtorch`](https://github.com/pasqal-io/pyqtorch)** is a [PyTorch](https://pytorch.org/)-based state vector simulator designed for quantum machine learning.

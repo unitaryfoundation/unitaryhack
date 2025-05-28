@@ -1,7 +1,7 @@
 ---
 title: Quantify
-emoji: 
-project_url: "https://gitlab.com/quantify-os"
+emoji:
+project_url: https://gitlab.com/quantify-os/quantify
 metaDescription: Quantify is a hardware-agnostic framework  designed to allow experimentalists to easily define complex quantum experiments.
 date: 2025-03-27
 summary: Quantify is a hardware-agnostic framework  designed to allow experimentalists to easily define complex quantum experiments.
@@ -10,6 +10,14 @@ tags:
   - instrument control
   - solid-state physics
   - experimental physics
+scrape: false
+bounties:
+  - issue_num: 41
+    value: 100
+  - issue_num: 42
+    value: 200
+  - issue_num: 45
+    value: 100
 ---
 
 Quantify is a Python-based data acquisition framework focused on Quantum Computing and solid-state physics experiments. 

@@ -62,7 +62,7 @@ Example of Best Practice 4 from [HierarQcal](https://github.com/matt-lourens/hie
 
 ## General best practices (beyond UnitaryHack):
 
-* **Consider creating Github issue templates (check out [UCC for examples](https://github.com/unitaryfund/ucc/tree/main/.github/ISSUE_TEMPLATE))**: These help the person submitting the issue scope it well from the start, e.g. including an MRE, explaining the context and alternatives considered, etc.
+* **Consider creating Github issue templates (check out [UCC for examples](https://github.com/unitaryfoundation/ucc/tree/main/.github/ISSUE_TEMPLATE))**: These help the person submitting the issue scope it well from the start, e.g. including an MRE, explaining the context and alternatives considered, etc.
 
 <img src="/assets/img/issue_templates.png" alt="When you define issue template files, they appear in the GitHub issue ticket web UI." />
 <br/>
