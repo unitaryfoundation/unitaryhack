@@ -1021,8 +1021,8 @@
       },
       {
         "assignees": [
-          "jpmoutinho",
-          "vytautas-a"
+          "vytautas-a",
+          "jpmoutinho"
         ],
         "state": "open",
         "title": "[Testing] Test reembedding of params in HamiltonianEvolution",
