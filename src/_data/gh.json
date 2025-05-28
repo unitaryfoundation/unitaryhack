@@ -1018,8 +1018,8 @@
       },
       {
         "assignees": [
-          "vytautas-a",
-          "jpmoutinho"
+          "jpmoutinho",
+          "vytautas-a"
         ],
         "state": "open",
         "title": "[Testing] Test reembedding of params in HamiltonianEvolution",
@@ -1401,25 +1401,25 @@
     "url": "https://github.com/quantumlib/Qualtran"
   },
   "quantify": {
-    "amount_available": 400,
+    "amount_available": 0,
     "bounties": [
       {
         "assignees": [],
-        "state": "open",
+        "state": "opened",
         "title": "[Unitaryhack] Build a Documentation Q&A Chatbot for Quantify",
         "url": "https://gitlab.com/quantify-os/quantify/-/issues/41",
         "value": 100
       },
       {
         "assignees": [],
-        "state": "open",
+        "state": "opened",
         "title": "[Unitaryhack] Build and Improve the Experiment Creation GUI (Panel-based)",
         "url": "https://gitlab.com/quantify-os/quantify/-/issues/42",
         "value": 200
       },
       {
         "assignees": [],
-        "state": "open",
+        "state": "opened",
         "title": "[Unitaryhack] Implement Consistent Logging Across the Codebase",
         "url": "https://gitlab.com/quantify-os/quantify/-/issues/45",
         "value": 100
@@ -1428,7 +1428,7 @@
     "emoji": null,
     "name": "Quantify",
     "num_bounties": 3,
-    "num_open_bounties": 3,
+    "num_open_bounties": 0,
     "total_amount": 400,
     "url": "https://gitlab.com/quantify-os/quantify"
   },
@@ -1654,7 +1654,7 @@
       {
         "assignees": [],
         "state": "open",
-        "title": "Extend `applyPauliGadget` to `applyNonUnitaryPauliGadget()`",
+        "title": "Extend Pauli rotations to accept complex angles",
         "url": "https://github.com/QuEST-Kit/QuEST/issues/594",
         "value": 50
       },
@@ -1668,7 +1668,7 @@
       {
         "assignees": [],
         "state": "open",
-        "title": "Improve `applyTrotterizedPauliStrSumGadget()`",
+        "title": "Improve the accuracy of Trotterisation with randomisation and commuting groups",
         "url": "https://github.com/QuEST-Kit/QuEST/issues/596",
         "value": 100
       },
@@ -1682,7 +1682,7 @@
       {
         "assignees": [],
         "state": "open",
-        "title": "Optimise `calcExpecPauliStrSum()`",
+        "title": "Optimise `calcExpecPauliStrSum()` by batch-processing similar `PauliStr`",
         "url": "https://github.com/QuEST-Kit/QuEST/issues/599",
         "value": 150
       }
