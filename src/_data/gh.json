@@ -340,7 +340,7 @@
     "url": "https://github.com/TeamGraphix/graphix"
   },
   "guppylang": {
-    "amount_available": 500,
+    "amount_available": 320,
     "bounties": [
       {
         "assignees": [],
@@ -355,27 +355,13 @@
         "title": "Add priority queue data structure to the standard library",
         "url": "https://github.com/CQCL/guppylang/issues/974",
         "value": 120
-      },
-      {
-        "assignees": [],
-        "state": "open",
-        "title": "Dynamic directed-graph Convexity Checking",
-        "url": "https://github.com/CQCL/hugr/issues/2240",
-        "value": 120
-      },
-      {
-        "assignees": [],
-        "state": "open",
-        "title": "Add support for external `clap` subcommands in hugr-cli",
-        "url": "https://github.com/CQCL/hugr/issues/1343",
-        "value": 60
       }
     ],
     "emoji": "\ud83d\udc20",
-    "name": "Quantinuum",
-    "num_bounties": 4,
-    "num_open_bounties": 4,
-    "total_amount": 500,
+    "name": "Guppy",
+    "num_bounties": 2,
+    "num_open_bounties": 2,
+    "total_amount": 320,
     "url": "https://github.com/CQCL/guppylang"
   },
   "hhat_lang": {
@@ -430,6 +416,31 @@
     "num_open_bounties": 6,
     "total_amount": 500,
     "url": "https://github.com/hhat-lang/hhat_lang"
+  },
+  "hugr": {
+    "amount_available": 180,
+    "bounties": [
+      {
+        "assignees": [],
+        "state": "open",
+        "title": "Dynamic directed-graph Convexity Checking",
+        "url": "https://github.com/CQCL/hugr/issues/2240",
+        "value": 120
+      },
+      {
+        "assignees": [],
+        "state": "open",
+        "title": "Add support for external `clap` subcommands in hugr-cli",
+        "url": "https://github.com/CQCL/hugr/issues/1343",
+        "value": 60
+      }
+    ],
+    "emoji": "\ud83e\udec2",
+    "name": "HUGR",
+    "num_bounties": 2,
+    "num_open_bounties": 2,
+    "total_amount": 180,
+    "url": "https://github.com/CQCL/hugr"
   },
   "inconspiquous": {
     "amount_available": 500,
