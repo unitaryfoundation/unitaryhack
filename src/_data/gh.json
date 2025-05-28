@@ -368,7 +368,7 @@
       }
     ],
     "emoji": "\ud83d\udc20",
-    "name": "Guppy",
+    "name": "Quantinuum",
     "num_bounties": 4,
     "num_open_bounties": 4,
     "total_amount": 500,
@@ -693,14 +693,14 @@
     "url": "https://github.com/unitaryfoundation/mitiq"
   },
   "oqd-core": {
-    "amount_available": 420,
+    "amount_available": 500,
     "bounties": [
       {
         "assignees": [],
         "state": "open",
         "title": "Check if an analog `AnalogGate` implements an Ising-like Hamiltonian",
         "url": "https://github.com/OpenQuantumDesign/oqd-core/issues/59",
-        "value": 200
+        "value": 180
       },
       {
         "assignees": [],
@@ -714,14 +714,21 @@
         "state": "open",
         "title": "Program your favourite Hamiltonians in the OQD `Analog` and `Atomic` interfaces",
         "url": "https://github.com/OpenQuantumDesign/oqd-core/issues/60",
-        "value": 40
+        "value": 70
+      },
+      {
+        "assignees": [],
+        "state": "open",
+        "title": "Program your favourite Hamiltonians in the OQD `Analog` and `Atomic` interfaces",
+        "url": "https://github.com/OpenQuantumDesign/oqd-core/issues/60",
+        "value": 70
       }
     ],
     "emoji": null,
     "name": "Open Quantum Design",
-    "num_bounties": 3,
-    "num_open_bounties": 3,
-    "total_amount": 420,
+    "num_bounties": 4,
+    "num_open_bounties": 4,
+    "total_amount": 500,
     "url": "https://github.com/OpenQuantumDesign/oqd-core"
   },
   "paulie": {
@@ -1625,7 +1632,7 @@
       {
         "assignees": [],
         "state": "open",
-        "title": "`applyNonUnitaryPauliGadget()`",
+        "title": "Extend `applyPauliGadget` to `applyNonUnitaryPauliGadget()`",
         "url": "https://github.com/QuEST-Kit/QuEST/issues/594",
         "value": 50
       },
