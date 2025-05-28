@@ -30,7 +30,8 @@ def URL_to_repo_key(url: str) -> str:
 
 
 def get_project_info():
-    for filename in os.listdir(PROJECT_PATH):
+    # Sort project files to ensure deterministic processing order
+    for filename in sorted(os.listdir(PROJECT_PATH)):
         if filename.endswith(".md"):
             yield frontmatter.load(os.path.join(PROJECT_PATH, filename))
 
@@ -108,7 +109,7 @@ hack_stats = {
 
 
 hackers = defaultdict(list)
-for project, data in projects.items():
+for project, data in sorted(projects.items()):
     for bounty in data["bounties"]:
         hack_stats["num_bounties"] += 1
         hack_stats["total_bounty_value"] += bounty["value"]
@@ -141,14 +142,19 @@ hacker_info = [
         "num_projects": len(set(b["project"] for b in bounties)),
         "total_value": sum(b["value"] for b in bounties),
     }
-    for hacker, bounties in hackers.items()
+    for hacker, bounties in sorted(hackers.items())
 ]
 
 with open("hackers.json", "w") as f:
-    json.dump(hacker_info, f, indent=2)
+    json.dump(hacker_info, f, indent=2, sort_keys=True)
 
 with open("leaderboard.json", "w") as f:
-    json.dump(dict(sorted(leaderboard.items(), key=lambda hb: -1 * hb[1])), f, indent=2)
+    json.dump(
+        dict(sorted(leaderboard.items(), key=lambda hb: (-hb[1], hb[0]))),
+        f,
+        indent=2,
+        sort_keys=True,
+    )
 
 with open("gh.json", "w") as f:
     json.dump(projects, f, indent=2, sort_keys=True)
