@@ -66,6 +66,7 @@ for project in get_project_info():
             repo = gl.projects.get(repo_key)
             issue = repo.issues.get(bounty["issue_num"])
             state = bounty.get("state") or issue.state
+            state = "open" if state == "opened" else state
             assignees_from_issue = [
                 a["username"] for a in issue.attributes.get("assignees", [])
             ]
