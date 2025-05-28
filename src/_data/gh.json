@@ -70,7 +70,9 @@
         "value": 100
       },
       {
-        "assignees": [],
+        "assignees": [
+          "antalszava"
+        ],
         "state": "open",
         "title": "Fix displaying resource name `local_highwater`.",
         "url": "https://github.com/PsiQ/bartiq/issues/163",

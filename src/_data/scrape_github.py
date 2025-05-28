@@ -75,11 +75,12 @@ for project in get_project_info():
             amount_available += bounty["value"]
             num_open_bounties += 1
         extra_assignees = [bounty.get("assignee")] if bounty.get("assignee") else []
+        all_assignees = set(assignees_from_issue + extra_assignees)
         issue_list.append(
             {
                 "title": issue.title,
                 "state": state,
-                "assignees": list(set(assignees_from_issue + extra_assignees)),
+                "assignees": sorted(all_assignees),
                 "value": bounty["value"],
                 "url": issue_url,
             }
