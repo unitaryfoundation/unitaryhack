@@ -807,11 +807,13 @@
     "url": "https://github.com/MSRudolph/PauliPropagation.jl"
   },
   "paulistrings.jl": {
-    "amount_available": 500,
+    "amount_available": 450,
     "bounties": [
       {
-        "assignees": [],
-        "state": "open",
+        "assignees": [
+          "jebernate"
+        ],
+        "state": "closed",
         "title": "Qubit-dependent depolarizing noise",
         "url": "https://github.com/nicolasloizeau/PauliStrings.jl/issues/34",
         "value": 50
@@ -841,7 +843,7 @@
     "emoji": "\ud83e\uddf6",
     "name": "PauliStrings.jl",
     "num_bounties": 4,
-    "num_open_bounties": 4,
+    "num_open_bounties": 3,
     "total_amount": 500,
     "url": "https://github.com/nicolasloizeau/PauliStrings.jl"
   },
@@ -1001,10 +1003,7 @@
         "value": 100
       },
       {
-        "assignees": [
-          "cburdine",
-          "vytautas-a"
-        ],
+        "assignees": [],
         "state": "open",
         "title": "[Feature] Optimize Krylov solver for batched calculations",
         "url": "https://github.com/pasqal-io/pyqtorch/issues/295",
