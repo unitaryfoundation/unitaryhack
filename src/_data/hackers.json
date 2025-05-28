@@ -1,5 +1,18 @@
 [
   {
+    "username": "jebernate",
+    "bounties": [
+      {
+        "url": "https://github.com/nicolasloizeau/PauliStrings.jl/issues/34",
+        "title": "Qubit-dependent depolarizing noise",
+        "project": "paulistrings.jl",
+        "value": 50
+      }
+    ],
+    "num_projects": 1,
+    "total_value": 50
+  },
+  {
     "username": "SaashaJoshi",
     "bounties": [
       {
@@ -24,18 +37,5 @@
     ],
     "num_projects": 1,
     "total_value": 150
-  },
-  {
-    "username": "jebernate",
-    "bounties": [
-      {
-        "url": "https://github.com/nicolasloizeau/PauliStrings.jl/issues/34",
-        "title": "Qubit-dependent depolarizing noise",
-        "project": "paulistrings.jl",
-        "value": 50
-      }
-    ],
-    "num_projects": 1,
-    "total_value": 50
   }
 ]

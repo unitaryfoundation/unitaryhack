@@ -1186,7 +1186,9 @@
         "value": 50
       },
       {
-        "assignees": [],
+        "assignees": [
+          "victor-onofre"
+        ],
         "state": "open",
         "title": "Implementation of Graph state preparation",
         "url": "https://github.com/qiboteam/qibo/issues/1621",
@@ -1306,11 +1308,11 @@
     "url": "https://github.com/Qiskit/qiskit/"
   },
   "qlass": {
-    "amount_available": 310,
+    "amount_available": 250,
     "bounties": [
       {
         "assignees": [],
-        "state": "open",
+        "state": "closed",
         "title": "Implement a custom unitary ansatz",
         "url": "https://github.com/unitaryfoundation/qlass/issues/52",
         "value": 60
@@ -1347,7 +1349,7 @@
     "emoji": null,
     "name": "qlass",
     "num_bounties": 5,
-    "num_open_bounties": 5,
+    "num_open_bounties": 4,
     "total_amount": 310,
     "url": "https://github.com/unitaryfoundation/qlass"
   },
