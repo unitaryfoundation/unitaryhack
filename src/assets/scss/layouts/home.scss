@@ -140,6 +140,12 @@
   }
 }
 
+/* wrap long issue titles */
 li {
   overflow-wrap: break-word;
+}
+
+/* Ensure tables scroll on small screens */
+.table-container {
+  overflow-x: auto;
 }
