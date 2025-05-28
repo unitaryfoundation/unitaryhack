@@ -1090,7 +1090,9 @@
     "amount_available": 500,
     "bounties": [
       {
-        "assignees": [],
+        "assignees": [
+          "SaashaJoshi"
+        ],
         "state": "open",
         "title": "[FEATURE] Support batch jobs for devices from Azure provider",
         "url": "https://github.com/qBraid/qBraid/issues/953",
@@ -1542,7 +1544,7 @@
     "url": "https://github.com/moth-quantum/QuantumArtHack"
   },
   "quantumoptics.jl": {
-    "amount_available": 500,
+    "amount_available": 350,
     "bounties": [
       {
         "assignees": [],
@@ -1569,7 +1571,7 @@
         "assignees": [
           "ErikQQY"
         ],
-        "state": "open",
+        "state": "closed",
         "title": "Static analysis tests for code quality (with JET and Aqua)",
         "url": "https://github.com/qojulia/QuantumOptics.jl/issues/442",
         "value": 150
@@ -1578,7 +1580,7 @@
     "emoji": null,
     "name": "QuantumOptics.jl",
     "num_bounties": 4,
-    "num_open_bounties": 4,
+    "num_open_bounties": 3,
     "total_amount": 500,
     "url": "https://github.com/qojulia/QuantumOptics.jl"
   },
@@ -1852,13 +1854,53 @@
     "url": "https://github.com/Qiskit/rustworkx"
   },
   "scqubits": {
-    "amount_available": 0,
-    "bounties": [],
+    "amount_available": 500,
+    "bounties": [
+      {
+        "assignees": [
+          "jkochNU",
+          "petergthatsme"
+        ],
+        "state": "open",
+        "title": "Creation of a new jupyter notebook tutorial that involves interfacing `scqubits` with other packages.",
+        "url": "https://github.com/scqubits/scqubits/issues/266",
+        "value": 125
+      },
+      {
+        "assignees": [
+          "jkochNU",
+          "petergthatsme"
+        ],
+        "state": "open",
+        "title": "Conversion from (`scqubits`'s custom) `NamedSlotsNdarray` to other data formats.",
+        "url": "https://github.com/scqubits/scqubits/issues/265",
+        "value": 100
+      },
+      {
+        "assignees": [
+          "jkochNU",
+          "petergthatsme"
+        ],
+        "state": "open",
+        "title": "Adding code documentation",
+        "url": "https://github.com/scqubits/scqubits/issues/264",
+        "value": 75
+      },
+      {
+        "assignees": [
+          "petergthatsme"
+        ],
+        "state": "open",
+        "title": "Short tutorial video on using `scqubits`",
+        "url": "https://github.com/scqubits/scqubits/issues/263",
+        "value": 200
+      }
+    ],
     "emoji": "\ud83d\udce1",
     "name": "scqubits",
-    "num_bounties": 0,
-    "num_open_bounties": 0,
-    "total_amount": 0,
+    "num_bounties": 4,
+    "num_open_bounties": 4,
+    "total_amount": 500,
     "url": "https://github.com/scqubits/scqubits"
   },
   "tequila": {

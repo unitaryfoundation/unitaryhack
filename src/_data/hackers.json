@@ -1,5 +1,18 @@
 [
   {
+    "username": "ErikQQY",
+    "bounties": [
+      {
+        "url": "https://github.com/qojulia/QuantumOptics.jl/issues/442",
+        "title": "Static analysis tests for code quality (with JET and Aqua)",
+        "project": "quantumoptics.jl",
+        "value": 150
+      }
+    ],
+    "num_projects": 1,
+    "total_value": 150
+  },
+  {
     "username": "jebernate",
     "bounties": [
       {
