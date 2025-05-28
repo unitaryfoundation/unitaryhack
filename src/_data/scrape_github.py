@@ -1,10 +1,11 @@
 import json
 import os
-import re
 from collections import defaultdict
+from urllib.parse import urlparse
 
 import frontmatter
 import github
+import gitlab
 from dotenv import load_dotenv
 
 load_dotenv("../../.env")
@@ -14,16 +15,17 @@ if token is None:
     raise RuntimeError("GH_TOKEN not set")
 
 g = github.Github(token)
+gl = gitlab.Gitlab()  # "https://gitlab.com", private_token=os.getenv("GL_TOKEN"))
 
 PROJECT_PATH = "../projects"
 
 
 def URL_to_repo_key(url: str) -> str:
-    if "gitlab" in url:
-        return "gitlab"
-    repo = re.match("^https:\/\/github\.com\/([\w-]*\/[^\/]*)\/?$", url)
-    if repo:
-        return repo[1]
+    parsed = urlparse(url)
+    if parsed.netloc in {"github.com", "gitlab.com"}:
+        path = parsed.path.strip("/")
+        if path:
+            return path
     raise ValueError(f"did not find string match for {url}")
 
 
@@ -37,13 +39,11 @@ projects = {}
 for project in get_project_info():
     project_url = project["project_url"]
     main_project_repo_key = URL_to_repo_key(project_url)
-
-    print(f"Processing {project['title']} ({main_project_repo_key})...")
-
-    if main_project_repo_key == "gitlab":
-        print(f"Skipping {project['title']} because it is hosted on GitLab. ")
-        continue
+    provider = "gitlab" if "gitlab.com" in project_url else "github"
     project_name = main_project_repo_key.split("/")[-1].lower()
+
+    print(f"Processing project: {project_name} ({provider}.com/{main_project_repo_key})")
+
     issue_list = []
     amount_available = 0
     total_bounty_amount = 0
@@ -51,12 +51,25 @@ for project in get_project_info():
     num_open_bounties = 0
     for bounty in bounties:
         total_bounty_amount += bounty["value"]
-        repo_key = bounty.get("repo") or main_project_repo_key
-        repo = g.get_repo(repo_key)
-
-        issue_num = bounty["issue_num"]
-        issue = repo.get_issue(number=issue_num)
-        state = bounty.get("state") or issue.state
+        repo_ref = bounty.get("repo")
+        repo_key = repo_ref or main_project_repo_key
+        repo_provider = (
+            "gitlab" if (repo_ref and "gitlab.com" in repo_ref) else provider
+        )
+        if repo_provider == "github":
+            repo = g.get_repo(repo_key)
+            issue = repo.get_issue(number=bounty["issue_num"])
+            state = bounty.get("state") or issue.state
+            assignees_from_issue = [hacker.login for hacker in issue.assignees]
+            issue_url = f"https://github.com/{repo_key}/issues/{bounty['issue_num']}"
+        else:
+            repo = gl.projects.get(repo_key)
+            issue = repo.issues.get(bounty["issue_num"])
+            state = bounty.get("state") or issue.state
+            assignees_from_issue = [
+                a["username"] for a in issue.attributes.get("assignees", [])
+            ]
+            issue_url = f"https://gitlab.com/{repo_key}/-/issues/{bounty['issue_num']}"
         if state == "open":
             amount_available += bounty["value"]
             num_open_bounties += 1
@@ -65,11 +78,9 @@ for project in get_project_info():
             {
                 "title": issue.title,
                 "state": state,
-                "assignees": list(
-                    set([hacker.login for hacker in issue.assignees] + extra_assignees)
-                ),
+                "assignees": list(set(assignees_from_issue + extra_assignees)),
                 "value": bounty["value"],
-                "url": f"https://github.com/{repo_key}/issues/{issue_num}",
+                "url": issue_url,
             }
         )
 
@@ -92,6 +103,7 @@ hack_stats = {
     "num_closed_bounties": 0,
     "closed_bounty_value": 0,
 }
+
 
 hackers = defaultdict(list)
 for project, data in projects.items():

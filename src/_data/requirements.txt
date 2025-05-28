@@ -1,3 +1,4 @@
 python-frontmatter
 pygithub
 dotenv
+python-gitlab
