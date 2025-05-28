@@ -994,9 +994,7 @@
     "amount_available": 500,
     "bounties": [
       {
-        "assignees": [
-          "Maxtax92"
-        ],
+        "assignees": [],
         "state": "open",
         "title": "[Feature] Add two-qubit digital noise",
         "url": "https://github.com/pasqal-io/pyqtorch/issues/329",
@@ -1021,8 +1019,8 @@
       },
       {
         "assignees": [
-          "vytautas-a",
-          "jpmoutinho"
+          "jpmoutinho",
+          "vytautas-a"
         ],
         "state": "open",
         "title": "[Testing] Test reembedding of params in HamiltonianEvolution",
