@@ -60,16 +60,18 @@ The main place that will be most helpful to you while you hack is connecting wit
 
 Once you have found a [project](https://unitaryhack.dev/projects/) you want to work on, find an issue on that project you want to lend a hand on. This could be one of the special bountied issues (meaning if you submit a maintainer accepted solution for these we will send you cash), or any other issue on that repo. Pay special attention to issues tagged unitaryHACK as they are ones the project maintainers have flagged as particularly good for contest participants to tackle.
 
-If you want to team up with other hackers on an issue that you have found, you can make a comment on the GitHub issue. Even if you don't plan to team up, commenting on GitHub may help other hackers know if someone else is working on that issue (that's fine, but depending on the issue, only one pull request may be merged to solve an issue). We ask that you not comment on more than 3-4 projects per day. This is to ensure that you are not overwhelming yourself, the maintainers, or your fellow hackers.
+If you want to team up with other hackers on an issue that you have found, you can make a comment on the GitHub issue. Even if you don't plan to team up, commenting on GitHub may help other hackers know if someone else is working on that issue (that's fine, but depending on the issue, only one pull request may be merged to solve an issue). We ask that you not comment on more than 3-4 projects per day. This is to ensure that you are not overwhelming yourself, the maintainers, or your fellow hackers. 
+
+**Note**: You do not need to comment on an issue to start a Pull Request. You can immediately start working on it. If a maintainer decides that your solution is the best for their issue, they will accept your pull request, assign you to the issue, and close it. **Please do not comment on projects and ask to be added as an assignee before you create a PR.**
 
 
 ### Make a pull request
 
 Once you have a good solution to the issue, and have checked out the project's contributing guide (if they have one), you are ready to make your pull request! Check out the guides above if you are not familiar with `git` or GitHub, or if you run into issues making the contribution, just ask on the [Unitary Foundation discord](http://discord.unitary.foundation/)!
 
-We ask that you not create more than 4 pull requests at one time. This is to ensure that you are not overwhelming yourself, that other hackers are getting a chance to contribute, and that our maintainers are not inundated with PRs that aren’t fully complete. 
+We ask that you not have more than 4 pull requests open at one time across all unitaryHACK projects. This is to ensure that you are not overwhelming yourself, that other hackers are getting a chance to contribute, and that our maintainers are not inundated with PRs that aren’t fully complete. 
 
-**If your pull request is accepted, in order for our bots to find it you'll need the project maintainers to assign the issue to you.** If it's your first time contributing to the project, you'll need to comment on the issue in order to be "assignable". Please note that being assigned an issue does not mean that others cannot be assigned and other participants may be working on the same issue. We ask that you not comment on more than 3-4 projects per day. This is to ensure that you are not overwhelming yourself, the maintainers, or your fellow hackers.
+**If your pull request is accepted, in order for our bots to find it you'll need the project maintainers to assign the issue to you.** If it's your first time contributing to the project, you'll need to comment on the issue in order to be "assignable". We ask that you not comment on more than 3-4 projects per day. This is to ensure that you are not overwhelming yourself, the maintainers, or your fellow hackers. Once again, please don't comment on projects and ask to be added as an assignee. **The maintainers will only assign a project to you if they'd like to close the issue with your solution.**
 
 
 ## 🎉 After the Hack 🎉
