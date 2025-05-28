@@ -885,7 +885,9 @@
         "value": 100
       },
       {
-        "assignees": [],
+        "assignees": [
+          "BBhattacharyya1729"
+        ],
         "state": "open",
         "title": "Linear sum and symmetry constraints",
         "url": "https://github.com/harmoniqs/DirectTrajOpt.jl/issues/20",
@@ -1311,7 +1313,9 @@
     "amount_available": 250,
     "bounties": [
       {
-        "assignees": [],
+        "assignees": [
+          "Qubit1718"
+        ],
         "state": "closed",
         "title": "Implement a custom unitary ansatz",
         "url": "https://github.com/unitaryfoundation/qlass/issues/52",
