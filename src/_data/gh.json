@@ -53,7 +53,7 @@
     "url": "https://github.com/amazon-braket/amazon-braket-sdk-python"
   },
   "bartiq": {
-    "amount_available": 450,
+    "amount_available": 350,
     "bounties": [
       {
         "assignees": [],
@@ -63,8 +63,10 @@
         "value": 100
       },
       {
-        "assignees": [],
-        "state": "open",
+        "assignees": [
+          "luffy-orf"
+        ],
+        "state": "closed",
         "title": "Add function for calculating `circuit_volume`",
         "url": "https://github.com/PsiQ/bartiq/issues/150",
         "value": 100
@@ -103,7 +105,7 @@
     "emoji": null,
     "name": "Bartiq",
     "num_bounties": 6,
-    "num_open_bounties": 5,
+    "num_open_bounties": 4,
     "total_amount": 500,
     "url": "https://github.com/PsiQ/bartiq"
   },
@@ -1726,7 +1728,7 @@
     "url": "https://github.com/QuEST-Kit/QuEST"
   },
   "quizx": {
-    "amount_available": 500,
+    "amount_available": 400,
     "bounties": [
       {
         "assignees": [],
@@ -1737,7 +1739,7 @@
       },
       {
         "assignees": [],
-        "state": "open",
+        "state": "closed",
         "title": "QuiZX command line interface",
         "url": "https://github.com/zxcalc/quizx/issues/117",
         "value": 100
@@ -1767,7 +1769,7 @@
     "emoji": "\ud83e\udd80\ud83d\udd77\ufe0f",
     "name": "QuiZX",
     "num_bounties": 5,
-    "num_open_bounties": 5,
+    "num_open_bounties": 4,
     "total_amount": 500,
     "url": "https://github.com/zxcalc/quizx"
   },
@@ -1980,7 +1982,9 @@
         "value": 100
       },
       {
-        "assignees": [],
+        "assignees": [
+          "luffy-orf"
+        ],
         "state": "open",
         "title": "Feature: Function to determine if density matrix is absolutely PPT",
         "url": "https://github.com/vprusso/toqito/issues/208",

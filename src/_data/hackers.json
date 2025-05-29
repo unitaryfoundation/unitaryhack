@@ -82,5 +82,18 @@
     "num_projects": 1,
     "total_value": 150,
     "username": "jebernate"
+  },
+  {
+    "bounties": [
+      {
+        "project": "bartiq",
+        "title": "Add function for calculating `circuit_volume`",
+        "url": "https://github.com/PsiQ/bartiq/issues/150",
+        "value": 100
+      }
+    ],
+    "num_projects": 1,
+    "total_value": 100,
+    "username": "luffy-orf"
   }
 ]
