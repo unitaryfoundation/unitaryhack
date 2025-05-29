@@ -670,7 +670,9 @@
         "value": 100
       },
       {
-        "assignees": [],
+        "assignees": [
+          "lavanya-m-k"
+        ],
         "state": "open",
         "title": "Add details of status of job",
         "url": "https://github.com/unitaryfoundation/metriq-gym/issues/238",
@@ -1103,7 +1105,7 @@
     "url": "https://github.com/zxcalc/pyzx"
   },
   "qbraid": {
-    "amount_available": 450,
+    "amount_available": 350,
     "bounties": [
       {
         "assignees": [
@@ -1125,7 +1127,7 @@
         "assignees": [
           "SaashaJoshi"
         ],
-        "state": "open",
+        "state": "closed",
         "title": "[BUG] \"unregistered\" program type still included in `ConversionGraph` ",
         "url": "https://github.com/qBraid/qBraid/issues/789",
         "value": 100
@@ -1148,7 +1150,7 @@
     "emoji": "\ud83c\udfc3\u200d\u2642\ufe0f\u23f1\ufe0f",
     "name": "qBraid-SDK",
     "num_bounties": 5,
-    "num_open_bounties": 4,
+    "num_open_bounties": 3,
     "total_amount": 500,
     "url": "https://github.com/qBraid/qBraid"
   },

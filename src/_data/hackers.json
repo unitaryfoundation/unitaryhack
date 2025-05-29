@@ -32,10 +32,16 @@
         "title": "[FEATURE] Support batch jobs for devices from Azure provider",
         "url": "https://github.com/qBraid/qBraid/issues/953",
         "value": 50
+      },
+      {
+        "project": "qbraid",
+        "title": "[BUG] \"unregistered\" program type still included in `ConversionGraph` ",
+        "url": "https://github.com/qBraid/qBraid/issues/789",
+        "value": 100
       }
     ],
     "num_projects": 1,
-    "total_value": 50,
+    "total_value": 150,
     "username": "SaashaJoshi"
   },
   {
