@@ -41,6 +41,32 @@
   {
     "bounties": [
       {
+        "project": "piquasso",
+        "title": "Method for particle number detection probabilities with occupation numbers in the `fermionic` package",
+        "url": "https://github.com/Budapest-Quantum-Computing-Group/piquasso/issues/435",
+        "value": 25
+      }
+    ],
+    "num_projects": 1,
+    "total_value": 25,
+    "username": "WingCode"
+  },
+  {
+    "bounties": [
+      {
+        "project": "bartiq",
+        "title": "Fix displaying resource name `local_highwater`.",
+        "url": "https://github.com/PsiQ/bartiq/issues/163",
+        "value": 50
+      }
+    ],
+    "num_projects": 1,
+    "total_value": 50,
+    "username": "antalszava"
+  },
+  {
+    "bounties": [
+      {
         "project": "paulistrings.jl",
         "title": "Qubit-dependent depolarizing noise",
         "url": "https://github.com/nicolasloizeau/PauliStrings.jl/issues/34",
