@@ -6,7 +6,7 @@ metaDescription: Rivet is a fast, flexible transpiler for quantum circuits, buil
 summary: Rivet is a fast, flexible transpiler for quantum circuits, built for modularity and performance.
 tags:
   - python
-  - tranpiler
+  - transpiler
 bounties:
   - issue_num: 4
     value: 250
