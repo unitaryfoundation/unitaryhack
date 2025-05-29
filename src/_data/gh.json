@@ -1110,7 +1110,9 @@
         "value": 50
       },
       {
-        "assignees": [],
+        "assignees": [
+          "SaashaJoshi"
+        ],
         "state": "open",
         "title": "[BUG] \"unregistered\" program type still included in `ConversionGraph` ",
         "url": "https://github.com/qBraid/qBraid/issues/789",
