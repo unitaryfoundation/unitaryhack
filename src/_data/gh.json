@@ -1827,6 +1827,31 @@
     "total_amount": 500,
     "url": "https://github.com/error-corp/qurveros"
   },
+  "rivet": {
+    "amount_available": 500,
+    "bounties": [
+      {
+        "assignees": [],
+        "state": "open",
+        "title": "Add qml_transpile: Efficient Parameterized Circuit Re-Optimization for QML Workflows",
+        "url": "https://github.com/haiqu-ai/rivet/issues/4",
+        "value": 250
+      },
+      {
+        "assignees": [],
+        "state": "open",
+        "title": "Add pack_circuits: Efficient Multi-Copy Packing of Circuits for QPU Execution",
+        "url": "https://github.com/haiqu-ai/rivet/issues/5",
+        "value": 250
+      }
+    ],
+    "emoji": null,
+    "name": "rivet",
+    "num_bounties": 2,
+    "num_open_bounties": 2,
+    "total_amount": 500,
+    "url": "https://github.com/haiqu-ai/rivet"
+  },
   "rustworkx": {
     "amount_available": 650,
     "bounties": [
