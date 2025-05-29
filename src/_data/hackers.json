@@ -67,6 +67,19 @@
   {
     "bounties": [
       {
+        "project": "pyqtorch",
+        "title": "[Feature] Optimize Krylov solver for batched calculations",
+        "url": "https://github.com/pasqal-io/pyqtorch/issues/295",
+        "value": 100
+      }
+    ],
+    "num_projects": 1,
+    "total_value": 100,
+    "username": "cburdine"
+  },
+  {
+    "bounties": [
+      {
         "project": "paulistrings.jl",
         "title": "Qubit-dependent depolarizing noise",
         "url": "https://github.com/nicolasloizeau/PauliStrings.jl/issues/34",

@@ -1020,7 +1020,7 @@
     "url": "https://github.com/qBraid/pyqasm"
   },
   "pyqtorch": {
-    "amount_available": 500,
+    "amount_available": 400,
     "bounties": [
       {
         "assignees": [],
@@ -1033,7 +1033,7 @@
         "assignees": [
           "cburdine"
         ],
-        "state": "open",
+        "state": "closed",
         "title": "[Feature] Optimize Krylov solver for batched calculations",
         "url": "https://github.com/pasqal-io/pyqtorch/issues/295",
         "value": 100
@@ -1066,7 +1066,7 @@
     "emoji": "\u269b\ufe0f\ud83d\udd25",
     "name": "pyqtorch",
     "num_bounties": 5,
-    "num_open_bounties": 5,
+    "num_open_bounties": 4,
     "total_amount": 500,
     "url": "https://github.com/pasqal-io/pyqtorch"
   },
