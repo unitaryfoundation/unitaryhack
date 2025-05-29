@@ -1276,7 +1276,7 @@
     "url": "https://github.com/ORNL-QCI/qiree"
   },
   "qiskit": {
-    "amount_available": 600,
+    "amount_available": 675,
     "bounties": [
       {
         "assignees": [],
@@ -1286,11 +1286,13 @@
         "value": 100
       },
       {
-        "assignees": [],
-        "state": "closed",
-        "title": "Add example on how to use ``NLocal``",
-        "url": "https://github.com/Qiskit/qiskit/issues/10480",
-        "value": 100
+        "assignees": [
+          "1ucian0"
+        ],
+        "state": "open",
+        "title": "Remaining circuit library deprecations",
+        "url": "https://github.com/Qiskit/qiskit/issues/14478",
+        "value": 75
       },
       {
         "assignees": [],
@@ -1319,8 +1321,8 @@
     "emoji": "\ud83c\udf10",
     "name": "Qiskit",
     "num_bounties": 5,
-    "num_open_bounties": 4,
-    "total_amount": 700,
+    "num_open_bounties": 5,
+    "total_amount": 675,
     "url": "https://github.com/Qiskit/qiskit/"
   },
   "qlass": {

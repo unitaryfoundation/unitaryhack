@@ -17,8 +17,8 @@ tags:
 bounties:
   - issue_num: 14034
     value: 100
-  - issue_num: 10480
-    value: 100
+  - issue_num: 14478
+    value: 75
   - issue_num: 1431
     value: 100
     repo: Qiskit/documentation
