@@ -118,6 +118,19 @@
   {
     "bounties": [
       {
+        "project": "qualtran",
+        "title": "Add docstrings to basic gates like `CZPowGate`, `Rx`, `Ry`",
+        "url": "https://github.com/quantumlib/Qualtran/issues/1148",
+        "value": 100
+      }
+    ],
+    "num_projects": 1,
+    "total_value": 100,
+    "username": "matthagan15"
+  },
+  {
+    "bounties": [
+      {
         "project": "bartiq",
         "title": "Passing a non-integer into nlz results in unhelpful error message.",
         "url": "https://github.com/PsiQ/bartiq/issues/180",

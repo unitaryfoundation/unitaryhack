@@ -9,6 +9,17 @@ tags:
   - python
   - error mitigation
   - nisq
+bounties:
+  - issue_num: 2624
+    value: 75
+  - issue_num: 2701
+    value: 50
+  - issue_num: 2770
+    value: 175
+  - issue_num: 2682
+    value: 100
+  - issue_num: 2771
+    value: 100
 ---
 
 Mitiq is a Python toolkit for implementing error mitigation techniques on quantum computers.

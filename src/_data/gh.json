@@ -696,13 +696,49 @@
     "url": "https://github.com/unitaryfoundation/metriq-gym/"
   },
   "mitiq": {
-    "amount_available": 0,
-    "bounties": [],
+    "amount_available": 500,
+    "bounties": [
+      {
+        "assignees": [],
+        "state": "open",
+        "title": "Add functionality to plot ZNE results with multiple extrapolation techniques",
+        "url": "https://github.com/unitaryfoundation/mitiq/issues/2624",
+        "value": 75
+      },
+      {
+        "assignees": [],
+        "state": "open",
+        "title": "Migrate deprecated `typing` types to `collections.abc`",
+        "url": "https://github.com/unitaryfoundation/mitiq/issues/2701",
+        "value": 50
+      },
+      {
+        "assignees": [],
+        "state": "open",
+        "title": "Create a tutorial combining 4 techniques",
+        "url": "https://github.com/unitaryfoundation/mitiq/issues/2770",
+        "value": 175
+      },
+      {
+        "assignees": [],
+        "state": "open",
+        "title": "Document modularized functions as resource requirement tooling",
+        "url": "https://github.com/unitaryfoundation/mitiq/issues/2682",
+        "value": 100
+      },
+      {
+        "assignees": [],
+        "state": "open",
+        "title": "Allow custom circuit in `Calibrator`",
+        "url": "https://github.com/unitaryfoundation/mitiq/issues/2771",
+        "value": 100
+      }
+    ],
     "emoji": "\ud83c\udf2a\ufe0f\ud83d\udc83",
     "name": "Mitiq",
-    "num_bounties": 0,
-    "num_open_bounties": 0,
-    "total_amount": 0,
+    "num_bounties": 5,
+    "num_open_bounties": 5,
+    "total_amount": 500,
     "url": "https://github.com/unitaryfoundation/mitiq"
   },
   "oqd-core": {
@@ -1408,7 +1444,7 @@
     "url": "https://github.com/qua-platform/qualibration-libs"
   },
   "qualtran": {
-    "amount_available": 500,
+    "amount_available": 400,
     "bounties": [
       {
         "assignees": [],
@@ -1421,7 +1457,7 @@
         "assignees": [
           "matthagan15"
         ],
-        "state": "open",
+        "state": "closed",
         "title": "Add docstrings to basic gates like `CZPowGate`, `Rx`, `Ry`",
         "url": "https://github.com/quantumlib/Qualtran/issues/1148",
         "value": 100
@@ -1437,7 +1473,7 @@
     "emoji": null,
     "name": "Qualtran",
     "num_bounties": 3,
-    "num_open_bounties": 3,
+    "num_open_bounties": 2,
     "total_amount": 500,
     "url": "https://github.com/quantumlib/Qualtran"
   },
@@ -1966,7 +2002,7 @@
       {
         "assignees": [],
         "state": "open",
-        "title": "DDSim Backend Integration",
+        "title": "DDSim/Quimb Backend Integration",
         "url": "https://github.com/tequilahub/tequila/issues/405",
         "value": 80
       },
