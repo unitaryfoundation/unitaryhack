@@ -1020,7 +1020,9 @@
         "value": 100
       },
       {
-        "assignees": [],
+        "assignees": [
+          "cburdine"
+        ],
         "state": "open",
         "title": "[Feature] Optimize Krylov solver for batched calculations",
         "url": "https://github.com/pasqal-io/pyqtorch/issues/295",
