@@ -1411,6 +1411,38 @@
     "total_amount": 310,
     "url": "https://github.com/unitaryfoundation/qlass"
   },
+  "qosf.org": {
+    "amount_available": 300,
+    "bounties": [
+      {
+        "assignees": [],
+        "state": "open",
+        "title": "Design a  monthly challenge",
+        "url": "https://github.com/qosf/monthly-challenges/issues/63",
+        "value": 100
+      },
+      {
+        "assignees": [],
+        "state": "open",
+        "title": "Initial Cleanup of Webpage 2025",
+        "url": "https://github.com/qosf/qosf.org/issues/119",
+        "value": 100
+      },
+      {
+        "assignees": [],
+        "state": "open",
+        "title": "Infographic of the main quantum open source projects.",
+        "url": "https://github.com/qosf/qosf.org/issues/93",
+        "value": 100
+      }
+    ],
+    "emoji": "\ud83c\udf10",
+    "name": "QOSF",
+    "num_bounties": 3,
+    "num_open_bounties": 3,
+    "total_amount": 300,
+    "url": "https://github.com/qosf/qosf.org"
+  },
   "qualibration-libs": {
     "amount_available": 450,
     "bounties": [
