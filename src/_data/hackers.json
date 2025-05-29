@@ -95,5 +95,18 @@
     "num_projects": 1,
     "total_value": 100,
     "username": "luffy-orf"
+  },
+  {
+    "bounties": [
+      {
+        "project": "bartiq",
+        "title": "Passing a non-integer into nlz results in unhelpful error message.",
+        "url": "https://github.com/PsiQ/bartiq/issues/180",
+        "value": 50
+      }
+    ],
+    "num_projects": 1,
+    "total_value": 50,
+    "username": "poig"
   }
 ]

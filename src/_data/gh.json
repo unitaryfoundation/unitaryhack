@@ -53,10 +53,12 @@
     "url": "https://github.com/amazon-braket/amazon-braket-sdk-python"
   },
   "bartiq": {
-    "amount_available": 350,
+    "amount_available": 300,
     "bounties": [
       {
-        "assignees": [],
+        "assignees": [
+          "AVDiv"
+        ],
         "state": "open",
         "title": "Improvements to the API docs",
         "url": "https://github.com/PsiQ/bartiq/issues/193",
@@ -81,8 +83,10 @@
         "value": 50
       },
       {
-        "assignees": [],
-        "state": "open",
+        "assignees": [
+          "poig"
+        ],
+        "state": "closed",
         "title": "Passing a non-integer into nlz results in unhelpful error message.",
         "url": "https://github.com/PsiQ/bartiq/issues/180",
         "value": 50
@@ -105,7 +109,7 @@
     "emoji": null,
     "name": "Bartiq",
     "num_bounties": 6,
-    "num_open_bounties": 4,
+    "num_open_bounties": 3,
     "total_amount": 500,
     "url": "https://github.com/PsiQ/bartiq"
   },
@@ -391,7 +395,9 @@
         "value": 100
       },
       {
-        "assignees": [],
+        "assignees": [
+          "luffy-orf"
+        ],
         "state": "open",
         "title": "[IMPL] `@if` instruction for OpenQASM v2.0",
         "url": "https://github.com/hhat-lang/hhat_lang/issues/43",
