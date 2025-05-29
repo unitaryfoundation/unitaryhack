@@ -53,7 +53,7 @@
     "url": "https://github.com/amazon-braket/amazon-braket-sdk-python"
   },
   "bartiq": {
-    "amount_available": 300,
+    "amount_available": 200,
     "bounties": [
       {
         "assignees": [
@@ -100,7 +100,7 @@
       },
       {
         "assignees": [],
-        "state": "open",
+        "state": "closed",
         "title": "Add convenience functions for finding subroutines",
         "url": "https://github.com/PsiQ/bartiq/issues/185",
         "value": 100
@@ -109,7 +109,7 @@
     "emoji": null,
     "name": "Bartiq",
     "num_bounties": 6,
-    "num_open_bounties": 3,
+    "num_open_bounties": 2,
     "total_amount": 500,
     "url": "https://github.com/PsiQ/bartiq"
   },
