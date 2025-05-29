@@ -1271,9 +1271,7 @@
     "amount_available": 600,
     "bounties": [
       {
-        "assignees": [
-          "ElePT"
-        ],
+        "assignees": [],
         "state": "open",
         "title": "Add user config option to limit allowed QPY versions",
         "url": "https://github.com/Qiskit/qiskit/issues/14034",
