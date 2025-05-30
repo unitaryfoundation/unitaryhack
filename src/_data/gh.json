@@ -1234,7 +1234,7 @@
     "url": "https://github.com/qBraid/qbraid-qir"
   },
   "qibo": {
-    "amount_available": 325,
+    "amount_available": 250,
     "bounties": [
       {
         "assignees": [],
@@ -1253,8 +1253,10 @@
         "value": 50
       },
       {
-        "assignees": [],
-        "state": "open",
+        "assignees": [
+          "AprilSweettooth"
+        ],
+        "state": "closed",
         "title": "Implementation of Dicke state preparation",
         "url": "https://github.com/qiboteam/qibo/issues/1620",
         "value": 75
@@ -1272,7 +1274,7 @@
     "emoji": "\ud83d\udc2a",
     "name": "Qibo",
     "num_bounties": 4,
-    "num_open_bounties": 4,
+    "num_open_bounties": 3,
     "total_amount": 325,
     "url": "https://github.com/qiboteam/qibo"
   },
