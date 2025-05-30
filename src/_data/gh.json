@@ -373,11 +373,13 @@
     "url": "https://github.com/CQCL/guppylang"
   },
   "hhat_lang": {
-    "amount_available": 500,
+    "amount_available": 450,
     "bounties": [
       {
-        "assignees": [],
-        "state": "open",
+        "assignees": [
+          "martin-klacan"
+        ],
+        "state": "closed",
         "title": "[IMPL] `@not` instruction for OpenQASM v2.0",
         "url": "https://github.com/hhat-lang/hhat_lang/issues/38",
         "value": 50
@@ -421,7 +423,7 @@
     "emoji": "\ud83c\udfa9\ud83d\udc52",
     "name": "H-hat quantum programming language",
     "num_bounties": 6,
-    "num_open_bounties": 6,
+    "num_open_bounties": 5,
     "total_amount": 500,
     "url": "https://github.com/hhat-lang/hhat_lang"
   },

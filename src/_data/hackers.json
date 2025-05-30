@@ -163,6 +163,19 @@
   {
     "bounties": [
       {
+        "project": "hhat_lang",
+        "title": "[IMPL] `@not` instruction for OpenQASM v2.0",
+        "url": "https://github.com/hhat-lang/hhat_lang/issues/38",
+        "value": 50
+      }
+    ],
+    "num_projects": 1,
+    "total_value": 50,
+    "username": "martin-klacan"
+  },
+  {
+    "bounties": [
+      {
         "project": "qualtran",
         "title": "Add docstrings to basic gates like `CZPowGate`, `Rx`, `Ry`",
         "url": "https://github.com/quantumlib/Qualtran/issues/1148",
