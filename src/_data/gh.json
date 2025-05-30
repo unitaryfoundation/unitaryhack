@@ -926,7 +926,9 @@
         "value": 100
       },
       {
-        "assignees": [],
+        "assignees": [
+          "s-a-s-h"
+        ],
         "state": "open",
         "title": "Bloch sphere plots from `NamedTrajectory`",
         "url": "https://github.com/harmoniqs/PiccoloPlots.jl/issues/19",
@@ -1196,9 +1198,7 @@
     "amount_available": 500,
     "bounties": [
       {
-        "assignees": [
-          "kingjosmel"
-        ],
+        "assignees": [],
         "state": "open",
         "title": "Add tests for `qbraid_qir/qasm3/maps.py`",
         "url": "https://github.com/qBraid/qbraid-qir/issues/196",
