@@ -159,5 +159,18 @@
     "num_projects": 1,
     "total_value": 50,
     "username": "poig"
+  },
+  {
+    "bounties": [
+      {
+        "project": "qibo",
+        "title": "Implementation of Graph state preparation",
+        "url": "https://github.com/qiboteam/qibo/issues/1621",
+        "value": 50
+      }
+    ],
+    "num_projects": 1,
+    "total_value": 50,
+    "username": "victor-onofre"
   }
 ]
