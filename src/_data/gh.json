@@ -1,6 +1,6 @@
 {
   "amazon-braket-sdk-python": {
-    "amount_available": 475,
+    "amount_available": 425,
     "bounties": [
       {
         "assignees": [],
@@ -38,8 +38,10 @@
         "value": 75
       },
       {
-        "assignees": [],
-        "state": "open",
+        "assignees": [
+          "divshacker"
+        ],
+        "state": "closed",
         "title": "Add example for native programming",
         "url": "https://github.com/qiskit-community/qiskit-braket-provider/issues/201",
         "value": 50
@@ -48,7 +50,7 @@
     "emoji": "\u269b\ufe0f\ud83d\udcbb",
     "name": "Amazon Braket SDK",
     "num_bounties": 6,
-    "num_open_bounties": 6,
+    "num_open_bounties": 5,
     "total_amount": 475,
     "url": "https://github.com/amazon-braket/amazon-braket-sdk-python"
   },
@@ -745,14 +747,14 @@
       {
         "assignees": [],
         "state": "open",
-        "title": "Check if an analog `AnalogGate` implements an Ising-like Hamiltonian",
+        "title": "[IN REVIEW] Check if an analog `AnalogGate` implements an Ising-like Hamiltonian",
         "url": "https://github.com/OpenQuantumDesign/oqd-core/issues/59",
         "value": 180
       },
       {
         "assignees": [],
         "state": "open",
-        "title": "Create a energy level visualization based on an instance of the `Atomic` objects",
+        "title": "[IN REVIEW] Create a energy level visualization based on an instance of the `Atomic` objects",
         "url": "https://github.com/OpenQuantumDesign/oqd-core/issues/58",
         "value": 180
       },

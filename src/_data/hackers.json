@@ -118,6 +118,19 @@
   {
     "bounties": [
       {
+        "project": "amazon-braket-sdk-python",
+        "title": "Add example for native programming",
+        "url": "https://github.com/qiskit-community/qiskit-braket-provider/issues/201",
+        "value": 50
+      }
+    ],
+    "num_projects": 1,
+    "total_value": 50,
+    "username": "divshacker"
+  },
+  {
+    "bounties": [
+      {
         "project": "paulistrings.jl",
         "title": "Qubit-dependent depolarizing noise",
         "url": "https://github.com/nicolasloizeau/PauliStrings.jl/issues/34",
