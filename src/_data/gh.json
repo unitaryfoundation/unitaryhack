@@ -1019,7 +1019,7 @@
     "url": "https://github.com/Budapest-Quantum-Computing-Group/piquasso"
   },
   "pyqasm": {
-    "amount_available": 500,
+    "amount_available": 350,
     "bounties": [
       {
         "assignees": [],
@@ -1036,8 +1036,10 @@
         "value": 100
       },
       {
-        "assignees": [],
-        "state": "open",
+        "assignees": [
+          "antalszava"
+        ],
+        "state": "closed",
         "title": "[BUG] Depth calculation for external gates",
         "url": "https://github.com/qBraid/pyqasm/issues/77",
         "value": 150
@@ -1053,7 +1055,7 @@
     "emoji": "\ud83d\udc23\ud83e\udde9",
     "name": "PyQASM",
     "num_bounties": 4,
-    "num_open_bounties": 4,
+    "num_open_bounties": 3,
     "total_amount": 500,
     "url": "https://github.com/qBraid/pyqasm"
   },

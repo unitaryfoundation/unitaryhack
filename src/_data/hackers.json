@@ -64,10 +64,16 @@
         "title": "Fix displaying resource name `local_highwater`.",
         "url": "https://github.com/PsiQ/bartiq/issues/163",
         "value": 50
+      },
+      {
+        "project": "pyqasm",
+        "title": "[BUG] Depth calculation for external gates",
+        "url": "https://github.com/qBraid/pyqasm/issues/77",
+        "value": 150
       }
     ],
-    "num_projects": 1,
-    "total_value": 50,
+    "num_projects": 2,
+    "total_value": 200,
     "username": "antalszava"
   },
   {
