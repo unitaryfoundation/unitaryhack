@@ -14,4 +14,6 @@ bounties:
     value: 250
 ---
 
-Rivet is a modular, high-performance transpilation toolkit for quantum circuits, allowing users to flexibly choose and control transpilation stacks (like Qiskit, Pytket, or BQSKit), optimize for hardware constraints, and drastically reduce transpilation time. It supports features like subcircuit stitching, qubit constraint handling, caching, and performance debugging—making it ideal for iterative and large-scale quantum workflows.
+Even at small scales, transpilation can become a key bottleneck in many complex quantum computing workflows, such as those in Error Mitigation or Quantum Machine Learning, where modular circuits are iteratively updated and transpiled or many instances of largely similar circuits are run.
+
+[Rivet](https://github.com/haiqu-ai/rivet) is a modular, high-performance transpilation toolkit for quantum circuits, enabling flexible control over transpilation stacks (Qiskit, Pytket, BQSKit), subcircuit stitching, qubit constraint handling, and caching—dramatically reducing transpilation time. Built by [**Haiqu**](https://haiqu.ai/), a quantum software company focused on pushing the limits of today’s noisy quantum hardware, Rivet helps users get the best performance out of their applications.
