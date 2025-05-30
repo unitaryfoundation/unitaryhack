@@ -395,9 +395,7 @@
         "value": 100
       },
       {
-        "assignees": [
-          "luffy-orf"
-        ],
+        "assignees": [],
         "state": "open",
         "title": "[IMPL] `@if` instruction for OpenQASM v2.0",
         "url": "https://github.com/hhat-lang/hhat_lang/issues/43",
@@ -1113,11 +1111,13 @@
     "url": "https://github.com/pasqal-io/pyqtorch"
   },
   "pyzx": {
-    "amount_available": 495,
+    "amount_available": 330,
     "bounties": [
       {
-        "assignees": [],
-        "state": "open",
+        "assignees": [
+          "Bumsparkle"
+        ],
+        "state": "closed",
         "title": "Missing Documentation and examples: qubit routing",
         "url": "https://github.com/zxcalc/pyzx/issues/293",
         "value": 165
@@ -1140,7 +1140,7 @@
     "emoji": "\ud83d\udd77\ufe0f",
     "name": "PyZX",
     "num_bounties": 3,
-    "num_open_bounties": 3,
+    "num_open_bounties": 2,
     "total_amount": 495,
     "url": "https://github.com/zxcalc/pyzx"
   },
