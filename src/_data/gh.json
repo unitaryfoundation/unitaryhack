@@ -1824,7 +1824,9 @@
         "value": 50
       },
       {
-        "assignees": [],
+        "assignees": [
+          "mark-koch"
+        ],
         "state": "closed",
         "title": "QuiZX command line interface",
         "url": "https://github.com/zxcalc/quizx/issues/117",

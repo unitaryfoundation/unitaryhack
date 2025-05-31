@@ -163,6 +163,19 @@
   {
     "bounties": [
       {
+        "project": "quizx",
+        "title": "QuiZX command line interface",
+        "url": "https://github.com/zxcalc/quizx/issues/117",
+        "value": 100
+      }
+    ],
+    "num_projects": 1,
+    "total_value": 100,
+    "username": "mark-koch"
+  },
+  {
+    "bounties": [
+      {
         "project": "hhat_lang",
         "title": "[IMPL] `@not` instruction for OpenQASM v2.0",
         "url": "https://github.com/hhat-lang/hhat_lang/issues/38",
