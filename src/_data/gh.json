@@ -1761,11 +1761,13 @@
     "url": "https://github.com/qutip/QuantumToolbox.jl"
   },
   "quest": {
-    "amount_available": 500,
+    "amount_available": 475,
     "bounties": [
       {
-        "assignees": [],
-        "state": "open",
+        "assignees": [
+          "Roll249"
+        ],
+        "state": "closed",
         "title": "Implement RAM probe",
         "url": "https://github.com/QuEST-Kit/QuEST/issues/600",
         "value": 25
@@ -1809,7 +1811,7 @@
     "emoji": "\ud83c\udfc6",
     "name": "QuEST",
     "num_bounties": 6,
-    "num_open_bounties": 6,
+    "num_open_bounties": 5,
     "total_amount": 500,
     "url": "https://github.com/QuEST-Kit/QuEST"
   },

@@ -54,6 +54,19 @@
   {
     "bounties": [
       {
+        "project": "quest",
+        "title": "Implement RAM probe",
+        "url": "https://github.com/QuEST-Kit/QuEST/issues/600",
+        "value": 25
+      }
+    ],
+    "num_projects": 1,
+    "total_value": 25,
+    "username": "Roll249"
+  },
+  {
+    "bounties": [
+      {
         "project": "qbraid",
         "title": "[FEATURE] Support batch jobs for devices from Azure provider",
         "url": "https://github.com/qBraid/qBraid/issues/953",
