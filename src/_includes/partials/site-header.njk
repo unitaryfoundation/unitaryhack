@@ -20,15 +20,15 @@
       <ul class="site-header__items">
         {%- for entry in navPages %}
           {% if entry.title != "Leaderboard" %}
-          <li class="site-header__item">
-            <a
-              class="site-header__link"
-              href="{{ entry.url | url }}"
-              {% if entry.url == page.url %} aria-current data-current="current item"{% endif %}
-            >
-              {{ entry.title }}
-            </a>
-          </li>
+            <li class="site-header__item">
+              <a
+                class="site-header__link"
+                href="{{ entry.url | url }}"
+                {% if entry.url == page.url %} aria-current data-current="current item"{% endif %}
+              >
+                {{ entry.title }}
+              </a>
+            </li>
           {% endif %}
         {%- endfor %}
 
@@ -38,7 +38,7 @@
               {{ global.switch_theme_icon | svg | safe }}
             </button> 
           </li>
-        {% endif %}#}
+        {% endif %} #}
       </ul>
     </nav>
   </div>

@@ -15,7 +15,7 @@ section: leaderboard
       <th>Hacker</th>
       <th>Bounties Completed</th>
     </tr>
-    {% for hacker, num_bounties in leaderboard %}
+    {% for hacker, num_bounties in leaderboard | sortLeaderboard %}
       <tr>
         <td><a href="/hackers/{{ hacker | lower }}">{{ hacker }}</a></td>
         <td>{{ num_bounties }}</td>
