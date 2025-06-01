@@ -18,6 +18,11 @@ module.exports = function (eleventyConfig) {
   eleventyConfig.addFilter('readableDate', readableDateFilter);
   eleventyConfig.addFilter('machineDate', machineDateFilter);
   eleventyConfig.addFilter('svg', svgFilter);
+  eleventyConfig.addFilter("sortLeaderboard", function(obj) {
+    if (!obj || typeof obj !== "object") return [];
+
+    return Object.entries(obj).sort((a, b) => b[1] - a[1]);
+  });
 
   // Shortcodes
   eleventyConfig.addNunjucksAsyncShortcode('image', imageShortcode);
