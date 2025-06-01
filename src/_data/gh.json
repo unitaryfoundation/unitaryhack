@@ -375,7 +375,7 @@
     "url": "https://github.com/CQCL/guppylang"
   },
   "hhat_lang": {
-    "amount_available": 450,
+    "amount_available": 350,
     "bounties": [
       {
         "assignees": [
@@ -387,8 +387,10 @@
         "value": 50
       },
       {
-        "assignees": [],
-        "state": "open",
+        "assignees": [
+          "Hazarre"
+        ],
+        "state": "closed",
         "title": "[IMPL] `toolchain.project` module through a CLI",
         "url": "https://github.com/hhat-lang/hhat_lang/issues/39",
         "value": 100
@@ -425,7 +427,7 @@
     "emoji": "\ud83c\udfa9\ud83d\udc52",
     "name": "H-hat quantum programming language",
     "num_bounties": 6,
-    "num_open_bounties": 5,
+    "num_open_bounties": 4,
     "total_amount": 500,
     "url": "https://github.com/hhat-lang/hhat_lang"
   },

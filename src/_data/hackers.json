@@ -54,6 +54,19 @@
   {
     "bounties": [
       {
+        "project": "hhat_lang",
+        "title": "[IMPL] `toolchain.project` module through a CLI",
+        "url": "https://github.com/hhat-lang/hhat_lang/issues/39",
+        "value": 100
+      }
+    ],
+    "num_projects": 1,
+    "total_value": 100,
+    "username": "Hazarre"
+  },
+  {
+    "bounties": [
+      {
         "project": "pyqtorch",
         "title": "[Testing] Test reembedding of params in HamiltonianEvolution",
         "url": "https://github.com/pasqal-io/pyqtorch/issues/273",
