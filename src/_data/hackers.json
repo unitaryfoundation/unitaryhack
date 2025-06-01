@@ -86,14 +86,20 @@
   {
     "bounties": [
       {
+        "project": "bqskit",
+        "title": "StateVector Zero Constructor needs radixes to be passed in",
+        "url": "https://github.com/BQSKit/bqskit/issues/305",
+        "value": 25
+      },
+      {
         "project": "piquasso",
         "title": "Method for particle number detection probabilities with occupation numbers in the `fermionic` package",
         "url": "https://github.com/Budapest-Quantum-Computing-Group/piquasso/issues/435",
         "value": 25
       }
     ],
-    "num_projects": 1,
-    "total_value": 25,
+    "num_projects": 2,
+    "total_value": 50,
     "username": "WingCode"
   },
   {
