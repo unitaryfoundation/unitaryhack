@@ -2,6 +2,19 @@
   {
     "bounties": [
       {
+        "project": "bartiq",
+        "title": "Improvements to the API docs",
+        "url": "https://github.com/PsiQ/bartiq/issues/193",
+        "value": 100
+      }
+    ],
+    "num_projects": 1,
+    "total_value": 100,
+    "username": "AVDiv"
+  },
+  {
+    "bounties": [
+      {
         "project": "qibo",
         "title": "Implementation of Dicke state preparation",
         "url": "https://github.com/qiboteam/qibo/issues/1620",
@@ -37,6 +50,25 @@
     "num_projects": 1,
     "total_value": 150,
     "username": "ErikQQY"
+  },
+  {
+    "bounties": [
+      {
+        "project": "pyqtorch",
+        "title": "[Testing] Test reembedding of params in HamiltonianEvolution",
+        "url": "https://github.com/pasqal-io/pyqtorch/issues/273",
+        "value": 100
+      },
+      {
+        "project": "pyqtorch",
+        "title": "[Testing] Expand embedding tests for all operators",
+        "url": "https://github.com/pasqal-io/pyqtorch/issues/272",
+        "value": 100
+      }
+    ],
+    "num_projects": 1,
+    "total_value": 200,
+    "username": "Kitsunp"
   },
   {
     "bounties": [
