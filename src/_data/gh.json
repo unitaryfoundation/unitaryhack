@@ -2099,9 +2099,7 @@
         "value": 100
       },
       {
-        "assignees": [
-          "luffy-orf"
-        ],
+        "assignees": [],
         "state": "open",
         "title": "Feature: Function to determine if density matrix is absolutely PPT",
         "url": "https://github.com/vprusso/toqito/issues/208",
