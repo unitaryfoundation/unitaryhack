@@ -1379,7 +1379,7 @@
     "url": "https://github.com/Qiskit/qiskit/"
   },
   "qlass": {
-    "amount_available": 250,
+    "amount_available": 30,
     "bounties": [
       {
         "assignees": [
@@ -1391,29 +1391,37 @@
         "value": 60
       },
       {
-        "assignees": [],
-        "state": "open",
+        "assignees": [
+          "Kitsunp"
+        ],
+        "state": "closed",
         "title": "Reduce the number of measurements: grouping commuting Pauli terms.",
         "url": "https://github.com/unitaryfoundation/qlass/issues/44",
         "value": 60
       },
       {
-        "assignees": [],
-        "state": "open",
+        "assignees": [
+          "Kitsunp"
+        ],
+        "state": "closed",
         "title": "generalize loss function to work with more executors",
         "url": "https://github.com/unitaryfoundation/qlass/issues/35",
         "value": 60
       },
       {
-        "assignees": [],
+        "assignees": [
+          "Qubit1718"
+        ],
         "state": "open",
         "title": "Improve tutorial",
         "url": "https://github.com/unitaryfoundation/qlass/issues/33",
         "value": 30
       },
       {
-        "assignees": [],
-        "state": "open",
+        "assignees": [
+          "Kitsunp"
+        ],
+        "state": "closed",
         "title": "OpenFermion as alternative quantum chemistry library",
         "url": "https://github.com/unitaryfoundation/qlass/issues/34",
         "value": 100
@@ -1422,7 +1430,7 @@
     "emoji": null,
     "name": "qlass",
     "num_bounties": 5,
-    "num_open_bounties": 4,
+    "num_open_bounties": 1,
     "total_amount": 310,
     "url": "https://github.com/unitaryfoundation/qlass"
   },
@@ -2027,7 +2035,7 @@
     "url": "https://github.com/scqubits/scqubits"
   },
   "tequila": {
-    "amount_available": 500,
+    "amount_available": 380,
     "bounties": [
       {
         "assignees": [],
@@ -2059,7 +2067,7 @@
       },
       {
         "assignees": [],
-        "state": "open",
+        "state": "closed",
         "title": "Chemistry: FCI Wavefunction to QubitWaveFunction",
         "url": "https://github.com/tequilahub/tequila/issues/406",
         "value": 120
@@ -2068,7 +2076,7 @@
     "emoji": null,
     "name": "Tequila",
     "num_bounties": 5,
-    "num_open_bounties": 5,
+    "num_open_bounties": 4,
     "total_amount": 500,
     "url": "https://github.com/tequilahub/tequila"
   },

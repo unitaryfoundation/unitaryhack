@@ -77,10 +77,28 @@
         "title": "[Testing] Expand embedding tests for all operators",
         "url": "https://github.com/pasqal-io/pyqtorch/issues/272",
         "value": 100
+      },
+      {
+        "project": "qlass",
+        "title": "Reduce the number of measurements: grouping commuting Pauli terms.",
+        "url": "https://github.com/unitaryfoundation/qlass/issues/44",
+        "value": 60
+      },
+      {
+        "project": "qlass",
+        "title": "generalize loss function to work with more executors",
+        "url": "https://github.com/unitaryfoundation/qlass/issues/35",
+        "value": 60
+      },
+      {
+        "project": "qlass",
+        "title": "OpenFermion as alternative quantum chemistry library",
+        "url": "https://github.com/unitaryfoundation/qlass/issues/34",
+        "value": 100
       }
     ],
-    "num_projects": 1,
-    "total_value": 200,
+    "num_projects": 2,
+    "total_value": 420,
     "username": "Kitsunp"
   },
   {
