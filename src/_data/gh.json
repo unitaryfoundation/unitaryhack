@@ -1657,7 +1657,7 @@
     "url": "https://github.com/moth-quantum/QuantumArtHack"
   },
   "quantumoptics.jl": {
-    "amount_available": 350,
+    "amount_available": 300,
     "bounties": [
       {
         "assignees": [],
@@ -1675,7 +1675,7 @@
       },
       {
         "assignees": [],
-        "state": "open",
+        "state": "closed",
         "title": "Switch tests to use to `TestItems.jl` for easier integration with IDEs and other advanced tests runners",
         "url": "https://github.com/qojulia/QuantumOptics.jl/issues/443",
         "value": 50
@@ -1693,7 +1693,7 @@
     "emoji": null,
     "name": "QuantumOptics.jl",
     "num_bounties": 4,
-    "num_open_bounties": 3,
+    "num_open_bounties": 2,
     "total_amount": 500,
     "url": "https://github.com/qojulia/QuantumOptics.jl"
   },
