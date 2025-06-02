@@ -2127,7 +2127,7 @@
     "url": "https://github.com/vprusso/toqito"
   },
   "ucc": {
-    "amount_available": 1775,
+    "amount_available": 1700,
     "bounties": [
       {
         "assignees": [],
@@ -2158,8 +2158,10 @@
         "value": 200
       },
       {
-        "assignees": [],
-        "state": "open",
+        "assignees": [
+          "WingCode"
+        ],
+        "state": "closed",
         "title": "Validate circuit properties as part of benchmarking runs",
         "url": "https://github.com/unitaryfoundation/ucc-bench/issues/27",
         "value": 75
@@ -2168,7 +2170,7 @@
     "emoji": "\ud83c\udf71\ud83e\udd5e",
     "name": "UCC",
     "num_bounties": 5,
-    "num_open_bounties": 5,
+    "num_open_bounties": 4,
     "total_amount": 1775,
     "url": "https://github.com/unitaryfoundation/ucc"
   }

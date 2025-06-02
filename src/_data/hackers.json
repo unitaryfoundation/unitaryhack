@@ -159,10 +159,16 @@
         "title": "Method for particle number detection probabilities with occupation numbers in the `fermionic` package",
         "url": "https://github.com/Budapest-Quantum-Computing-Group/piquasso/issues/435",
         "value": 25
+      },
+      {
+        "project": "ucc",
+        "title": "Validate circuit properties as part of benchmarking runs",
+        "url": "https://github.com/unitaryfoundation/ucc-bench/issues/27",
+        "value": 75
       }
     ],
-    "num_projects": 2,
-    "total_value": 50,
+    "num_projects": 3,
+    "total_value": 125,
     "username": "WingCode"
   },
   {
