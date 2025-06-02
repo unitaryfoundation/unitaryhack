@@ -2,6 +2,25 @@
   {
     "bounties": [
       {
+        "project": "bqskit",
+        "title": "Print warning if no progress during synthesis",
+        "url": "https://github.com/BQSKit/bqskit/issues/225",
+        "value": 75
+      },
+      {
+        "project": "bqskit",
+        "title": "QASM Decoder cannot accept Some Scientific Notation Parameters",
+        "url": "https://github.com/BQSKit/bqskit/issues/315",
+        "value": 200
+      }
+    ],
+    "num_projects": 1,
+    "total_value": 275,
+    "username": "ACE07-Sev"
+  },
+  {
+    "bounties": [
+      {
         "project": "bartiq",
         "title": "Improvements to the API docs",
         "url": "https://github.com/PsiQ/bartiq/issues/193",
@@ -140,10 +159,16 @@
         "title": "[BUG] \"unregistered\" program type still included in `ConversionGraph` ",
         "url": "https://github.com/qBraid/qBraid/issues/789",
         "value": 100
+      },
+      {
+        "project": "qbraid",
+        "title": "Enhance `GateModelResultData` to support direct probability data",
+        "url": "https://github.com/qBraid/qBraid/issues/785",
+        "value": 100
       }
     ],
     "num_projects": 1,
-    "total_value": 150,
+    "total_value": 250,
     "username": "SaashaJoshi"
   },
   {
@@ -318,6 +343,25 @@
     "num_projects": 1,
     "total_value": 50,
     "username": "poig"
+  },
+  {
+    "bounties": [
+      {
+        "project": "piquasso",
+        "title": "Marginal particle detection probabilities",
+        "url": "https://github.com/Budapest-Quantum-Computing-Group/piquasso/issues/436",
+        "value": 50
+      },
+      {
+        "project": "piquasso",
+        "title": "Implement `SLOS_full` in `SamplingSimulator`",
+        "url": "https://github.com/Budapest-Quantum-Computing-Group/piquasso/issues/434",
+        "value": 175
+      }
+    ],
+    "num_projects": 1,
+    "total_value": 225,
+    "username": "q-inho"
   },
   {
     "bounties": [

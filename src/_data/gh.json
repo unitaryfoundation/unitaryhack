@@ -116,7 +116,7 @@
     "url": "https://github.com/PsiQ/bartiq"
   },
   "bqskit": {
-    "amount_available": 475,
+    "amount_available": 200,
     "bounties": [
       {
         "assignees": [
@@ -131,7 +131,7 @@
         "assignees": [
           "ACE07-Sev"
         ],
-        "state": "open",
+        "state": "closed",
         "title": "Print warning if no progress during synthesis",
         "url": "https://github.com/BQSKit/bqskit/issues/225",
         "value": 75
@@ -147,7 +147,7 @@
         "assignees": [
           "ACE07-Sev"
         ],
-        "state": "open",
+        "state": "closed",
         "title": "QASM Decoder cannot accept Some Scientific Notation Parameters",
         "url": "https://github.com/BQSKit/bqskit/issues/315",
         "value": 200
@@ -163,7 +163,7 @@
     "emoji": "\ud83c\udf6a",
     "name": "BQSKit",
     "num_bounties": 5,
-    "num_open_bounties": 4,
+    "num_open_bounties": 2,
     "total_amount": 500,
     "url": "https://github.com/BQSKit/bqskit"
   },
@@ -976,7 +976,7 @@
     "url": "https://github.com/harmoniqs/Piccolo.jl"
   },
   "piquasso": {
-    "amount_available": 425,
+    "amount_available": 250,
     "bounties": [
       {
         "assignees": [
@@ -995,7 +995,9 @@
         "value": 50
       },
       {
-        "assignees": [],
+        "assignees": [
+          "q-inho"
+        ],
         "state": "closed",
         "title": "Marginal particle detection probabilities",
         "url": "https://github.com/Budapest-Quantum-Computing-Group/piquasso/issues/436",
@@ -1016,8 +1018,10 @@
         "value": 125
       },
       {
-        "assignees": [],
-        "state": "open",
+        "assignees": [
+          "q-inho"
+        ],
+        "state": "closed",
         "title": "Implement `SLOS_full` in `SamplingSimulator`",
         "url": "https://github.com/Budapest-Quantum-Computing-Group/piquasso/issues/434",
         "value": 175
@@ -1026,7 +1030,7 @@
     "emoji": "\ud83d\udca1\u269b\ufe0f",
     "name": "Piquasso",
     "num_bounties": 6,
-    "num_open_bounties": 4,
+    "num_open_bounties": 3,
     "total_amount": 500,
     "url": "https://github.com/Budapest-Quantum-Computing-Group/piquasso"
   },
@@ -1160,7 +1164,7 @@
     "url": "https://github.com/zxcalc/pyzx"
   },
   "qbraid": {
-    "amount_available": 350,
+    "amount_available": 250,
     "bounties": [
       {
         "assignees": [
@@ -1188,8 +1192,10 @@
         "value": 100
       },
       {
-        "assignees": [],
-        "state": "open",
+        "assignees": [
+          "SaashaJoshi"
+        ],
+        "state": "closed",
         "title": "Enhance `GateModelResultData` to support direct probability data",
         "url": "https://github.com/qBraid/qBraid/issues/785",
         "value": 100
@@ -1205,7 +1211,7 @@
     "emoji": "\ud83c\udfc3\u200d\u2642\ufe0f\u23f1\ufe0f",
     "name": "qBraid-SDK",
     "num_bounties": 5,
-    "num_open_bounties": 3,
+    "num_open_bounties": 2,
     "total_amount": 500,
     "url": "https://github.com/qBraid/qBraid"
   },
