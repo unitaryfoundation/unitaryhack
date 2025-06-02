@@ -615,7 +615,7 @@
     "url": "https://github.com/pasqal-io/maximum-independent-set"
   },
   "metriq-app": {
-    "amount_available": 500,
+    "amount_available": 400,
     "bounties": [
       {
         "assignees": [],
@@ -639,8 +639,10 @@
         "value": 150
       },
       {
-        "assignees": [],
-        "state": "open",
+        "assignees": [
+          "WingCode"
+        ],
+        "state": "closed",
         "title": "List of followed task",
         "url": "https://github.com/unitaryfoundation/metriq-app/issues/1005",
         "value": 100
@@ -649,7 +651,7 @@
     "emoji": "\ud83d\udcca\u269b\ufe0f",
     "name": "metriq-app",
     "num_bounties": 4,
-    "num_open_bounties": 4,
+    "num_open_bounties": 3,
     "total_amount": 500,
     "url": "https://github.com/unitaryfoundation/metriq-app"
   },
