@@ -73,6 +73,19 @@
   {
     "bounties": [
       {
+        "project": "qurveros",
+        "title": "Accept strings as well as callback functions in SpaceCurve constructor",
+        "url": "https://github.com/error-corp/qurveros/issues/3",
+        "value": 100
+      }
+    ],
+    "num_projects": 1,
+    "total_value": 100,
+    "username": "EthanFeld"
+  },
+  {
+    "bounties": [
+      {
         "project": "hhat_lang",
         "title": "[IMPL] `toolchain.project` module through a CLI",
         "url": "https://github.com/hhat-lang/hhat_lang/issues/39",
@@ -273,10 +286,16 @@
         "title": "Dephasing noise",
         "url": "https://github.com/nicolasloizeau/PauliStrings.jl/issues/35",
         "value": 100
+      },
+      {
+        "project": "tequila",
+        "title": "Chemistry: FCI Wavefunction to QubitWaveFunction",
+        "url": "https://github.com/tequilahub/tequila/issues/406",
+        "value": 120
       }
     ],
-    "num_projects": 1,
-    "total_value": 150,
+    "num_projects": 2,
+    "total_value": 270,
     "username": "jebernate"
   },
   {

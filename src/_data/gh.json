@@ -116,7 +116,7 @@
     "url": "https://github.com/PsiQ/bartiq"
   },
   "bqskit": {
-    "amount_available": 200,
+    "amount_available": 100,
     "bounties": [
       {
         "assignees": [
@@ -137,7 +137,9 @@
         "value": 75
       },
       {
-        "assignees": [],
+        "assignees": [
+          "rochisha0"
+        ],
         "state": "open",
         "title": "Issues with get_subgraph method of CouplingGraph",
         "url": "https://github.com/BQSKit/bqskit/issues/290",
@@ -154,7 +156,7 @@
       },
       {
         "assignees": [],
-        "state": "open",
+        "state": "closed",
         "title": "Use nbval to Automatically Validate Example and Tutorial Notebooks",
         "url": "https://github.com/BQSKit/bqskit/issues/316",
         "value": 100
@@ -163,7 +165,7 @@
     "emoji": "\ud83c\udf6a",
     "name": "BQSKit",
     "num_bounties": 5,
-    "num_open_bounties": 2,
+    "num_open_bounties": 1,
     "total_amount": 500,
     "url": "https://github.com/BQSKit/bqskit"
   },
@@ -1889,7 +1891,7 @@
     "url": "https://github.com/zxcalc/quizx"
   },
   "qurveros": {
-    "amount_available": 500,
+    "amount_available": 400,
     "bounties": [
       {
         "assignees": [],
@@ -1899,8 +1901,10 @@
         "value": 175
       },
       {
-        "assignees": [],
-        "state": "open",
+        "assignees": [
+          "EthanFeld"
+        ],
+        "state": "closed",
         "title": "Accept strings as well as callback functions in SpaceCurve constructor",
         "url": "https://github.com/error-corp/qurveros/issues/3",
         "value": 100
@@ -1930,7 +1934,7 @@
     "emoji": null,
     "name": "Qurveros",
     "num_bounties": 5,
-    "num_open_bounties": 5,
+    "num_open_bounties": 4,
     "total_amount": 500,
     "url": "https://github.com/error-corp/qurveros"
   },
@@ -2062,7 +2066,9 @@
         "value": 80
       },
       {
-        "assignees": [],
+        "assignees": [
+          "ACE07-Sev"
+        ],
         "state": "open",
         "title": "to_matrix for circuits",
         "url": "https://github.com/tequilahub/tequila/issues/403",
@@ -2076,7 +2082,9 @@
         "value": 80
       },
       {
-        "assignees": [],
+        "assignees": [
+          "jebernate"
+        ],
         "state": "closed",
         "title": "Chemistry: FCI Wavefunction to QubitWaveFunction",
         "url": "https://github.com/tequilahub/tequila/issues/406",
