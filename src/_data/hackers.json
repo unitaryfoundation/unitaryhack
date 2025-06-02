@@ -182,6 +182,19 @@
   {
     "bounties": [
       {
+        "project": "pyqtorch",
+        "title": "[Feature] Add two-qubit digital noise",
+        "url": "https://github.com/pasqal-io/pyqtorch/issues/329",
+        "value": 100
+      }
+    ],
+    "num_projects": 1,
+    "total_value": 100,
+    "username": "d-bharadwaj"
+  },
+  {
+    "bounties": [
+      {
         "project": "amazon-braket-sdk-python",
         "title": "Add example for native programming",
         "url": "https://github.com/qiskit-community/qiskit-braket-provider/issues/201",
