@@ -2052,7 +2052,9 @@
     "amount_available": 380,
     "bounties": [
       {
-        "assignees": [],
+        "assignees": [
+          "BapisteB"
+        ],
         "state": "open",
         "title": "optimized compiling for general QubitExcitations beyond single and double",
         "url": "https://github.com/tequilahub/tequila/issues/400",
