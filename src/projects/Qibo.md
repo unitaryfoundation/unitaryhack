@@ -19,8 +19,12 @@ bounties:
     value: 50
   - issue_num: 1620
     value: 75
+  - issue_num: 1655
+    value: 75
   - issue_num: 1585
     value: 150
+  - issue_num: 1632
+    value: 100
 ---
 
 Qibo is designed with three target goals: a simple application programming interface (API) for quantum circuit design and adiabatic quantum computation, a high-performance simulation engine based on hardware acceleration tools, with particular emphasis on multithreading CPU, single GPU and multi-GPU setups, and ﬁnally a clean design pattern to include classical/quantum hybrid algorithms.

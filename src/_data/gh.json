@@ -1257,7 +1257,7 @@
     "url": "https://github.com/qBraid/qbraid-qir"
   },
   "qibo": {
-    "amount_available": 200,
+    "amount_available": 375,
     "bounties": [
       {
         "assignees": [],
@@ -1286,19 +1286,35 @@
       },
       {
         "assignees": [
+          "joan-ainaud"
+        ],
+        "state": "open",
+        "title": "Improved circuit depth for Dicke states in all-to-all connectivity",
+        "url": "https://github.com/qiboteam/qibo/issues/1655",
+        "value": 75
+      },
+      {
+        "assignees": [
           "renatomello"
         ],
         "state": "open",
         "title": "Bug when using `Gate.decompose` on controlled gates",
         "url": "https://github.com/qiboteam/qibo/issues/1585",
         "value": 150
+      },
+      {
+        "assignees": [],
+        "state": "open",
+        "title": "Fast conversion to and from Pauli basis",
+        "url": "https://github.com/qiboteam/qibo/issues/1632",
+        "value": 100
       }
     ],
     "emoji": "\ud83d\udc2a",
     "name": "Qibo",
-    "num_bounties": 4,
-    "num_open_bounties": 2,
-    "total_amount": 325,
+    "num_bounties": 6,
+    "num_open_bounties": 4,
+    "total_amount": 500,
     "url": "https://github.com/qiboteam/qibo"
   },
   "qiree": {
