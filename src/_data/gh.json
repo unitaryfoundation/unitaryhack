@@ -1352,7 +1352,8 @@
       },
       {
         "assignees": [
-          "1ucian0"
+          "1ucian0",
+          "AsadullahGalib007"
         ],
         "state": "open",
         "title": "Remaining circuit library deprecations",
