@@ -269,6 +269,19 @@
   {
     "bounties": [
       {
+        "project": "quest",
+        "title": "Extend Pauli rotations to accept complex angles",
+        "url": "https://github.com/QuEST-Kit/QuEST/issues/594",
+        "value": 50
+      }
+    ],
+    "num_projects": 1,
+    "total_value": 50,
+    "username": "diogomaia00"
+  },
+  {
+    "bounties": [
+      {
         "project": "amazon-braket-sdk-python",
         "title": "Add example for native programming",
         "url": "https://github.com/qiskit-community/qiskit-braket-provider/issues/201",

@@ -436,7 +436,7 @@
     "url": "https://github.com/hhat-lang/hhat_lang"
   },
   "hugr": {
-    "amount_available": 180,
+    "amount_available": 120,
     "bounties": [
       {
         "assignees": [],
@@ -447,7 +447,7 @@
       },
       {
         "assignees": [],
-        "state": "open",
+        "state": "closed",
         "title": "Add support for external `clap` subcommands in hugr-cli",
         "url": "https://github.com/CQCL/hugr/issues/1343",
         "value": 60
@@ -456,7 +456,7 @@
     "emoji": "\ud83e\udec2",
     "name": "HUGR",
     "num_bounties": 2,
-    "num_open_bounties": 2,
+    "num_open_bounties": 1,
     "total_amount": 180,
     "url": "https://github.com/CQCL/hugr"
   },
@@ -1788,7 +1788,7 @@
     "url": "https://github.com/qutip/QuantumToolbox.jl"
   },
   "quest": {
-    "amount_available": 475,
+    "amount_available": 425,
     "bounties": [
       {
         "assignees": [
@@ -1800,8 +1800,10 @@
         "value": 25
       },
       {
-        "assignees": [],
-        "state": "open",
+        "assignees": [
+          "diogomaia00"
+        ],
+        "state": "closed",
         "title": "Extend Pauli rotations to accept complex angles",
         "url": "https://github.com/QuEST-Kit/QuEST/issues/594",
         "value": 50
@@ -1838,7 +1840,7 @@
     "emoji": "\ud83c\udfc6",
     "name": "QuEST",
     "num_bounties": 6,
-    "num_open_bounties": 5,
+    "num_open_bounties": 4,
     "total_amount": 500,
     "url": "https://github.com/QuEST-Kit/QuEST"
   },
