@@ -140,10 +140,16 @@
         "title": "Implement a custom unitary ansatz",
         "url": "https://github.com/unitaryfoundation/qlass/issues/52",
         "value": 60
+      },
+      {
+        "project": "qlass",
+        "title": "Improve tutorial",
+        "url": "https://github.com/unitaryfoundation/qlass/issues/33",
+        "value": 30
       }
     ],
     "num_projects": 1,
-    "total_value": 60,
+    "total_value": 90,
     "username": "Qubit1718"
   },
   {

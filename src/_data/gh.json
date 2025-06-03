@@ -1391,7 +1391,7 @@
     "url": "https://github.com/Qiskit/qiskit/"
   },
   "qlass": {
-    "amount_available": 30,
+    "amount_available": 0,
     "bounties": [
       {
         "assignees": [
@@ -1424,7 +1424,7 @@
         "assignees": [
           "Qubit1718"
         ],
-        "state": "open",
+        "state": "closed",
         "title": "Improve tutorial",
         "url": "https://github.com/unitaryfoundation/qlass/issues/33",
         "value": 30
@@ -1442,7 +1442,7 @@
     "emoji": null,
     "name": "qlass",
     "num_bounties": 5,
-    "num_open_bounties": 1,
+    "num_open_bounties": 0,
     "total_amount": 310,
     "url": "https://github.com/unitaryfoundation/qlass"
   },
