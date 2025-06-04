@@ -446,7 +446,9 @@
         "value": 120
       },
       {
-        "assignees": [],
+        "assignees": [
+          "OsamaMIT"
+        ],
         "state": "closed",
         "title": "Add support for external `clap` subcommands in hugr-cli",
         "url": "https://github.com/CQCL/hugr/issues/1343",
@@ -578,7 +580,7 @@
     "url": "https://github.com/quantumgizmos/ldpc"
   },
   "maximum-independent-set": {
-    "amount_available": 500,
+    "amount_available": 450,
     "bounties": [
       {
         "assignees": [],
@@ -596,7 +598,7 @@
       },
       {
         "assignees": [],
-        "state": "open",
+        "state": "closed",
         "title": "[Feature] Add visualization functionality for original graph and MIS solution",
         "url": "https://github.com/pasqal-io/maximum-independent-set/issues/30",
         "value": 50
@@ -612,7 +614,7 @@
     "emoji": "\ud83d\udd78\u2690",
     "name": "Maximum Independent Set",
     "num_bounties": 4,
-    "num_open_bounties": 4,
+    "num_open_bounties": 3,
     "total_amount": 500,
     "url": "https://github.com/pasqal-io/maximum-independent-set"
   },
@@ -1766,7 +1768,7 @@
     "url": "https://github.com/QuantumSavory/QuantumSymbolics.jl/"
   },
   "quantumtoolbox.jl": {
-    "amount_available": 500,
+    "amount_available": 350,
     "bounties": [
       {
         "assignees": [],
@@ -1784,7 +1786,7 @@
       },
       {
         "assignees": [],
-        "state": "open",
+        "state": "closed",
         "title": "Implement Lanczos-based `spectrum` method",
         "url": "https://github.com/qutip/QuantumToolbox.jl/issues/463",
         "value": 150
@@ -1800,7 +1802,7 @@
     "emoji": "\u269b\ufe0f",
     "name": "QuantumToolbox.jl",
     "num_bounties": 4,
-    "num_open_bounties": 4,
+    "num_open_bounties": 3,
     "total_amount": 500,
     "url": "https://github.com/qutip/QuantumToolbox.jl"
   },
@@ -2080,7 +2082,9 @@
         "value": 120
       },
       {
-        "assignees": [],
+        "assignees": [
+          "Roll249"
+        ],
         "state": "open",
         "title": "QASM 3",
         "url": "https://github.com/tequilahub/tequila/issues/401",

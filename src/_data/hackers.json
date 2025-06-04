@@ -136,6 +136,19 @@
   {
     "bounties": [
       {
+        "project": "hugr",
+        "title": "Add support for external `clap` subcommands in hugr-cli",
+        "url": "https://github.com/CQCL/hugr/issues/1343",
+        "value": 60
+      }
+    ],
+    "num_projects": 1,
+    "total_value": 60,
+    "username": "OsamaMIT"
+  },
+  {
+    "bounties": [
+      {
         "project": "qlass",
         "title": "Implement a custom unitary ansatz",
         "url": "https://github.com/unitaryfoundation/qlass/issues/52",
