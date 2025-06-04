@@ -712,11 +712,11 @@
     "url": "https://github.com/unitaryfoundation/metriq-gym/"
   },
   "mitiq": {
-    "amount_available": 400,
+    "amount_available": 325,
     "bounties": [
       {
         "assignees": [],
-        "state": "open",
+        "state": "closed",
         "title": "Add functionality to plot ZNE results with multiple extrapolation techniques",
         "url": "https://github.com/unitaryfoundation/mitiq/issues/2624",
         "value": 75
@@ -753,7 +753,7 @@
     "emoji": "\ud83c\udf2a\ufe0f\ud83d\udc83",
     "name": "Mitiq",
     "num_bounties": 5,
-    "num_open_bounties": 4,
+    "num_open_bounties": 3,
     "total_amount": 500,
     "url": "https://github.com/unitaryfoundation/mitiq"
   },
