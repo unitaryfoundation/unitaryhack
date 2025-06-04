@@ -712,7 +712,7 @@
     "url": "https://github.com/unitaryfoundation/metriq-gym/"
   },
   "mitiq": {
-    "amount_available": 500,
+    "amount_available": 400,
     "bounties": [
       {
         "assignees": [],
@@ -744,7 +744,7 @@
       },
       {
         "assignees": [],
-        "state": "open",
+        "state": "closed",
         "title": "Allow custom circuit in `Calibrator`",
         "url": "https://github.com/unitaryfoundation/mitiq/issues/2771",
         "value": 100
@@ -753,7 +753,7 @@
     "emoji": "\ud83c\udf2a\ufe0f\ud83d\udc83",
     "name": "Mitiq",
     "num_bounties": 5,
-    "num_open_bounties": 5,
+    "num_open_bounties": 4,
     "total_amount": 500,
     "url": "https://github.com/unitaryfoundation/mitiq"
   },
