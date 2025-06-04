@@ -19,7 +19,6 @@
           </a>
         </li>
       {%- for entry in navPages %}
-        {% if entry.title != "Bounties" and entry.title != "Leaderboard" %}
         <li class="drawer__nav-item">
           <a
             href="{{ entry.url | url }}"
@@ -28,7 +27,6 @@
             {{ entry.title }}
           </a>
         </li>
-        {% endif %}
       {%- endfor %}
       </ul>
     </div>
