@@ -12,10 +12,16 @@
         "title": "QASM Decoder cannot accept Some Scientific Notation Parameters",
         "url": "https://github.com/BQSKit/bqskit/issues/315",
         "value": 200
+      },
+      {
+        "project": "bqskit",
+        "title": "Use nbval to Automatically Validate Example and Tutorial Notebooks",
+        "url": "https://github.com/BQSKit/bqskit/issues/316",
+        "value": 100
       }
     ],
     "num_projects": 1,
-    "total_value": 275,
+    "total_value": 375,
     "username": "ACE07-Sev"
   },
   {
@@ -202,6 +208,19 @@
     "num_projects": 1,
     "total_value": 250,
     "username": "SaashaJoshi"
+  },
+  {
+    "bounties": [
+      {
+        "project": "quantumtoolbox.jl",
+        "title": "Implement Bloch-Redfield master equation solver",
+        "url": "https://github.com/qutip/QuantumToolbox.jl/issues/464",
+        "value": 150
+      }
+    ],
+    "num_projects": 1,
+    "total_value": 150,
+    "username": "TendonFFF"
   },
   {
     "bounties": [

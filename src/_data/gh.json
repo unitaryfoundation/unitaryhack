@@ -155,7 +155,9 @@
         "value": 200
       },
       {
-        "assignees": [],
+        "assignees": [
+          "ACE07-Sev"
+        ],
         "state": "closed",
         "title": "Use nbval to Automatically Validate Example and Tutorial Notebooks",
         "url": "https://github.com/BQSKit/bqskit/issues/316",
@@ -1770,7 +1772,7 @@
     "url": "https://github.com/QuantumSavory/QuantumSymbolics.jl/"
   },
   "quantumtoolbox.jl": {
-    "amount_available": 350,
+    "amount_available": 200,
     "bounties": [
       {
         "assignees": [],
@@ -1796,8 +1798,10 @@
         "value": 150
       },
       {
-        "assignees": [],
-        "state": "open",
+        "assignees": [
+          "TendonFFF"
+        ],
+        "state": "closed",
         "title": "Implement Bloch-Redfield master equation solver",
         "url": "https://github.com/qutip/QuantumToolbox.jl/issues/464",
         "value": 150
@@ -1806,7 +1810,7 @@
     "emoji": "\u269b\ufe0f",
     "name": "QuantumToolbox.jl",
     "num_bounties": 4,
-    "num_open_bounties": 3,
+    "num_open_bounties": 2,
     "total_amount": 500,
     "url": "https://github.com/qutip/QuantumToolbox.jl"
   },
@@ -1989,7 +1993,7 @@
     "url": "https://github.com/haiqu-ai/rivet"
   },
   "rustworkx": {
-    "amount_available": 650,
+    "amount_available": 525,
     "bounties": [
       {
         "assignees": [],
@@ -2007,7 +2011,7 @@
       },
       {
         "assignees": [],
-        "state": "open",
+        "state": "closed",
         "title": "\"single_source_all_shortest_paths\" or \"all_pairs_all_shortest_paths\" function call",
         "url": "https://github.com/Qiskit/rustworkx/issues/1184",
         "value": 125
@@ -2030,7 +2034,7 @@
     "emoji": "\ud83e\udd80\ud83c\udfcb\ufe0f",
     "name": "rustworkx",
     "num_bounties": 5,
-    "num_open_bounties": 5,
+    "num_open_bounties": 4,
     "total_amount": 650,
     "url": "https://github.com/Qiskit/rustworkx"
   },
