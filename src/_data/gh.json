@@ -958,7 +958,9 @@
         "value": 100
       },
       {
-        "assignees": [],
+        "assignees": [
+          "martin-klacan"
+        ],
         "state": "open",
         "title": "Increase codecov coverage to 80%, or higher \ud83d\ude04",
         "url": "https://github.com/harmoniqs/QuantumCollocation.jl/issues/204",
@@ -1785,7 +1787,9 @@
         "value": 100
       },
       {
-        "assignees": [],
+        "assignees": [
+          "matteosecli"
+        ],
         "state": "closed",
         "title": "Implement Lanczos-based `spectrum` method",
         "url": "https://github.com/qutip/QuantumToolbox.jl/issues/463",
