@@ -8,4 +8,5 @@ emoji: 🏆
 eleventyNavigation:
   key: Leaderboard
   order: 4
+eleventyExcludeFromCollections: false # set to true to hide in navbars pre-hack
 ---
