@@ -353,6 +353,19 @@
   {
     "bounties": [
       {
+        "project": "hugr",
+        "title": "Dynamic directed-graph Convexity Checking",
+        "url": "https://github.com/CQCL/hugr/issues/2240",
+        "value": 120
+      }
+    ],
+    "num_projects": 1,
+    "total_value": 120,
+    "username": "gluonhiggs"
+  },
+  {
+    "bounties": [
+      {
         "project": "paulistrings.jl",
         "title": "Qubit-dependent depolarizing noise",
         "url": "https://github.com/nicolasloizeau/PauliStrings.jl/issues/34",
@@ -460,10 +473,16 @@
         "title": "Passing a non-integer into nlz results in unhelpful error message.",
         "url": "https://github.com/PsiQ/bartiq/issues/180",
         "value": 50
+      },
+      {
+        "project": "bartiq",
+        "title": "Add convenience functions for finding subroutines",
+        "url": "https://github.com/PsiQ/bartiq/issues/185",
+        "value": 100
       }
     ],
     "num_projects": 1,
-    "total_value": 50,
+    "total_value": 150,
     "username": "poig"
   },
   {

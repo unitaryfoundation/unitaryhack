@@ -101,7 +101,9 @@
         "value": 100
       },
       {
-        "assignees": [],
+        "assignees": [
+          "poig"
+        ],
         "state": "closed",
         "title": "Add convenience functions for finding subroutines",
         "url": "https://github.com/PsiQ/bartiq/issues/185",
@@ -438,11 +440,13 @@
     "url": "https://github.com/hhat-lang/hhat_lang"
   },
   "hugr": {
-    "amount_available": 120,
+    "amount_available": 0,
     "bounties": [
       {
-        "assignees": [],
-        "state": "open",
+        "assignees": [
+          "gluonhiggs"
+        ],
+        "state": "closed",
         "title": "Dynamic directed-graph Convexity Checking",
         "url": "https://github.com/CQCL/hugr/issues/2240",
         "value": 120
@@ -460,7 +464,7 @@
     "emoji": "\ud83e\udec2",
     "name": "HUGR",
     "num_bounties": 2,
-    "num_open_bounties": 1,
+    "num_open_bounties": 0,
     "total_amount": 180,
     "url": "https://github.com/CQCL/hugr"
   },
@@ -1383,7 +1387,9 @@
         "value": 75
       },
       {
-        "assignees": [],
+        "assignees": [
+          "AbdullahKazi500"
+        ],
         "state": "open",
         "title": "DAGCircuit is missing adequate documentation",
         "url": "https://github.com/Qiskit/documentation/issues/1431",
