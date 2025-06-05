@@ -1363,7 +1363,7 @@
     "url": "https://github.com/ORNL-QCI/qiree"
   },
   "qiskit": {
-    "amount_available": 675,
+    "amount_available": 575,
     "bounties": [
       {
         "assignees": [],
@@ -1393,7 +1393,7 @@
         "assignees": [
           "abbycross"
         ],
-        "state": "open",
+        "state": "closed",
         "title": "Add details of `prob_meas0_prep1, prob_meas1_prep0, readout_length`",
         "url": "https://github.com/Qiskit/documentation/issues/3018",
         "value": 100
@@ -1409,7 +1409,7 @@
     "emoji": "\ud83c\udf10",
     "name": "Qiskit",
     "num_bounties": 5,
-    "num_open_bounties": 5,
+    "num_open_bounties": 4,
     "total_amount": 675,
     "url": "https://github.com/Qiskit/qiskit/"
   },

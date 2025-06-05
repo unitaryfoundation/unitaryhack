@@ -256,6 +256,19 @@
   {
     "bounties": [
       {
+        "project": "qiskit",
+        "title": "Add details of `prob_meas0_prep1, prob_meas1_prep0, readout_length`",
+        "url": "https://github.com/Qiskit/documentation/issues/3018",
+        "value": 100
+      }
+    ],
+    "num_projects": 1,
+    "total_value": 100,
+    "username": "abbycross"
+  },
+  {
+    "bounties": [
+      {
         "project": "bartiq",
         "title": "Fix displaying resource name `local_highwater`.",
         "url": "https://github.com/PsiQ/bartiq/issues/163",
