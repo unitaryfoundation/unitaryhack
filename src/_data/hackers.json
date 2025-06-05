@@ -443,6 +443,19 @@
   {
     "bounties": [
       {
+        "project": "quantumarthack",
+        "title": "Update to Qiskit 2.0",
+        "url": "https://github.com/qiskit-community/QuantumGraph/issues/11",
+        "value": 50
+      }
+    ],
+    "num_projects": 1,
+    "total_value": 50,
+    "username": "owaisishtiaqsiddiqui"
+  },
+  {
+    "bounties": [
+      {
         "project": "bartiq",
         "title": "Passing a non-integer into nlz results in unhelpful error message.",
         "url": "https://github.com/PsiQ/bartiq/issues/180",
