@@ -2092,7 +2092,7 @@
     "bounties": [
       {
         "assignees": [
-          "BapisteB"
+          "jebernate"
         ],
         "state": "open",
         "title": "optimized compiling for general QubitExcitations beyond single and double",
