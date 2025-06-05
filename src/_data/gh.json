@@ -1882,7 +1882,7 @@
     "url": "https://github.com/QuEST-Kit/QuEST"
   },
   "quizx": {
-    "amount_available": 400,
+    "amount_available": 300,
     "bounties": [
       {
         "assignees": [],
@@ -1902,7 +1902,7 @@
       },
       {
         "assignees": [],
-        "state": "open",
+        "state": "closed",
         "title": "Benchmarks!!",
         "url": "https://github.com/zxcalc/quizx/issues/134",
         "value": 100
@@ -1925,7 +1925,7 @@
     "emoji": "\ud83e\udd80\ud83d\udd77\ufe0f",
     "name": "QuiZX",
     "num_bounties": 5,
-    "num_open_bounties": 4,
+    "num_open_bounties": 3,
     "total_amount": 500,
     "url": "https://github.com/zxcalc/quizx"
   },
