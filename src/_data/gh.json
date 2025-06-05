@@ -1772,11 +1772,11 @@
     "url": "https://github.com/QuantumSavory/QuantumSymbolics.jl/"
   },
   "quantumtoolbox.jl": {
-    "amount_available": 200,
+    "amount_available": 100,
     "bounties": [
       {
         "assignees": [],
-        "state": "open",
+        "state": "closed",
         "title": "Implement Bloch Sphere rendering",
         "url": "https://github.com/qutip/QuantumToolbox.jl/issues/461",
         "value": 100
@@ -1810,7 +1810,7 @@
     "emoji": "\u269b\ufe0f",
     "name": "QuantumToolbox.jl",
     "num_bounties": 4,
-    "num_open_bounties": 2,
+    "num_open_bounties": 1,
     "total_amount": 500,
     "url": "https://github.com/qutip/QuantumToolbox.jl"
   },
@@ -2135,7 +2135,9 @@
     "amount_available": 500,
     "bounties": [
       {
-        "assignees": [],
+        "assignees": [
+          "poig"
+        ],
         "state": "open",
         "title": "Circular import with kraus_to_choi in channels directory",
         "url": "https://github.com/vprusso/toqito/issues/1081",
