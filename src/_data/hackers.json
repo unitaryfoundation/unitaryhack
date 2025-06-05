@@ -92,6 +92,19 @@
   {
     "bounties": [
       {
+        "project": "quantumtoolbox.jl",
+        "title": "Implement Bloch Sphere rendering",
+        "url": "https://github.com/qutip/QuantumToolbox.jl/issues/461",
+        "value": 100
+      }
+    ],
+    "num_projects": 1,
+    "total_value": 100,
+    "username": "Fe-r-oz"
+  },
+  {
+    "bounties": [
+      {
         "project": "hhat_lang",
         "title": "[IMPL] `toolchain.project` module through a CLI",
         "url": "https://github.com/hhat-lang/hhat_lang/issues/39",

@@ -797,11 +797,11 @@
     "url": "https://github.com/OpenQuantumDesign/oqd-core"
   },
   "paulie": {
-    "amount_available": 500,
+    "amount_available": 400,
     "bounties": [
       {
         "assignees": [],
-        "state": "open",
+        "state": "closed",
         "title": "Decompose a matrix in the pauli basis",
         "url": "https://github.com/QPauLie/PauLie/issues/54",
         "value": 100
@@ -838,7 +838,7 @@
     "emoji": "\ud83e\udd38\ud83c\udffe\u200d\u2640\ufe0f\ud83d\udc18",
     "name": "PauLie",
     "num_bounties": 5,
-    "num_open_bounties": 5,
+    "num_open_bounties": 4,
     "total_amount": 500,
     "url": "https://github.com/QPauLie/PauLie"
   },
@@ -1775,7 +1775,9 @@
     "amount_available": 100,
     "bounties": [
       {
-        "assignees": [],
+        "assignees": [
+          "Fe-r-oz"
+        ],
         "state": "closed",
         "title": "Implement Bloch Sphere rendering",
         "url": "https://github.com/qutip/QuantumToolbox.jl/issues/461",
