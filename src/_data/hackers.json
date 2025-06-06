@@ -561,10 +561,16 @@
         "title": "Circular import with kraus_to_choi in channels directory",
         "url": "https://github.com/vprusso/toqito/issues/1081",
         "value": 150
+      },
+      {
+        "project": "toqito",
+        "title": "Bug: NPA hierarchy--do not impose no-signaling constraint and normalization",
+        "url": "https://github.com/vprusso/toqito/issues/186",
+        "value": 100
       }
     ],
     "num_projects": 3,
-    "total_value": 380,
+    "total_value": 480,
     "username": "poig"
   },
   {
