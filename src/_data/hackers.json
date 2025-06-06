@@ -551,14 +551,20 @@
         "value": 100
       },
       {
+        "project": "inconspiquous",
+        "title": "Tensors of qubits/qubit registers",
+        "url": "https://github.com/xdslproject/inconspiquous/issues/52",
+        "value": 80
+      },
+      {
         "project": "toqito",
         "title": "Circular import with kraus_to_choi in channels directory",
         "url": "https://github.com/vprusso/toqito/issues/1081",
         "value": 150
       }
     ],
-    "num_projects": 2,
-    "total_value": 300,
+    "num_projects": 3,
+    "total_value": 380,
     "username": "poig"
   },
   {

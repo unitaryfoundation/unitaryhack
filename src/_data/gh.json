@@ -469,11 +469,13 @@
     "url": "https://github.com/CQCL/hugr"
   },
   "inconspiquous": {
-    "amount_available": 500,
+    "amount_available": 420,
     "bounties": [
       {
-        "assignees": [],
-        "state": "open",
+        "assignees": [
+          "poig"
+        ],
+        "state": "closed",
         "title": "Tensors of qubits/qubit registers",
         "url": "https://github.com/xdslproject/inconspiquous/issues/52",
         "value": 80
@@ -510,7 +512,7 @@
     "emoji": null,
     "name": "Inconspiquous",
     "num_bounties": 5,
-    "num_open_bounties": 5,
+    "num_open_bounties": 4,
     "total_amount": 500,
     "url": "https://github.com/xdslproject/inconspiquous/"
   },
