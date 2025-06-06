@@ -1047,11 +1047,13 @@
     "url": "https://github.com/Budapest-Quantum-Computing-Group/piquasso"
   },
   "pyqasm": {
-    "amount_available": 350,
+    "amount_available": 200,
     "bounties": [
       {
-        "assignees": [],
-        "state": "open",
+        "assignees": [
+          "vinayswamik"
+        ],
+        "state": "closed",
         "title": "[FEATURE] Update the depth calculation to include branching operations with classical registers",
         "url": "https://github.com/qBraid/pyqasm/issues/53",
         "value": 150
@@ -1083,7 +1085,7 @@
     "emoji": "\ud83d\udc23\ud83e\udde9",
     "name": "PyQASM",
     "num_bounties": 4,
-    "num_open_bounties": 3,
+    "num_open_bounties": 2,
     "total_amount": 500,
     "url": "https://github.com/qBraid/pyqasm"
   },

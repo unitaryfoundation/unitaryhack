@@ -522,5 +522,18 @@
     "num_projects": 1,
     "total_value": 50,
     "username": "victor-onofre"
+  },
+  {
+    "bounties": [
+      {
+        "project": "pyqasm",
+        "title": "[FEATURE] Update the depth calculation to include branching operations with classical registers",
+        "url": "https://github.com/qBraid/pyqasm/issues/53",
+        "value": 150
+      }
+    ],
+    "num_projects": 1,
+    "total_value": 150,
+    "username": "vinayswamik"
   }
 ]
