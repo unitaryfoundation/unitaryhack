@@ -2142,13 +2142,13 @@
     "url": "https://github.com/tequilahub/tequila"
   },
   "toqito": {
-    "amount_available": 500,
+    "amount_available": 350,
     "bounties": [
       {
         "assignees": [
           "poig"
         ],
-        "state": "open",
+        "state": "closed",
         "title": "Circular import with kraus_to_choi in channels directory",
         "url": "https://github.com/vprusso/toqito/issues/1081",
         "value": 150
@@ -2185,7 +2185,7 @@
     "emoji": "\ud83c\udf2e\u269b\ufe0f",
     "name": "toqito",
     "num_bounties": 5,
-    "num_open_bounties": 5,
+    "num_open_bounties": 4,
     "total_amount": 500,
     "url": "https://github.com/vprusso/toqito"
   },

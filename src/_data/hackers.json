@@ -479,10 +479,16 @@
         "title": "Add convenience functions for finding subroutines",
         "url": "https://github.com/PsiQ/bartiq/issues/185",
         "value": 100
+      },
+      {
+        "project": "toqito",
+        "title": "Circular import with kraus_to_choi in channels directory",
+        "url": "https://github.com/vprusso/toqito/issues/1081",
+        "value": 150
       }
     ],
-    "num_projects": 1,
-    "total_value": 150,
+    "num_projects": 2,
+    "total_value": 300,
     "username": "poig"
   },
   {
