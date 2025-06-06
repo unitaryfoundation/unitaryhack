@@ -1540,11 +1540,11 @@
     "url": "https://github.com/qua-platform/qualibration-libs"
   },
   "qualtran": {
-    "amount_available": 400,
+    "amount_available": 200,
     "bounties": [
       {
         "assignees": [],
-        "state": "open",
+        "state": "closed",
         "title": "Correct lint issues exposed with update to pylint-3",
         "url": "https://github.com/quantumlib/Qualtran/issues/1440",
         "value": 200
@@ -1569,7 +1569,7 @@
     "emoji": null,
     "name": "Qualtran",
     "num_bounties": 3,
-    "num_open_bounties": 2,
+    "num_open_bounties": 1,
     "total_amount": 500,
     "url": "https://github.com/quantumlib/Qualtran"
   },
