@@ -18,10 +18,16 @@
         "title": "Use nbval to Automatically Validate Example and Tutorial Notebooks",
         "url": "https://github.com/BQSKit/bqskit/issues/316",
         "value": 100
+      },
+      {
+        "project": "tequila",
+        "title": "to_matrix for circuits",
+        "url": "https://github.com/tequilahub/tequila/issues/403",
+        "value": 100
       }
     ],
-    "num_projects": 1,
-    "total_value": 375,
+    "num_projects": 2,
+    "total_value": 475,
     "username": "ACE07-Sev"
   },
   {
@@ -379,14 +385,33 @@
       },
       {
         "project": "tequila",
+        "title": "optimized compiling for general QubitExcitations beyond single and double",
+        "url": "https://github.com/tequilahub/tequila/issues/400",
+        "value": 120
+      },
+      {
+        "project": "tequila",
         "title": "Chemistry: FCI Wavefunction to QubitWaveFunction",
         "url": "https://github.com/tequilahub/tequila/issues/406",
         "value": 120
       }
     ],
     "num_projects": 2,
-    "total_value": 270,
+    "total_value": 390,
     "username": "jebernate"
+  },
+  {
+    "bounties": [
+      {
+        "project": "metriq-gym",
+        "title": "Add details of status of job",
+        "url": "https://github.com/unitaryfoundation/metriq-gym/issues/238",
+        "value": 50
+      }
+    ],
+    "num_projects": 1,
+    "total_value": 50,
+    "username": "lavanya-m-k"
   },
   {
     "bounties": [

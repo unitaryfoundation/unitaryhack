@@ -666,7 +666,7 @@
     "url": "https://github.com/unitaryfoundation/metriq-app"
   },
   "metriq-gym": {
-    "amount_available": 500,
+    "amount_available": 450,
     "bounties": [
       {
         "assignees": [],
@@ -693,7 +693,7 @@
         "assignees": [
           "lavanya-m-k"
         ],
-        "state": "open",
+        "state": "closed",
         "title": "Add details of status of job",
         "url": "https://github.com/unitaryfoundation/metriq-gym/issues/238",
         "value": 50
@@ -711,7 +711,7 @@
     "emoji": "\ud83c\udfcb\ufe0f\u200d\u2640\ufe0f",
     "name": "metriq-gym",
     "num_bounties": 5,
-    "num_open_bounties": 5,
+    "num_open_bounties": 4,
     "total_amount": 500,
     "url": "https://github.com/unitaryfoundation/metriq-gym/"
   },
@@ -2090,13 +2090,13 @@
     "url": "https://github.com/scqubits/scqubits"
   },
   "tequila": {
-    "amount_available": 380,
+    "amount_available": 160,
     "bounties": [
       {
         "assignees": [
           "jebernate"
         ],
-        "state": "open",
+        "state": "closed",
         "title": "optimized compiling for general QubitExcitations beyond single and double",
         "url": "https://github.com/tequilahub/tequila/issues/400",
         "value": 120
@@ -2114,7 +2114,7 @@
         "assignees": [
           "ACE07-Sev"
         ],
-        "state": "open",
+        "state": "closed",
         "title": "to_matrix for circuits",
         "url": "https://github.com/tequilahub/tequila/issues/403",
         "value": 100
@@ -2139,7 +2139,7 @@
     "emoji": null,
     "name": "Tequila",
     "num_bounties": 5,
-    "num_open_bounties": 4,
+    "num_open_bounties": 2,
     "total_amount": 500,
     "url": "https://github.com/tequilahub/tequila"
   },
