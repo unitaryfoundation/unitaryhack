@@ -85,6 +85,19 @@
   {
     "bounties": [
       {
+        "project": "quizx",
+        "title": "Evaluating ZX diagrams component-wise in the Decomposer",
+        "url": "https://github.com/zxcalc/quizx/issues/116",
+        "value": 175
+      }
+    ],
+    "num_projects": 1,
+    "total_value": 175,
+    "username": "Derbeldumm"
+  },
+  {
+    "bounties": [
+      {
         "project": "quantumoptics.jl",
         "title": "Static analysis tests for code quality (with JET and Aqua)",
         "url": "https://github.com/qojulia/QuantumOptics.jl/issues/442",
@@ -174,6 +187,19 @@
   {
     "bounties": [
       {
+        "project": "maximum-independent-set",
+        "title": "[Feature] Add visualization functionality for original graph and MIS solution",
+        "url": "https://github.com/pasqal-io/maximum-independent-set/issues/30",
+        "value": 50
+      }
+    ],
+    "num_projects": 1,
+    "total_value": 50,
+    "username": "Newtech66"
+  },
+  {
+    "bounties": [
+      {
         "project": "hugr",
         "title": "Add support for external `clap` subcommands in hugr-cli",
         "url": "https://github.com/CQCL/hugr/issues/1343",
@@ -240,6 +266,19 @@
     "num_projects": 1,
     "total_value": 250,
     "username": "SaashaJoshi"
+  },
+  {
+    "bounties": [
+      {
+        "project": "maximum-independent-set",
+        "title": "[Application] Add a 3SAT solver",
+        "url": "https://github.com/pasqal-io/maximum-independent-set/issues/31",
+        "value": 200
+      }
+    ],
+    "num_projects": 1,
+    "total_value": 200,
+    "username": "SpeedCode210"
   },
   {
     "bounties": [
@@ -407,10 +446,16 @@
         "title": "Add details of status of job",
         "url": "https://github.com/unitaryfoundation/metriq-gym/issues/238",
         "value": 50
+      },
+      {
+        "project": "metriq-gym",
+        "title": "JobManager more lenient on invalid jobs in jsonl file",
+        "url": "https://github.com/unitaryfoundation/metriq-gym/issues/301",
+        "value": 50
       }
     ],
     "num_projects": 1,
-    "total_value": 50,
+    "total_value": 100,
     "username": "lavanya-m-k"
   },
   {

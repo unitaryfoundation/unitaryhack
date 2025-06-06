@@ -596,14 +596,18 @@
         "value": 200
       },
       {
-        "assignees": [],
+        "assignees": [
+          "SpeedCode210"
+        ],
         "state": "closed",
         "title": "[Application] Add a 3SAT solver",
         "url": "https://github.com/pasqal-io/maximum-independent-set/issues/31",
         "value": 200
       },
       {
-        "assignees": [],
+        "assignees": [
+          "Newtech66"
+        ],
         "state": "closed",
         "title": "[Feature] Add visualization functionality for original graph and MIS solution",
         "url": "https://github.com/pasqal-io/maximum-independent-set/issues/30",
@@ -666,7 +670,7 @@
     "url": "https://github.com/unitaryfoundation/metriq-app"
   },
   "metriq-gym": {
-    "amount_available": 450,
+    "amount_available": 400,
     "bounties": [
       {
         "assignees": [],
@@ -700,9 +704,9 @@
       },
       {
         "assignees": [
-          "cosenal"
+          "lavanya-m-k"
         ],
-        "state": "open",
+        "state": "closed",
         "title": "JobManager more lenient on invalid jobs in jsonl file",
         "url": "https://github.com/unitaryfoundation/metriq-gym/issues/301",
         "value": 50
@@ -711,7 +715,7 @@
     "emoji": "\ud83c\udfcb\ufe0f\u200d\u2640\ufe0f",
     "name": "metriq-gym",
     "num_bounties": 5,
-    "num_open_bounties": 4,
+    "num_open_bounties": 3,
     "total_amount": 500,
     "url": "https://github.com/unitaryfoundation/metriq-gym/"
   },
@@ -1884,7 +1888,7 @@
     "url": "https://github.com/QuEST-Kit/QuEST"
   },
   "quizx": {
-    "amount_available": 300,
+    "amount_available": 125,
     "bounties": [
       {
         "assignees": [],
@@ -1917,8 +1921,10 @@
         "value": 75
       },
       {
-        "assignees": [],
-        "state": "open",
+        "assignees": [
+          "Derbeldumm"
+        ],
+        "state": "closed",
         "title": "Evaluating ZX diagrams component-wise in the Decomposer",
         "url": "https://github.com/zxcalc/quizx/issues/116",
         "value": 175
@@ -1927,7 +1933,7 @@
     "emoji": "\ud83e\udd80\ud83d\udd77\ufe0f",
     "name": "QuiZX",
     "num_bounties": 5,
-    "num_open_bounties": 3,
+    "num_open_bounties": 2,
     "total_amount": 500,
     "url": "https://github.com/zxcalc/quizx"
   },
