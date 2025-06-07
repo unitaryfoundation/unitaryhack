@@ -732,7 +732,9 @@
         "value": 75
       },
       {
-        "assignees": [],
+        "assignees": [
+          "ACE07-Sev"
+        ],
         "state": "closed",
         "title": "Migrate deprecated `typing` types to `collections.abc`",
         "url": "https://github.com/unitaryfoundation/mitiq/issues/2701",
