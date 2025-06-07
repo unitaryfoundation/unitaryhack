@@ -116,6 +116,10 @@ Logistically, these are the steps a maintainer will take during the hackathon.
 
 In previous years we've seen some projects garner more attention, and some less. Generally, the more time you've taken to carefully select, scope, and detail issues to be put up for bounty, the more attention you should expect your project to see. Check out last year's [results](https://2024.unitaryhack.dev/bounties/) to get a more detailed sense.
 
+### Who owns the code contributed during unitaryHACK? 
+
+Please note that the Unitary Foundation is unable to provide specific legal advice. That being said, contributions made to a tool typically fall under the tool's open source license unless otherwise explicitly stated.
+
 ### What should I do if I have questions or need support? 
 
 Reach out to the UF team at [hack@unitary.foundation](mailto:hack@unitary.foundation). Or if you need to get to us even quicker, ping Veena on the UF Discord server. 
