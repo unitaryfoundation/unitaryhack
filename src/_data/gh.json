@@ -722,7 +722,7 @@
     "url": "https://github.com/unitaryfoundation/metriq-gym/"
   },
   "mitiq": {
-    "amount_available": 325,
+    "amount_available": 275,
     "bounties": [
       {
         "assignees": [],
@@ -733,7 +733,7 @@
       },
       {
         "assignees": [],
-        "state": "open",
+        "state": "closed",
         "title": "Migrate deprecated `typing` types to `collections.abc`",
         "url": "https://github.com/unitaryfoundation/mitiq/issues/2701",
         "value": 50
@@ -763,7 +763,7 @@
     "emoji": "\ud83c\udf2a\ufe0f\ud83d\udc83",
     "name": "Mitiq",
     "num_bounties": 5,
-    "num_open_bounties": 3,
+    "num_open_bounties": 2,
     "total_amount": 500,
     "url": "https://github.com/unitaryfoundation/mitiq"
   },
@@ -2059,7 +2059,7 @@
     "url": "https://github.com/Qiskit/rustworkx"
   },
   "scqubits": {
-    "amount_available": 500,
+    "amount_available": 325,
     "bounties": [
       {
         "assignees": [],
@@ -2069,15 +2069,19 @@
         "value": 125
       },
       {
-        "assignees": [],
-        "state": "open",
+        "assignees": [
+          "Kitsunp"
+        ],
+        "state": "closed",
         "title": "Conversion from (`scqubits`'s custom) `NamedSlotsNdarray` to other data formats.",
         "url": "https://github.com/scqubits/scqubits/issues/265",
         "value": 100
       },
       {
-        "assignees": [],
-        "state": "open",
+        "assignees": [
+          "ahkatlio"
+        ],
+        "state": "closed",
         "title": "Adding code documentation",
         "url": "https://github.com/scqubits/scqubits/issues/264",
         "value": 75
@@ -2093,7 +2097,7 @@
     "emoji": "\ud83d\udce1",
     "name": "scqubits",
     "num_bounties": 4,
-    "num_open_bounties": 4,
+    "num_open_bounties": 2,
     "total_amount": 500,
     "url": "https://github.com/scqubits/scqubits"
   },
