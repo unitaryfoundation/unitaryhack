@@ -725,7 +725,9 @@
     "amount_available": 275,
     "bounties": [
       {
-        "assignees": [],
+        "assignees": [
+          "q-inho"
+        ],
         "state": "closed",
         "title": "Add functionality to plot ZNE results with multiple extrapolation techniques",
         "url": "https://github.com/unitaryfoundation/mitiq/issues/2624",
@@ -2181,7 +2183,9 @@
         "value": 100
       },
       {
-        "assignees": [],
+        "assignees": [
+          "poig"
+        ],
         "state": "open",
         "title": "Enhance the `is_separable` function to include complete precursory separability checks",
         "url": "https://github.com/vprusso/toqito/issues/621",

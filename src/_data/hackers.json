@@ -601,6 +601,12 @@
   {
     "bounties": [
       {
+        "project": "mitiq",
+        "title": "Add functionality to plot ZNE results with multiple extrapolation techniques",
+        "url": "https://github.com/unitaryfoundation/mitiq/issues/2624",
+        "value": 75
+      },
+      {
         "project": "piquasso",
         "title": "Marginal particle detection probabilities",
         "url": "https://github.com/Budapest-Quantum-Computing-Group/piquasso/issues/436",
@@ -613,8 +619,8 @@
         "value": 175
       }
     ],
-    "num_projects": 1,
-    "total_value": 225,
+    "num_projects": 2,
+    "total_value": 300,
     "username": "q-inho"
   },
   {
