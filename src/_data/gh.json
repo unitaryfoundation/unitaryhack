@@ -1255,7 +1255,9 @@
         "value": 125
       },
       {
-        "assignees": [],
+        "assignees": [
+          "feelerx"
+        ],
         "state": "open",
         "title": "[FEATURE] QIR Adaptive Profile compliant QASM conversions",
         "url": "https://github.com/qBraid/qbraid-qir/issues/199",
