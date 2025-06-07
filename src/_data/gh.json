@@ -947,7 +947,9 @@
         "value": 100
       },
       {
-        "assignees": [],
+        "assignees": [
+          "Fe-r-oz"
+        ],
         "state": "open",
         "title": "Support building `QObjEvo` (from QuantumToolbox.jl) objects from QuantumSystems and NamedTrajectories",
         "url": "https://github.com/harmoniqs/PiccoloQuantumObjects.jl/issues/27",
