@@ -813,7 +813,7 @@
     "url": "https://github.com/OpenQuantumDesign/oqd-core"
   },
   "paulie": {
-    "amount_available": 400,
+    "amount_available": 250,
     "bounties": [
       {
         "assignees": [],
@@ -824,7 +824,7 @@
       },
       {
         "assignees": [],
-        "state": "open",
+        "state": "closed",
         "title": "Quadratic symmetries",
         "url": "https://github.com/QPauLie/PauLie/issues/53",
         "value": 150
@@ -854,7 +854,7 @@
     "emoji": "\ud83e\udd38\ud83c\udffe\u200d\u2640\ufe0f\ud83d\udc18",
     "name": "PauLie",
     "num_bounties": 5,
-    "num_open_bounties": 4,
+    "num_open_bounties": 3,
     "total_amount": 500,
     "url": "https://github.com/QPauLie/PauLie"
   },
