@@ -607,6 +607,12 @@
         "value": 75
       },
       {
+        "project": "mitiq",
+        "title": "Allow custom circuit in `Calibrator`",
+        "url": "https://github.com/unitaryfoundation/mitiq/issues/2771",
+        "value": 100
+      },
+      {
         "project": "piquasso",
         "title": "Marginal particle detection probabilities",
         "url": "https://github.com/Budapest-Quantum-Computing-Group/piquasso/issues/436",
@@ -620,7 +626,7 @@
       }
     ],
     "num_projects": 2,
-    "total_value": 300,
+    "total_value": 400,
     "username": "q-inho"
   },
   {
