@@ -926,7 +926,9 @@
         "value": 150
       },
       {
-        "assignees": [],
+        "assignees": [
+          "jebernate"
+        ],
         "state": "open",
         "title": "Implement 2D translation invariant operators",
         "url": "https://github.com/nicolasloizeau/PauliStrings.jl/issues/32",
