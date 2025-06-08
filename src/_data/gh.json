@@ -266,7 +266,7 @@
     "url": "https://github.com/munich-quantum-toolkit/core"
   },
   "cuda-quantum": {
-    "amount_available": 500,
+    "amount_available": 380,
     "bounties": [
       {
         "assignees": [],
@@ -298,7 +298,7 @@
       },
       {
         "assignees": [],
-        "state": "open",
+        "state": "closed",
         "title": "State Preparation Circuit Synthesis via Matrix Product State Decomposition",
         "url": "https://github.com/NVIDIA/cuda-quantum/issues/1616",
         "value": 120
@@ -307,7 +307,7 @@
     "emoji": "\ud83d\udcbb\u26a1",
     "name": "CUDA-Q",
     "num_bounties": 5,
-    "num_open_bounties": 5,
+    "num_open_bounties": 4,
     "total_amount": 500,
     "url": "https://github.com/NVIDIA/cuda-quantum"
   },
