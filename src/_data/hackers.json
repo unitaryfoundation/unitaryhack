@@ -20,6 +20,12 @@
         "value": 100
       },
       {
+        "project": "cuda-quantum",
+        "title": "State Preparation Circuit Synthesis via Matrix Product State Decomposition",
+        "url": "https://github.com/NVIDIA/cuda-quantum/issues/1616",
+        "value": 120
+      },
+      {
         "project": "mitiq",
         "title": "Migrate deprecated `typing` types to `collections.abc`",
         "url": "https://github.com/unitaryfoundation/mitiq/issues/2701",
@@ -32,8 +38,8 @@
         "value": 100
       }
     ],
-    "num_projects": 3,
-    "total_value": 525,
+    "num_projects": 4,
+    "total_value": 645,
     "username": "ACE07-Sev"
   },
   {

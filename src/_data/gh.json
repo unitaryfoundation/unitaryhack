@@ -297,7 +297,9 @@
         "value": 80
       },
       {
-        "assignees": [],
+        "assignees": [
+          "ACE07-Sev"
+        ],
         "state": "closed",
         "title": "State Preparation Circuit Synthesis via Matrix Product State Decomposition",
         "url": "https://github.com/NVIDIA/cuda-quantum/issues/1616",
@@ -813,7 +815,7 @@
     "url": "https://github.com/OpenQuantumDesign/oqd-core"
   },
   "paulie": {
-    "amount_available": 250,
+    "amount_available": 150,
     "bounties": [
       {
         "assignees": [],
@@ -838,7 +840,7 @@
       },
       {
         "assignees": [],
-        "state": "open",
+        "state": "closed",
         "title": "graph complexity",
         "url": "https://github.com/QPauLie/PauLie/issues/24",
         "value": 100
@@ -854,7 +856,7 @@
     "emoji": "\ud83e\udd38\ud83c\udffe\u200d\u2640\ufe0f\ud83d\udc18",
     "name": "PauLie",
     "num_bounties": 5,
-    "num_open_bounties": 3,
+    "num_open_bounties": 2,
     "total_amount": 500,
     "url": "https://github.com/QPauLie/PauLie"
   },
