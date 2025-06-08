@@ -105,13 +105,19 @@
     "bounties": [
       {
         "project": "quantumoptics.jl",
+        "title": "Switch tests to use to `TestItems.jl` for easier integration with IDEs and other advanced tests runners",
+        "url": "https://github.com/qojulia/QuantumOptics.jl/issues/443",
+        "value": 50
+      },
+      {
+        "project": "quantumoptics.jl",
         "title": "Static analysis tests for code quality (with JET and Aqua)",
         "url": "https://github.com/qojulia/QuantumOptics.jl/issues/442",
         "value": 150
       }
     ],
     "num_projects": 1,
-    "total_value": 150,
+    "total_value": 200,
     "username": "ErikQQY"
   },
   {

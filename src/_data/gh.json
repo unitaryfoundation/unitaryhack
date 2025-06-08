@@ -1735,7 +1735,9 @@
         "value": 100
       },
       {
-        "assignees": [],
+        "assignees": [
+          "ErikQQY"
+        ],
         "state": "closed",
         "title": "Switch tests to use to `TestItems.jl` for easier integration with IDEs and other advanced tests runners",
         "url": "https://github.com/qojulia/QuantumOptics.jl/issues/443",
