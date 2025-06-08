@@ -1285,7 +1285,7 @@
     "url": "https://github.com/qBraid/qbraid-qir"
   },
   "qibo": {
-    "amount_available": 375,
+    "amount_available": 300,
     "bounties": [
       {
         "assignees": [],
@@ -1316,7 +1316,7 @@
         "assignees": [
           "joan-ainaud"
         ],
-        "state": "open",
+        "state": "closed",
         "title": "Improved circuit depth for Dicke states in all-to-all connectivity",
         "url": "https://github.com/qiboteam/qibo/issues/1655",
         "value": 75
@@ -1341,7 +1341,7 @@
     "emoji": "\ud83d\udc2a",
     "name": "Qibo",
     "num_bounties": 6,
-    "num_open_bounties": 4,
+    "num_open_bounties": 3,
     "total_amount": 500,
     "url": "https://github.com/qiboteam/qibo"
   },

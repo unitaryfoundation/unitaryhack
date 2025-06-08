@@ -473,6 +473,19 @@
   {
     "bounties": [
       {
+        "project": "qibo",
+        "title": "Improved circuit depth for Dicke states in all-to-all connectivity",
+        "url": "https://github.com/qiboteam/qibo/issues/1655",
+        "value": 75
+      }
+    ],
+    "num_projects": 1,
+    "total_value": 75,
+    "username": "joan-ainaud"
+  },
+  {
+    "bounties": [
+      {
         "project": "metriq-gym",
         "title": "Add details of status of job",
         "url": "https://github.com/unitaryfoundation/metriq-gym/issues/238",
