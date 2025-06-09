@@ -168,6 +168,19 @@
   {
     "bounties": [
       {
+        "project": "qbraid-qir",
+        "title": "Add tests for `qbraid_qir/qasm3/maps.py`",
+        "url": "https://github.com/qBraid/qbraid-qir/issues/196",
+        "value": 75
+      }
+    ],
+    "num_projects": 1,
+    "total_value": 75,
+    "username": "Gmin2"
+  },
+  {
+    "bounties": [
+      {
         "project": "hhat_lang",
         "title": "[IMPL] `toolchain.project` module through a CLI",
         "url": "https://github.com/hhat-lang/hhat_lang/issues/39",
@@ -639,6 +652,12 @@
         "value": 80
       },
       {
+        "project": "paulie",
+        "title": "Quadratic symmetries",
+        "url": "https://github.com/QPauLie/PauLie/issues/53",
+        "value": 150
+      },
+      {
         "project": "toqito",
         "title": "Circular import with kraus_to_choi in channels directory",
         "url": "https://github.com/vprusso/toqito/issues/1081",
@@ -651,8 +670,8 @@
         "value": 100
       }
     ],
-    "num_projects": 3,
-    "total_value": 480,
+    "num_projects": 4,
+    "total_value": 630,
     "username": "poig"
   },
   {

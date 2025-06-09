@@ -140,7 +140,7 @@
       },
       {
         "assignees": [
-          "rochisha0"
+          "Newtech66"
         ],
         "state": "open",
         "title": "Issues with get_subgraph method of CouplingGraph",
@@ -635,7 +635,7 @@
     "url": "https://github.com/pasqal-io/maximum-independent-set"
   },
   "metriq-app": {
-    "amount_available": 400,
+    "amount_available": 250,
     "bounties": [
       {
         "assignees": [],
@@ -646,7 +646,7 @@
       },
       {
         "assignees": [],
-        "state": "open",
+        "state": "closed",
         "title": "Add user profile page",
         "url": "https://github.com/unitaryfoundation/metriq-app/issues/188",
         "value": 150
@@ -671,7 +671,7 @@
     "emoji": "\ud83d\udcca\u269b\ufe0f",
     "name": "metriq-app",
     "num_bounties": 4,
-    "num_open_bounties": 3,
+    "num_open_bounties": 2,
     "total_amount": 500,
     "url": "https://github.com/unitaryfoundation/metriq-app"
   },
@@ -827,7 +827,9 @@
         "value": 100
       },
       {
-        "assignees": [],
+        "assignees": [
+          "poig"
+        ],
         "state": "closed",
         "title": "Quadratic symmetries",
         "url": "https://github.com/QPauLie/PauLie/issues/53",
@@ -1252,11 +1254,13 @@
     "url": "https://github.com/qBraid/qBraid"
   },
   "qbraid-qir": {
-    "amount_available": 500,
+    "amount_available": 425,
     "bounties": [
       {
-        "assignees": [],
-        "state": "open",
+        "assignees": [
+          "Gmin2"
+        ],
+        "state": "closed",
         "title": "Add tests for `qbraid_qir/qasm3/maps.py`",
         "url": "https://github.com/qBraid/qbraid-qir/issues/196",
         "value": 75
@@ -1288,7 +1292,7 @@
     "emoji": "\u2699\ufe0f\ud83d\udd0c",
     "name": "qBraid-QIR",
     "num_bounties": 4,
-    "num_open_bounties": 4,
+    "num_open_bounties": 3,
     "total_amount": 500,
     "url": "https://github.com/qBraid/qbraid-qir"
   },
