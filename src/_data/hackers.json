@@ -20,6 +20,12 @@
         "value": 100
       },
       {
+        "project": "cirq",
+        "title": "cirq.X**\"text\" half works",
+        "url": "https://github.com/quantumlib/Cirq/issues/2936",
+        "value": 100
+      },
+      {
         "project": "cuda-quantum",
         "title": "State Preparation Circuit Synthesis via Matrix Product State Decomposition",
         "url": "https://github.com/NVIDIA/cuda-quantum/issues/1616",
@@ -38,8 +44,8 @@
         "value": 100
       }
     ],
-    "num_projects": 4,
-    "total_value": 645,
+    "num_projects": 5,
+    "total_value": 745,
     "username": "ACE07-Sev"
   },
   {

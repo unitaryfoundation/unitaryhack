@@ -176,11 +176,13 @@
     "url": "https://github.com/BQSKit/bqskit"
   },
   "cirq": {
-    "amount_available": 500,
+    "amount_available": 400,
     "bounties": [
       {
-        "assignees": [],
-        "state": "open",
+        "assignees": [
+          "ACE07-Sev"
+        ],
+        "state": "closed",
         "title": "cirq.X**\"text\" half works",
         "url": "https://github.com/quantumlib/Cirq/issues/2936",
         "value": 100
@@ -210,7 +212,7 @@
     "emoji": null,
     "name": "Cirq",
     "num_bounties": 4,
-    "num_open_bounties": 4,
+    "num_open_bounties": 3,
     "total_amount": 500,
     "url": "https://github.com/quantumlib/Cirq"
   },
@@ -683,7 +685,9 @@
     "amount_available": 400,
     "bounties": [
       {
-        "assignees": [],
+        "assignees": [
+          "Kitsunp"
+        ],
         "state": "open",
         "title": "Add mirror circuits to benchmarks",
         "url": "https://github.com/unitaryfoundation/metriq-gym/issues/233",
