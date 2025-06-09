@@ -224,14 +224,20 @@
         "value": 100
       },
       {
+        "project": "qurveros",
+        "title": "Fit BarqCurve control points to curve",
+        "url": "https://github.com/error-corp/qurveros/issues/5",
+        "value": 100
+      },
+      {
         "project": "scqubits",
         "title": "Conversion from (`scqubits`'s custom) `NamedSlotsNdarray` to other data formats.",
         "url": "https://github.com/scqubits/scqubits/issues/265",
         "value": 100
       }
     ],
-    "num_projects": 3,
-    "total_value": 520,
+    "num_projects": 4,
+    "total_value": 620,
     "username": "Kitsunp"
   },
   {
@@ -253,10 +259,16 @@
         "title": "graph complexity",
         "url": "https://github.com/QPauLie/PauLie/issues/24",
         "value": 100
+      },
+      {
+        "project": "paulie",
+        "title": "Operator scrambling",
+        "url": "https://github.com/QPauLie/PauLie/issues/23",
+        "value": 100
       }
     ],
     "num_projects": 2,
-    "total_value": 250,
+    "total_value": 350,
     "username": "Newtech66"
   },
   {

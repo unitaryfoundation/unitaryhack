@@ -821,7 +821,7 @@
     "url": "https://github.com/OpenQuantumDesign/oqd-core"
   },
   "paulie": {
-    "amount_available": 150,
+    "amount_available": 50,
     "bounties": [
       {
         "assignees": [
@@ -858,8 +858,10 @@
         "value": 100
       },
       {
-        "assignees": [],
-        "state": "open",
+        "assignees": [
+          "Newtech66"
+        ],
+        "state": "closed",
         "title": "Operator scrambling",
         "url": "https://github.com/QPauLie/PauLie/issues/23",
         "value": 100
@@ -868,7 +870,7 @@
     "emoji": "\ud83e\udd38\ud83c\udffe\u200d\u2640\ufe0f\ud83d\udc18",
     "name": "PauLie",
     "num_bounties": 5,
-    "num_open_bounties": 2,
+    "num_open_bounties": 1,
     "total_amount": 500,
     "url": "https://github.com/QPauLie/PauLie"
   },
@@ -1972,7 +1974,7 @@
     "url": "https://github.com/zxcalc/quizx"
   },
   "qurveros": {
-    "amount_available": 400,
+    "amount_available": 300,
     "bounties": [
       {
         "assignees": [],
@@ -1991,8 +1993,10 @@
         "value": 100
       },
       {
-        "assignees": [],
-        "state": "open",
+        "assignees": [
+          "Kitsunp"
+        ],
+        "state": "closed",
         "title": "Fit BarqCurve control points to curve",
         "url": "https://github.com/error-corp/qurveros/issues/5",
         "value": 100
@@ -2015,7 +2019,7 @@
     "emoji": null,
     "name": "Qurveros",
     "num_bounties": 5,
-    "num_open_bounties": 4,
+    "num_open_bounties": 3,
     "total_amount": 500,
     "url": "https://github.com/error-corp/qurveros"
   },
