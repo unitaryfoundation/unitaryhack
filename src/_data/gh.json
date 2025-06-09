@@ -1329,7 +1329,7 @@
       },
       {
         "assignees": [
-          "renatomello"
+          "GiacomoFrn"
         ],
         "state": "open",
         "title": "Bug when using `Gate.decompose` on controlled gates",
