@@ -155,6 +155,19 @@
   {
     "bounties": [
       {
+        "project": "qibo",
+        "title": "Bug when using `Gate.decompose` on controlled gates",
+        "url": "https://github.com/qiboteam/qibo/issues/1585",
+        "value": 150
+      }
+    ],
+    "num_projects": 1,
+    "total_value": 150,
+    "username": "GiacomoFrn"
+  },
+  {
+    "bounties": [
+      {
         "project": "hhat_lang",
         "title": "[IMPL] `toolchain.project` module through a CLI",
         "url": "https://github.com/hhat-lang/hhat_lang/issues/39",
@@ -326,6 +339,12 @@
         "value": 25
       },
       {
+        "project": "graphix",
+        "title": "Enhance documentation",
+        "url": "https://github.com/TeamGraphix/graphix/issues/226",
+        "value": 70
+      },
+      {
         "project": "metriq-app",
         "title": "List of followed task",
         "url": "https://github.com/unitaryfoundation/metriq-app/issues/1005",
@@ -344,8 +363,8 @@
         "value": 75
       }
     ],
-    "num_projects": 4,
-    "total_value": 225,
+    "num_projects": 5,
+    "total_value": 295,
     "username": "WingCode"
   },
   {
