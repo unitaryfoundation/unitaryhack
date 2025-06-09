@@ -396,6 +396,19 @@
   {
     "bounties": [
       {
+        "project": "pyzx",
+        "title": "Missing documentation and examples: Simplification of diagrams using genetic algorithms",
+        "url": "https://github.com/zxcalc/pyzx/issues/295",
+        "value": 165
+      }
+    ],
+    "num_projects": 1,
+    "total_value": 165,
+    "username": "charmerDark"
+  },
+  {
+    "bounties": [
+      {
         "project": "pyqtorch",
         "title": "[Feature] Add two-qubit digital noise",
         "url": "https://github.com/pasqal-io/pyqtorch/issues/329",
