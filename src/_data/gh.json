@@ -94,7 +94,9 @@
         "value": 50
       },
       {
-        "assignees": [],
+        "assignees": [
+          "antalszava"
+        ],
         "state": "open",
         "title": "Improve visualisation methods in Bartiq",
         "url": "https://github.com/PsiQ/bartiq/issues/188",
@@ -645,7 +647,9 @@
         "value": 100
       },
       {
-        "assignees": [],
+        "assignees": [
+          "WingCode"
+        ],
         "state": "closed",
         "title": "Add user profile page",
         "url": "https://github.com/unitaryfoundation/metriq-app/issues/188",
@@ -820,7 +824,9 @@
     "amount_available": 150,
     "bounties": [
       {
-        "assignees": [],
+        "assignees": [
+          "Newtech66"
+        ],
         "state": "closed",
         "title": "Decompose a matrix in the pauli basis",
         "url": "https://github.com/QPauLie/PauLie/issues/54",
@@ -843,7 +849,9 @@
         "value": 50
       },
       {
-        "assignees": [],
+        "assignees": [
+          "Newtech66"
+        ],
         "state": "closed",
         "title": "graph complexity",
         "url": "https://github.com/QPauLie/PauLie/issues/24",
