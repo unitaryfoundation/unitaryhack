@@ -249,6 +249,12 @@
   {
     "bounties": [
       {
+        "project": "bqskit",
+        "title": "Issues with get_subgraph method of CouplingGraph",
+        "url": "https://github.com/BQSKit/bqskit/issues/290",
+        "value": 100
+      },
+      {
         "project": "maximum-independent-set",
         "title": "[Feature] Add visualization functionality for original graph and MIS solution",
         "url": "https://github.com/pasqal-io/maximum-independent-set/issues/30",
@@ -273,8 +279,8 @@
         "value": 100
       }
     ],
-    "num_projects": 2,
-    "total_value": 350,
+    "num_projects": 3,
+    "total_value": 450,
     "username": "Newtech66"
   },
   {

@@ -120,7 +120,7 @@
     "url": "https://github.com/PsiQ/bartiq"
   },
   "bqskit": {
-    "amount_available": 100,
+    "amount_available": 0,
     "bounties": [
       {
         "assignees": [
@@ -144,7 +144,7 @@
         "assignees": [
           "Newtech66"
         ],
-        "state": "open",
+        "state": "closed",
         "title": "Issues with get_subgraph method of CouplingGraph",
         "url": "https://github.com/BQSKit/bqskit/issues/290",
         "value": 100
@@ -171,7 +171,7 @@
     "emoji": "\ud83c\udf6a",
     "name": "BQSKit",
     "num_bounties": 5,
-    "num_open_bounties": 1,
+    "num_open_bounties": 0,
     "total_amount": 500,
     "url": "https://github.com/BQSKit/bqskit"
   },
