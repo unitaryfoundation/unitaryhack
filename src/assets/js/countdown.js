@@ -15,7 +15,7 @@ const countdown = (elementId, targetDate) => {
     const minutes = Math.floor((diff / (1000 * 60)) % 60);
     const seconds = Math.floor((diff / 1000) % 60);
 
-    el.textContent = `🚨 Hackathon closes in ${days}d ${hours}h ${minutes}m ${seconds}s`;
+    el.textContent = `🚨 Hackathon closes in ${days}d ${hours}h ${minutes}m ${seconds}s ⏰`;
   };
 
   update();
