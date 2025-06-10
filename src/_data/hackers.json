@@ -328,10 +328,16 @@
         "title": "Implement RAM probe",
         "url": "https://github.com/QuEST-Kit/QuEST/issues/600",
         "value": 25
+      },
+      {
+        "project": "tequila",
+        "title": "QASM 3",
+        "url": "https://github.com/tequilahub/tequila/issues/401",
+        "value": 80
       }
     ],
-    "num_projects": 1,
-    "total_value": 25,
+    "num_projects": 2,
+    "total_value": 105,
     "username": "Roll249"
   },
   {
@@ -472,6 +478,19 @@
     "num_projects": 2,
     "total_value": 200,
     "username": "antalszava"
+  },
+  {
+    "bounties": [
+      {
+        "project": "amazon-braket-sdk-python",
+        "title": "Factory methods for AHS AtomArrangments",
+        "url": "https://github.com/amazon-braket/amazon-braket-sdk-python/issues/1081",
+        "value": 75
+      }
+    ],
+    "num_projects": 1,
+    "total_value": 75,
+    "username": "border-b"
   },
   {
     "bounties": [
