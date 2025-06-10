@@ -547,6 +547,12 @@
         "value": 100
       },
       {
+        "project": "paulistrings.jl",
+        "title": "Implement 2D translation invariant operators",
+        "url": "https://github.com/nicolasloizeau/PauliStrings.jl/issues/32",
+        "value": 200
+      },
+      {
         "project": "tequila",
         "title": "optimized compiling for general QubitExcitations beyond single and double",
         "url": "https://github.com/tequilahub/tequila/issues/400",
@@ -560,7 +566,7 @@
       }
     ],
     "num_projects": 2,
-    "total_value": 390,
+    "total_value": 590,
     "username": "jebernate"
   },
   {

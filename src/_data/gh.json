@@ -17,7 +17,9 @@
         "value": 75
       },
       {
-        "assignees": [],
+        "assignees": [
+          "border-b"
+        ],
         "state": "open",
         "title": "Factory methods for AHS AtomArrangments",
         "url": "https://github.com/amazon-braket/amazon-braket-sdk-python/issues/1081",
@@ -31,7 +33,9 @@
         "value": 100
       },
       {
-        "assignees": [],
+        "assignees": [
+          "lavanya-m-k"
+        ],
         "state": "open",
         "title": "Extend `to_braket` to respect gate angle restrictions of native gates",
         "url": "https://github.com/qiskit-community/qiskit-braket-provider/issues/200",
@@ -918,7 +922,7 @@
     "url": "https://github.com/MSRudolph/PauliPropagation.jl"
   },
   "paulistrings.jl": {
-    "amount_available": 350,
+    "amount_available": 150,
     "bounties": [
       {
         "assignees": [
@@ -949,7 +953,7 @@
         "assignees": [
           "jebernate"
         ],
-        "state": "open",
+        "state": "closed",
         "title": "Implement 2D translation invariant operators",
         "url": "https://github.com/nicolasloizeau/PauliStrings.jl/issues/32",
         "value": 200
@@ -958,7 +962,7 @@
     "emoji": "\ud83e\uddf6",
     "name": "PauliStrings.jl",
     "num_bounties": 4,
-    "num_open_bounties": 2,
+    "num_open_bounties": 1,
     "total_amount": 500,
     "url": "https://github.com/nicolasloizeau/PauliStrings.jl"
   },
