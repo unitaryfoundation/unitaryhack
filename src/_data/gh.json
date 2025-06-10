@@ -1696,14 +1696,18 @@
     "amount_available": 450,
     "bounties": [
       {
-        "assignees": [],
+        "assignees": [
+          "duspic"
+        ],
         "state": "open",
         "title": "Parallel qpixl decoding leads to strange outputs",
         "url": "https://github.com/moth-quantum/QuantumArtHack/issues/1",
         "value": 50
       },
       {
-        "assignees": [],
+        "assignees": [
+          "duspic"
+        ],
         "state": "open",
         "title": "Bug with different sized inputs",
         "url": "https://github.com/moth-quantum/QuantumArtHack/issues/2",
