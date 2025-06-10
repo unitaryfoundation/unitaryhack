@@ -1,10 +1,12 @@
 {
   "amazon-braket-sdk-python": {
-    "amount_available": 425,
+    "amount_available": 325,
     "bounties": [
       {
-        "assignees": [],
-        "state": "open",
+        "assignees": [
+          "Qubit1718"
+        ],
+        "state": "closed",
         "title": "MeasureCriteria for readout error to target measurement operations",
         "url": "https://github.com/amazon-braket/amazon-braket-sdk-python/issues/973",
         "value": 100
@@ -54,7 +56,7 @@
     "emoji": "\u269b\ufe0f\ud83d\udcbb",
     "name": "Amazon Braket SDK",
     "num_bounties": 6,
-    "num_open_bounties": 5,
+    "num_open_bounties": 4,
     "total_amount": 475,
     "url": "https://github.com/amazon-braket/amazon-braket-sdk-python"
   },
@@ -380,7 +382,9 @@
         "value": 200
       },
       {
-        "assignees": [],
+        "assignees": [
+          "andre-a-alves"
+        ],
         "state": "closed",
         "title": "Add priority queue data structure to the standard library",
         "url": "https://github.com/CQCL/guppylang/issues/974",
@@ -1426,7 +1430,6 @@
       },
       {
         "assignees": [
-          "1ucian0",
           "AsadullahGalib007"
         ],
         "state": "open",
@@ -1559,7 +1562,9 @@
     "amount_available": 450,
     "bounties": [
       {
-        "assignees": [],
+        "assignees": [
+          "NnguyenHTommy"
+        ],
         "state": "open",
         "title": "Failed analysis when fitting Rabi oscillations",
         "url": "https://github.com/qua-platform/qualibration-libs/issues/2",

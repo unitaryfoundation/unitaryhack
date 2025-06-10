@@ -299,6 +299,12 @@
   {
     "bounties": [
       {
+        "project": "amazon-braket-sdk-python",
+        "title": "MeasureCriteria for readout error to target measurement operations",
+        "url": "https://github.com/amazon-braket/amazon-braket-sdk-python/issues/973",
+        "value": 100
+      },
+      {
         "project": "qlass",
         "title": "Implement a custom unitary ansatz",
         "url": "https://github.com/unitaryfoundation/qlass/issues/52",
@@ -311,8 +317,8 @@
         "value": 30
       }
     ],
-    "num_projects": 1,
-    "total_value": 90,
+    "num_projects": 2,
+    "total_value": 190,
     "username": "Qubit1718"
   },
   {
@@ -434,6 +440,19 @@
     "num_projects": 1,
     "total_value": 75,
     "username": "ahkatlio"
+  },
+  {
+    "bounties": [
+      {
+        "project": "guppylang",
+        "title": "Add priority queue data structure to the standard library",
+        "url": "https://github.com/CQCL/guppylang/issues/974",
+        "value": 120
+      }
+    ],
+    "num_projects": 1,
+    "total_value": 120,
+    "username": "andre-a-alves"
   },
   {
     "bounties": [
