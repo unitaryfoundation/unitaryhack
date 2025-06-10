@@ -1941,7 +1941,7 @@
     "url": "https://github.com/QuEST-Kit/QuEST"
   },
   "quizx": {
-    "amount_available": 125,
+    "amount_available": 50,
     "bounties": [
       {
         "assignees": [],
@@ -1967,8 +1967,10 @@
         "value": 100
       },
       {
-        "assignees": [],
-        "state": "open",
+        "assignees": [
+          "dfacoet"
+        ],
+        "state": "closed",
         "title": "Implement spider-cutting decompositions",
         "url": "https://github.com/zxcalc/quizx/issues/115",
         "value": 75
@@ -1986,7 +1988,7 @@
     "emoji": "\ud83e\udd80\ud83d\udd77\ufe0f",
     "name": "QuiZX",
     "num_bounties": 5,
-    "num_open_bounties": 2,
+    "num_open_bounties": 1,
     "total_amount": 500,
     "url": "https://github.com/zxcalc/quizx"
   },

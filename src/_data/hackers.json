@@ -534,6 +534,19 @@
   {
     "bounties": [
       {
+        "project": "quizx",
+        "title": "Implement spider-cutting decompositions",
+        "url": "https://github.com/zxcalc/quizx/issues/115",
+        "value": 75
+      }
+    ],
+    "num_projects": 1,
+    "total_value": 75,
+    "username": "dfacoet"
+  },
+  {
+    "bounties": [
+      {
         "project": "quest",
         "title": "Extend Pauli rotations to accept complex angles",
         "url": "https://github.com/QuEST-Kit/QuEST/issues/594",
