@@ -1,6 +1,6 @@
 {
   "amazon-braket-sdk-python": {
-    "amount_available": 325,
+    "amount_available": 250,
     "bounties": [
       {
         "assignees": [
@@ -38,7 +38,7 @@
         "assignees": [
           "lavanya-m-k"
         ],
-        "state": "open",
+        "state": "closed",
         "title": "Extend `to_braket` to respect gate angle restrictions of native gates",
         "url": "https://github.com/qiskit-community/qiskit-braket-provider/issues/200",
         "value": 75
@@ -56,7 +56,7 @@
     "emoji": "\u269b\ufe0f\ud83d\udcbb",
     "name": "Amazon Braket SDK",
     "num_bounties": 6,
-    "num_open_bounties": 4,
+    "num_open_bounties": 3,
     "total_amount": 475,
     "url": "https://github.com/amazon-braket/amazon-braket-sdk-python"
   },

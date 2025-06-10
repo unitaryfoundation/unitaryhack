@@ -623,6 +623,12 @@
   {
     "bounties": [
       {
+        "project": "amazon-braket-sdk-python",
+        "title": "Extend `to_braket` to respect gate angle restrictions of native gates",
+        "url": "https://github.com/qiskit-community/qiskit-braket-provider/issues/200",
+        "value": 75
+      },
+      {
         "project": "metriq-gym",
         "title": "Add details of status of job",
         "url": "https://github.com/unitaryfoundation/metriq-gym/issues/238",
@@ -635,8 +641,8 @@
         "value": 50
       }
     ],
-    "num_projects": 1,
-    "total_value": 100,
+    "num_projects": 2,
+    "total_value": 175,
     "username": "lavanya-m-k"
   },
   {
