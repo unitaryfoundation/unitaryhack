@@ -342,11 +342,12 @@ fieldset {
 }
 
 .announcement {
-  background-color: #FFFF75;
+  background-color: var(--color-bg-container);
   text-align: center;
   padding: 5px;
-  margin: 0;
-  font-size: smaller;
-  font-weight: 600;
-  color: black;
+  margin-bottom: 10px;
+  color: var(--color-text);
+  height: 50px;
+  line-height: 50px;
+  border: 2px dashed var(--color-bg);
 }
