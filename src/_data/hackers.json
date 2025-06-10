@@ -539,10 +539,16 @@
         "title": "Dynamic directed-graph Convexity Checking",
         "url": "https://github.com/CQCL/hugr/issues/2240",
         "value": 120
+      },
+      {
+        "project": "rustworkx",
+        "title": "\"single_source_all_shortest_paths\" or \"all_pairs_all_shortest_paths\" function call",
+        "url": "https://github.com/Qiskit/rustworkx/issues/1184",
+        "value": 125
       }
     ],
-    "num_projects": 1,
-    "total_value": 120,
+    "num_projects": 2,
+    "total_value": 245,
     "username": "gluonhiggs"
   },
   {

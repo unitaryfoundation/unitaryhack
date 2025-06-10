@@ -370,7 +370,7 @@
     "url": "https://github.com/TeamGraphix/graphix"
   },
   "guppylang": {
-    "amount_available": 320,
+    "amount_available": 200,
     "bounties": [
       {
         "assignees": [],
@@ -381,7 +381,7 @@
       },
       {
         "assignees": [],
-        "state": "open",
+        "state": "closed",
         "title": "Add priority queue data structure to the standard library",
         "url": "https://github.com/CQCL/guppylang/issues/974",
         "value": 120
@@ -390,7 +390,7 @@
     "emoji": "\ud83d\udc20",
     "name": "Guppy",
     "num_bounties": 2,
-    "num_open_bounties": 2,
+    "num_open_bounties": 1,
     "total_amount": 320,
     "url": "https://github.com/CQCL/guppylang"
   },
@@ -2078,7 +2078,9 @@
         "value": 100
       },
       {
-        "assignees": [],
+        "assignees": [
+          "gluonhiggs"
+        ],
         "state": "closed",
         "title": "\"single_source_all_shortest_paths\" or \"all_pairs_all_shortest_paths\" function call",
         "url": "https://github.com/Qiskit/rustworkx/issues/1184",
