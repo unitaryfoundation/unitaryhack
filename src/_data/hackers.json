@@ -2,6 +2,19 @@
   {
     "bounties": [
       {
+        "project": "quizx",
+        "title": "Improve Python bindings for the Decomposer",
+        "url": "https://github.com/zxcalc/quizx/issues/114",
+        "value": 50
+      }
+    ],
+    "num_projects": 1,
+    "total_value": 50,
+    "username": "0xSooki"
+  },
+  {
+    "bounties": [
+      {
         "project": "bqskit",
         "title": "Print warning if no progress during synthesis",
         "url": "https://github.com/BQSKit/bqskit/issues/225",
@@ -475,6 +488,12 @@
         "value": 50
       },
       {
+        "project": "bartiq",
+        "title": "Improve visualisation methods in Bartiq",
+        "url": "https://github.com/PsiQ/bartiq/issues/188",
+        "value": 100
+      },
+      {
         "project": "pyqasm",
         "title": "[BUG] Depth calculation for external gates",
         "url": "https://github.com/qBraid/pyqasm/issues/77",
@@ -482,7 +501,7 @@
       }
     ],
     "num_projects": 2,
-    "total_value": 200,
+    "total_value": 300,
     "username": "antalszava"
   },
   {
@@ -866,5 +885,18 @@
     "num_projects": 1,
     "total_value": 150,
     "username": "vinayswamik"
+  },
+  {
+    "bounties": [
+      {
+        "project": "quizx",
+        "title": "Benchmarks!!",
+        "url": "https://github.com/zxcalc/quizx/issues/134",
+        "value": 100
+      }
+    ],
+    "num_projects": 1,
+    "total_value": 100,
+    "username": "y-richie-y"
   }
 ]

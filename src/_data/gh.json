@@ -61,7 +61,7 @@
     "url": "https://github.com/amazon-braket/amazon-braket-sdk-python"
   },
   "bartiq": {
-    "amount_available": 100,
+    "amount_available": 0,
     "bounties": [
       {
         "assignees": [
@@ -103,7 +103,7 @@
         "assignees": [
           "antalszava"
         ],
-        "state": "open",
+        "state": "closed",
         "title": "Improve visualisation methods in Bartiq",
         "url": "https://github.com/PsiQ/bartiq/issues/188",
         "value": 100
@@ -121,7 +121,7 @@
     "emoji": null,
     "name": "Bartiq",
     "num_bounties": 6,
-    "num_open_bounties": 1,
+    "num_open_bounties": 0,
     "total_amount": 500,
     "url": "https://github.com/PsiQ/bartiq"
   },
@@ -1947,11 +1947,13 @@
     "url": "https://github.com/QuEST-Kit/QuEST"
   },
   "quizx": {
-    "amount_available": 50,
+    "amount_available": 0,
     "bounties": [
       {
-        "assignees": [],
-        "state": "open",
+        "assignees": [
+          "0xSooki"
+        ],
+        "state": "closed",
         "title": "Improve Python bindings for the Decomposer",
         "url": "https://github.com/zxcalc/quizx/issues/114",
         "value": 50
@@ -1966,7 +1968,9 @@
         "value": 100
       },
       {
-        "assignees": [],
+        "assignees": [
+          "y-richie-y"
+        ],
         "state": "closed",
         "title": "Benchmarks!!",
         "url": "https://github.com/zxcalc/quizx/issues/134",
@@ -1994,7 +1998,7 @@
     "emoji": "\ud83e\udd80\ud83d\udd77\ufe0f",
     "name": "QuiZX",
     "num_bounties": 5,
-    "num_open_bounties": 1,
+    "num_open_bounties": 0,
     "total_amount": 500,
     "url": "https://github.com/zxcalc/quizx"
   },
