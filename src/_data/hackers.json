@@ -487,14 +487,20 @@
         "value": 50
       },
       {
+        "project": "qualtran",
+        "title": "Add docstrings to basic gates like `CZPowGate`, `Rx`, `Ry`",
+        "url": "https://github.com/quantumlib/Qualtran/issues/1148",
+        "value": 100
+      },
+      {
         "project": "scqubits",
         "title": "Adding code documentation",
         "url": "https://github.com/scqubits/scqubits/issues/264",
         "value": 75
       }
     ],
-    "num_projects": 3,
-    "total_value": 300,
+    "num_projects": 4,
+    "total_value": 400,
     "username": "ahkatlio"
   },
   {
@@ -790,19 +796,6 @@
     "num_projects": 1,
     "total_value": 150,
     "username": "matteosecli"
-  },
-  {
-    "bounties": [
-      {
-        "project": "qualtran",
-        "title": "Add docstrings to basic gates like `CZPowGate`, `Rx`, `Ry`",
-        "url": "https://github.com/quantumlib/Qualtran/issues/1148",
-        "value": 100
-      }
-    ],
-    "num_projects": 1,
-    "total_value": 100,
-    "username": "matthagan15"
   },
   {
     "bounties": [

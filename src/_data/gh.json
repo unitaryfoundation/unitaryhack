@@ -1127,7 +1127,9 @@
         "value": 150
       },
       {
-        "assignees": [],
+        "assignees": [
+          "vinayswamik"
+        ],
         "state": "open",
         "title": "[FEATURE] Add support for explicit casting ",
         "url": "https://github.com/qBraid/pyqasm/issues/10",
@@ -1618,7 +1620,7 @@
       },
       {
         "assignees": [
-          "matthagan15"
+          "ahkatlio"
         ],
         "state": "closed",
         "title": "Add docstrings to basic gates like `CZPowGate`, `Rx`, `Ry`",
@@ -2019,7 +2021,7 @@
     "url": "https://github.com/zxcalc/quizx"
   },
   "qurveros": {
-    "amount_available": 125,
+    "amount_available": 50,
     "bounties": [
       {
         "assignees": [
@@ -2050,7 +2052,7 @@
       },
       {
         "assignees": [],
-        "state": "open",
+        "state": "closed",
         "title": "Handle floating-point errors during optimization",
         "url": "https://github.com/error-corp/qurveros/issues/6",
         "value": 75
@@ -2066,7 +2068,7 @@
     "emoji": null,
     "name": "Qurveros",
     "num_bounties": 5,
-    "num_open_bounties": 2,
+    "num_open_bounties": 1,
     "total_amount": 500,
     "url": "https://github.com/error-corp/qurveros"
   },
@@ -2248,7 +2250,7 @@
     "url": "https://github.com/tequilahub/tequila"
   },
   "toqito": {
-    "amount_available": 150,
+    "amount_available": 50,
     "bounties": [
       {
         "assignees": [
@@ -2261,7 +2263,7 @@
       },
       {
         "assignees": [],
-        "state": "open",
+        "state": "closed",
         "title": "Bug: Bounding the entangled value of an extended nonlocal game",
         "url": "https://github.com/vprusso/toqito/issues/554",
         "value": 100
@@ -2295,7 +2297,7 @@
     "emoji": "\ud83c\udf2e\u269b\ufe0f",
     "name": "toqito",
     "num_bounties": 5,
-    "num_open_bounties": 2,
+    "num_open_bounties": 1,
     "total_amount": 500,
     "url": "https://github.com/vprusso/toqito"
   },
