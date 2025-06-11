@@ -889,7 +889,7 @@
     "url": "https://github.com/QPauLie/PauLie"
   },
   "paulipropagation.jl": {
-    "amount_available": 500,
+    "amount_available": 450,
     "bounties": [
       {
         "assignees": [],
@@ -913,8 +913,10 @@
         "value": 100
       },
       {
-        "assignees": [],
-        "state": "open",
+        "assignees": [
+          "ahkatlio"
+        ],
+        "state": "closed",
         "title": "Python usage example notebook",
         "url": "https://github.com/MSRudolph/PauliPropagation.jl/issues/89",
         "value": 50
@@ -923,7 +925,7 @@
     "emoji": "\ud83c\uddf5 \ud83c\uddf5",
     "name": "Pauli Propagation",
     "num_bounties": 4,
-    "num_open_bounties": 4,
+    "num_open_bounties": 3,
     "total_amount": 500,
     "url": "https://github.com/MSRudolph/PauliPropagation.jl"
   },
@@ -1323,13 +1325,13 @@
     "url": "https://github.com/qBraid/qbraid-qir"
   },
   "qibo": {
-    "amount_available": 150,
+    "amount_available": 100,
     "bounties": [
       {
         "assignees": [
           "AprilSweettooth"
         ],
-        "state": "open",
+        "state": "closed",
         "title": "Generalization of the transpilation of arbitrary two-qubit unitaries",
         "url": "https://github.com/qiboteam/qibo/issues/1638",
         "value": 50
@@ -1381,7 +1383,7 @@
     "emoji": "\ud83d\udc2a",
     "name": "Qibo",
     "num_bounties": 6,
-    "num_open_bounties": 2,
+    "num_open_bounties": 1,
     "total_amount": 500,
     "url": "https://github.com/qiboteam/qibo"
   },
@@ -1425,7 +1427,7 @@
     "url": "https://github.com/ORNL-QCI/qiree"
   },
   "qiskit": {
-    "amount_available": 500,
+    "amount_available": 400,
     "bounties": [
       {
         "assignees": [
@@ -1449,7 +1451,7 @@
         "assignees": [
           "AbdullahKazi500"
         ],
-        "state": "open",
+        "state": "closed",
         "title": "DAGCircuit is missing adequate documentation",
         "url": "https://github.com/Qiskit/documentation/issues/1431",
         "value": 100
@@ -1474,7 +1476,7 @@
     "emoji": "\ud83c\udf10",
     "name": "Qiskit",
     "num_bounties": 5,
-    "num_open_bounties": 3,
+    "num_open_bounties": 2,
     "total_amount": 675,
     "url": "https://github.com/Qiskit/qiskit/"
   },
@@ -2013,11 +2015,13 @@
     "url": "https://github.com/zxcalc/quizx"
   },
   "qurveros": {
-    "amount_available": 300,
+    "amount_available": 125,
     "bounties": [
       {
-        "assignees": [],
-        "state": "open",
+        "assignees": [
+          "gluonhiggs"
+        ],
+        "state": "closed",
         "title": "Construct SpaceCurve objects from control pulses",
         "url": "https://github.com/error-corp/qurveros/issues/2",
         "value": 175
@@ -2058,7 +2062,7 @@
     "emoji": null,
     "name": "Qurveros",
     "num_bounties": 5,
-    "num_open_bounties": 3,
+    "num_open_bounties": 2,
     "total_amount": 500,
     "url": "https://github.com/error-corp/qurveros"
   },
@@ -2091,7 +2095,9 @@
     "amount_available": 525,
     "bounties": [
       {
-        "assignees": [],
+        "assignees": [
+          "gluonhiggs"
+        ],
         "state": "open",
         "title": "Add reverse direction serialization",
         "url": "https://github.com/Qiskit/rustworkx/issues/840",
@@ -2140,7 +2146,8 @@
     "bounties": [
       {
         "assignees": [
-          "jsaroni"
+          "jsaroni",
+          "mhmohona"
         ],
         "state": "open",
         "title": "Creation of a new jupyter notebook tutorial that involves interfacing `scqubits` with other packages.",
@@ -2166,7 +2173,9 @@
         "value": 75
       },
       {
-        "assignees": [],
+        "assignees": [
+          "AbdullahKazi500"
+        ],
         "state": "open",
         "title": "Short tutorial video on using `scqubits`",
         "url": "https://github.com/scqubits/scqubits/issues/263",

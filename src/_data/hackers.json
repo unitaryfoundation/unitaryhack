@@ -77,6 +77,25 @@
   {
     "bounties": [
       {
+        "project": "qiskit",
+        "title": "DAGCircuit is missing adequate documentation",
+        "url": "https://github.com/Qiskit/documentation/issues/1431",
+        "value": 100
+      }
+    ],
+    "num_projects": 1,
+    "total_value": 100,
+    "username": "AbdullahKazi500"
+  },
+  {
+    "bounties": [
+      {
+        "project": "qibo",
+        "title": "Generalization of the transpilation of arbitrary two-qubit unitaries",
+        "url": "https://github.com/qiboteam/qibo/issues/1638",
+        "value": 50
+      },
+      {
         "project": "qibo",
         "title": "Implementation of Dicke state preparation",
         "url": "https://github.com/qiboteam/qibo/issues/1620",
@@ -84,7 +103,7 @@
       }
     ],
     "num_projects": 1,
-    "total_value": 75,
+    "total_value": 125,
     "username": "AprilSweettooth"
   },
   {
@@ -462,14 +481,20 @@
         "value": 175
       },
       {
+        "project": "paulipropagation.jl",
+        "title": "Python usage example notebook",
+        "url": "https://github.com/MSRudolph/PauliPropagation.jl/issues/89",
+        "value": 50
+      },
+      {
         "project": "scqubits",
         "title": "Adding code documentation",
         "url": "https://github.com/scqubits/scqubits/issues/264",
         "value": 75
       }
     ],
-    "num_projects": 2,
-    "total_value": 250,
+    "num_projects": 3,
+    "total_value": 300,
     "username": "ahkatlio"
   },
   {
@@ -623,14 +648,20 @@
         "value": 120
       },
       {
+        "project": "qurveros",
+        "title": "Construct SpaceCurve objects from control pulses",
+        "url": "https://github.com/error-corp/qurveros/issues/2",
+        "value": 175
+      },
+      {
         "project": "rustworkx",
         "title": "\"single_source_all_shortest_paths\" or \"all_pairs_all_shortest_paths\" function call",
         "url": "https://github.com/Qiskit/rustworkx/issues/1184",
         "value": 125
       }
     ],
-    "num_projects": 2,
-    "total_value": 245,
+    "num_projects": 3,
+    "total_value": 420,
     "username": "gluonhiggs"
   },
   {
