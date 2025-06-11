@@ -437,14 +437,20 @@
   {
     "bounties": [
       {
+        "project": "mitiq",
+        "title": "Create a tutorial combining 4 techniques",
+        "url": "https://github.com/unitaryfoundation/mitiq/issues/2770",
+        "value": 175
+      },
+      {
         "project": "scqubits",
         "title": "Adding code documentation",
         "url": "https://github.com/scqubits/scqubits/issues/264",
         "value": 75
       }
     ],
-    "num_projects": 1,
-    "total_value": 75,
+    "num_projects": 2,
+    "total_value": 250,
     "username": "ahkatlio"
   },
   {

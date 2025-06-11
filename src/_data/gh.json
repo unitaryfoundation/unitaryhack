@@ -742,7 +742,7 @@
     "url": "https://github.com/unitaryfoundation/metriq-gym/"
   },
   "mitiq": {
-    "amount_available": 275,
+    "amount_available": 100,
     "bounties": [
       {
         "assignees": [
@@ -763,8 +763,10 @@
         "value": 50
       },
       {
-        "assignees": [],
-        "state": "open",
+        "assignees": [
+          "ahkatlio"
+        ],
+        "state": "closed",
         "title": "Create a tutorial combining 4 techniques",
         "url": "https://github.com/unitaryfoundation/mitiq/issues/2770",
         "value": 175
@@ -789,7 +791,7 @@
     "emoji": "\ud83c\udf2a\ufe0f\ud83d\udc83",
     "name": "Mitiq",
     "num_bounties": 5,
-    "num_open_bounties": 2,
+    "num_open_bounties": 1,
     "total_amount": 500,
     "url": "https://github.com/unitaryfoundation/mitiq"
   },
@@ -1304,7 +1306,9 @@
         "value": 150
       },
       {
-        "assignees": [],
+        "assignees": [
+          "feelerx"
+        ],
         "state": "open",
         "title": "[FEATURE] QIR Base Profile compliant QASM conversions",
         "url": "https://github.com/qBraid/qbraid-qir/issues/224",
