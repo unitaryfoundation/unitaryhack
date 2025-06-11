@@ -194,7 +194,9 @@
         "value": 100
       },
       {
-        "assignees": [],
+        "assignees": [
+          "ACE07-Sev"
+        ],
         "state": "open",
         "title": "Support more OpenQASM 2.0 gates from qelib1.inc",
         "url": "https://github.com/quantumlib/Cirq/issues/7072",
@@ -208,7 +210,9 @@
         "value": 100
       },
       {
-        "assignees": [],
+        "assignees": [
+          "WingCode"
+        ],
         "state": "open",
         "title": "Tagging noise operations clutters the circuit output",
         "url": "https://github.com/quantumlib/Cirq/issues/2905",
