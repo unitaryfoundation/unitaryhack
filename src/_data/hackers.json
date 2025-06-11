@@ -91,13 +91,19 @@
     "bounties": [
       {
         "project": "qiskit",
+        "title": "Remaining circuit library deprecations",
+        "url": "https://github.com/Qiskit/qiskit/issues/14478",
+        "value": 75
+      },
+      {
+        "project": "qiskit",
         "title": "Add details of `prob_meas0_prep1, prob_meas1_prep0, readout_length`",
         "url": "https://github.com/Qiskit/documentation/issues/3018",
         "value": 100
       }
     ],
     "num_projects": 1,
-    "total_value": 100,
+    "total_value": 175,
     "username": "AsadullahGalib007"
   },
   {
