@@ -2217,7 +2217,7 @@
     "url": "https://github.com/tequilahub/tequila"
   },
   "toqito": {
-    "amount_available": 250,
+    "amount_available": 150,
     "bounties": [
       {
         "assignees": [
@@ -2239,7 +2239,7 @@
         "assignees": [
           "poig"
         ],
-        "state": "open",
+        "state": "closed",
         "title": "Enhance the `is_separable` function to include complete precursory separability checks",
         "url": "https://github.com/vprusso/toqito/issues/621",
         "value": 100
@@ -2264,7 +2264,7 @@
     "emoji": "\ud83c\udf2e\u269b\ufe0f",
     "name": "toqito",
     "num_bounties": 5,
-    "num_open_bounties": 3,
+    "num_open_bounties": 2,
     "total_amount": 500,
     "url": "https://github.com/vprusso/toqito"
   },

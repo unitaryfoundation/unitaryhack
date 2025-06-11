@@ -789,13 +789,19 @@
       },
       {
         "project": "toqito",
+        "title": "Enhance the `is_separable` function to include complete precursory separability checks",
+        "url": "https://github.com/vprusso/toqito/issues/621",
+        "value": 100
+      },
+      {
+        "project": "toqito",
         "title": "Bug: NPA hierarchy--do not impose no-signaling constraint and normalization",
         "url": "https://github.com/vprusso/toqito/issues/186",
         "value": 100
       }
     ],
     "num_projects": 4,
-    "total_value": 630,
+    "total_value": 730,
     "username": "poig"
   },
   {
