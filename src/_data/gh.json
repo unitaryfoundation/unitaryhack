@@ -1326,7 +1326,9 @@
     "amount_available": 150,
     "bounties": [
       {
-        "assignees": [],
+        "assignees": [
+          "AprilSweettooth"
+        ],
         "state": "open",
         "title": "Generalization of the transpilation of arbitrary two-qubit unitaries",
         "url": "https://github.com/qiboteam/qibo/issues/1638",
@@ -1426,7 +1428,9 @@
     "amount_available": 575,
     "bounties": [
       {
-        "assignees": [],
+        "assignees": [
+          "Tanuj-rai"
+        ],
         "state": "open",
         "title": "Add user config option to limit allowed QPY versions",
         "url": "https://github.com/Qiskit/qiskit/issues/14034",
@@ -1688,7 +1692,9 @@
       },
       {
         "assignees": [
-          "shalini9894"
+          "NandanPatel24",
+          "shalini9894",
+          "shubhusion"
         ],
         "state": "open",
         "title": "Hardware website",
