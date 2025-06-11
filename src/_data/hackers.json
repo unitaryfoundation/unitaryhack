@@ -90,6 +90,19 @@
   {
     "bounties": [
       {
+        "project": "qbraid",
+        "title": "[BUG] Fix nodes being cut-off around outside of conv graph plot",
+        "url": "https://github.com/qBraid/qBraid/issues/851",
+        "value": 50
+      }
+    ],
+    "num_projects": 1,
+    "total_value": 50,
+    "username": "AishSweety"
+  },
+  {
+    "bounties": [
+      {
         "project": "qibo",
         "title": "Generalization of the transpilation of arbitrary two-qubit unitaries",
         "url": "https://github.com/qiboteam/qibo/issues/1638",

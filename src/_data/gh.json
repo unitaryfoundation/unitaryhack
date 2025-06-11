@@ -1234,7 +1234,7 @@
     "url": "https://github.com/zxcalc/pyzx"
   },
   "qbraid": {
-    "amount_available": 250,
+    "amount_available": 200,
     "bounties": [
       {
         "assignees": [
@@ -1246,8 +1246,10 @@
         "value": 50
       },
       {
-        "assignees": [],
-        "state": "open",
+        "assignees": [
+          "AishSweety"
+        ],
+        "state": "closed",
         "title": "[BUG] Fix nodes being cut-off around outside of conv graph plot",
         "url": "https://github.com/qBraid/qBraid/issues/851",
         "value": 50
@@ -1281,7 +1283,7 @@
     "emoji": "\ud83c\udfc3\u200d\u2642\ufe0f\u23f1\ufe0f",
     "name": "qBraid-SDK",
     "num_bounties": 5,
-    "num_open_bounties": 2,
+    "num_open_bounties": 1,
     "total_amount": 500,
     "url": "https://github.com/qBraid/qBraid"
   },
