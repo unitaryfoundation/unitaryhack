@@ -1659,11 +1659,11 @@
     "url": "https://gitlab.com/quantify-os/quantify"
   },
   "quantum-universal-education.github.io": {
-    "amount_available": 400,
+    "amount_available": 225,
     "bounties": [
       {
         "assignees": [],
-        "state": "open",
+        "state": "closed",
         "title": "Quantum Board Game",
         "url": "https://github.com/Quantum-Universal-Education/Quantum-Universal-Education.github.io/issues/38",
         "value": 100
@@ -1677,13 +1677,15 @@
       },
       {
         "assignees": [],
-        "state": "open",
+        "state": "closed",
         "title": "Infographics about the quantum ecosystem",
         "url": "https://github.com/Quantum-Universal-Education/Quantum-Universal-Education.github.io/issues/36",
         "value": 75
       },
       {
-        "assignees": [],
+        "assignees": [
+          "shalini9894"
+        ],
         "state": "open",
         "title": "Hardware website",
         "url": "https://github.com/Quantum-Universal-Education/Quantum-Universal-Education.github.io/issues/35",
@@ -1693,7 +1695,7 @@
     "emoji": "\ud83d\udc31\ud83c\udf10",
     "name": "Quantum Universal Education",
     "num_bounties": 4,
-    "num_open_bounties": 4,
+    "num_open_bounties": 2,
     "total_amount": 400,
     "url": "https://github.com/Quantum-Universal-Education/Quantum-Universal-Education.github.io"
   },
@@ -2119,7 +2121,9 @@
     "amount_available": 325,
     "bounties": [
       {
-        "assignees": [],
+        "assignees": [
+          "jsaroni"
+        ],
         "state": "open",
         "title": "Creation of a new jupyter notebook tutorial that involves interfacing `scqubits` with other packages.",
         "url": "https://github.com/scqubits/scqubits/issues/266",
