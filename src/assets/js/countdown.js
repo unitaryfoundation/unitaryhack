@@ -6,7 +6,7 @@ const countdown = (elementId, targetDate) => {
     const now = new Date();
     const diff = targetDate - now;
     if (diff <= 0) {
-      el.textContent = "The event has started!";
+      el.textContent = "unitaryHACK 2025 has come to a close! Maintainers have until EoD June 16 to review and accept contributions.";
       clearInterval(interval);
       return;
     }
