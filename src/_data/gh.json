@@ -655,7 +655,7 @@
     "url": "https://github.com/pasqal-io/maximum-independent-set"
   },
   "metriq-app": {
-    "amount_available": 250,
+    "amount_available": 350,
     "bounties": [
       {
         "assignees": [],
@@ -684,7 +684,7 @@
         "assignees": [
           "WingCode"
         ],
-        "state": "closed",
+        "state": "open",
         "title": "List of followed task",
         "url": "https://github.com/unitaryfoundation/metriq-app/issues/1005",
         "value": 100
@@ -693,12 +693,12 @@
     "emoji": "\ud83d\udcca\u269b\ufe0f",
     "name": "metriq-app",
     "num_bounties": 4,
-    "num_open_bounties": 2,
+    "num_open_bounties": 3,
     "total_amount": 500,
     "url": "https://github.com/unitaryfoundation/metriq-app"
   },
   "metriq-gym": {
-    "amount_available": 400,
+    "amount_available": 300,
     "bounties": [
       {
         "assignees": [
@@ -718,7 +718,7 @@
       },
       {
         "assignees": [],
-        "state": "open",
+        "state": "closed",
         "title": "Feature: Allow user to dispatch list of benchmarks on a device",
         "url": "https://github.com/unitaryfoundation/metriq-gym/issues/234",
         "value": 100
@@ -745,7 +745,7 @@
     "emoji": "\ud83c\udfcb\ufe0f\u200d\u2640\ufe0f",
     "name": "metriq-gym",
     "num_bounties": 5,
-    "num_open_bounties": 3,
+    "num_open_bounties": 2,
     "total_amount": 500,
     "url": "https://github.com/unitaryfoundation/metriq-gym/"
   },
@@ -1583,13 +1583,13 @@
     "url": "https://github.com/qosf/qosf.org"
   },
   "qualibration-libs": {
-    "amount_available": 450,
+    "amount_available": 350,
     "bounties": [
       {
         "assignees": [
           "NnguyenHTommy"
         ],
-        "state": "open",
+        "state": "closed",
         "title": "Failed analysis when fitting Rabi oscillations",
         "url": "https://github.com/qua-platform/qualibration-libs/issues/2",
         "value": 100
@@ -1612,7 +1612,7 @@
     "emoji": "\ud83d\udcc8\u200b\ud83d\ude80\u200b",
     "name": "QUAlibration Graph",
     "num_bounties": 3,
-    "num_open_bounties": 3,
+    "num_open_bounties": 2,
     "total_amount": 450,
     "url": "https://github.com/qua-platform/qualibration-libs"
   },

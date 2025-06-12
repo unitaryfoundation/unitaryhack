@@ -343,6 +343,19 @@
   {
     "bounties": [
       {
+        "project": "qualibration-libs",
+        "title": "Failed analysis when fitting Rabi oscillations",
+        "url": "https://github.com/qua-platform/qualibration-libs/issues/2",
+        "value": 100
+      }
+    ],
+    "num_projects": 1,
+    "total_value": 100,
+    "username": "NnguyenHTommy"
+  },
+  {
+    "bounties": [
+      {
         "project": "hugr",
         "title": "Add support for external `clap` subcommands in hugr-cli",
         "url": "https://github.com/CQCL/hugr/issues/1343",
@@ -469,12 +482,6 @@
         "value": 150
       },
       {
-        "project": "metriq-app",
-        "title": "List of followed task",
-        "url": "https://github.com/unitaryfoundation/metriq-app/issues/1005",
-        "value": 100
-      },
-      {
         "project": "piquasso",
         "title": "Method for particle number detection probabilities with occupation numbers in the `fermionic` package",
         "url": "https://github.com/Budapest-Quantum-Computing-Group/piquasso/issues/435",
@@ -488,7 +495,7 @@
       }
     ],
     "num_projects": 5,
-    "total_value": 445,
+    "total_value": 345,
     "username": "WingCode"
   },
   {
