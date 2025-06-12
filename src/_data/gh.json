@@ -203,7 +203,9 @@
         "value": 200
       },
       {
-        "assignees": [],
+        "assignees": [
+          "WingCode"
+        ],
         "state": "open",
         "title": "NoiseModels are not serializable",
         "url": "https://github.com/quantumlib/Cirq/issues/3846",
@@ -361,7 +363,9 @@
         "value": 120
       },
       {
-        "assignees": [],
+        "assignees": [
+          "Newtech66"
+        ],
         "state": "open",
         "title": "Implement a faster Pauli-flow finding algorithm",
         "url": "https://github.com/TeamGraphix/graphix/issues/279",
@@ -1273,7 +1277,9 @@
         "value": 100
       },
       {
-        "assignees": [],
+        "assignees": [
+          "dhanaabhirajk"
+        ],
         "state": "open",
         "title": "[FEATURE] Rigetti QCS runtime integration",
         "url": "https://github.com/qBraid/qBraid/issues/981",
@@ -1630,7 +1636,9 @@
         "value": 100
       },
       {
-        "assignees": [],
+        "assignees": [
+          "jbolns"
+        ],
         "state": "open",
         "title": "Add a pretty formatter for rotation angles so we can have nicer musical score diagrams",
         "url": "https://github.com/quantumlib/Qualtran/issues/853",
