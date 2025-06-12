@@ -257,6 +257,12 @@
   {
     "bounties": [
       {
+        "project": "metriq-gym",
+        "title": "Feature: Allow user to dispatch list of benchmarks on a device",
+        "url": "https://github.com/unitaryfoundation/metriq-gym/issues/234",
+        "value": 100
+      },
+      {
         "project": "pyqtorch",
         "title": "[Testing] Test reembedding of params in HamiltonianEvolution",
         "url": "https://github.com/pasqal-io/pyqtorch/issues/273",
@@ -293,14 +299,20 @@
         "value": 100
       },
       {
+        "project": "qurveros",
+        "title": "Handle floating-point errors during optimization",
+        "url": "https://github.com/error-corp/qurveros/issues/6",
+        "value": 75
+      },
+      {
         "project": "scqubits",
         "title": "Conversion from (`scqubits`'s custom) `NamedSlotsNdarray` to other data formats.",
         "url": "https://github.com/scqubits/scqubits/issues/265",
         "value": 100
       }
     ],
-    "num_projects": 4,
-    "total_value": 620,
+    "num_projects": 5,
+    "total_value": 795,
     "username": "Kitsunp"
   },
   {
@@ -701,6 +713,19 @@
     "num_projects": 3,
     "total_value": 420,
     "username": "gluonhiggs"
+  },
+  {
+    "bounties": [
+      {
+        "project": "kqcircuits",
+        "title": "Improve visualisation of simulation results with Paraview",
+        "url": "https://github.com/iqm-finland/KQCircuits/issues/108",
+        "value": 150
+      }
+    ],
+    "num_projects": 1,
+    "total_value": 150,
+    "username": "jbolns"
   },
   {
     "bounties": [
