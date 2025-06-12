@@ -665,10 +665,16 @@
         "title": "[FEATURE] QIR Adaptive Profile compliant QASM conversions",
         "url": "https://github.com/qBraid/qbraid-qir/issues/199",
         "value": 150
+      },
+      {
+        "project": "qbraid-qir",
+        "title": "[FEATURE] QIR Base Profile compliant QASM conversions",
+        "url": "https://github.com/qBraid/qbraid-qir/issues/224",
+        "value": 150
       }
     ],
     "num_projects": 1,
-    "total_value": 150,
+    "total_value": 300,
     "username": "feelerx"
   },
   {

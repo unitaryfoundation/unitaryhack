@@ -1294,7 +1294,7 @@
     "url": "https://github.com/qBraid/qBraid"
   },
   "qbraid-qir": {
-    "amount_available": 275,
+    "amount_available": 125,
     "bounties": [
       {
         "assignees": [
@@ -1325,7 +1325,7 @@
         "assignees": [
           "feelerx"
         ],
-        "state": "open",
+        "state": "closed",
         "title": "[FEATURE] QIR Base Profile compliant QASM conversions",
         "url": "https://github.com/qBraid/qbraid-qir/issues/224",
         "value": 150
@@ -1334,7 +1334,7 @@
     "emoji": "\u2699\ufe0f\ud83d\udd0c",
     "name": "qBraid-QIR",
     "num_bounties": 4,
-    "num_open_bounties": 2,
+    "num_open_bounties": 1,
     "total_amount": 500,
     "url": "https://github.com/qBraid/qbraid-qir"
   },
