@@ -83,14 +83,20 @@
   {
     "bounties": [
       {
+        "project": "kqcircuits",
+        "title": "Enable EPR calculation for Circular Transmon Single Island qubit",
+        "url": "https://github.com/iqm-finland/KQCircuits/issues/109",
+        "value": 150
+      },
+      {
         "project": "qiskit",
         "title": "DAGCircuit is missing adequate documentation",
         "url": "https://github.com/Qiskit/documentation/issues/1431",
         "value": 100
       }
     ],
-    "num_projects": 1,
-    "total_value": 100,
+    "num_projects": 2,
+    "total_value": 250,
     "username": "AbdullahKazi500"
   },
   {
@@ -258,6 +264,12 @@
     "bounties": [
       {
         "project": "metriq-gym",
+        "title": "Add mirror circuits to benchmarks",
+        "url": "https://github.com/unitaryfoundation/metriq-gym/issues/233",
+        "value": 150
+      },
+      {
+        "project": "metriq-gym",
         "title": "Feature: Allow user to dispatch list of benchmarks on a device",
         "url": "https://github.com/unitaryfoundation/metriq-gym/issues/234",
         "value": 100
@@ -312,7 +324,7 @@
       }
     ],
     "num_projects": 5,
-    "total_value": 795,
+    "total_value": 945,
     "username": "Kitsunp"
   },
   {
@@ -647,6 +659,19 @@
   {
     "bounties": [
       {
+        "project": "qbraid",
+        "title": "[FEATURE] Rigetti QCS runtime integration",
+        "url": "https://github.com/qBraid/qBraid/issues/981",
+        "value": 200
+      }
+    ],
+    "num_projects": 1,
+    "total_value": 200,
+    "username": "dhanaabhirajk"
+  },
+  {
+    "bounties": [
+      {
         "project": "quest",
         "title": "Extend Pauli rotations to accept complex angles",
         "url": "https://github.com/QuEST-Kit/QuEST/issues/594",
@@ -669,6 +694,25 @@
     "num_projects": 1,
     "total_value": 50,
     "username": "divshacker"
+  },
+  {
+    "bounties": [
+      {
+        "project": "quantumarthack",
+        "title": "Parallel qpixl decoding leads to strange outputs",
+        "url": "https://github.com/moth-quantum/QuantumArtHack/issues/1",
+        "value": 50
+      },
+      {
+        "project": "quantumarthack",
+        "title": "Bug with different sized inputs",
+        "url": "https://github.com/moth-quantum/QuantumArtHack/issues/2",
+        "value": 25
+      }
+    ],
+    "num_projects": 1,
+    "total_value": 75,
+    "username": "duspic"
   },
   {
     "bounties": [

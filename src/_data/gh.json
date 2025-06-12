@@ -541,7 +541,7 @@
     "url": "https://github.com/xdslproject/inconspiquous/"
   },
   "kqcircuits": {
-    "amount_available": 350,
+    "amount_available": 200,
     "bounties": [
       {
         "assignees": [],
@@ -554,7 +554,7 @@
         "assignees": [
           "AbdullahKazi500"
         ],
-        "state": "open",
+        "state": "closed",
         "title": "Enable EPR calculation for Circular Transmon Single Island qubit",
         "url": "https://github.com/iqm-finland/KQCircuits/issues/109",
         "value": 150
@@ -572,7 +572,7 @@
     "emoji": "\ud83e\udd91",
     "name": "KQCircuits",
     "num_bounties": 3,
-    "num_open_bounties": 2,
+    "num_open_bounties": 1,
     "total_amount": 500,
     "url": "https://github.com/iqm-finland/KQCircuits"
   },
@@ -706,13 +706,13 @@
     "url": "https://github.com/unitaryfoundation/metriq-app"
   },
   "metriq-gym": {
-    "amount_available": 300,
+    "amount_available": 150,
     "bounties": [
       {
         "assignees": [
           "Kitsunp"
         ],
-        "state": "open",
+        "state": "closed",
         "title": "Add mirror circuits to benchmarks",
         "url": "https://github.com/unitaryfoundation/metriq-gym/issues/233",
         "value": 150
@@ -755,7 +755,7 @@
     "emoji": "\ud83c\udfcb\ufe0f\u200d\u2640\ufe0f",
     "name": "metriq-gym",
     "num_bounties": 5,
-    "num_open_bounties": 2,
+    "num_open_bounties": 1,
     "total_amount": 500,
     "url": "https://github.com/unitaryfoundation/metriq-gym/"
   },
@@ -1248,7 +1248,7 @@
     "url": "https://github.com/zxcalc/pyzx"
   },
   "qbraid": {
-    "amount_available": 200,
+    "amount_available": 0,
     "bounties": [
       {
         "assignees": [
@@ -1290,7 +1290,7 @@
         "assignees": [
           "dhanaabhirajk"
         ],
-        "state": "open",
+        "state": "closed",
         "title": "[FEATURE] Rigetti QCS runtime integration",
         "url": "https://github.com/qBraid/qBraid/issues/981",
         "value": 200
@@ -1299,7 +1299,7 @@
     "emoji": "\ud83c\udfc3\u200d\u2642\ufe0f\u23f1\ufe0f",
     "name": "qBraid-SDK",
     "num_bounties": 5,
-    "num_open_bounties": 1,
+    "num_open_bounties": 0,
     "total_amount": 500,
     "url": "https://github.com/qBraid/qBraid"
   },
@@ -1738,13 +1738,13 @@
     "url": "https://github.com/Quantum-Universal-Education/Quantum-Universal-Education.github.io"
   },
   "quantumarthack": {
-    "amount_available": 450,
+    "amount_available": 375,
     "bounties": [
       {
         "assignees": [
           "duspic"
         ],
-        "state": "open",
+        "state": "closed",
         "title": "Parallel qpixl decoding leads to strange outputs",
         "url": "https://github.com/moth-quantum/QuantumArtHack/issues/1",
         "value": 50
@@ -1753,7 +1753,7 @@
         "assignees": [
           "duspic"
         ],
-        "state": "open",
+        "state": "closed",
         "title": "Bug with different sized inputs",
         "url": "https://github.com/moth-quantum/QuantumArtHack/issues/2",
         "value": 25
@@ -1796,7 +1796,7 @@
     "emoji": "\u269b\ufe0f\ud83d\udd8c\ufe0f",
     "name": "Art with Quantum Dynamics",
     "num_bounties": 6,
-    "num_open_bounties": 5,
+    "num_open_bounties": 3,
     "total_amount": 500,
     "url": "https://github.com/moth-quantum/QuantumArtHack"
   },
