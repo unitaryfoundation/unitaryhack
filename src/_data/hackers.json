@@ -957,14 +957,20 @@
   {
     "bounties": [
       {
+        "project": "maximum-independent-set",
+        "title": "[Testing] Accept instances in DIMACS format",
+        "url": "https://github.com/pasqal-io/maximum-independent-set/issues/29",
+        "value": 50
+      },
+      {
         "project": "quizx",
         "title": "Benchmarks!!",
         "url": "https://github.com/zxcalc/quizx/issues/134",
         "value": 100
       }
     ],
-    "num_projects": 1,
-    "total_value": 100,
+    "num_projects": 2,
+    "total_value": 150,
     "username": "y-richie-y"
   }
 ]

@@ -558,7 +558,9 @@
         "value": 150
       },
       {
-        "assignees": [],
+        "assignees": [
+          "jbolns"
+        ],
         "state": "open",
         "title": "Improve visualisation of simulation results with Paraview",
         "url": "https://github.com/iqm-finland/KQCircuits/issues/108",
@@ -615,7 +617,9 @@
     "amount_available": 200,
     "bounties": [
       {
-        "assignees": [],
+        "assignees": [
+          "SpeedCode210"
+        ],
         "state": "open",
         "title": "[Application] Add a graph coloring solver",
         "url": "https://github.com/pasqal-io/maximum-independent-set/issues/33",
@@ -640,7 +644,9 @@
         "value": 50
       },
       {
-        "assignees": [],
+        "assignees": [
+          "y-richie-y"
+        ],
         "state": "closed",
         "title": "[Testing] Accept instances in DIMACS format",
         "url": "https://github.com/pasqal-io/maximum-independent-set/issues/29",
