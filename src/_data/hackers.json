@@ -39,6 +39,12 @@
         "value": 100
       },
       {
+        "project": "cirq",
+        "title": "Support more OpenQASM 2.0 gates from qelib1.inc",
+        "url": "https://github.com/quantumlib/Cirq/issues/7072",
+        "value": 200
+      },
+      {
         "project": "cuda-quantum",
         "title": "State Preparation Circuit Synthesis via Matrix Product State Decomposition",
         "url": "https://github.com/NVIDIA/cuda-quantum/issues/1616",
@@ -58,7 +64,7 @@
       }
     ],
     "num_projects": 5,
-    "total_value": 745,
+    "total_value": 945,
     "username": "ACE07-Sev"
   },
   {
@@ -857,6 +863,12 @@
       },
       {
         "project": "toqito",
+        "title": "Bug: Bounding the entangled value of an extended nonlocal game",
+        "url": "https://github.com/vprusso/toqito/issues/554",
+        "value": 100
+      },
+      {
+        "project": "toqito",
         "title": "Enhance the `is_separable` function to include complete precursory separability checks",
         "url": "https://github.com/vprusso/toqito/issues/621",
         "value": 100
@@ -869,7 +881,7 @@
       }
     ],
     "num_projects": 4,
-    "total_value": 730,
+    "total_value": 830,
     "username": "poig"
   },
   {

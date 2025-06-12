@@ -182,7 +182,7 @@
     "url": "https://github.com/BQSKit/bqskit"
   },
   "cirq": {
-    "amount_available": 400,
+    "amount_available": 200,
     "bounties": [
       {
         "assignees": [
@@ -197,7 +197,7 @@
         "assignees": [
           "ACE07-Sev"
         ],
-        "state": "open",
+        "state": "closed",
         "title": "Support more OpenQASM 2.0 gates from qelib1.inc",
         "url": "https://github.com/quantumlib/Cirq/issues/7072",
         "value": 200
@@ -224,7 +224,7 @@
     "emoji": null,
     "name": "Cirq",
     "num_bounties": 4,
-    "num_open_bounties": 3,
+    "num_open_bounties": 2,
     "total_amount": 500,
     "url": "https://github.com/quantumlib/Cirq"
   },
@@ -2272,7 +2272,9 @@
         "value": 150
       },
       {
-        "assignees": [],
+        "assignees": [
+          "poig"
+        ],
         "state": "closed",
         "title": "Bug: Bounding the entangled value of an extended nonlocal game",
         "url": "https://github.com/vprusso/toqito/issues/554",
