@@ -993,11 +993,13 @@
     "url": "https://github.com/nicolasloizeau/PauliStrings.jl"
   },
   "piccolo.jl": {
-    "amount_available": 500,
+    "amount_available": 400,
     "bounties": [
       {
-        "assignees": [],
-        "state": "open",
+        "assignees": [
+          "martin-klacan"
+        ],
+        "state": "closed",
         "title": "[Feature]: Leakage suppression objective",
         "url": "https://github.com/harmoniqs/QuantumCollocation.jl/issues/203",
         "value": 100
@@ -1049,7 +1051,7 @@
     "emoji": "\ud83e\ude88\ud83c\udfb6",
     "name": "Piccolo.jl",
     "num_bounties": 6,
-    "num_open_bounties": 6,
+    "num_open_bounties": 5,
     "total_amount": 500,
     "url": "https://github.com/harmoniqs/Piccolo.jl"
   },
@@ -1630,7 +1632,9 @@
     "amount_available": 200,
     "bounties": [
       {
-        "assignees": [],
+        "assignees": [
+          "micpap25"
+        ],
         "state": "closed",
         "title": "Correct lint issues exposed with update to pylint-3",
         "url": "https://github.com/quantumlib/Qualtran/issues/1440",

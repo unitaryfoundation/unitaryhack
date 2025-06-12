@@ -879,10 +879,16 @@
         "title": "[IMPL] `@not` instruction for OpenQASM v2.0",
         "url": "https://github.com/hhat-lang/hhat_lang/issues/38",
         "value": 50
+      },
+      {
+        "project": "piccolo.jl",
+        "title": "[Feature]: Leakage suppression objective",
+        "url": "https://github.com/harmoniqs/QuantumCollocation.jl/issues/203",
+        "value": 100
       }
     ],
-    "num_projects": 1,
-    "total_value": 50,
+    "num_projects": 2,
+    "total_value": 150,
     "username": "martin-klacan"
   },
   {
@@ -897,6 +903,19 @@
     "num_projects": 1,
     "total_value": 150,
     "username": "matteosecli"
+  },
+  {
+    "bounties": [
+      {
+        "project": "qualtran",
+        "title": "Correct lint issues exposed with update to pylint-3",
+        "url": "https://github.com/quantumlib/Qualtran/issues/1440",
+        "value": 200
+      }
+    ],
+    "num_projects": 1,
+    "total_value": 200,
+    "username": "micpap25"
   },
   {
     "bounties": [
