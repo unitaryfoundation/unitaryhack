@@ -999,7 +999,7 @@
     "url": "https://github.com/nicolasloizeau/PauliStrings.jl"
   },
   "piccolo.jl": {
-    "amount_available": 400,
+    "amount_available": 300,
     "bounties": [
       {
         "assignees": [
@@ -1014,7 +1014,7 @@
         "assignees": [
           "Fe-r-oz"
         ],
-        "state": "open",
+        "state": "closed",
         "title": "Support building `QObjEvo` (from QuantumToolbox.jl) objects from QuantumSystems and NamedTrajectories",
         "url": "https://github.com/harmoniqs/PiccoloQuantumObjects.jl/issues/27",
         "value": 100
@@ -1057,7 +1057,7 @@
     "emoji": "\ud83e\ude88\ud83c\udfb6",
     "name": "Piccolo.jl",
     "num_bounties": 6,
-    "num_open_bounties": 5,
+    "num_open_bounties": 4,
     "total_amount": 500,
     "url": "https://github.com/harmoniqs/Piccolo.jl"
   },
@@ -2340,7 +2340,7 @@
     "url": "https://github.com/vprusso/toqito"
   },
   "ucc": {
-    "amount_available": 1700,
+    "amount_available": 1200,
     "bounties": [
       {
         "assignees": [],
@@ -2357,8 +2357,10 @@
         "value": 500
       },
       {
-        "assignees": [],
-        "state": "open",
+        "assignees": [
+          "ACE07-Sev"
+        ],
+        "state": "closed",
         "title": "Implement a new compiler pass (Bounty #3)",
         "url": "https://github.com/unitaryfoundation/ucc/issues/381",
         "value": 500
@@ -2383,7 +2385,7 @@
     "emoji": "\ud83c\udf71\ud83e\udd5e",
     "name": "UCC",
     "num_bounties": 5,
-    "num_open_bounties": 4,
+    "num_open_bounties": 3,
     "total_amount": 1775,
     "url": "https://github.com/unitaryfoundation/ucc"
   }

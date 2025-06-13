@@ -61,10 +61,16 @@
         "title": "to_matrix for circuits",
         "url": "https://github.com/tequilahub/tequila/issues/403",
         "value": 100
+      },
+      {
+        "project": "ucc",
+        "title": "Implement a new compiler pass (Bounty #3)",
+        "url": "https://github.com/unitaryfoundation/ucc/issues/381",
+        "value": 500
       }
     ],
-    "num_projects": 5,
-    "total_value": 945,
+    "num_projects": 6,
+    "total_value": 1445,
     "username": "ACE07-Sev"
   },
   {
@@ -211,14 +217,20 @@
   {
     "bounties": [
       {
+        "project": "piccolo.jl",
+        "title": "Support building `QObjEvo` (from QuantumToolbox.jl) objects from QuantumSystems and NamedTrajectories",
+        "url": "https://github.com/harmoniqs/PiccoloQuantumObjects.jl/issues/27",
+        "value": 100
+      },
+      {
         "project": "quantumtoolbox.jl",
         "title": "Implement Bloch Sphere rendering",
         "url": "https://github.com/qutip/QuantumToolbox.jl/issues/461",
         "value": 100
       }
     ],
-    "num_projects": 1,
-    "total_value": 100,
+    "num_projects": 2,
+    "total_value": 200,
     "username": "Fe-r-oz"
   },
   {
