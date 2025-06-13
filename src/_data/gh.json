@@ -493,7 +493,7 @@
     "url": "https://github.com/CQCL/hugr"
   },
   "inconspiquous": {
-    "amount_available": 420,
+    "amount_available": 340,
     "bounties": [
       {
         "assignees": [
@@ -526,8 +526,10 @@
         "value": 100
       },
       {
-        "assignees": [],
-        "state": "open",
+        "assignees": [
+          "Gmin2"
+        ],
+        "state": "closed",
         "title": "Generalise Pauli Propagation.",
         "url": "https://github.com/xdslproject/inconspiquous/issues/86",
         "value": 80
@@ -536,16 +538,18 @@
     "emoji": null,
     "name": "Inconspiquous",
     "num_bounties": 5,
-    "num_open_bounties": 4,
+    "num_open_bounties": 3,
     "total_amount": 500,
     "url": "https://github.com/xdslproject/inconspiquous/"
   },
   "kqcircuits": {
-    "amount_available": 200,
+    "amount_available": 0,
     "bounties": [
       {
-        "assignees": [],
-        "state": "open",
+        "assignees": [
+          "ljcamargo"
+        ],
+        "state": "closed",
         "title": "Design SuperInductor junction for Fluxonium devices",
         "url": "https://github.com/iqm-finland/KQCircuits/issues/45",
         "value": 200
@@ -572,7 +576,7 @@
     "emoji": "\ud83e\udd91",
     "name": "KQCircuits",
     "num_bounties": 3,
-    "num_open_bounties": 1,
+    "num_open_bounties": 0,
     "total_amount": 500,
     "url": "https://github.com/iqm-finland/KQCircuits"
   },

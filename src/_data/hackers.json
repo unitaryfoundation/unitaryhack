@@ -237,14 +237,20 @@
   {
     "bounties": [
       {
+        "project": "inconspiquous",
+        "title": "Generalise Pauli Propagation.",
+        "url": "https://github.com/xdslproject/inconspiquous/issues/86",
+        "value": 80
+      },
+      {
         "project": "qbraid-qir",
         "title": "Add tests for `qbraid_qir/qasm3/maps.py`",
         "url": "https://github.com/qBraid/qbraid-qir/issues/196",
         "value": 75
       }
     ],
-    "num_projects": 1,
-    "total_value": 75,
+    "num_projects": 2,
+    "total_value": 155,
     "username": "Gmin2"
   },
   {
@@ -851,6 +857,19 @@
     "num_projects": 2,
     "total_value": 175,
     "username": "lavanya-m-k"
+  },
+  {
+    "bounties": [
+      {
+        "project": "kqcircuits",
+        "title": "Design SuperInductor junction for Fluxonium devices",
+        "url": "https://github.com/iqm-finland/KQCircuits/issues/45",
+        "value": 200
+      }
+    ],
+    "num_projects": 1,
+    "total_value": 200,
+    "username": "ljcamargo"
   },
   {
     "bounties": [
