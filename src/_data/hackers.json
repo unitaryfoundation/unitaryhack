@@ -871,10 +871,16 @@
         "title": "Design SuperInductor junction for Fluxonium devices",
         "url": "https://github.com/iqm-finland/KQCircuits/issues/45",
         "value": 200
+      },
+      {
+        "project": "quantumarthack",
+        "title": "Creating a novel audio effect?",
+        "url": "https://github.com/moth-quantum/QuantumArtHack/issues/5",
+        "value": 125
       }
     ],
-    "num_projects": 1,
-    "total_value": 200,
+    "num_projects": 2,
+    "total_value": 325,
     "username": "ljcamargo"
   },
   {
@@ -1054,10 +1060,16 @@
         "title": "Implementation of Graph state preparation",
         "url": "https://github.com/qiboteam/qibo/issues/1621",
         "value": 50
+      },
+      {
+        "project": "quantumarthack",
+        "title": "Creating a novel visual effect?",
+        "url": "https://github.com/moth-quantum/QuantumArtHack/issues/4",
+        "value": 125
       }
     ],
-    "num_projects": 1,
-    "total_value": 50,
+    "num_projects": 2,
+    "total_value": 175,
     "username": "victor-onofre"
   },
   {

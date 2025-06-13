@@ -1752,7 +1752,7 @@
     "url": "https://github.com/Quantum-Universal-Education/Quantum-Universal-Education.github.io"
   },
   "quantumarthack": {
-    "amount_available": 375,
+    "amount_available": 125,
     "bounties": [
       {
         "assignees": [
@@ -1783,7 +1783,7 @@
         "assignees": [
           "victor-onofre"
         ],
-        "state": "open",
+        "state": "closed",
         "title": "Creating a novel visual effect?",
         "url": "https://github.com/moth-quantum/QuantumArtHack/issues/4",
         "value": 125
@@ -1792,7 +1792,7 @@
         "assignees": [
           "ljcamargo"
         ],
-        "state": "open",
+        "state": "closed",
         "title": "Creating a novel audio effect?",
         "url": "https://github.com/moth-quantum/QuantumArtHack/issues/5",
         "value": 125
@@ -1810,7 +1810,7 @@
     "emoji": "\u269b\ufe0f\ud83d\udd8c\ufe0f",
     "name": "Art with Quantum Dynamics",
     "num_bounties": 6,
-    "num_open_bounties": 3,
+    "num_open_bounties": 1,
     "total_amount": 500,
     "url": "https://github.com/moth-quantum/QuantumArtHack"
   },
@@ -2134,7 +2134,7 @@
     "url": "https://github.com/haiqu-ai/rivet"
   },
   "rustworkx": {
-    "amount_available": 525,
+    "amount_available": 425,
     "bounties": [
       {
         "assignees": [
@@ -2147,7 +2147,7 @@
       },
       {
         "assignees": [],
-        "state": "open",
+        "state": "closed",
         "title": "expose can_contract",
         "url": "https://github.com/Qiskit/rustworkx/issues/1009",
         "value": 100
@@ -2179,7 +2179,7 @@
     "emoji": "\ud83e\udd80\ud83c\udfcb\ufe0f",
     "name": "rustworkx",
     "num_bounties": 5,
-    "num_open_bounties": 4,
+    "num_open_bounties": 3,
     "total_amount": 650,
     "url": "https://github.com/Qiskit/rustworkx"
   },
