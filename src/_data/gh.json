@@ -282,7 +282,7 @@
     "url": "https://github.com/munich-quantum-toolkit/core"
   },
   "cuda-quantum": {
-    "amount_available": 380,
+    "amount_available": 300,
     "bounties": [
       {
         "assignees": [],
@@ -293,7 +293,7 @@
       },
       {
         "assignees": [],
-        "state": "open",
+        "state": "closed",
         "title": "CUDA-Q dynamics examples/tutorials for quantum hardware device modelling",
         "url": "https://github.com/NVIDIA/cuda-quantum/issues/2941",
         "value": 80
@@ -325,7 +325,7 @@
     "emoji": "\ud83d\udcbb\u26a1",
     "name": "CUDA-Q",
     "num_bounties": 5,
-    "num_open_bounties": 4,
+    "num_open_bounties": 3,
     "total_amount": 500,
     "url": "https://github.com/NVIDIA/cuda-quantum"
   },
