@@ -948,7 +948,7 @@
     "url": "https://github.com/MSRudolph/PauliPropagation.jl"
   },
   "paulistrings.jl": {
-    "amount_available": 150,
+    "amount_available": 0,
     "bounties": [
       {
         "assignees": [
@@ -969,8 +969,10 @@
         "value": 100
       },
       {
-        "assignees": [],
-        "state": "open",
+        "assignees": [
+          "jebernate"
+        ],
+        "state": "closed",
         "title": "Symbolics",
         "url": "https://github.com/nicolasloizeau/PauliStrings.jl/issues/33",
         "value": 150
@@ -988,7 +990,7 @@
     "emoji": "\ud83e\uddf6",
     "name": "PauliStrings.jl",
     "num_bounties": 4,
-    "num_open_bounties": 1,
+    "num_open_bounties": 0,
     "total_amount": 500,
     "url": "https://github.com/nicolasloizeau/PauliStrings.jl"
   },

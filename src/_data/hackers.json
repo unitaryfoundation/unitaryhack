@@ -787,6 +787,12 @@
       },
       {
         "project": "paulistrings.jl",
+        "title": "Symbolics",
+        "url": "https://github.com/nicolasloizeau/PauliStrings.jl/issues/33",
+        "value": 150
+      },
+      {
+        "project": "paulistrings.jl",
         "title": "Implement 2D translation invariant operators",
         "url": "https://github.com/nicolasloizeau/PauliStrings.jl/issues/32",
         "value": 200
@@ -805,7 +811,7 @@
       }
     ],
     "num_projects": 2,
-    "total_value": 590,
+    "total_value": 740,
     "username": "jebernate"
   },
   {
