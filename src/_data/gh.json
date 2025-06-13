@@ -1683,14 +1683,18 @@
         "value": 100
       },
       {
-        "assignees": [],
+        "assignees": [
+          "lavanya-m-k"
+        ],
         "state": "open",
         "title": "[Unitaryhack] Build and Improve the Experiment Creation GUI (Panel-based)",
         "url": "https://gitlab.com/quantify-os/quantify/-/issues/42",
         "value": 200
       },
       {
-        "assignees": [],
+        "assignees": [
+          "RoshanSunilThomas"
+        ],
         "state": "open",
         "title": "[Unitaryhack] Implement Consistent Logging Across the Codebase",
         "url": "https://gitlab.com/quantify-os/quantify/-/issues/45",
