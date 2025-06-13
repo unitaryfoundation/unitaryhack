@@ -6,10 +6,16 @@
         "title": "Improve Python bindings for the Decomposer",
         "url": "https://github.com/zxcalc/quizx/issues/114",
         "value": 50
+      },
+      {
+        "project": "rustworkx",
+        "title": "expose can_contract",
+        "url": "https://github.com/Qiskit/rustworkx/issues/1009",
+        "value": 100
       }
     ],
-    "num_projects": 1,
-    "total_value": 50,
+    "num_projects": 2,
+    "total_value": 150,
     "username": "0xSooki"
   },
   {

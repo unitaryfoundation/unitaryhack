@@ -2146,7 +2146,9 @@
         "value": 200
       },
       {
-        "assignees": [],
+        "assignees": [
+          "0xSooki"
+        ],
         "state": "closed",
         "title": "expose can_contract",
         "url": "https://github.com/Qiskit/rustworkx/issues/1009",
