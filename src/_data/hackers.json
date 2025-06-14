@@ -1116,10 +1116,16 @@
         "title": "[FEATURE] Update the depth calculation to include branching operations with classical registers",
         "url": "https://github.com/qBraid/pyqasm/issues/53",
         "value": 150
+      },
+      {
+        "project": "pyqasm",
+        "title": "[FEATURE] Add support for explicit casting ",
+        "url": "https://github.com/qBraid/pyqasm/issues/10",
+        "value": 100
       }
     ],
     "num_projects": 1,
-    "total_value": 150,
+    "total_value": 250,
     "username": "vinayswamik"
   },
   {
