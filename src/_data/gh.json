@@ -493,7 +493,7 @@
     "url": "https://github.com/CQCL/hugr"
   },
   "inconspiquous": {
-    "amount_available": 340,
+    "amount_available": 200,
     "bounties": [
       {
         "assignees": [
@@ -505,8 +505,10 @@
         "value": 80
       },
       {
-        "assignees": [],
-        "state": "open",
+        "assignees": [
+          "Gopal-Dahale"
+        ],
+        "state": "closed",
         "title": "Adding subcircuit operations",
         "url": "https://github.com/xdslproject/inconspiquous/issues/53",
         "value": 140
@@ -538,7 +540,7 @@
     "emoji": null,
     "name": "Inconspiquous",
     "num_bounties": 5,
-    "num_open_bounties": 3,
+    "num_open_bounties": 2,
     "total_amount": 500,
     "url": "https://github.com/xdslproject/inconspiquous/"
   },

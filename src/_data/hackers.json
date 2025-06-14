@@ -274,6 +274,19 @@
   {
     "bounties": [
       {
+        "project": "inconspiquous",
+        "title": "Adding subcircuit operations",
+        "url": "https://github.com/xdslproject/inconspiquous/issues/53",
+        "value": 140
+      }
+    ],
+    "num_projects": 1,
+    "total_value": 140,
+    "username": "Gopal-Dahale"
+  },
+  {
+    "bounties": [
+      {
         "project": "hhat_lang",
         "title": "[IMPL] `toolchain.project` module through a CLI",
         "url": "https://github.com/hhat-lang/hhat_lang/issues/39",
