@@ -1075,13 +1075,19 @@
       },
       {
         "project": "piquasso",
+        "title": "Higher-order expectation values in `GaussianState`",
+        "url": "https://github.com/Budapest-Quantum-Computing-Group/piquasso/issues/437",
+        "value": 125
+      },
+      {
+        "project": "piquasso",
         "title": "Implement `SLOS_full` in `SamplingSimulator`",
         "url": "https://github.com/Budapest-Quantum-Computing-Group/piquasso/issues/434",
         "value": 175
       }
     ],
     "num_projects": 2,
-    "total_value": 400,
+    "total_value": 525,
     "username": "q-inho"
   },
   {

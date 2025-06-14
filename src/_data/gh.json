@@ -1064,7 +1064,7 @@
     "url": "https://github.com/harmoniqs/Piccolo.jl"
   },
   "piquasso": {
-    "amount_available": 250,
+    "amount_available": 125,
     "bounties": [
       {
         "assignees": [
@@ -1099,8 +1099,10 @@
         "value": 75
       },
       {
-        "assignees": [],
-        "state": "open",
+        "assignees": [
+          "q-inho"
+        ],
+        "state": "closed",
         "title": "Higher-order expectation values in `GaussianState`",
         "url": "https://github.com/Budapest-Quantum-Computing-Group/piquasso/issues/437",
         "value": 125
@@ -1118,7 +1120,7 @@
     "emoji": "\ud83d\udca1\u269b\ufe0f",
     "name": "Piquasso",
     "num_bounties": 6,
-    "num_open_bounties": 3,
+    "num_open_bounties": 2,
     "total_amount": 500,
     "url": "https://github.com/Budapest-Quantum-Computing-Group/piquasso"
   },
