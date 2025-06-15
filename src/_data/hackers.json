@@ -953,10 +953,16 @@
         "title": "[Feature]: Leakage suppression objective",
         "url": "https://github.com/harmoniqs/QuantumCollocation.jl/issues/203",
         "value": 100
+      },
+      {
+        "project": "piccolo.jl",
+        "title": "Increase codecov coverage to 80%, or higher \ud83d\ude04",
+        "url": "https://github.com/harmoniqs/QuantumCollocation.jl/issues/204",
+        "value": 50
       }
     ],
     "num_projects": 2,
-    "total_value": 150,
+    "total_value": 200,
     "username": "martin-klacan"
   },
   {
@@ -1056,6 +1062,12 @@
   {
     "bounties": [
       {
+        "project": "hhat_lang",
+        "title": "[IMPL] import types from the `src/hat_types/` directory",
+        "url": "https://github.com/hhat-lang/hhat_lang/issues/40",
+        "value": 75
+      },
+      {
         "project": "mitiq",
         "title": "Add functionality to plot ZNE results with multiple extrapolation techniques",
         "url": "https://github.com/unitaryfoundation/mitiq/issues/2624",
@@ -1086,8 +1098,8 @@
         "value": 175
       }
     ],
-    "num_projects": 2,
-    "total_value": 525,
+    "num_projects": 3,
+    "total_value": 600,
     "username": "q-inho"
   },
   {

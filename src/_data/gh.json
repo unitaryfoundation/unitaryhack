@@ -407,7 +407,7 @@
     "url": "https://github.com/CQCL/guppylang"
   },
   "hhat_lang": {
-    "amount_available": 350,
+    "amount_available": 275,
     "bounties": [
       {
         "assignees": [
@@ -442,8 +442,10 @@
         "value": 100
       },
       {
-        "assignees": [],
-        "state": "open",
+        "assignees": [
+          "q-inho"
+        ],
+        "state": "closed",
         "title": "[IMPL] import types from the `src/hat_types/` directory",
         "url": "https://github.com/hhat-lang/hhat_lang/issues/40",
         "value": 75
@@ -459,7 +461,7 @@
     "emoji": "\ud83c\udfa9\ud83d\udc52",
     "name": "H-hat quantum programming language",
     "num_bounties": 6,
-    "num_open_bounties": 4,
+    "num_open_bounties": 3,
     "total_amount": 500,
     "url": "https://github.com/hhat-lang/hhat_lang"
   },
@@ -1001,7 +1003,7 @@
     "url": "https://github.com/nicolasloizeau/PauliStrings.jl"
   },
   "piccolo.jl": {
-    "amount_available": 300,
+    "amount_available": 250,
     "bounties": [
       {
         "assignees": [
@@ -1043,7 +1045,7 @@
         "assignees": [
           "martin-klacan"
         ],
-        "state": "open",
+        "state": "closed",
         "title": "Increase codecov coverage to 80%, or higher \ud83d\ude04",
         "url": "https://github.com/harmoniqs/QuantumCollocation.jl/issues/204",
         "value": 50
@@ -1059,7 +1061,7 @@
     "emoji": "\ud83e\ude88\ud83c\udfb6",
     "name": "Piccolo.jl",
     "num_bounties": 6,
-    "num_open_bounties": 4,
+    "num_open_bounties": 3,
     "total_amount": 500,
     "url": "https://github.com/harmoniqs/Piccolo.jl"
   },
