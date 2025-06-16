@@ -330,7 +330,7 @@
     "url": "https://github.com/NVIDIA/cuda-quantum"
   },
   "graphix": {
-    "amount_available": 430,
+    "amount_available": 330,
     "bounties": [
       {
         "assignees": [],
@@ -366,7 +366,7 @@
         "assignees": [
           "Newtech66"
         ],
-        "state": "open",
+        "state": "closed",
         "title": "Implement a faster Pauli-flow finding algorithm",
         "url": "https://github.com/TeamGraphix/graphix/issues/279",
         "value": 100
@@ -375,7 +375,7 @@
     "emoji": "\ud83d\udd78\ufe0f",
     "name": "graphix",
     "num_bounties": 5,
-    "num_open_bounties": 4,
+    "num_open_bounties": 3,
     "total_amount": 500,
     "url": "https://github.com/TeamGraphix/graphix"
   },
@@ -833,32 +833,42 @@
     "url": "https://github.com/unitaryfoundation/mitiq"
   },
   "oqd-core": {
-    "amount_available": 500,
+    "amount_available": 0,
     "bounties": [
       {
-        "assignees": [],
-        "state": "open",
+        "assignees": [
+          "idriss-hamadi"
+        ],
+        "state": "closed",
         "title": "[IN REVIEW] Check if an analog `AnalogGate` implements an Ising-like Hamiltonian",
         "url": "https://github.com/OpenQuantumDesign/oqd-core/issues/59",
         "value": 180
       },
       {
-        "assignees": [],
-        "state": "open",
+        "assignees": [
+          "idriss-hamadi"
+        ],
+        "state": "closed",
         "title": "[IN REVIEW] Create a energy level visualization based on an instance of the `Atomic` objects",
         "url": "https://github.com/OpenQuantumDesign/oqd-core/issues/58",
         "value": 180
       },
       {
-        "assignees": [],
-        "state": "open",
+        "assignees": [
+          "drdren",
+          "tpasreeram"
+        ],
+        "state": "closed",
         "title": "Program your favourite Hamiltonians in the OQD `Analog` and `Atomic` interfaces",
         "url": "https://github.com/OpenQuantumDesign/oqd-core/issues/60",
         "value": 70
       },
       {
-        "assignees": [],
-        "state": "open",
+        "assignees": [
+          "drdren",
+          "tpasreeram"
+        ],
+        "state": "closed",
         "title": "Program your favourite Hamiltonians in the OQD `Analog` and `Atomic` interfaces",
         "url": "https://github.com/OpenQuantumDesign/oqd-core/issues/60",
         "value": 70
@@ -867,7 +877,7 @@
     "emoji": null,
     "name": "Open Quantum Design",
     "num_bounties": 4,
-    "num_open_bounties": 4,
+    "num_open_bounties": 0,
     "total_amount": 500,
     "url": "https://github.com/OpenQuantumDesign/oqd-core"
   },
@@ -926,11 +936,13 @@
     "url": "https://github.com/QPauLie/PauLie"
   },
   "paulipropagation.jl": {
-    "amount_available": 300,
+    "amount_available": 100,
     "bounties": [
       {
-        "assignees": [],
-        "state": "open",
+        "assignees": [
+          "isaachyw"
+        ],
+        "state": "closed",
         "title": "Visualization of branching in propagation tree/graph",
         "url": "https://github.com/MSRudolph/PauliPropagation.jl/issues/88",
         "value": 200
@@ -964,7 +976,7 @@
     "emoji": "\ud83c\uddf5 \ud83c\uddf5",
     "name": "Pauli Propagation",
     "num_bounties": 4,
-    "num_open_bounties": 2,
+    "num_open_bounties": 1,
     "total_amount": 500,
     "url": "https://github.com/MSRudolph/PauliPropagation.jl"
   },
@@ -1016,7 +1028,7 @@
     "url": "https://github.com/nicolasloizeau/PauliStrings.jl"
   },
   "piccolo.jl": {
-    "amount_available": 250,
+    "amount_available": 150,
     "bounties": [
       {
         "assignees": [
@@ -1040,7 +1052,7 @@
         "assignees": [
           "s-a-s-h"
         ],
-        "state": "open",
+        "state": "closed",
         "title": "Bloch sphere plots from `NamedTrajectory`",
         "url": "https://github.com/harmoniqs/PiccoloPlots.jl/issues/19",
         "value": 100
@@ -1074,7 +1086,7 @@
     "emoji": "\ud83e\ude88\ud83c\udfb6",
     "name": "Piccolo.jl",
     "num_bounties": 6,
-    "num_open_bounties": 3,
+    "num_open_bounties": 2,
     "total_amount": 500,
     "url": "https://github.com/harmoniqs/Piccolo.jl"
   },
@@ -1519,7 +1531,9 @@
         "value": 100
       },
       {
-        "assignees": [],
+        "assignees": [
+          "ljcamargo"
+        ],
         "state": "open",
         "title": "Improve the Collection passes",
         "url": "https://github.com/Qiskit/qiskit-ibm-transpiler/issues/173",
@@ -2162,9 +2176,7 @@
     "amount_available": 425,
     "bounties": [
       {
-        "assignees": [
-          "gluonhiggs"
-        ],
+        "assignees": [],
         "state": "open",
         "title": "Add reverse direction serialization",
         "url": "https://github.com/Qiskit/rustworkx/issues/840",

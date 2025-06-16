@@ -391,6 +391,12 @@
         "value": 100
       },
       {
+        "project": "graphix",
+        "title": "Implement a faster Pauli-flow finding algorithm",
+        "url": "https://github.com/TeamGraphix/graphix/issues/279",
+        "value": 100
+      },
+      {
         "project": "maximum-independent-set",
         "title": "[Feature] Add visualization functionality for original graph and MIS solution",
         "url": "https://github.com/pasqal-io/maximum-independent-set/issues/30",
@@ -415,8 +421,8 @@
         "value": 100
       }
     ],
-    "num_projects": 3,
-    "total_value": 450,
+    "num_projects": 4,
+    "total_value": 550,
     "username": "Newtech66"
   },
   {
@@ -790,6 +796,25 @@
   {
     "bounties": [
       {
+        "project": "oqd-core",
+        "title": "Program your favourite Hamiltonians in the OQD `Analog` and `Atomic` interfaces",
+        "url": "https://github.com/OpenQuantumDesign/oqd-core/issues/60",
+        "value": 35
+      },
+      {
+        "project": "oqd-core",
+        "title": "Program your favourite Hamiltonians in the OQD `Analog` and `Atomic` interfaces",
+        "url": "https://github.com/OpenQuantumDesign/oqd-core/issues/60",
+        "value": 35
+      }
+    ],
+    "num_projects": 1,
+    "total_value": 70,
+    "username": "drdren"
+  },
+  {
+    "bounties": [
+      {
         "project": "quantumarthack",
         "title": "Parallel qpixl decoding leads to strange outputs",
         "url": "https://github.com/moth-quantum/QuantumArtHack/issues/1",
@@ -849,6 +874,38 @@
     "num_projects": 3,
     "total_value": 420,
     "username": "gluonhiggs"
+  },
+  {
+    "bounties": [
+      {
+        "project": "oqd-core",
+        "title": "[IN REVIEW] Check if an analog `AnalogGate` implements an Ising-like Hamiltonian",
+        "url": "https://github.com/OpenQuantumDesign/oqd-core/issues/59",
+        "value": 180
+      },
+      {
+        "project": "oqd-core",
+        "title": "[IN REVIEW] Create a energy level visualization based on an instance of the `Atomic` objects",
+        "url": "https://github.com/OpenQuantumDesign/oqd-core/issues/58",
+        "value": 180
+      }
+    ],
+    "num_projects": 1,
+    "total_value": 360,
+    "username": "idriss-hamadi"
+  },
+  {
+    "bounties": [
+      {
+        "project": "paulipropagation.jl",
+        "title": "Visualization of branching in propagation tree/graph",
+        "url": "https://github.com/MSRudolph/PauliPropagation.jl/issues/88",
+        "value": 200
+      }
+    ],
+    "num_projects": 1,
+    "total_value": 200,
+    "username": "isaachyw"
   },
   {
     "bounties": [
@@ -1182,6 +1239,38 @@
     "num_projects": 1,
     "total_value": 90,
     "username": "quantumgizmos"
+  },
+  {
+    "bounties": [
+      {
+        "project": "piccolo.jl",
+        "title": "Bloch sphere plots from `NamedTrajectory`",
+        "url": "https://github.com/harmoniqs/PiccoloPlots.jl/issues/19",
+        "value": 100
+      }
+    ],
+    "num_projects": 1,
+    "total_value": 100,
+    "username": "s-a-s-h"
+  },
+  {
+    "bounties": [
+      {
+        "project": "oqd-core",
+        "title": "Program your favourite Hamiltonians in the OQD `Analog` and `Atomic` interfaces",
+        "url": "https://github.com/OpenQuantumDesign/oqd-core/issues/60",
+        "value": 35
+      },
+      {
+        "project": "oqd-core",
+        "title": "Program your favourite Hamiltonians in the OQD `Analog` and `Atomic` interfaces",
+        "url": "https://github.com/OpenQuantumDesign/oqd-core/issues/60",
+        "value": 35
+      }
+    ],
+    "num_projects": 1,
+    "total_value": 70,
+    "username": "tpasreeram"
   },
   {
     "bounties": [
