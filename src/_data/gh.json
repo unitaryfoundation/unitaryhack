@@ -182,7 +182,7 @@
     "url": "https://github.com/BQSKit/bqskit"
   },
   "cirq": {
-    "amount_available": 200,
+    "amount_available": 100,
     "bounties": [
       {
         "assignees": [
@@ -215,7 +215,7 @@
         "assignees": [
           "WingCode"
         ],
-        "state": "open",
+        "state": "closed",
         "title": "Tagging noise operations clutters the circuit output",
         "url": "https://github.com/quantumlib/Cirq/issues/2905",
         "value": 100
@@ -224,7 +224,7 @@
     "emoji": null,
     "name": "Cirq",
     "num_bounties": 4,
-    "num_open_bounties": 2,
+    "num_open_bounties": 1,
     "total_amount": 500,
     "url": "https://github.com/quantumlib/Cirq"
   },
@@ -783,7 +783,7 @@
     "url": "https://github.com/unitaryfoundation/metriq-gym/"
   },
   "mitiq": {
-    "amount_available": 100,
+    "amount_available": 0,
     "bounties": [
       {
         "assignees": [
@@ -813,8 +813,10 @@
         "value": 175
       },
       {
-        "assignees": [],
-        "state": "open",
+        "assignees": [
+          "MChang360686"
+        ],
+        "state": "closed",
         "title": "Document modularized functions as resource requirement tooling",
         "url": "https://github.com/unitaryfoundation/mitiq/issues/2682",
         "value": 100
@@ -832,7 +834,7 @@
     "emoji": "\ud83c\udf2a\ufe0f\ud83d\udc83",
     "name": "Mitiq",
     "num_bounties": 5,
-    "num_open_bounties": 1,
+    "num_open_bounties": 0,
     "total_amount": 500,
     "url": "https://github.com/unitaryfoundation/mitiq"
   },
@@ -1095,7 +1097,7 @@
     "url": "https://github.com/harmoniqs/Piccolo.jl"
   },
   "piquasso": {
-    "amount_available": 125,
+    "amount_available": 50,
     "bounties": [
       {
         "assignees": [
@@ -1123,8 +1125,10 @@
         "value": 50
       },
       {
-        "assignees": [],
-        "state": "open",
+        "assignees": [
+          "NnguyenHTommy"
+        ],
+        "state": "closed",
         "title": "Visualize the Wigner functions of states",
         "url": "https://github.com/Budapest-Quantum-Computing-Group/piquasso/issues/440",
         "value": 75
@@ -1151,7 +1155,7 @@
     "emoji": "\ud83d\udca1\u269b\ufe0f",
     "name": "Piquasso",
     "num_bounties": 6,
-    "num_open_bounties": 2,
+    "num_open_bounties": 1,
     "total_amount": 500,
     "url": "https://github.com/Budapest-Quantum-Computing-Group/piquasso"
   },
@@ -1678,7 +1682,7 @@
     "url": "https://github.com/qua-platform/qualibration-libs"
   },
   "qualtran": {
-    "amount_available": 200,
+    "amount_available": 0,
     "bounties": [
       {
         "assignees": [
@@ -1702,7 +1706,7 @@
         "assignees": [
           "jbolns"
         ],
-        "state": "open",
+        "state": "closed",
         "title": "Add a pretty formatter for rotation angles so we can have nicer musical score diagrams",
         "url": "https://github.com/quantumlib/Qualtran/issues/853",
         "value": 200
@@ -1711,16 +1715,16 @@
     "emoji": null,
     "name": "Qualtran",
     "num_bounties": 3,
-    "num_open_bounties": 1,
+    "num_open_bounties": 0,
     "total_amount": 500,
     "url": "https://github.com/quantumlib/Qualtran"
   },
   "quantify": {
-    "amount_available": 400,
+    "amount_available": 300,
     "bounties": [
       {
         "assignees": [],
-        "state": "open",
+        "state": "closed",
         "title": "[Unitaryhack] Build a Documentation Q&A Chatbot for Quantify",
         "url": "https://gitlab.com/quantify-os/quantify/-/issues/41",
         "value": 100
@@ -1747,7 +1751,7 @@
     "emoji": null,
     "name": "Quantify",
     "num_bounties": 3,
-    "num_open_bounties": 3,
+    "num_open_bounties": 2,
     "total_amount": 400,
     "url": "https://gitlab.com/quantify-os/quantify"
   },
@@ -2389,7 +2393,7 @@
     "url": "https://github.com/vprusso/toqito"
   },
   "ucc": {
-    "amount_available": 1200,
+    "amount_available": 700,
     "bounties": [
       {
         "assignees": [],
@@ -2399,8 +2403,10 @@
         "value": 500
       },
       {
-        "assignees": [],
-        "state": "open",
+        "assignees": [
+          "WolfLink"
+        ],
+        "state": "closed",
         "title": "Implement a new compiler pass (Bounty #2)",
         "url": "https://github.com/unitaryfoundation/ucc/issues/380",
         "value": 500
@@ -2436,7 +2442,7 @@
     "emoji": "\ud83c\udf71\ud83e\udd5e",
     "name": "UCC",
     "num_bounties": 5,
-    "num_open_bounties": 3,
+    "num_open_bounties": 2,
     "total_amount": 1775,
     "url": "https://github.com/unitaryfoundation/ucc"
   }
