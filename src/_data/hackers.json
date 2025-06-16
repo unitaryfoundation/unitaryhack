@@ -300,6 +300,12 @@
   {
     "bounties": [
       {
+        "project": "guppylang",
+        "title": "Diagnostics rendering with `miette`",
+        "url": "https://github.com/CQCL/guppylang/issues/968",
+        "value": 200
+      },
+      {
         "project": "metriq-gym",
         "title": "Add mirror circuits to benchmarks",
         "url": "https://github.com/unitaryfoundation/metriq-gym/issues/233",
@@ -360,8 +366,8 @@
         "value": 100
       }
     ],
-    "num_projects": 5,
-    "total_value": 945,
+    "num_projects": 6,
+    "total_value": 1145,
     "username": "Kitsunp"
   },
   {
@@ -892,6 +898,12 @@
       },
       {
         "project": "metriq-gym",
+        "title": "Backend for local simulator",
+        "url": "https://github.com/unitaryfoundation/metriq-gym/issues/322",
+        "value": 150
+      },
+      {
+        "project": "metriq-gym",
         "title": "Add details of status of job",
         "url": "https://github.com/unitaryfoundation/metriq-gym/issues/238",
         "value": 50
@@ -904,7 +916,7 @@
       }
     ],
     "num_projects": 2,
-    "total_value": 175,
+    "total_value": 325,
     "username": "lavanya-m-k"
   },
   {

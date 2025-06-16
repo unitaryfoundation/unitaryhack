@@ -380,11 +380,13 @@
     "url": "https://github.com/TeamGraphix/graphix"
   },
   "guppylang": {
-    "amount_available": 200,
+    "amount_available": 0,
     "bounties": [
       {
-        "assignees": [],
-        "state": "open",
+        "assignees": [
+          "Kitsunp"
+        ],
+        "state": "closed",
         "title": "Diagnostics rendering with `miette`",
         "url": "https://github.com/CQCL/guppylang/issues/968",
         "value": 200
@@ -402,7 +404,7 @@
     "emoji": "\ud83d\udc20",
     "name": "Guppy",
     "num_bounties": 2,
-    "num_open_bounties": 1,
+    "num_open_bounties": 0,
     "total_amount": 320,
     "url": "https://github.com/CQCL/guppylang"
   },
@@ -726,7 +728,9 @@
         "value": 150
       },
       {
-        "assignees": [],
+        "assignees": [
+          "lavanya-m-k"
+        ],
         "state": "closed",
         "title": "Backend for local simulator",
         "url": "https://github.com/unitaryfoundation/metriq-gym/issues/322",
