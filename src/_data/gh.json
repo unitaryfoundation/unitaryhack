@@ -292,7 +292,9 @@
         "value": 100
       },
       {
-        "assignees": [],
+        "assignees": [
+          "Gopal-Dahale"
+        ],
         "state": "closed",
         "title": "CUDA-Q dynamics examples/tutorials for quantum hardware device modelling",
         "url": "https://github.com/NVIDIA/cuda-quantum/issues/2941",
@@ -587,7 +589,7 @@
     "url": "https://github.com/iqm-finland/KQCircuits"
   },
   "ldpc": {
-    "amount_available": 60,
+    "amount_available": 0,
     "bounties": [
       {
         "assignees": [
@@ -599,8 +601,10 @@
         "value": 40
       },
       {
-        "assignees": [],
-        "state": "open",
+        "assignees": [
+          "niranjannagumalli"
+        ],
+        "state": "closed",
         "title": "Implement Function for Generating the Simplex Code Family",
         "url": "https://github.com/quantumgizmos/ldpc/issues/71",
         "value": 60
@@ -628,7 +632,7 @@
     "emoji": null,
     "name": "LDPC",
     "num_bounties": 4,
-    "num_open_bounties": 1,
+    "num_open_bounties": 0,
     "total_amount": 500,
     "url": "https://github.com/quantumgizmos/ldpc"
   },
@@ -1199,7 +1203,7 @@
     "url": "https://github.com/qBraid/pyqasm"
   },
   "pyqtorch": {
-    "amount_available": 100,
+    "amount_available": 0,
     "bounties": [
       {
         "assignees": [
@@ -1220,8 +1224,10 @@
         "value": 100
       },
       {
-        "assignees": [],
-        "state": "open",
+        "assignees": [
+          "neogyk"
+        ],
+        "state": "closed",
         "title": "[Feature] Support `ConcretizedCallable` as parameter type for parametric gates with adjoint differentiation mode ",
         "url": "https://github.com/pasqal-io/pyqtorch/issues/284",
         "value": 100
@@ -1248,7 +1254,7 @@
     "emoji": "\u269b\ufe0f\ud83d\udd25",
     "name": "pyqtorch",
     "num_bounties": 5,
-    "num_open_bounties": 1,
+    "num_open_bounties": 0,
     "total_amount": 500,
     "url": "https://github.com/pasqal-io/pyqtorch"
   },
@@ -2409,7 +2415,9 @@
         "value": 500
       },
       {
-        "assignees": [],
+        "assignees": [
+          "WingCode"
+        ],
         "state": "open",
         "title": "Verify logical equivalence of large compiled circuits",
         "url": "https://github.com/unitaryfoundation/ucc/issues/62",

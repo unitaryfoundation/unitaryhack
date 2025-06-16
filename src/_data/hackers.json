@@ -286,14 +286,20 @@
   {
     "bounties": [
       {
+        "project": "cuda-quantum",
+        "title": "CUDA-Q dynamics examples/tutorials for quantum hardware device modelling",
+        "url": "https://github.com/NVIDIA/cuda-quantum/issues/2941",
+        "value": 80
+      },
+      {
         "project": "inconspiquous",
         "title": "Adding subcircuit operations",
         "url": "https://github.com/xdslproject/inconspiquous/issues/53",
         "value": 140
       }
     ],
-    "num_projects": 1,
-    "total_value": 140,
+    "num_projects": 2,
+    "total_value": 220,
     "username": "Gopal-Dahale"
   },
   {
@@ -1115,6 +1121,32 @@
     "num_projects": 1,
     "total_value": 200,
     "username": "micpap25"
+  },
+  {
+    "bounties": [
+      {
+        "project": "pyqtorch",
+        "title": "[Feature] Support `ConcretizedCallable` as parameter type for parametric gates with adjoint differentiation mode ",
+        "url": "https://github.com/pasqal-io/pyqtorch/issues/284",
+        "value": 100
+      }
+    ],
+    "num_projects": 1,
+    "total_value": 100,
+    "username": "neogyk"
+  },
+  {
+    "bounties": [
+      {
+        "project": "ldpc",
+        "title": "Implement Function for Generating the Simplex Code Family",
+        "url": "https://github.com/quantumgizmos/ldpc/issues/71",
+        "value": 60
+      }
+    ],
+    "num_projects": 1,
+    "total_value": 60,
+    "username": "niranjannagumalli"
   },
   {
     "bounties": [
