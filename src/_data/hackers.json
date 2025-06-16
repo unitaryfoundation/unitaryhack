@@ -229,6 +229,12 @@
   {
     "bounties": [
       {
+        "project": "paulipropagation.jl",
+        "title": "External testing of quantum circuit correctness via e.g. Yao.jl",
+        "url": "https://github.com/MSRudolph/PauliPropagation.jl/issues/86",
+        "value": 150
+      },
+      {
         "project": "piccolo.jl",
         "title": "Support building `QObjEvo` (from QuantumToolbox.jl) objects from QuantumSystems and NamedTrajectories",
         "url": "https://github.com/harmoniqs/PiccoloQuantumObjects.jl/issues/27",
@@ -241,8 +247,8 @@
         "value": 100
       }
     ],
-    "num_projects": 2,
-    "total_value": 200,
+    "num_projects": 3,
+    "total_value": 350,
     "username": "Fe-r-oz"
   },
   {

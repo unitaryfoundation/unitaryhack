@@ -926,7 +926,7 @@
     "url": "https://github.com/QPauLie/PauLie"
   },
   "paulipropagation.jl": {
-    "amount_available": 450,
+    "amount_available": 300,
     "bounties": [
       {
         "assignees": [],
@@ -936,8 +936,10 @@
         "value": 200
       },
       {
-        "assignees": [],
-        "state": "open",
+        "assignees": [
+          "Fe-r-oz"
+        ],
+        "state": "closed",
         "title": "External testing of quantum circuit correctness via e.g. Yao.jl",
         "url": "https://github.com/MSRudolph/PauliPropagation.jl/issues/86",
         "value": 150
@@ -962,7 +964,7 @@
     "emoji": "\ud83c\uddf5 \ud83c\uddf5",
     "name": "Pauli Propagation",
     "num_bounties": 4,
-    "num_open_bounties": 3,
+    "num_open_bounties": 2,
     "total_amount": 500,
     "url": "https://github.com/MSRudolph/PauliPropagation.jl"
   },
