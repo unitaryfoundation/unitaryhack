@@ -2176,7 +2176,9 @@
     "amount_available": 425,
     "bounties": [
       {
-        "assignees": [],
+        "assignees": [
+          "thierry-martinez"
+        ],
         "state": "open",
         "title": "Add reverse direction serialization",
         "url": "https://github.com/Qiskit/rustworkx/issues/840",
