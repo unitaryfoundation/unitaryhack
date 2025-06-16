@@ -549,6 +549,12 @@
         "value": 150
       },
       {
+        "project": "metriq-app",
+        "title": "List of followed task",
+        "url": "https://github.com/unitaryfoundation/metriq-app/issues/1005",
+        "value": 100
+      },
+      {
         "project": "piquasso",
         "title": "Method for particle number detection probabilities with occupation numbers in the `fermionic` package",
         "url": "https://github.com/Budapest-Quantum-Computing-Group/piquasso/issues/435",
@@ -562,7 +568,7 @@
       }
     ],
     "num_projects": 5,
-    "total_value": 345,
+    "total_value": 445,
     "username": "WingCode"
   },
   {
@@ -586,14 +592,20 @@
         "value": 100
       },
       {
+        "project": "quantumarthack",
+        "title": "Make a function that takes a circuit as an input and mixes it with the QPIXL input.",
+        "url": "https://github.com/moth-quantum/QuantumArtHack/issues/3",
+        "value": 125
+      },
+      {
         "project": "scqubits",
         "title": "Adding code documentation",
         "url": "https://github.com/scqubits/scqubits/issues/264",
         "value": 75
       }
     ],
-    "num_projects": 4,
-    "total_value": 400,
+    "num_projects": 5,
+    "total_value": 525,
     "username": "ahkatlio"
   },
   {
@@ -977,6 +989,19 @@
     "num_projects": 1,
     "total_value": 150,
     "username": "matteosecli"
+  },
+  {
+    "bounties": [
+      {
+        "project": "qosf.org",
+        "title": "Initial Cleanup of Webpage 2025",
+        "url": "https://github.com/qosf/qosf.org/issues/119",
+        "value": 100
+      }
+    ],
+    "num_projects": 1,
+    "total_value": 100,
+    "username": "mhmohona"
   },
   {
     "bounties": [
