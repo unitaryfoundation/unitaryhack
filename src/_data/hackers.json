@@ -2,6 +2,12 @@
   {
     "bounties": [
       {
+        "project": "ldpc",
+        "title": "Add OpenMP Parallel Implementation for Belief Propagation Decoder",
+        "url": "https://github.com/quantumgizmos/ldpc/issues/72",
+        "value": 90
+      },
+      {
         "project": "quizx",
         "title": "Improve Python bindings for the Decomposer",
         "url": "https://github.com/zxcalc/quizx/issues/114",
@@ -14,8 +20,8 @@
         "value": 100
       }
     ],
-    "num_projects": 2,
-    "total_value": 150,
+    "num_projects": 3,
+    "total_value": 240,
     "username": "0xSooki"
   },
   {
@@ -549,6 +555,12 @@
         "value": 70
       },
       {
+        "project": "ldpc",
+        "title": "Add OpenMP Support to Union-Find Decoder",
+        "url": "https://github.com/quantumgizmos/ldpc/issues/73",
+        "value": 220
+      },
+      {
         "project": "metriq-app",
         "title": "Add user profile page",
         "url": "https://github.com/unitaryfoundation/metriq-app/issues/188",
@@ -573,8 +585,8 @@
         "value": 75
       }
     ],
-    "num_projects": 5,
-    "total_value": 445,
+    "num_projects": 6,
+    "total_value": 665,
     "username": "WingCode"
   },
   {
@@ -651,6 +663,19 @@
     "num_projects": 2,
     "total_value": 300,
     "username": "antalszava"
+  },
+  {
+    "bounties": [
+      {
+        "project": "pyqasm",
+        "title": "[FEATURE] Add support for while statements ",
+        "url": "https://github.com/qBraid/pyqasm/issues/7",
+        "value": 100
+      }
+    ],
+    "num_projects": 1,
+    "total_value": 100,
+    "username": "bhagyasreey"
   },
   {
     "bounties": [
@@ -1142,6 +1167,19 @@
   {
     "bounties": [
       {
+        "project": "ldpc",
+        "title": "Add OpenMP Parallel Implementation for Belief Propagation Decoder",
+        "url": "https://github.com/quantumgizmos/ldpc/issues/72",
+        "value": 90
+      }
+    ],
+    "num_projects": 1,
+    "total_value": 90,
+    "username": "quantumgizmos"
+  },
+  {
+    "bounties": [
+      {
         "project": "qibo",
         "title": "Implementation of Graph state preparation",
         "url": "https://github.com/qiboteam/qibo/issues/1621",
@@ -1176,6 +1214,19 @@
     "num_projects": 1,
     "total_value": 250,
     "username": "vinayswamik"
+  },
+  {
+    "bounties": [
+      {
+        "project": "ldpc",
+        "title": "Generating LDPC Tanner Graphs using the Progressive Edge Growth (PEG) Algorithm",
+        "url": "https://github.com/quantumgizmos/ldpc/issues/70",
+        "value": 40
+      }
+    ],
+    "num_projects": 1,
+    "total_value": 40,
+    "username": "vivek-kumar9696"
   },
   {
     "bounties": [

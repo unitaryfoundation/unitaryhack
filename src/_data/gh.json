@@ -587,11 +587,13 @@
     "url": "https://github.com/iqm-finland/KQCircuits"
   },
   "ldpc": {
-    "amount_available": 500,
+    "amount_available": 60,
     "bounties": [
       {
-        "assignees": [],
-        "state": "open",
+        "assignees": [
+          "vivek-kumar9696"
+        ],
+        "state": "closed",
         "title": "Generating LDPC Tanner Graphs using the Progressive Edge Growth (PEG) Algorithm",
         "url": "https://github.com/quantumgizmos/ldpc/issues/70",
         "value": 40
@@ -604,15 +606,20 @@
         "value": 60
       },
       {
-        "assignees": [],
-        "state": "open",
+        "assignees": [
+          "0xSooki",
+          "quantumgizmos"
+        ],
+        "state": "closed",
         "title": "Add OpenMP Parallel Implementation for Belief Propagation Decoder",
         "url": "https://github.com/quantumgizmos/ldpc/issues/72",
         "value": 180
       },
       {
-        "assignees": [],
-        "state": "open",
+        "assignees": [
+          "WingCode"
+        ],
+        "state": "closed",
         "title": "Add OpenMP Support to Union-Find Decoder",
         "url": "https://github.com/quantumgizmos/ldpc/issues/73",
         "value": 220
@@ -621,7 +628,7 @@
     "emoji": null,
     "name": "LDPC",
     "num_bounties": 4,
-    "num_open_bounties": 4,
+    "num_open_bounties": 1,
     "total_amount": 500,
     "url": "https://github.com/quantumgizmos/ldpc"
   },
@@ -1143,7 +1150,9 @@
         "value": 150
       },
       {
-        "assignees": [],
+        "assignees": [
+          "bhagyasreey"
+        ],
         "state": "closed",
         "title": "[FEATURE] Add support for while statements ",
         "url": "https://github.com/qBraid/pyqasm/issues/7",
