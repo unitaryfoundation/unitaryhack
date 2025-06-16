@@ -2333,7 +2333,9 @@
         "value": 100
       },
       {
-        "assignees": [],
+        "assignees": [
+          "Newtech66"
+        ],
         "state": "open",
         "title": "Feature: Function to determine if density matrix is absolutely PPT",
         "url": "https://github.com/vprusso/toqito/issues/208",
