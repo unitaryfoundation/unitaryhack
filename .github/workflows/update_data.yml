@@ -3,8 +3,8 @@ name: Update hackathon results
 on:
   workflow_dispatch:
     inputs: {}
-  schedule:
-    - cron: "0 */2 * * *" # every 2 hours
+  # schedule:
+  #   - cron: "0 */2 * * *" # every 2 hours
 
 jobs:
   update_data:
