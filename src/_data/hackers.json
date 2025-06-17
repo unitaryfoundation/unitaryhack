@@ -495,10 +495,16 @@
         "title": "Add support for external `clap` subcommands in hugr-cli",
         "url": "https://github.com/CQCL/hugr/issues/1343",
         "value": 60
+      },
+      {
+        "project": "qiree",
+        "title": "Add new QIR code examples",
+        "url": "https://github.com/ORNL-QCI/qiree/issues/31",
+        "value": 125
       }
     ],
-    "num_projects": 1,
-    "total_value": 60,
+    "num_projects": 2,
+    "total_value": 185,
     "username": "OsamaMIT"
   },
   {
@@ -924,6 +930,19 @@
     "num_projects": 1,
     "total_value": 300,
     "username": "feelerx"
+  },
+  {
+    "bounties": [
+      {
+        "project": "quantify",
+        "title": "[Unitaryhack] Build a Documentation Q&A Chatbot for Quantify",
+        "url": "https://gitlab.com/quantify-os/quantify/-/issues/41",
+        "value": 100
+      }
+    ],
+    "num_projects": 1,
+    "total_value": 100,
+    "username": "gadhvirushiraj"
   },
   {
     "bounties": [
@@ -1391,6 +1410,19 @@
     "num_projects": 1,
     "total_value": 41,
     "username": "shubhusion"
+  },
+  {
+    "bounties": [
+      {
+        "project": "rustworkx",
+        "title": "Add reverse direction serialization",
+        "url": "https://github.com/Qiskit/rustworkx/issues/840",
+        "value": 200
+      }
+    ],
+    "num_projects": 1,
+    "total_value": 200,
+    "username": "thierry-martinez"
   },
   {
     "bounties": [

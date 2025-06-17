@@ -1468,7 +1468,9 @@
     "amount_available": 375,
     "bounties": [
       {
-        "assignees": [],
+        "assignees": [
+          "OsamaMIT"
+        ],
         "state": "closed",
         "title": "Add new QIR code examples",
         "url": "https://github.com/ORNL-QCI/qiree/issues/31",
@@ -1725,7 +1727,9 @@
     "amount_available": 300,
     "bounties": [
       {
-        "assignees": [],
+        "assignees": [
+          "gadhvirushiraj"
+        ],
         "state": "closed",
         "title": "[Unitaryhack] Build a Documentation Q&A Chatbot for Quantify",
         "url": "https://gitlab.com/quantify-os/quantify/-/issues/41",
@@ -2185,13 +2189,13 @@
     "url": "https://github.com/haiqu-ai/rivet"
   },
   "rustworkx": {
-    "amount_available": 425,
+    "amount_available": 225,
     "bounties": [
       {
         "assignees": [
           "thierry-martinez"
         ],
-        "state": "open",
+        "state": "closed",
         "title": "Add reverse direction serialization",
         "url": "https://github.com/Qiskit/rustworkx/issues/840",
         "value": 200
@@ -2215,14 +2219,18 @@
         "value": 125
       },
       {
-        "assignees": [],
+        "assignees": [
+          "gluonhiggs"
+        ],
         "state": "open",
         "title": "`token_swapper` to return its swaps as `(G::NodeId, G::NodeId)` rather than `NodeIndex`",
         "url": "https://github.com/Qiskit/rustworkx/issues/1437",
         "value": 100
       },
       {
-        "assignees": [],
+        "assignees": [
+          "gluonhiggs"
+        ],
         "state": "open",
         "title": "`token_swapper` to accept generic map-and-support for target description",
         "url": "https://github.com/Qiskit/rustworkx/issues/1438",
@@ -2232,7 +2240,7 @@
     "emoji": "\ud83e\udd80\ud83c\udfcb\ufe0f",
     "name": "rustworkx",
     "num_bounties": 5,
-    "num_open_bounties": 3,
+    "num_open_bounties": 2,
     "total_amount": 650,
     "url": "https://github.com/Qiskit/rustworkx"
   },
