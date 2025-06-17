@@ -411,7 +411,7 @@
     "url": "https://github.com/CQCL/guppylang"
   },
   "hhat_lang": {
-    "amount_available": 275,
+    "amount_available": 175,
     "bounties": [
       {
         "assignees": [
@@ -432,8 +432,10 @@
         "value": 100
       },
       {
-        "assignees": [],
-        "state": "open",
+        "assignees": [
+          "q-inho"
+        ],
+        "state": "closed",
         "title": "[IMPL] `@nez` instruction for OpenQASMv2.0",
         "url": "https://github.com/hhat-lang/hhat_lang/issues/44",
         "value": 100
@@ -465,7 +467,7 @@
     "emoji": "\ud83c\udfa9\ud83d\udc52",
     "name": "H-hat quantum programming language",
     "num_bounties": 6,
-    "num_open_bounties": 3,
+    "num_open_bounties": 2,
     "total_amount": 500,
     "url": "https://github.com/hhat-lang/hhat_lang"
   },
@@ -2235,7 +2237,7 @@
     "url": "https://github.com/Qiskit/rustworkx"
   },
   "scqubits": {
-    "amount_available": 325,
+    "amount_available": 125,
     "bounties": [
       {
         "assignees": [
@@ -2269,7 +2271,7 @@
         "assignees": [
           "AbdullahKazi500"
         ],
-        "state": "open",
+        "state": "closed",
         "title": "Short tutorial video on using `scqubits`",
         "url": "https://github.com/scqubits/scqubits/issues/263",
         "value": 200
@@ -2278,7 +2280,7 @@
     "emoji": "\ud83d\udce1",
     "name": "scqubits",
     "num_bounties": 4,
-    "num_open_bounties": 2,
+    "num_open_bounties": 1,
     "total_amount": 500,
     "url": "https://github.com/scqubits/scqubits"
   },
@@ -2337,7 +2339,7 @@
     "url": "https://github.com/tequilahub/tequila"
   },
   "toqito": {
-    "amount_available": 50,
+    "amount_available": 0,
     "bounties": [
       {
         "assignees": [
@@ -2379,7 +2381,7 @@
         "assignees": [
           "Newtech66"
         ],
-        "state": "open",
+        "state": "closed",
         "title": "Feature: Function to determine if density matrix is absolutely PPT",
         "url": "https://github.com/vprusso/toqito/issues/208",
         "value": 50
@@ -2388,7 +2390,7 @@
     "emoji": "\ud83c\udf2e\u269b\ufe0f",
     "name": "toqito",
     "num_bounties": 5,
-    "num_open_bounties": 1,
+    "num_open_bounties": 0,
     "total_amount": 500,
     "url": "https://github.com/vprusso/toqito"
   },

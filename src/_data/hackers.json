@@ -111,10 +111,16 @@
         "title": "DAGCircuit is missing adequate documentation",
         "url": "https://github.com/Qiskit/documentation/issues/1431",
         "value": 100
+      },
+      {
+        "project": "scqubits",
+        "title": "Short tutorial video on using `scqubits`",
+        "url": "https://github.com/scqubits/scqubits/issues/263",
+        "value": 200
       }
     ],
-    "num_projects": 2,
-    "total_value": 250,
+    "num_projects": 3,
+    "total_value": 450,
     "username": "AbdullahKazi500"
   },
   {
@@ -438,10 +444,16 @@
         "title": "Operator scrambling",
         "url": "https://github.com/QPauLie/PauLie/issues/23",
         "value": 100
+      },
+      {
+        "project": "toqito",
+        "title": "Feature: Function to determine if density matrix is absolutely PPT",
+        "url": "https://github.com/vprusso/toqito/issues/208",
+        "value": 50
       }
     ],
-    "num_projects": 4,
-    "total_value": 550,
+    "num_projects": 5,
+    "total_value": 600,
     "username": "Newtech66"
   },
   {
@@ -1264,6 +1276,12 @@
     "bounties": [
       {
         "project": "hhat_lang",
+        "title": "[IMPL] `@nez` instruction for OpenQASMv2.0",
+        "url": "https://github.com/hhat-lang/hhat_lang/issues/44",
+        "value": 100
+      },
+      {
+        "project": "hhat_lang",
         "title": "[IMPL] import types from the `src/hat_types/` directory",
         "url": "https://github.com/hhat-lang/hhat_lang/issues/40",
         "value": 75
@@ -1300,7 +1318,7 @@
       }
     ],
     "num_projects": 3,
-    "total_value": 600,
+    "total_value": 700,
     "username": "q-inho"
   },
   {
