@@ -182,7 +182,7 @@
     "url": "https://github.com/BQSKit/bqskit"
   },
   "cirq": {
-    "amount_available": 100,
+    "amount_available": 0,
     "bounties": [
       {
         "assignees": [
@@ -206,7 +206,7 @@
         "assignees": [
           "WingCode"
         ],
-        "state": "open",
+        "state": "closed",
         "title": "NoiseModels are not serializable",
         "url": "https://github.com/quantumlib/Cirq/issues/3846",
         "value": 100
@@ -224,7 +224,7 @@
     "emoji": null,
     "name": "Cirq",
     "num_bounties": 4,
-    "num_open_bounties": 1,
+    "num_open_bounties": 0,
     "total_amount": 500,
     "url": "https://github.com/quantumlib/Cirq"
   },
@@ -1465,11 +1465,11 @@
     "url": "https://github.com/qiboteam/qibo"
   },
   "qiree": {
-    "amount_available": 500,
+    "amount_available": 375,
     "bounties": [
       {
         "assignees": [],
-        "state": "open",
+        "state": "closed",
         "title": "Add new QIR code examples",
         "url": "https://github.com/ORNL-QCI/qiree/issues/31",
         "value": 125
@@ -1499,7 +1499,7 @@
     "emoji": "\ud83e\udd1d\ud83d\udee0",
     "name": "QIR-EE",
     "num_bounties": 4,
-    "num_open_bounties": 4,
+    "num_open_bounties": 3,
     "total_amount": 500,
     "url": "https://github.com/ORNL-QCI/qiree"
   },
@@ -1616,11 +1616,11 @@
     "url": "https://github.com/unitaryfoundation/qlass"
   },
   "qosf.org": {
-    "amount_available": 200,
+    "amount_available": 100,
     "bounties": [
       {
         "assignees": [],
-        "state": "open",
+        "state": "closed",
         "title": "Design a  monthly challenge",
         "url": "https://github.com/qosf/monthly-challenges/issues/63",
         "value": 100
@@ -1645,7 +1645,7 @@
     "emoji": "\ud83c\udf10",
     "name": "QOSF",
     "num_bounties": 3,
-    "num_open_bounties": 2,
+    "num_open_bounties": 1,
     "total_amount": 300,
     "url": "https://github.com/qosf/qosf.org"
   },
@@ -1758,7 +1758,7 @@
     "url": "https://gitlab.com/quantify-os/quantify"
   },
   "quantum-universal-education.github.io": {
-    "amount_available": 125,
+    "amount_available": 0,
     "bounties": [
       {
         "assignees": [],
@@ -1787,7 +1787,7 @@
           "shalini9894",
           "shubhusion"
         ],
-        "state": "open",
+        "state": "closed",
         "title": "Hardware website",
         "url": "https://github.com/Quantum-Universal-Education/Quantum-Universal-Education.github.io/issues/35",
         "value": 125
@@ -1796,7 +1796,7 @@
     "emoji": "\ud83d\udc31\ud83c\udf10",
     "name": "Quantum Universal Education",
     "num_bounties": 4,
-    "num_open_bounties": 1,
+    "num_open_bounties": 0,
     "total_amount": 400,
     "url": "https://github.com/Quantum-Universal-Education/Quantum-Universal-Education.github.io"
   },

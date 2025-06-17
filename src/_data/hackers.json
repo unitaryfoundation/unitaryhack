@@ -410,6 +410,19 @@
   {
     "bounties": [
       {
+        "project": "quantum-universal-education.github.io",
+        "title": "Hardware website",
+        "url": "https://github.com/Quantum-Universal-Education/Quantum-Universal-Education.github.io/issues/35",
+        "value": 41
+      }
+    ],
+    "num_projects": 1,
+    "total_value": 41,
+    "username": "NandanPatel24"
+  },
+  {
+    "bounties": [
+      {
         "project": "bqskit",
         "title": "Issues with get_subgraph method of CouplingGraph",
         "url": "https://github.com/BQSKit/bqskit/issues/290",
@@ -599,6 +612,12 @@
       },
       {
         "project": "cirq",
+        "title": "NoiseModels are not serializable",
+        "url": "https://github.com/quantumlib/Cirq/issues/3846",
+        "value": 100
+      },
+      {
+        "project": "cirq",
         "title": "Tagging noise operations clutters the circuit output",
         "url": "https://github.com/quantumlib/Cirq/issues/2905",
         "value": 100
@@ -641,7 +660,7 @@
       }
     ],
     "num_projects": 7,
-    "total_value": 765,
+    "total_value": 865,
     "username": "WingCode"
   },
   {
@@ -1346,6 +1365,32 @@
     "num_projects": 1,
     "total_value": 100,
     "username": "s-a-s-h"
+  },
+  {
+    "bounties": [
+      {
+        "project": "quantum-universal-education.github.io",
+        "title": "Hardware website",
+        "url": "https://github.com/Quantum-Universal-Education/Quantum-Universal-Education.github.io/issues/35",
+        "value": 41
+      }
+    ],
+    "num_projects": 1,
+    "total_value": 41,
+    "username": "shalini9894"
+  },
+  {
+    "bounties": [
+      {
+        "project": "quantum-universal-education.github.io",
+        "title": "Hardware website",
+        "url": "https://github.com/Quantum-Universal-Education/Quantum-Universal-Education.github.io/issues/35",
+        "value": 41
+      }
+    ],
+    "num_projects": 1,
+    "total_value": 41,
+    "username": "shubhusion"
   },
   {
     "bounties": [
