@@ -5,6 +5,7 @@ permalink: /register/index.html
 eleventyNavigation:
   key: Registration
   order: 1
+eleventyExcludeFromCollections: true # set to true to hide in navbars pre-hack
 ---
 
 <iframe class="airtable-embed" src="https://airtable.com/embed/apppeZIiaDZ7dgNya/pag7CoNawqpRfN6Oo/form" frameborder="0" onmousewheel="" width="100%" height="533" style="background: transparent; border: 1px solid #ccc;"></iframe>
