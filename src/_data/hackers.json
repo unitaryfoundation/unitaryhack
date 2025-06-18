@@ -660,13 +660,19 @@
       },
       {
         "project": "ucc",
+        "title": "Verify logical equivalence of large compiled circuits",
+        "url": "https://github.com/unitaryfoundation/ucc/issues/62",
+        "value": 200
+      },
+      {
+        "project": "ucc",
         "title": "Validate circuit properties as part of benchmarking runs",
         "url": "https://github.com/unitaryfoundation/ucc-bench/issues/27",
         "value": 75
       }
     ],
     "num_projects": 7,
-    "total_value": 865,
+    "total_value": 1065,
     "username": "WingCode"
   },
   {
@@ -1101,10 +1107,16 @@
         "title": "JobManager more lenient on invalid jobs in jsonl file",
         "url": "https://github.com/unitaryfoundation/metriq-gym/issues/301",
         "value": 50
+      },
+      {
+        "project": "quantify",
+        "title": "[Unitaryhack] Build and Improve the Experiment Creation GUI (Panel-based)",
+        "url": "https://gitlab.com/quantify-os/quantify/-/issues/42",
+        "value": 200
       }
     ],
-    "num_projects": 2,
-    "total_value": 325,
+    "num_projects": 3,
+    "total_value": 525,
     "username": "lavanya-m-k"
   },
   {

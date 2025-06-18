@@ -1724,7 +1724,7 @@
     "url": "https://github.com/quantumlib/Qualtran"
   },
   "quantify": {
-    "amount_available": 300,
+    "amount_available": 100,
     "bounties": [
       {
         "assignees": [
@@ -1739,7 +1739,7 @@
         "assignees": [
           "lavanya-m-k"
         ],
-        "state": "open",
+        "state": "closed",
         "title": "[Unitaryhack] Build and Improve the Experiment Creation GUI (Panel-based)",
         "url": "https://gitlab.com/quantify-os/quantify/-/issues/42",
         "value": 200
@@ -1757,7 +1757,7 @@
     "emoji": null,
     "name": "Quantify",
     "num_bounties": 3,
-    "num_open_bounties": 2,
+    "num_open_bounties": 1,
     "total_amount": 400,
     "url": "https://gitlab.com/quantify-os/quantify"
   },
@@ -2403,11 +2403,11 @@
     "url": "https://github.com/vprusso/toqito"
   },
   "ucc": {
-    "amount_available": 700,
+    "amount_available": 0,
     "bounties": [
       {
         "assignees": [],
-        "state": "open",
+        "state": "closed",
         "title": "Implement a new compiler pass (Bounty #1)",
         "url": "https://github.com/unitaryfoundation/ucc/issues/379",
         "value": 500
@@ -2434,7 +2434,7 @@
         "assignees": [
           "WingCode"
         ],
-        "state": "open",
+        "state": "closed",
         "title": "Verify logical equivalence of large compiled circuits",
         "url": "https://github.com/unitaryfoundation/ucc/issues/62",
         "value": 200
@@ -2452,7 +2452,7 @@
     "emoji": "\ud83c\udf71\ud83e\udd5e",
     "name": "UCC",
     "num_bounties": 5,
-    "num_open_bounties": 2,
+    "num_open_bounties": 0,
     "total_amount": 1775,
     "url": "https://github.com/unitaryfoundation/ucc"
   }
