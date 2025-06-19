@@ -19,8 +19,12 @@ bounties:
     value: 180
   - issue_num: 60
     value: 70
+    state: closed
+    assignee: drdren
   - issue_num: 60
     value: 70
+    state: closed
+    assignee: tpasreeram
 ---
 
 Open Quantum Design is a non-profit foundation supporting the development of full-stack, open-source quantum computers. OQD's current designs are based on laser-cooled trapped ion quantum computing hardware, including real-time control, backend and frontend software. We have open-sourced repos for classical emulators for analog and atomic representations of quantum programs, our core interfaces, cloud tools, and our compilation infrastructure.

@@ -863,8 +863,7 @@
       },
       {
         "assignees": [
-          "drdren",
-          "tpasreeram"
+          "drdren"
         ],
         "state": "closed",
         "title": "Program your favourite Hamiltonians in the OQD `Analog` and `Atomic` interfaces",
@@ -873,7 +872,6 @@
       },
       {
         "assignees": [
-          "drdren",
           "tpasreeram"
         ],
         "state": "closed",

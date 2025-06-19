@@ -57,31 +57,32 @@ for project in get_project_info():
         repo_provider = (
             "gitlab" if (repo_ref and "gitlab.com" in repo_ref) else provider
         )
+        assignees_from_issue = [bounty.get("assignee")] if bounty.get("assignee") else []
         if repo_provider == "github":
             repo = g.get_repo(repo_key)
             issue = repo.get_issue(number=bounty["issue_num"])
             state = bounty.get("state") or issue.state
-            assignees_from_issue = [hacker.login for hacker in issue.assignees]
+            assignees_from_issue = assignees_from_issue or [hacker.login for hacker in issue.assignees]
             issue_url = f"https://github.com/{repo_key}/issues/{bounty['issue_num']}"
         else:
             repo = gl.projects.get(repo_key)
             issue = repo.issues.get(bounty["issue_num"])
             state = bounty.get("state") or issue.state
             state = "open" if state == "opened" else state
-            assignees_from_issue = [
+            assignees_from_issue = assignees_from_issue or [
                 a["username"] for a in issue.attributes.get("assignees", [])
             ]
             issue_url = f"https://gitlab.com/{repo_key}/-/issues/{bounty['issue_num']}"
         if state == "open":
             amount_available += bounty["value"]
             num_open_bounties += 1
-        extra_assignees = [bounty.get("assignee")] if bounty.get("assignee") else []
-        all_assignees = set(assignees_from_issue + extra_assignees)
+        # extra_assignees = [bounty.get("assignee")] if bounty.get("assignee") else []
+        # all_assignees = set(assignees_from_issue + extra_assignees)
         issue_list.append(
             {
                 "title": issue.title,
                 "state": state,
-                "assignees": sorted(all_assignees),
+                "assignees": sorted(assignees_from_issue),
                 "value": bounty["value"],
                 "url": issue_url,
             }
