@@ -10,12 +10,15 @@ section: projects
   {% endif %}
 
   <p>
-    To date, <b>{{ stats["num_bounties"] - stats["num_open_bounties"] }} bounties</b>
+    During unitaryHACK 2025 <b>{{ stats["num_hackers"] }} hackers</b> managed to close
+    <b>{{ stats["num_closed_bounties"] }} bounties</b> and collect a total of
+    <b>${{ stats["total_bounty_value"] - stats["open_bounty_value"] }}</b>.
+    {# To date, <b>{{ stats["num_bounties"] - stats["num_open_bounties"] }} bounties</b>
     have been closed, and <b>${{ stats["total_bounty_value"] - stats["open_bounty_value"] }}</b>
     earned!
-    Congratulations 🎉 to the {{ stats["num_hackers"] }} hackers who have been been awarded bounties thus far.
+    Congratulations 🎉 to the {{ stats["num_hackers"] }} hackers who have been been awarded bounties thus far. #}
     See how you stack up on the <a href="/leaderboard">leaderboard</a>!
-    There are still {{ stats["num_open_bounties"] }} bounties up for grabs, worth a total of ${{ stats["open_bounty_value"] }}!
+    {# There are still {{ stats["num_open_bounties"] }} bounties up for grabs, worth a total of ${{ stats["open_bounty_value"] }}! #}
   </p>
 
   {{ layoutContent | safe }}
