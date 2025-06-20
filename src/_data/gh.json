@@ -1034,7 +1034,7 @@
     "url": "https://github.com/nicolasloizeau/PauliStrings.jl"
   },
   "piccolo.jl": {
-    "amount_available": 150,
+    "amount_available": 50,
     "bounties": [
       {
         "assignees": [
@@ -1067,7 +1067,7 @@
         "assignees": [
           "BBhattacharyya1729"
         ],
-        "state": "open",
+        "state": "closed",
         "title": "Linear sum and symmetry constraints",
         "url": "https://github.com/harmoniqs/DirectTrajOpt.jl/issues/20",
         "value": 100
@@ -1092,7 +1092,7 @@
     "emoji": "\ud83e\ude88\ud83c\udfb6",
     "name": "Piccolo.jl",
     "num_bounties": 6,
-    "num_open_bounties": 2,
+    "num_open_bounties": 1,
     "total_amount": 500,
     "url": "https://github.com/harmoniqs/Piccolo.jl"
   },
@@ -1504,13 +1504,14 @@
     "url": "https://github.com/ORNL-QCI/qiree"
   },
   "qiskit": {
-    "amount_available": 400,
+    "amount_available": 0,
     "bounties": [
       {
         "assignees": [
+          "Erik-Chagas",
           "Tanuj-rai"
         ],
-        "state": "open",
+        "state": "closed",
         "title": "Add user config option to limit allowed QPY versions",
         "url": "https://github.com/Qiskit/qiskit/issues/14034",
         "value": 100
@@ -1546,7 +1547,7 @@
         "assignees": [
           "ljcamargo"
         ],
-        "state": "open",
+        "state": "closed",
         "title": "Improve the Collection passes",
         "url": "https://github.com/Qiskit/qiskit-ibm-transpiler/issues/173",
         "value": 300
@@ -1555,7 +1556,7 @@
     "emoji": "\ud83c\udf10",
     "name": "Qiskit",
     "num_bounties": 5,
-    "num_open_bounties": 2,
+    "num_open_bounties": 0,
     "total_amount": 675,
     "url": "https://github.com/Qiskit/qiskit/"
   },
