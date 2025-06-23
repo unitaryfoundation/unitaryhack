@@ -239,7 +239,9 @@
         "value": 100
       },
       {
-        "assignees": [],
+        "assignees": [
+          "denialhaag"
+        ],
         "state": "open",
         "title": "\u2728 MLIR - Rotation Gate Merge Pass/Pattern",
         "url": "https://github.com/munich-quantum-toolkit/core/issues/898",
@@ -613,8 +615,7 @@
       },
       {
         "assignees": [
-          "0xSooki",
-          "quantumgizmos"
+          "0xSooki"
         ],
         "state": "closed",
         "title": "Add OpenMP Parallel Implementation for Belief Propagation Decoder",
@@ -1620,7 +1621,9 @@
     "amount_available": 100,
     "bounties": [
       {
-        "assignees": [],
+        "assignees": [
+          "poig"
+        ],
         "state": "closed",
         "title": "Design a  monthly challenge",
         "url": "https://github.com/qosf/monthly-challenges/issues/63",
@@ -1764,21 +1767,28 @@
     "amount_available": 0,
     "bounties": [
       {
-        "assignees": [],
+        "assignees": [
+          "ljcamargo"
+        ],
         "state": "closed",
         "title": "Quantum Board Game",
         "url": "https://github.com/Quantum-Universal-Education/Quantum-Universal-Education.github.io/issues/38",
         "value": 100
       },
       {
-        "assignees": [],
+        "assignees": [
+          "jacobg7598",
+          "scneri"
+        ],
         "state": "closed",
         "title": "Program a quantum game",
         "url": "https://github.com/Quantum-Universal-Education/Quantum-Universal-Education.github.io/issues/37",
         "value": 100
       },
       {
-        "assignees": [],
+        "assignees": [
+          "shalini9894"
+        ],
         "state": "closed",
         "title": "Infographics about the quantum ecosystem",
         "url": "https://github.com/Quantum-Universal-Education/Quantum-Universal-Education.github.io/issues/36",
@@ -2292,7 +2302,7 @@
     "url": "https://github.com/scqubits/scqubits"
   },
   "tequila": {
-    "amount_available": 80,
+    "amount_available": 0,
     "bounties": [
       {
         "assignees": [
@@ -2322,8 +2332,10 @@
         "value": 100
       },
       {
-        "assignees": [],
-        "state": "open",
+        "assignees": [
+          "jebernate"
+        ],
+        "state": "closed",
         "title": "DDSim/Quimb Backend Integration",
         "url": "https://github.com/tequilahub/tequila/issues/405",
         "value": 80
@@ -2341,7 +2353,7 @@
     "emoji": null,
     "name": "Tequila",
     "num_bounties": 5,
-    "num_open_bounties": 1,
+    "num_open_bounties": 0,
     "total_amount": 500,
     "url": "https://github.com/tequilahub/tequila"
   },

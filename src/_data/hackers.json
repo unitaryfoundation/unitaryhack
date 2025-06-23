@@ -5,7 +5,7 @@
         "project": "ldpc",
         "title": "Add OpenMP Parallel Implementation for Belief Propagation Decoder",
         "url": "https://github.com/quantumgizmos/ldpc/issues/72",
-        "value": 90
+        "value": 180
       },
       {
         "project": "quizx",
@@ -21,7 +21,7 @@
       }
     ],
     "num_projects": 3,
-    "total_value": 240,
+    "total_value": 330,
     "username": "0xSooki"
   },
   {
@@ -1043,6 +1043,19 @@
   {
     "bounties": [
       {
+        "project": "quantum-universal-education.github.io",
+        "title": "Program a quantum game",
+        "url": "https://github.com/Quantum-Universal-Education/Quantum-Universal-Education.github.io/issues/37",
+        "value": 50
+      }
+    ],
+    "num_projects": 1,
+    "total_value": 50,
+    "username": "jacobg7598"
+  },
+  {
+    "bounties": [
+      {
         "project": "kqcircuits",
         "title": "Improve visualisation of simulation results with Paraview",
         "url": "https://github.com/iqm-finland/KQCircuits/issues/108",
@@ -1093,13 +1106,19 @@
       },
       {
         "project": "tequila",
+        "title": "DDSim/Quimb Backend Integration",
+        "url": "https://github.com/tequilahub/tequila/issues/405",
+        "value": 80
+      },
+      {
+        "project": "tequila",
         "title": "Chemistry: FCI Wavefunction to QubitWaveFunction",
         "url": "https://github.com/tequilahub/tequila/issues/406",
         "value": 120
       }
     ],
     "num_projects": 2,
-    "total_value": 740,
+    "total_value": 820,
     "username": "jebernate"
   },
   {
@@ -1167,14 +1186,20 @@
         "value": 300
       },
       {
+        "project": "quantum-universal-education.github.io",
+        "title": "Quantum Board Game",
+        "url": "https://github.com/Quantum-Universal-Education/Quantum-Universal-Education.github.io/issues/38",
+        "value": 100
+      },
+      {
         "project": "quantumarthack",
         "title": "Creating a novel audio effect?",
         "url": "https://github.com/moth-quantum/QuantumArtHack/issues/5",
         "value": 125
       }
     ],
-    "num_projects": 3,
-    "total_value": 625,
+    "num_projects": 4,
+    "total_value": 725,
     "username": "ljcamargo"
   },
   {
@@ -1333,6 +1358,12 @@
         "value": 150
       },
       {
+        "project": "qosf.org",
+        "title": "Design a  monthly challenge",
+        "url": "https://github.com/qosf/monthly-challenges/issues/63",
+        "value": 100
+      },
+      {
         "project": "toqito",
         "title": "Circular import with kraus_to_choi in channels directory",
         "url": "https://github.com/vprusso/toqito/issues/1081",
@@ -1357,8 +1388,8 @@
         "value": 100
       }
     ],
-    "num_projects": 4,
-    "total_value": 830,
+    "num_projects": 5,
+    "total_value": 930,
     "username": "poig"
   },
   {
@@ -1413,19 +1444,6 @@
   {
     "bounties": [
       {
-        "project": "ldpc",
-        "title": "Add OpenMP Parallel Implementation for Belief Propagation Decoder",
-        "url": "https://github.com/quantumgizmos/ldpc/issues/72",
-        "value": 90
-      }
-    ],
-    "num_projects": 1,
-    "total_value": 90,
-    "username": "quantumgizmos"
-  },
-  {
-    "bounties": [
-      {
         "project": "piccolo.jl",
         "title": "Bloch sphere plots from `NamedTrajectory`",
         "url": "https://github.com/harmoniqs/PiccoloPlots.jl/issues/19",
@@ -1440,13 +1458,32 @@
     "bounties": [
       {
         "project": "quantum-universal-education.github.io",
+        "title": "Program a quantum game",
+        "url": "https://github.com/Quantum-Universal-Education/Quantum-Universal-Education.github.io/issues/37",
+        "value": 50
+      }
+    ],
+    "num_projects": 1,
+    "total_value": 50,
+    "username": "scneri"
+  },
+  {
+    "bounties": [
+      {
+        "project": "quantum-universal-education.github.io",
+        "title": "Infographics about the quantum ecosystem",
+        "url": "https://github.com/Quantum-Universal-Education/Quantum-Universal-Education.github.io/issues/36",
+        "value": 75
+      },
+      {
+        "project": "quantum-universal-education.github.io",
         "title": "Hardware website",
         "url": "https://github.com/Quantum-Universal-Education/Quantum-Universal-Education.github.io/issues/35",
         "value": 41
       }
     ],
     "num_projects": 1,
-    "total_value": 41,
+    "total_value": 116,
     "username": "shalini9894"
   },
   {
