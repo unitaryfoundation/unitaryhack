@@ -37,3 +37,10 @@ Here are some basic local setup steps to get you started:
 **`npm run build`**: Generate minified production build
 
 Check out the Eleventy [command line usage docs](https://www.11ty.dev/docs/usage/) for more options.
+
+## 🌐 Deployment
+
+- Pushes to `main` run `.github/workflows/buildsite.yaml`, build with Node, and deploy to GitHub Pages using `PATH_PREFIX=/`, `INCLUDE_CNAME=true`, and `SITE_URL=https://unitaryhack.dev` (so `src/CNAME` is published for the production domain).
+- Manual runs expose a `target` input; choose `github-pages` to rebuild with `PATH_PREFIX=/uhack-test/`, skip the `CNAME`, and stamp links with `SITE_URL=https://natestemen.github.io/uhack-test` for testing on a repo-scoped Pages URL.
+- Locally you can mirror those targets: `npm run clean && npm run build` for production, or `npm run clean && PATH_PREFIX=/uhack-test/ INCLUDE_CNAME=false SITE_URL=https://natestemen.github.io/uhack-test npm run build` for the GitHub Pages preview.
+- Asset URLs already honor `PATH_PREFIX`, and when you open `_site/index.html` directly the build rewrites links for `file://`, though serving `_site` via `npm start` (or any static server) gives the most accurate preview.

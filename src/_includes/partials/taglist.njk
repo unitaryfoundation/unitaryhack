@@ -1,7 +1,7 @@
 <nav>
   <ul class="tag-list">
     {% for tag in taglist | filterTags %}
-      <a class="tag project-list__tag" href="/tags/{{ tag | slugify }}">{{ tag | safe }}</a>
+      <a class="tag project-list__tag" href="{{ ('/tags/' ~ (tag | slugify)) | url }}">{{ tag | safe }}</a>
     {% endfor %}
   </ul>
 </nav>

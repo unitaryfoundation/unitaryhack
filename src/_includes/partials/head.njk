@@ -19,7 +19,8 @@
   <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
 
   {# CSS #}
-  <link rel="stylesheet" href="/assets/css/main.css">
+  {% set cssPath = '/assets/css/main.css' | url %}
+  <link rel="stylesheet" href="{{ cssPath }}" data-build-path="{{ cssPath }}">
 
   {# Javascript #}
   <script>
@@ -38,5 +39,141 @@
       themeConfig.theme = (useSystemTheme && prefersDark) ? 'dark' : defaultTheme;
     }
   </script>
-  <script defer src="/assets/js/main.bundle.js"></script>
+  {% set jsPath = '/assets/js/main.bundle.js' | url %}
+  <script defer src="{{ jsPath }}" data-build-path="{{ jsPath }}"></script>
+  {# Allow double-clicking _site/index.html to work by rewriting asset URLs when served from the filesystem #}
+  <script>
+    (function () {
+      if (window.location.protocol !== 'file:') {
+        return;
+      }
+
+      var runRewrite = function () {
+        var pathPrefix = document.documentElement.dataset.pathPrefix || '/';
+        if (pathPrefix !== '/' && !pathPrefix.endsWith('/')) {
+          pathPrefix += '/';
+        }
+
+        var pathname = window.location.pathname;
+        var marker = '/_site/';
+        var markerIndex = pathname.indexOf(marker);
+
+        if (markerIndex === -1) {
+          return;
+        }
+
+        var siteRoot = 'file://' + pathname.slice(0, markerIndex + marker.length);
+        var shouldSkip = function (value) {
+          return !value ||
+            value.startsWith('http://') ||
+            value.startsWith('https://') ||
+            value.startsWith('//') ||
+            value.startsWith('mailto:') ||
+            value.startsWith('tel:') ||
+            value.startsWith('#') ||
+            value.startsWith('data:');
+        };
+
+        var stripPrefix = function (value) {
+          if (pathPrefix !== '/' && value.indexOf(pathPrefix) === 0) {
+            var stripped = value.slice(pathPrefix.length);
+            return stripped.charAt(0) === '/' ? stripped : '/' + stripped;
+          }
+
+          return value;
+        };
+
+        var rewriteValue = function (value) {
+          if (shouldSkip(value)) {
+            return value;
+          }
+
+          if (value.charAt(0) === '/') {
+            var normalized = stripPrefix(value);
+            return siteRoot + normalized.slice(1);
+          }
+
+          return value;
+        };
+
+        var rewriteAttribute = function (node, attr) {
+          if (!node.hasAttribute(attr)) {
+            return;
+          }
+
+          var original = node.getAttribute(attr);
+          var rewritten = rewriteValue(original);
+
+          if (rewritten !== original) {
+            node.setAttribute(attr, rewritten);
+          }
+        };
+
+        var rewriteSrcset = function (node, attr) {
+          if (!node.hasAttribute(attr)) {
+            return;
+          }
+
+          var original = node.getAttribute(attr);
+
+          if (!original) {
+            return;
+          }
+
+          var rewritten = original.split(',').map(function (entry) {
+            var part = entry.trim();
+
+            if (!part) {
+              return part;
+            }
+
+            var spaceIndex = part.indexOf(' ');
+            var url = spaceIndex === -1 ? part : part.slice(0, spaceIndex);
+            var descriptor = spaceIndex === -1 ? '' : part.slice(spaceIndex + 1);
+            var updated = rewriteValue(url);
+
+            return descriptor ? (updated + ' ' + descriptor) : updated;
+          }).join(', ');
+
+          if (rewritten !== original) {
+            node.setAttribute(attr, rewritten);
+          }
+        };
+
+        var nodes = document.querySelectorAll('[data-build-path]');
+        nodes.forEach(function (node) {
+          rewriteAttribute(node, 'href');
+          rewriteAttribute(node, 'src');
+        });
+
+        var selectors = [
+          { selector: 'link[href]', attr: 'href', type: 'attr' },
+          { selector: 'script[src]', attr: 'src', type: 'attr' },
+          { selector: 'img[src]', attr: 'src', type: 'attr' },
+          { selector: 'img[srcset]', attr: 'srcset', type: 'srcset' },
+          { selector: 'source[src]', attr: 'src', type: 'attr' },
+          { selector: 'source[srcset]', attr: 'srcset', type: 'srcset' },
+          { selector: 'a[href]', attr: 'href', type: 'attr' },
+        ];
+
+        selectors.forEach(function (entry) {
+          var elements = document.querySelectorAll(entry.selector);
+
+          elements.forEach(function (node) {
+            if (entry.type === 'srcset') {
+              rewriteSrcset(node, entry.attr);
+            } else {
+              rewriteAttribute(node, entry.attr);
+            }
+          });
+        });
+      };
+
+      if (document.readyState === 'loading') {
+        document.addEventListener('DOMContentLoaded', runRewrite);
+      } else {
+        runRewrite();
+      }
+    })();
+  </script>
 </head>
