@@ -5,17 +5,16 @@ metaDescription: Best Practices for unitaryHACK Issues
 permalink: /best-practices/index.html
 ---
 
-So you’re a maintainer of an open-source quantum software package – neato! And you’re participating in [unitaryHACK](https://unitaryhack.dev/) this year – huzzah!
+So you’re a maintainer of an open-source quantum software package – neato!
+And you’re participating in unitaryHACK this year – huzzah!
 
 This guide will help you create and curate issues on your GitHub repo that new contributors will be eager to work on and help reduce friction in the development process. 
-
-[Jump to Best practices guide]({{ '/best-practices#best-practices-guide' | url }})
 
 ## Why should I read this?
 
 You are an expert on your software project, but new people? Not so much. Allow me to illustrate with this [xkcd comic](https://xkcd.com/2501/):
 
-<div style="text-align: center"><img style="display: inline-block; width: 300px" src="/assets/img/average_familiarity_2x.png" alt="How could anyone consider themselves a well-rounded adult without a basic understanding of silicate geochemistry? Silicates are everywhere! It's hard to throw a rock without throwing one!" /></div>
+<div style="text-align: center"><img style="display: inline-block; width: 300px" src="{{ '/assets/img/average_familiarity_2x.png' | url }}" alt="How could anyone consider themselves a well-rounded adult without a basic understanding of silicate geochemistry? Silicates are everywhere! It's hard to throw a rock without throwing one!" /></div>
 <br/>
 
 You want high-quality contributors, right? You probably also want to help them get up and running while minimizing the time going back and forth, answering basic questions about your project.
@@ -32,7 +31,7 @@ Luckily, Tim Berners-Lee invented [URL](https://en.wikipedia.org/wiki/URL) links
 
 Example of best practice 1 from [QuantumToolbox.jl](http://QuantumToolbox.jl):
 
-<img src='/assets/img/BP_1.webp' alt="GitHub screenshot"/>
+<img src="{{ '/assets/img/BP_1.webp' | url }}" alt="GitHub screenshot"/>
 
 ### 2. Include a [Minimal Reproducible Example](https://stackoverflow.com/help/minimal-reproducible-example) (MRE)
 
@@ -40,7 +39,7 @@ If the issue is a bug, make sure to include a code snippet, script, or set of in
 
 Example of best practice 2 from [Amazon Braket SDK](https://github.com/amazon-braket/amazon-braket-sdk-python/issues/603):
 
-<img src='/assets/img/BP_2.webp' alt="GitHub screenshot"/>
+<img src="{{ '/assets/img/BP_2.webp' | url }}" alt="GitHub screenshot"/>
 
 ### 3. Define what’s in scope (and out of scope)
 
@@ -48,7 +47,7 @@ Estimate what is realistic to complete in the hacking period. Maybe what you rea
 
 Example of Best Practice 3 from [Qadence](https://github.com/pasqal-io/qadence/issues/368):
 
-<img src='/assets/img/BP_3.webp' alt="GitHub screenshot"/>
+<img src="{{ '/assets/img/BP_3.webp' | url }}" alt="GitHub screenshot"/>
 
 ### 4. Explain why it matters
 
@@ -58,13 +57,13 @@ Answering these questions will help a new person get a sense for why fixing this
 
 Example of Best Practice 4 from [HierarQcal](https://github.com/matt-lourens/hierarqcal/issues/50):
 
-<img src='/assets/img/BP_4.webp' alt="GitHub screenshot"/>
+<img src="{{ '/assets/img/BP_4.webp' | url }}" alt="GitHub screenshot"/>
 
 ## General best practices (beyond UnitaryHack):
 
 * **Consider creating Github issue templates (check out [UCC for examples](https://github.com/unitaryfoundation/ucc/tree/main/.github/ISSUE_TEMPLATE))**: These help the person submitting the issue scope it well from the start, e.g. including an MRE, explaining the context and alternatives considered, etc.
 
-<img src="/assets/img/issue_templates.png" alt="When you define issue template files, they appear in the GitHub issue ticket web UI." />
+<img src="{{ '/assets/img/issue_templates.png' | url }}" alt="When you define issue template files, they appear in the GitHub issue ticket web UI." />
 <br/>
 
 * **Create informative, user friendly documentation.**: Yeah yeah, docs are usually the last thing on our minds, and their development is not considered as sexy as contributing new features or getting a speedup, but can really help new people get up and running with your project, and will help new devs who want to contribute understand how their work fits into the broader repo.

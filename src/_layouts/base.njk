@@ -4,6 +4,7 @@
   {% if global.enable_theme_switch %}data-use-system-theme="{{ global.use_system_theme }}"{% endif %}
   {% if global.default_theme %}data-default-theme="{{ global.default_theme }}"{% endif %}
   {% if section %}data-current="{{ section }}"{% endif %}
+  data-path-prefix="{{ sitePathPrefix or '/' }}"
   lang="en"
 >
 

@@ -58,7 +58,7 @@ The main place that will be most helpful to you while you hack is connecting wit
 
 ### Find a task to dive into
 
-Once you have found a [project](https://unitaryhack.dev/projects/) you want to work on, find an issue on that project you want to lend a hand on. This could be one of the special bountied issues (meaning if you submit a maintainer accepted solution for these we will send you cash), or any other issue on that repo. Pay special attention to issues tagged unitaryHACK as they are ones the project maintainers have flagged as particularly good for contest participants to tackle.
+Once you have found a [project]({{ '/projects/' | url }}) you want to work on, find an issue on that project you want to lend a hand on. This could be one of the special bountied issues (meaning if you submit a maintainer accepted solution for these we will send you cash), or any other issue on that repo. Pay special attention to issues tagged unitaryHACK as they are ones the project maintainers have flagged as particularly good for contest participants to tackle.
 
 If you want to team up with other hackers on an issue that you have found, you can make a comment on the GitHub issue. Even if you don't plan to team up, commenting on GitHub may help other hackers know if someone else is working on that issue (that's fine, but depending on the issue, only one pull request may be merged to solve an issue). We ask that you not comment on more than 3-4 projects per day. This is to ensure that you are not overwhelming yourself, the maintainers, or your fellow hackers. 
 

@@ -12,8 +12,8 @@
       <ul class="drawer__nav">
         <li class="drawer__nav-item">
           <a
-            href="/"
-            {% if "/" == page.url %} aria-current data-current="current item"{% endif %}
+            href="{{ '/' | url }}"
+            {% if '/' == page.url %} aria-current data-current="current item"{% endif %}
           >
             Home
           </a>
