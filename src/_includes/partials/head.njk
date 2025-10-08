@@ -43,11 +43,7 @@
   <script defer src="{{ jsPath }}" data-build-path="{{ jsPath }}"></script>
   {# Allow double-clicking _site/index.html to work by rewriting asset URLs when served from the filesystem #}
   <script>
-    (function () {
-      if (window.location.protocol !== 'file:') {
-        return;
-      }
-
+    (
       var runRewrite = function () {
         var pathPrefix = document.documentElement.dataset.pathPrefix || '/';
         if (pathPrefix !== '/' && !pathPrefix.endsWith('/')) {
