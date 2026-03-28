@@ -34,9 +34,9 @@ jobs:
       - name: Configure preview build target
         if: github.event.action != 'closed'
         run: |
-          echo "PATH_PREFIX=/pr-preview/pr-${{ github.event.number }}/" >> "$GITHUB_ENV"
+          echo "PATH_PREFIX=/unitaryhack/pr-preview/pr-${{ github.event.number }}/" >> "$GITHUB_ENV"
           echo "INCLUDE_CNAME=false" >> "$GITHUB_ENV"
-          echo "SITE_URL=https://unitaryhack.dev/pr-preview/pr-${{ github.event.number }}" >> "$GITHUB_ENV"
+          echo "SITE_URL=https://unitaryfoundation.github.io/unitaryhack/pr-preview/pr-${{ github.event.number }}" >> "$GITHUB_ENV"
 
       - name: Build site
         if: github.event.action != 'closed'
@@ -45,7 +45,7 @@ jobs:
       - name: Verify preview path prefix
         if: github.event.action != 'closed'
         run: |
-          expected_prefix="/pr-preview/pr-${{ github.event.number }}/"
+          expected_prefix="/unitaryhack/pr-preview/pr-${{ github.event.number }}/"
           if ! grep -q "data-path-prefix=\"${expected_prefix}\"" _site/index.html; then
             echo "Expected data-path-prefix '${expected_prefix}' in _site/index.html"
             exit 1
@@ -59,7 +59,7 @@ jobs:
           source-dir: ./_site
           preview-branch: gh-pages
           umbrella-dir: pr-preview
-          pages-base-url: unitaryhack.dev
+          pages-base-url: unitaryfoundation.github.io/unitaryhack
           wait-for-pages-deployment: false
           action: auto
 
