@@ -151,18 +151,23 @@
 }
 
 .landing-mark {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
   width: min(100%, 304px);
   text-align: center;
 }
 
 .landing-mark__word {
-  display: block;
+  display: inline-block;
   margin: 0;
   font-family: var(--landing-font-display);
   font-size: clamp(2.8rem, 4.4vw, 4rem);
   font-weight: 300;
   line-height: 1;
-  letter-spacing: 0.52em;
+  letter-spacing: 0.46em;
+  padding-inline-start: 0.46em;
+  white-space: nowrap;
   text-transform: lowercase;
   background: linear-gradient(180deg, var(--landing-glow-start), var(--landing-glow-end));
   background-clip: text;
@@ -177,7 +182,9 @@
 .landing-mark__word--year {
   margin-top: -18px;
   padding-bottom: 0;
-  letter-spacing: 0.9em;
+  padding-inline-start: 0.92em;
+  font-size: clamp(2.95rem, 4.65vw, 4.2rem);
+  letter-spacing: 0.92em;
 }
 
 .landing-mark__core {
@@ -404,14 +411,14 @@
   display: inline-flex;
   align-items: center;
   justify-content: center;
-  min-height: 40px;
-  padding: 8px 16px;
+  min-height: 34px;
+  padding: 7px 14px;
   border-radius: 999px;
   background-color: var(--landing-blue);
   color: #fff;
   font-family: var(--landing-font-mono);
-  font-size: clamp(1.8rem, 2vw, 3.2rem);
-  letter-spacing: 0.06em;
+  font-size: clamp(1.6rem, 1.6vw, 2.4rem);
+  letter-spacing: 0.05em;
   line-height: 1;
   text-transform: uppercase;
 
