@@ -19,7 +19,7 @@ Check out previous iterations:
 
 Want to help improve the unitaryHACK website?
 The website is built with [11ty](https://www.11ty.dev/) and hosted on GitHub Pages.
-The [Fernfolio](https://fernfolio.netlify.app/) template was used to bootstrap the design.
+The Fernfolio template was used to bootstrap the design.
 Here are some basic local setup steps to get you started:
 
 ### Local environment

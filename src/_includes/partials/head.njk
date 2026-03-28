@@ -3,16 +3,12 @@
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
   <title>{{ renderData.title or title or metadata.title }}</title>
   <meta name="description" content="{{ metaDescription or renderData.metaDescription or summary or metadata.description }}">
-  <link rel="dns-prefetch" href="https://identity.netlify.com">
 
   {# Canonical URL #}
   {% if canonical %}
     <link rel="canonical" href="{{ canonical }}" />
   {% endif %}
 
-
-  {# Third-party scripts #}
-  <script async src="https://identity.netlify.com/v1/netlify-identity-widget.js"></script>
 
   {# Fonts #}
   <link rel="preconnect" href="https://fonts.googleapis.com">

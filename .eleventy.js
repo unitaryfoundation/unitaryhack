@@ -75,7 +75,6 @@ module.exports = function (eleventyConfig) {
 
   // Don't process folders with static assets
   eleventyConfig.addPassthroughCopy('./src/favicon.ico');
-  eleventyConfig.addPassthroughCopy('./src/admin');
   eleventyConfig.addPassthroughCopy('./src/assets/img');
   if (includeCname) {
     eleventyConfig.addPassthroughCopy('./src/CNAME');
