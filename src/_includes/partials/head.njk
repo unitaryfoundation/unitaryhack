@@ -3,6 +3,8 @@
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
   <title>{{ renderData.title or title or metadata.title }}</title>
   <meta name="description" content="{{ metaDescription or renderData.metaDescription or summary or metadata.description }}">
+  {% set faviconPath = '/favicon.ico' | url %}
+  <link rel="icon" href="{{ faviconPath }}" sizes="any">
 
   {# Canonical URL #}
   {% if canonical %}

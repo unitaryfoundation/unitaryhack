@@ -20,7 +20,15 @@ hideSiteFooter: true
         <span class="landing-hero__title-line">{{ home.headline_regular }}</span>
         <span class="landing-hero__title-line landing-hero__title-line--accent">{{ home.headline_emphasis }}</span>
       </h1>
-      <p class="landing-hero__subtitle">{{ home.subheadline }}</p>
+      <p class="landing-hero__subtitle">
+        {% if home.subheadline_lines %}
+          {% for line in home.subheadline_lines %}
+            <span class="landing-hero__subtitle-line">{{ line }}</span>
+          {% endfor %}
+        {% else %}
+          {{ home.subheadline }}
+        {% endif %}
+      </p>
     </div>
   </section>
 

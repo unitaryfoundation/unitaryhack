@@ -141,6 +141,7 @@
 
   @media (min-width: 768px) {
     grid-template-columns: minmax(260px, 1fr) minmax(260px, 425px);
+    column-gap: clamp(48px, 7vw, 104px);
   }
 }
 
@@ -160,6 +161,7 @@
   font-family: var(--landing-font-display);
   font-size: clamp(2.8rem, 4.4vw, 4rem);
   font-weight: 300;
+  line-height: 1;
   letter-spacing: 0.52em;
   text-transform: lowercase;
   background: linear-gradient(180deg, var(--landing-glow-start), var(--landing-glow-end));
@@ -168,7 +170,13 @@
   color: transparent;
 }
 
+.landing-mark__word:not(.landing-mark__word--year) {
+  padding-bottom: 0.16em;
+}
+
 .landing-mark__word--year {
+  margin-top: -18px;
+  padding-bottom: 0;
   letter-spacing: 0.9em;
 }
 
@@ -176,8 +184,8 @@
   display: flex;
   align-items: center;
   justify-content: center;
-  gap: 22px;
-  margin: 10px 0 14px;
+  gap: 2px;
+  margin: -12px 0 0;
 }
 
 .landing-mark__letter {
@@ -185,7 +193,6 @@
   background-clip: text;
   -webkit-background-clip: text;
   color: transparent;
-  filter: drop-shadow(4px 4px 0 rgb(19 48 140 / 72%));
 }
 
 .landing-mark__letter {
@@ -198,7 +205,7 @@
 
 .landing-mark__image {
   width: clamp(110px, 18vw, 154px);
-  margin-top: 4px;
+  margin-top: -1px;
 }
 
 .landing-hero__content {
@@ -236,8 +243,16 @@
   font-size: clamp(1.5rem, 1.55vw, 2.3rem);
   letter-spacing: 0.04em;
   line-height: 1.22;
-  text-wrap: balance;
   text-transform: uppercase;
+}
+
+.landing-hero__subtitle-line {
+  display: block;
+  white-space: nowrap;
+}
+
+.landing-hero__subtitle-line + .landing-hero__subtitle-line {
+  margin-top: 0.08em;
 }
 
 .landing-panel {
@@ -291,7 +306,7 @@
 
 .landing-supporters__title {
   margin: 0 0 10px;
-  color: #9964f0;
+  color: var(--landing-text);
   font-family: var(--landing-font-ui);
   font-size: clamp(2.4rem, 2.4vw, 3rem);
   font-weight: 700;
@@ -364,12 +379,13 @@
 
 .landing-supporters__link,
 .landing-supporters__foundation-link {
-  color: #b163f3;
+  color: var(--landing-link);
   text-decoration: none;
 
   &:hover,
   &:focus {
-    color: #9a49ed;
+    color: var(--landing-link);
+    border-color: var(--landing-link);
     border-bottom: none;
   }
 }
@@ -456,6 +472,10 @@
 
   .landing-hero__subtitle {
     max-width: none;
+  }
+
+  .landing-hero__subtitle-line {
+    white-space: normal;
   }
 
   .landing-panel__cta {
