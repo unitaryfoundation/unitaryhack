@@ -9,12 +9,46 @@ const browserSyncConfig = require('./src/_11ty/utils/browser-sync-config');
 const { readableDateFilter, machineDateFilter } = require('./src/_11ty/filters/date-filters');
 
 module.exports = function (eleventyConfig) {
+  const sanitizePathPrefix = (value) => {
+    if (!value || value === '/') {
+      return '/';
+    }
+
+    let normalized = value.trim();
+
+    if (!normalized.startsWith('/')) {
+      normalized = `/${normalized}`;
+    }
+
+    if (!normalized.endsWith('/')) {
+      normalized = `${normalized}/`;
+    }
+
+    return normalized;
+  };
+
+  const pathPrefix = sanitizePathPrefix(process.env.PATH_PREFIX);
+  eleventyConfig.addGlobalData('sitePathPrefix', pathPrefix);
+  const includeCname = process.env.INCLUDE_CNAME !== 'false';
+
   // Plugins
   eleventyConfig.addPlugin(eleventyNavigationPlugin);
   eleventyConfig.addPlugin(syntaxHighlight);
 
   // Filters
   eleventyConfig.addFilter('markdown', markdownFilter);
+  eleventyConfig.addFilter('withPathPrefix', (value) => {
+    if (typeof value !== 'string' || !value) {
+      return value;
+    }
+
+    return value
+      .replace(/\]\(\/(?!\/)/g, `](${pathPrefix}`)
+      .replace(/href="\/(?!\/)/g, `href="${pathPrefix}`)
+      .replace(/src="\/(?!\/)/g, `src="${pathPrefix}`)
+      .replace(/href='\/(?!\/)/g, `href='${pathPrefix}`)
+      .replace(/src='\/(?!\/)/g, `src='${pathPrefix}`);
+  });
   eleventyConfig.addFilter('readableDate', readableDateFilter);
   eleventyConfig.addFilter('machineDate', machineDateFilter);
   eleventyConfig.addFilter('svg', svgFilter);
@@ -25,7 +59,7 @@ module.exports = function (eleventyConfig) {
   });
 
   // Shortcodes
-  eleventyConfig.addNunjucksAsyncShortcode('image', imageShortcode);
+  eleventyConfig.addNunjucksAsyncShortcode('image', imageShortcode(pathPrefix));
 
   // Libraries
   eleventyConfig.setLibrary('md', markdownLibrary);
@@ -43,6 +77,9 @@ module.exports = function (eleventyConfig) {
   eleventyConfig.addPassthroughCopy('./src/favicon.ico');
   eleventyConfig.addPassthroughCopy('./src/admin');
   eleventyConfig.addPassthroughCopy('./src/assets/img');
+  if (includeCname) {
+    eleventyConfig.addPassthroughCopy('./src/CNAME');
+  }
 
   // Allow Turbolinks to work in development mode
   eleventyConfig.setBrowserSyncConfig(browserSyncConfig);
@@ -86,6 +123,7 @@ module.exports = function (eleventyConfig) {
     htmlTemplateEngine: 'njk',
     dataTemplateEngine: 'njk',
     passthroughFileCopy: true,
+    pathPrefix,
     dir: {
       input: 'src',
       layouts: "_layouts"

@@ -1,6 +1,128 @@
 {
-  "title": "Empower Quantum",
-  "image": "src/assets/img/uHACK-logo.png",
-  "image_alt": "unitaryHACK logo",
-  "body": "Contribute to the open quantum ecosystem, level your skills, and get rewarded!"
+  "nav_items": [
+    {
+      "label": "Registration",
+      "url": "/register/"
+    },
+    {
+      "label": "Rules",
+      "url": "/rules/"
+    },
+    {
+      "label": "Maintainers",
+      "url": "/project-guide/"
+    }
+  ],
+  "mark": {
+    "top": "unitary",
+    "left": "H",
+    "image": "/assets/img/figma-home-mark.png",
+    "right": "K",
+    "bottom": "2026"
+  },
+  "headline_regular": "Empower",
+  "headline_emphasis": "Quantum",
+  "subheadline": "Contribute to the open quantum ecosystem, level up your skills, and get rewarded!",
+  "panel_copy": [
+    "unitaryHACK is an annual, virtual hackathon encouraging people to make contributions to the open source quantum ecosystem. This year’s HACK will run <span class=\"landing-panel__tease\" aria-label=\"Dates to be announced\">Mxx xx - Mxx xx, 202x</span>, and hackers have the opportunity to win cash bounties! For more information, read our [hacker guide](/hacker-guide/) and check out the [2025 stats](https://unitary.foundation/posts/2025_uhack/). In the meantime, come hang out on the [Unitary Foundation Discord](https://discord.com/invite/JqVGmpkP96)!",
+    "Make sure you register to be eligible to claim bounties!"
+  ],
+  "supporters": {
+    "title": "Supporters",
+    "intro": "Thanks so much to all the unitaryHACK26 supporters! ✨",
+    "sponsor_heading": "Event Sponsors (TBC)",
+    "sponsors": [
+      {
+        "label": "Alice and Bob",
+        "url": "https://alice-bob.com/"
+      },
+      {
+        "label": "PsiQuantum",
+        "url": "https://psiquantum.com/"
+      },
+      {
+        "label": "Moth Quantum",
+        "url": "https://mothquantum.com/"
+      },
+      {
+        "label": "Xanadu",
+        "url": "https://www.xanadu.ai/"
+      },
+      {
+        "label": "QuEra",
+        "url": "https://www.quera.com/"
+      },
+      {
+        "label": "NVIDIA",
+        "url": "https://www.nvidia.com/"
+      },
+      {
+        "label": "IonQ",
+        "url": "https://ionq.com/"
+      }
+    ],
+    "foundation": {
+      "title": "Unitary Foundation",
+      "url": "https://unitary.foundation",
+      "suffix": "and its members",
+      "groups": [
+        {
+          "label": "Core Members",
+          "members": [
+            {
+              "label": "IBM Quantum",
+              "url": "https://www.ibm.com/quantum"
+            },
+            {
+              "label": "DoraHacks",
+              "url": "https://dorahacks.io/"
+            },
+            {
+              "label": "OQD",
+              "url": "https://openquantumdesign.org/"
+            }
+          ]
+        },
+        {
+          "label": "Supporting Members",
+          "members": [
+            {
+              "label": "AWS",
+              "url": "https://aws.amazon.com/"
+            },
+            {
+              "label": "Classiq",
+              "url": "https://www.classiq.io/"
+            },
+            {
+              "label": "Microsoft",
+              "url": "https://quantum.microsoft.com/"
+            },
+            {
+              "label": "Mozilla Foundation",
+              "url": "https://foundation.mozilla.org/"
+            },
+            {
+              "label": "OrangeQS",
+              "url": "https://www.orangeqs.com/"
+            },
+            {
+              "label": "QC Ware",
+              "url": "https://qcware.com/"
+            },
+            {
+              "label": "Quantum Machines",
+              "url": "https://www.quantum-machines.co/"
+            },
+            {
+              "label": "Riverlane",
+              "url": "https://riverlane.com/"
+            }
+          ]
+        }
+      ]
+    }
+  },
+  "panel_cta_label": "REGISTER HERE",
+  "panel_cta_url": "/register/"
 }

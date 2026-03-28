@@ -1,0 +1,15 @@
+<div class="landing-mark" aria-hidden="true">
+  <p class="landing-mark__word">{{ home.mark.top }}</p>
+  <div class="landing-mark__core">
+    <span class="landing-mark__letter">{{ home.mark.left }}</span>
+    <img
+      class="landing-mark__image"
+      src="{{ home.mark.image | url }}"
+      alt=""
+      loading="eager"
+      decoding="async"
+    >
+    <span class="landing-mark__letter">{{ home.mark.right }}</span>
+  </div>
+  <p class="landing-mark__word landing-mark__word--year">{{ home.mark.bottom }}</p>
+</div>

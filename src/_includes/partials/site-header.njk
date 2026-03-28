@@ -1,15 +1,15 @@
 {# Site banner #}
-<span class="announcement">
-  {# <p id="countdown" class="countdown"></p> #}
+{# <span class="announcement">
+  <p id="countdown" class="countdown"></p>
   <p class="countdown">unitaryHACK 2025 has come to a close.</p>
-</span>
+</span> #}
 <header class="site-header">
   <div class="site-header__container">
-    <span class="site-header__logo-container">
-      <a class="site-header__logo" href="{{ '/' | url }}" aria-label="Logo">
-        {{ global.logo | svg | safe }}
-      </a>
-    </span>
+    <a class="site-header__logo" href="{{ '/' | url }}" aria-label="unitaryHACK home">
+      <span class="site-header__logo-letter">H</span>
+      <span class="site-header__logo-glyph">&lt;\&gt;</span>
+      <span class="site-header__logo-letter">K</span>
+    </a>
     <button
       class="site-header__mobile-nav"
       data-drawer-trigger=""
@@ -19,30 +19,20 @@
       <span class="site-header__mobile-nav-label">Menu</span>
       {{ global.menu_icon | svg | safe }}
     </button>
-    <nav class="site-header__nav">
-      {% set navPages = collections.all | eleventyNavigation %}
+    <nav class="site-header__nav" aria-label="Primary">
       <ul class="site-header__items">
-        {%- for entry in navPages %}
-          {% if entry.title != "Leaderboard" %}
-            <li class="site-header__item">
-              <a
-                class="site-header__link"
-                href="{{ entry.url | url }}"
-                {% if entry.url == page.url %} aria-current data-current="current item"{% endif %}
-              >
-                {{ entry.title }}
-              </a>
-            </li>
-          {% endif %}
-        {%- endfor %}
-
-        {# {% if global.enable_theme_switch %}
+        {%- for item in home.nav_items %}
+          {% set itemUrl = item.url | url %}
           <li class="site-header__item">
-            <button class="site-header__link site-header__link--theme-switch" data-theme-switch>
-              {{ global.switch_theme_icon | svg | safe }}
-            </button>
+            <a
+              class="site-header__link"
+              href="{{ itemUrl }}"
+              {% if itemUrl == page.url %} aria-current="page"{% endif %}
+            >
+              {{ item.label }}
+            </a>
           </li>
-        {% endif %} #}
+        {%- endfor %}
       </ul>
     </nav>
   </div>

@@ -1,29 +1,30 @@
 :root {
   /* Brand Colors */
-  --color-primary: #222;
-  --color-secondary: #2f5bc2;
+  --color-primary: #090909;
+  --color-secondary: #3444ff;
 
   /* Background Colors */
-  --color-bg: #5CA370;
-  --color-bg-secondary: #FAD85E;
-  --color-bg-accent: rgb(174, 182, 225);
-  --color-bg-hover: #f3f4f6cc;
-  --color-bg-tag: #FFFF80;
-  --color-bg-tag-hover: #D6D6D6;
-  --color-bg-container: #FFFBE3;
+  --color-bg: #f3f0e8;
+  --color-bg-secondary: #ffffff;
+  --color-bg-accent: rgb(40 225 255 / 24%);
+  --color-bg-hover: rgb(255 255 255 / 72%);
+  --color-bg-tag: rgb(52 68 255 / 10%);
+  --color-bg-tag-hover: rgb(52 68 255 / 18%);
+  --color-bg-container: rgb(255 255 255 / 52%);
 
   /* Text and Border Colors */
-  --color-text: #222;
+  --color-text: #090909;
   --color-text-alt: #fff;
-  --color-text-gray: #6b7280;
-  --color-border: rgb(0 0 0 / 6%);
+  --color-text-gray: rgb(9 9 9 / 70%);
+  --color-border: rgb(16 16 16 / 20%);
 
   /* Status Colors */
   --color-danger: #e03e3e;
 
   /* Typography */
-  --font-family-base: InterVariable, ui-sans-serif, system-ui, -apple-system, BlinkMacSystemFont, Segoe UI, Roboto, Helvetica Neue, Arial, Noto Sans, sans-serif, Apple Color Emoji, Segoe UI Emoji, Segoe UI Symbol, Noto Color Emoji;
+  --font-family-base: "Poppins", "Helvetica Neue", Helvetica, Arial, sans-serif;
   --font-family-heading: var(--font-family-base);
+  --font-family-mono: "Share Tech Mono", "SFMono-Regular", Consolas, "Liberation Mono", Menlo, monospace;
 
   /* Sizes */
   --site-width: 850px;
@@ -36,7 +37,7 @@
   /* Other */
   --border-radius: 12px;
   --border-radius-sm: 5px;
-  --shadow: 0 10px 15px -3px rgb(0 0 0 / 10%), 0 4px 6px -2px rgb(0 0 0 / 5%);
+  --shadow: none;
 
   // Dark mode colors
   // --color-secondary-dark: rgb(22, 78, 99);
@@ -51,6 +52,6 @@
   --color-title-dark: rgb(244 244 245);
   --color-text-dark: rgb(161 161 170);
 
-  --color-border-dark: rgb(39, 39, 42);
+  --color-border-dark: rgb(16 16 16 / 88%);
 
 }

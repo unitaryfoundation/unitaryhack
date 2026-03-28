@@ -1,78 +1,50 @@
 .site-header {
-  position: flex;
   width: 100%;
-  border-top: 0;
   z-index: var(--z-header);
-
-  :root[data-theme="dark"] & {
-    border-color: var(--color-bg-accent-dark);
-  }
+  max-width: var(--site-width);
+  margin: 0 auto;
 }
 
 .site-header__container {
+  box-sizing: border-box;
   display: flex;
   flex-wrap: wrap;
   align-items: center;
   justify-content: space-between;
-  margin: 3px 12px 0;
-  padding: 8px 10px;
-  border-style: solid;
-  border-color: var(--color-border-dark);
-  background-color: var(--color-bg-container);
-  box-shadow: var(--shadow);
-
-  @media (min-width: 1024px) {
-    max-width: var(--site-width);
-    margin: 3px auto 0;
-  }
-
-  :root[data-theme="dark"] & {
-    background-color: var(--color-bg-secondary-dark);
-  }
-}
-
-.site-header__logo-container {
+  gap: 14px 24px;
+  width: 100%;
   margin: 0;
-  font-weight: 700;
+  padding: 8px 16px;
+  background-color: #0019f5;
 }
 
 .site-header__logo {
-  display: flex;
+  display: inline-flex;
   align-items: center;
-  justify-content: center;
-  width: 30px;
-  height: 30px;
-  padding: 6px 8px;
-  border-radius: var(--border-radius-sm);
-  color: var(--color-text);
-
-  @media (min-width: 1024px) {
-    width: 40px;
-    height: 40px;
-  }
+  gap: 7px;
+  color: #fff;
+  font-family: "Helvetica Neue", Helvetica, Arial, sans-serif;
+  font-size: 2.4rem;
+  font-style: italic;
+  font-weight: 700;
+  letter-spacing: 0.08em;
 
   &:hover {
     border-bottom: none;
-    background-color: var(--color-bg-secondary);
-    color: var(--color-text);
-
-    :root[data-theme="dark"] & {
-      background-color: var(--color-bg-wrapper-bg-dark);
-      color: var(--color-title-dark);
-    }
+    opacity: 0.92;
   }
+}
 
-  :root[data-theme="dark"] & {
-    color: var(--color-title-dark);
-  }
+.site-header__logo-glyph {
+  font-style: normal;
+  letter-spacing: 0.03em;
 }
 
 .site-header__nav {
   display: none;
-  width: 100%;
-  margin-top: 15px;
+  margin-left: auto;
 
-  @media (min-width: 1024px) {
+  @media (min-width: 768px) {
     display: block;
     width: auto;
     margin-top: 0;
@@ -82,9 +54,12 @@
 .site-header__mobile-nav {
   display: flex;
   align-items: center;
+  margin-left: auto;
   border: none;
   background: none;
-  color: var(--color-text);
+  color: #fff;
+  font-family: var(--font-family-base);
+  font-weight: 600;
   transition: opacity 0.2s ease;
 
   &:hover {
@@ -96,13 +71,8 @@
     height: auto;
   }
 
-  @media (min-width: 1024px) {
+  @media (min-width: 768px) {
     display: none;
-  }
-
-  :root[data-theme="dark"] & {
-    color: var(--color-text-dark);
-    background-color: var(--color-bg-secondary-dark);
   }
 }
 
@@ -114,61 +84,39 @@
   display: flex;
   align-items: center;
   flex-wrap: wrap;
-  justify-content: center;
+  justify-content: flex-end;
+  gap: 4px 14px;
   margin: 0;
   padding: 0;
   list-style: none;
 }
 
 .site-header__item {
-  margin: 0 6px;
-  font-weight: 550;
-  font-size: 14px;
-
-  @media (min-width: 1024px) {
-    margin: 0 15px;
-    font-size: 15px;
-  }
+  margin: 0;
 }
 
 .site-header__link {
-  display: flex;
+  display: inline-flex;
   align-items: center;
   padding: 6px 8px;
-  border-radius: var(--border-radius-sm);
-  color: var(--color-text);
+  color: #fff;
+  font-family: var(--font-family-base);
+  font-size: 1.4rem;
+  font-weight: 600;
 
   &:hover {
     border-bottom: none;
-    background-color: var(--color-bg-secondary);
-    color: var(--color-text);
-
-    :root[data-theme="dark"] & {
-      background-color: var(--color-bg-wrapper-bg-dark);
-      color: var(--color-title-dark);
-    }
+    text-decoration: underline;
+    text-underline-offset: 0.25em;
   }
 
   &[aria-current] {
-    background-color: var(--color-bg-secondary);
-    color: var(--color-text);
-
-    :root[data-theme="dark"] & {
-      background-color: var(--color-bg-wrapper-bg-dark);
-      color: var(--color-title-dark);
-    }
-  }
-
-  :root[data-theme="dark"] & {
-    color: var(--color-title-dark);
+    text-decoration: underline;
+    text-underline-offset: 0.25em;
   }
 
   &--theme-switch {
     border: none;
     background: none;
-
-    :root[data-theme="dark"] & {
-      background: none;
-    }
   }
 }

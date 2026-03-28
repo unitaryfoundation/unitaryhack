@@ -17,7 +17,7 @@ body {
   min-height: 100vh;
   margin: 0;
   font-size: 1.8rem;
-  line-height: 1.618;
+  line-height: 1.55;
   color: var(--color-text);
   background-color: var(--color-bg);
 
@@ -48,11 +48,8 @@ body {
 }
 
 main {
-  padding: var(--header-height) 13px 13px;
-
-  @media (min-width: 1024px) {
-    padding-top: var(--header-height-lg);
-  }
+  width: 100%;
+  padding: 0 13px 13px;
 }
 
 footer {
@@ -124,7 +121,7 @@ sup {
 
 hr {
   border:none;
-  border-bottom: 2px solid var(--color-border);
+  border-bottom: 1px solid var(--color-border-dark);
 
   :root[data-theme="dark"] & {
     border-color: var(--color-border-dark);
@@ -141,7 +138,7 @@ a {
 
   &:hover {
     color: var(--color-secondary);
-    border-bottom: 2px solid var(--color-secondary);
+    border-bottom: 1px solid var(--color-secondary);
 
     :root[data-theme="dark"] & {
       color: var(--color-link-dark);
@@ -234,7 +231,7 @@ table {
 td,
 th {
   padding: 0.5em;
-  border-bottom: 1px solid var(--color-bg-secondary);
+  border-bottom: 1px solid var(--color-border);
 }
 
 /* Buttons, forms and input */
