@@ -1,0 +1,117 @@
+.main--guide {
+  width: 100%;
+  max-width: none;
+  margin: 0;
+  padding: 0 0 13px;
+  overflow: visible;
+}
+
+.guide-shell {
+  display: grid;
+  grid-template-columns: 260px minmax(0, var(--site-width));
+  gap: 32px;
+  align-items: flex-start;
+  justify-content: center;
+  padding: 0 24px;
+}
+
+.page-container--guide {
+  width: 100%;
+  margin: 24px 0 0;
+}
+
+.guide-subtitle {
+  margin-top: -8px;
+  color: var(--color-text-gray);
+
+  :root[data-theme="dark"] & {
+    color: var(--color-text-dark);
+  }
+}
+
+.guide-toc {
+  position: sticky;
+  top: calc(var(--header-height) + 16px);
+  margin-top: 24px;
+  padding: 14px 16px;
+  border: 1px solid var(--color-border);
+  border-radius: var(--border-radius);
+  background-color: var(--color-bg-container);
+  backdrop-filter: blur(6px);
+  box-shadow: var(--shadow);
+  font-size: 1.5rem;
+  line-height: 1.8;
+  max-height: calc(100vh - var(--header-height) - 32px);
+  overflow-y: auto;
+
+  :root[data-theme="dark"] & {
+    border-color: var(--color-border-dark);
+    background-color: var(--color-bg-secondary-dark);
+  }
+
+  ul,
+  ol {
+    margin: 0;
+    padding-left: 0;
+    list-style: none;
+  }
+
+  ul ul,
+  ol ol {
+    padding-left: 16px;
+  }
+
+  li {
+    margin: 6px 0;
+    line-height: 1.4;
+
+    &:last-child {
+      margin-bottom: 0;
+    }
+  }
+
+  a {
+    color: var(--color-text);
+    text-decoration: none;
+
+    :root[data-theme="dark"] & {
+      color: var(--color-title-dark);
+    }
+
+    &:hover,
+    &:focus-visible {
+      color: var(--color-secondary);
+      text-decoration: underline;
+      border-bottom: none;
+    }
+  }
+}
+
+.guide-toc__title {
+  margin: 0 0 10px;
+  font-size: 1.5rem;
+  font-weight: 700;
+  letter-spacing: 0.01em;
+  color: var(--color-text-gray);
+
+  :root[data-theme="dark"] & {
+    color: var(--color-text-dark);
+  }
+}
+
+@media (max-width: 960px) {
+  .guide-shell {
+    display: block;
+    padding: 0 13px;
+  }
+
+  .page-container--guide {
+    margin-left: auto;
+    margin-right: auto;
+  }
+
+  .guide-toc {
+    position: static;
+    margin-bottom: 20px;
+  }
+}

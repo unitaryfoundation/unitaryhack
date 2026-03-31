@@ -1,5 +1,6 @@
 ---
 title: Project Maintainer Guide
+layout: project-guide.njk
 metaDescription: Helpful information for project maintainers participating in unitaryHACK
 date: 2025-03-21
 permalink: /project-guide/index.html
@@ -13,25 +14,6 @@ Our goal at Unitary Foundation is to build a quantum technology ecosystem that b
 It is always important for projects to find skilled and committed contributors that can do things like help develop new functionality, maintain existing tools, and write tests and documentation. This can be challenging in open source in general, but can be especially difficult for open source projects that need specialized skill sets like quantum computing. **unitaryHACK shows folks what amazing projects are already out there, helping drive quantum computing forward, and helping you find new contributions for your projects**.
 
 We have some outlines below for what you can expect before and during the event, as well as [the rules for the event]({{ '/rules/' | url }}).
-
-## Table of Contents
- - [Maintainer Timeline Quick Reference]({{ '/project-guide#%F0%9F%97%93%EF%B8%8F-maintainer-timeline-%F0%9F%97%93%EF%B8%8F' | url }})
-
- - [Before the HACK (March-April)]({{ '/project-guide#%E2%8C%9A-before-the-hack-%E2%8C%9A' | url }})
-   - [Setting up your Github Repo]({{ '/project-guide#setting-up-your-github-repo' | url }})
-   - [Choosing good issues for participants]({{ '/project-guide#how-to-choose-good-issues-for-participants' | url }})
-
- - [During the HACK (May 28 - June 11)]({{ '/project-guide#%F0%9F%9B%A0%EF%B8%8F-during-the-hack-%F0%9F%9B%A0%EF%B8%8F' | url }})
-
- - [Maintainer Tips and Tricks]({{ '/project-guide#maintainer-tips-and-tricks-during-the-hack' | url }})
-
- - [Frequently Asked Questions]({{ '/project-guide#%F0%9F%99%8B-faq-%F0%9F%A4%94' | url }})
-   - [What will be expected of me/my team?]({{ '/project-guide#what-will-be-expected-of-me%2Fmy-team%3F' | url }})
-   - [What does the maintainer workflow look like?]({{ '/project-guide#what-does-the-maintainer-workflow-look-like%3F' | url }})
-   - [How much activity should we expect to see?]({{ '/project-guide#how-much-activity-should-we-expect-to-see%3F' | url }})
-   - [What should I do if I have questions or need support?]({{ '/project-guide#what-should-i-do-if-i-have-questions-or-need-support%3F' | url }})
-
- - [Helpful Resources]({{ '/project-guide#%F0%9F%A4%9D-helpful-resources-%F0%9F%A4%9D' | url }})
 
 ## 🗓️ Maintainer Timeline 🗓️
 

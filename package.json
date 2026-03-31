@@ -36,6 +36,7 @@
     "autoprefixer": "^10.4.8",
     "cross-env": "^7.0.3",
     "cssnano": "^5.1.12",
+    "eleventy-plugin-toc": "^1.1.5",
     "esbuild": "^0.14.53",
     "html-minifier": "^4.0.0",
     "luxon": "^1.25.0",
