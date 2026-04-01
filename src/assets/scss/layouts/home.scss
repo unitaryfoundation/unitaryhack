@@ -193,6 +193,7 @@
   justify-content: center;
   gap: 2px;
   margin: -12px 0 0;
+  overflow: visible;
 }
 
 .landing-mark__letter {
@@ -200,6 +201,8 @@
   background-clip: text;
   -webkit-background-clip: text;
   color: transparent;
+  display: inline-block;
+  overflow: visible;
 }
 
 .landing-mark__letter {
@@ -207,7 +210,8 @@
   font-size: clamp(5.6rem, 10vw, 7rem);
   font-style: italic;
   font-weight: 700;
-  line-height: 1;
+  line-height: 1.06;
+  padding: 0.05em 0.05em 0 0.02em;
 }
 
 .landing-mark__image {
