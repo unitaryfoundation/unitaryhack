@@ -9,11 +9,9 @@ So you’re a maintainer of an open-source quantum software package – neato! A
 
 This guide will help you create and curate issues on your GitHub repo that new contributors will be eager to work on and help reduce friction in the development process. 
 
-[Jump to Best practices guide]({{ '/best-practices#best-practices-guide' | url }})
-
 ## Why should I read this?
 
-You are an expert on your software project, but new people? Not so much. Allow me to illustrate with this [xkcd comic](https://xkcd.com/2501/):
+You are an expert on your software project, but new people? Not so much. Allow us to illustrate with this [xkcd comic](https://xkcd.com/2501/):
 
 <div style="text-align: center"><img style="display: inline-block; width: 300px" src="{{ '/assets/img/average_familiarity_2x.png' | url }}" alt="How could anyone consider themselves a well-rounded adult without a basic understanding of silicate geochemistry? Silicates are everywhere! It's hard to throw a rock without throwing one!" /></div>
 <br/>
