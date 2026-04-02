@@ -22,7 +22,7 @@ eleventyNavigation:
   * **Public Activity:** To ensure transparency and verification, your GitHub contribution activity **must be set to public** for the duration of the event. Failure to do so may result in disqualification from specific bounties or the full hackathon.
   * **No Squatting:** Commenting on an issue does not "reserve" it. Only a submitted PR counts as a valid entry. We recommend checking for existing open PRs before you start working.
   * **Quality & Testing:** PRs must be substantive and pass all existing automated tests (CI/CD). Maintainers reserve the right to reject low-effort or "spammy" PRs that do not provide meaningful value.
-  * **AI Policy:** NO AI SLOP. While we allow LLMs as collaborative tools, fully AI-generated PRs are prohibited. Maintainers have the right to reject any contribution that appears to be automated or lacks human oversight.
+  * **AI Policy:** NO AI SLOP. While we allow LLMs as collaborative tools, fully AI-generated PRs are prohibited. Maintainers have the right to reject any contribution that appears to be automated or lacks human oversight. Check out the full unitaryHACK AI policy [here]({{ '/ai-guide/' | url }}
 
 ## Code of Conduct and Disciplinary Action
 
