@@ -1,0 +1,54 @@
+.registration-form__intro {
+  max-width: 62ch;
+  margin-bottom: 20px;
+}
+
+.registration-form__actions {
+  margin-bottom: 20px;
+}
+
+.registration-form__embed-shell {
+  position: relative;
+  min-height: 533px;
+  border: 1px solid var(--color-border);
+  background-color: rgb(255 255 255 / 42%);
+  overflow: hidden;
+}
+
+.registration-form__loading {
+  position: absolute;
+  inset: 0;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  padding: 24px;
+  color: var(--color-text-gray);
+  font-family: var(--font-family-mono);
+  font-size: 1.6rem;
+  letter-spacing: 0.04em;
+  text-transform: uppercase;
+  background:
+    linear-gradient(rgb(255 255 255 / 76%), rgb(255 255 255 / 76%)),
+    var(--color-bg);
+  transition: opacity 0.2s ease, visibility 0.2s ease;
+  pointer-events: none;
+}
+
+.registration-form__embed {
+  display: block;
+  width: 100%;
+  min-height: 533px;
+  border: 0;
+  background: transparent;
+  opacity: 0;
+  transition: opacity 0.2s ease;
+}
+
+.registration-form__embed-shell.is-loaded .registration-form__loading {
+  opacity: 0;
+  visibility: hidden;
+}
+
+.registration-form__embed-shell.is-loaded .registration-form__embed {
+  opacity: 1;
+}

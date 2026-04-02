@@ -1,30 +1,20 @@
 ---
-title: Art with Quantum Dynamics
-id: quantumarthack
-emoji: ⚛️🖌️
-project_url: https://github.com/moth-quantum/QuantumArtHack
-metaDescription: Simulating quantum dynamics can be used for science. But let's also use it for art!
-summary: Simulating quantum dynamics can be used for science. But let's also use it for art!
+title: "Art with Quantum Dynamics"
+id: "quantumarthack"
+emoji: "⚛️ 🎨"
+project_url: "https://github.com/moth-quantum/QuantumBrush"
+metaDescription: "Harness human creativity in art, science, and technology."
+date: 2026-04-02
+summary: "Harness human creativity in art, science, and technology."
 tags:
-  - art
-  - python
-  - dynamics
-bounties:
-  - issue_num: 1
-    value: 50
-  - issue_num: 2
-    value: 25
-  - issue_num: 3
-    value: 125
-  - issue_num: 4
-    value: 125
-  - issue_num: 5
-    value: 125
-  - issue_num: 11
-    value: 50
-    repo: qiskit-community/QuantumGraph
+  - "Quantum dynamics"
+  - "Creative computing"
+  - "Computational thinking"
+  - "Creative practice"
+bounties: []
 ---
 
-Back in the mists of time, [Quantum Blur](https://github.com/qiskit-community/QuantumBlur) was used as the basis of quantum hackathon projects, allowing people to experiment with creating game levels and produce image effects. It then went on to be a tool used by professional artists, such as [Roman Lipski](https://www.romanlipski.com/).
-
-This, along with other projects such as [QPIXL](https://github.com/HeidelbergQuantum/ParallelQPIXL), [QC-PAINT](https://qc-paint.quantumland.art/) show that quantum dynamics can be useful for art. So let's find some new directions!
+Innovation is widely recognised as a product of creativity. Today, individuals collaborate with hardware and software to enhance their creative work. How can technology facilitate the development of new ideas? How should creativity be defined in a modern context?
+Whenever new technology emerges, artists & creative technologists actively explore its creative usages and broaden their horizons. Sometimes, they discovered new vocabulary ('cyberspace', 'scroll', 'swipe', ...) or paradigms (such as sci-fi films, which brought innovation to computer graphics). Technology developed for humans can also bring fun and joy to this world.
+With this spirit of exploration in mind, what could quantum technology contribute to human creativity? From Moth, we bring an example called Quantum Brush. It’s a tool that reinterprets quantum dynamics for visual effects. This tool allows artists and creative technologists to begin exploring the creative usefulness of quantum computing.
+How could quantum dynamics shape a new generation of ideas and curiosity? How will it solve the problems that the creative industry is facing? Let's shape the answers together.

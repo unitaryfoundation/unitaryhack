@@ -1,12 +1,13 @@
-# unitaryHACK 2025 incoming ☄️!
+# unitaryHACK 2026 incoming ☄️!
 
-unitaryHACK is back, and coming to a computer near you **May 28&ndash;Jun 11 2025**.
-This year we'll celebrate the 5th edition of the hackathon, and we're excited to bring you the best edition yet.
+unitaryHACK is back, and coming to a computer near you **Jun 3&ndash;Jun 17 2026**.
+This year we'll celebrate the 6th edition of the hackathon, and we're excited to bring you the best edition yet.
 Check out the website at [`unitaryhack.dev`](https://unitaryhack.dev) for more information.
 
 Never heard of unitaryHACK before?
 Check out previous iterations:
 
+- <a href="https://2025.unitaryhack.dev/">2025.unitaryhack.dev</a>
 - <a href="https://2024.unitaryhack.dev/">2024.unitaryhack.dev</a>
 - <a href="https://2023.unitaryhack.dev/">2023.unitaryhack.dev</a>
 - <a href="https://2022.unitaryhack.dev/">2022.unitaryhack.dev</a>
@@ -18,13 +19,13 @@ Check out previous iterations:
 
 Want to help improve the unitaryHACK website?
 The website is built with [11ty](https://www.11ty.dev/) and hosted on GitHub Pages.
-The [Fernfolio](https://fernfolio.netlify.app/) template was used to bootstrap the design.
+The Fernfolio template was used to bootstrap the design.
 Here are some basic local setup steps to get you started:
 
 ### Local environment
 
 - Clone the repo
-- Navigate to the directory `cd untitaryhack`
+- Navigate to the directory `cd unitaryhack`
 - Install the goods `npm install`
 - Run it `npm start`
 - You should now be able to see everything running on http://localhost:8080

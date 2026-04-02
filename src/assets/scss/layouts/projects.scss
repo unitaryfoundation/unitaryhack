@@ -1,8 +1,8 @@
 .project-grid {
   display: grid;
   grid-template-columns: repeat(1, 1fr);
-  gap: 40px;
-  margin: 40px 0;
+  gap: 24px;
+  margin: 24px 0 0;
 
   @media (min-width: 1024px) {
     grid-template-columns: repeat(2, 1fr);
@@ -14,20 +14,15 @@
   display: flex;
   flex-direction: column;
   justify-content: top;
-  padding: 15px 25px;
-  border-style: solid;
-  border-color: var(--color-border-dark);
+  padding: 24px;
+  border: 1px solid var(--color-border-dark);
   background-color: var(--color-bg-container);
   box-shadow: var(--shadow);
+  backdrop-filter: blur(6px);
 
   :root[data-theme="dark"] & {
     background-color: var(--color-bg-secondary-dark);
   }
-}
-
-.project-card:hover {
-  transform: scale(1.1);
-  // filter: brightness(115%);
 }
 
 .project-card {
@@ -35,11 +30,13 @@
   display: flex;
   flex-direction: column;
   justify-content: top;
-  padding: 15px 25px;
-  border-style: solid;
-  border-color: var(--color-border-dark);
+  min-height: 100%;
+  padding: 20px 22px;
+  border: 1px solid var(--color-border-dark);
   background-color: var(--color-bg-container);
   box-shadow: var(--shadow);
+  backdrop-filter: blur(6px);
+  transition: transform 0.18s ease, background-color 0.18s ease;
 
   :root[data-theme="dark"] & {
     background-color: var(--color-bg-secondary-dark);
@@ -47,8 +44,8 @@
 }
 
 .project-card:hover {
-  transform: scale(1.1);
-  // filter: brightness(115%);
+  transform: translateY(-2px);
+  background-color: var(--color-bg-hover);
 }
 
 .project-card__title {
@@ -65,7 +62,7 @@
 }
 
 .project-card__tag {
-  background-color: var(--color-bg-secondary);
+  background-color: var(--color-bg-tag);
   color: var(--color-text);
 
   :root[data-theme="dark"] & {
@@ -75,7 +72,8 @@
 
   &:hover {
     color: var(--color-text);
-    filter: brightness(90%);
+    background-color: var(--color-bg-tag-hover);
+    filter: none;
 
     :root[data-theme="dark"] & {
       color: var(--color-text-alt);
@@ -187,10 +185,10 @@ img[alt=DOI]:hover {
 }
 
 .hr {
-  border:solid 1px var(--color-primary);
-  color: var(--color-primary);
-  background-color: var(--color-primary);
-  width: 96%;
+  border: solid 1px var(--color-border-dark);
+  color: var(--color-border-dark);
+  background-color: var(--color-border-dark);
+  width: 100%;
   height: 1px;
-  margin-bottom: 4px;
+  margin-bottom: 0;
 }

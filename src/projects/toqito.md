@@ -1,31 +1,27 @@
 ---
-title: toqito
-emoji: 🌮⚛️
-project_url: https://github.com/vprusso/toqito
-metaDescription: "|toqito> (Theory of Quantum Information Toolkit) in Python"
-date: 2024-03-28
-summary: "|toqito> (Theory of Quantum Information Toolkit) in Python"
+title: "|toqito⟩"
+id: "toqito"
+emoji: "🌮⚛️"
+project_url: "https://github.com/vprusso/toqito"
+metaDescription: "(Theory of Quantum Information Toolkit) is a Python library for research in quantum information theory."
+date: 2026-04-01
+summary: "(Theory of Quantum Information Toolkit) is a Python library for research in quantum information theory."
 tags:
-  - quantum information
-  - matrix analysis
-  - linear algebra
-bounties:
-  - issue_num: 1081
-    value: 150
-  - issue_num: 554
-    value: 100
-  - issue_num: 621
-    value: 100
-  - issue_num: 186
-    value: 100
-  - issue_num: 208
-    value: 50
+  - "python"
+  - "quantum information"
+  - "quantum computing"
+bounties: []
 ---
 
-(Theory of Quantum Information Toolkit)
+The |toqito⟩ package is an open-source Python library for studying various
+objects in quantum information, namely, states, channels, and measurements.
 
-"The `toqito` package is an open-source Python library for studying various objects in quantum information, namely, states, channels, and measurements.
+|toqito⟩ focuses on providing numerical tools to study problems
+about entanglement theory, nonlocal games, matrix analysis, and other
+aspects of quantum information that are often associated with computer science.
 
-Specifically, `toqito` focuses on providing numerical tools to study problems about entanglement theory, nonlocal games, matrix analysis, and other aspects of quantum information that are often associated with computer science.
-
-`toqito` aims to fill the needs of quantum information researchers who want numerical and computational tools for manipulating quantum states, measurements, and channels. It can also be used as a tool to enhance the experience of students and instructors in classes about quantum information."
+|toqito⟩ aims to fill the needs of quantum information researchers who want
+numerical and computational tools for manipulating quantum states,
+measurements, and channels. It can also be used as a tool to enhance the
+experience of students and instructors in classes about quantum
+information.

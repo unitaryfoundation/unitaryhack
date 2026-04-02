@@ -1,0 +1,35 @@
+<section class="landing-supporters" aria-labelledby="supporters-title">
+  <h2 id="supporters-title" class="landing-supporters__title">{{ home.supporters.title }}</h2>
+  <p class="landing-supporters__intro">{{ home.supporters.intro }}</p>
+
+  <div class="landing-supporters__group">
+    <h3 class="landing-supporters__heading">{{ home.supporters.sponsor_heading }}</h3>
+    <ul class="landing-supporters__list landing-supporters__list--sponsors">
+      {% for sponsor in home.supporters.sponsors %}
+        <li class="landing-supporters__item">
+          <a class="landing-supporters__link" href="{{ sponsor.url }}">{{ sponsor.label }}</a>
+        </li>
+      {% endfor %}
+    </ul>
+  </div>
+
+  <div class="landing-supporters__group landing-supporters__group--foundation">
+    <h3 class="landing-supporters__heading landing-supporters__heading--foundation">
+      <a class="landing-supporters__foundation-link" href="{{ home.supporters.foundation.url }}">
+        {{ home.supporters.foundation.title }}
+      </a>
+      <span>{{ home.supporters.foundation.suffix }}</span>
+    </h3>
+
+    <ul class="landing-supporters__list landing-supporters__list--members">
+      {% for group in home.supporters.foundation.groups %}
+        <li class="landing-supporters__item landing-supporters__item--members">
+          <span class="landing-supporters__label">{{ group.label }}:</span>
+          {% for member in group.members %}
+            <a class="landing-supporters__link" href="{{ member.url }}">{{ member.label }}</a>{% if not loop.last %}, {% endif %}
+          {% endfor %}
+        </li>
+      {% endfor %}
+    </ul>
+  </div>
+</section>

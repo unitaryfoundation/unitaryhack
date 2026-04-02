@@ -1,0 +1,29 @@
+<header class="landing-header">
+  <a class="landing-header__brand" href="{{ '/' | url }}" aria-label="unitaryHACK home">
+    <span class="landing-header__brand-letter">H</span>
+    <span class="landing-header__brand-glyph">&lt;\&gt;</span>
+    <span class="landing-header__brand-letter">K</span>
+  </a>
+
+  <nav class="landing-header__nav" aria-label="Primary">
+    <ul class="landing-header__items">
+      {% for item in home.primary_nav_items %}
+        <li class="landing-header__item">
+          <a class="landing-header__link" href="{{ item.url | url }}">{{ item.label }}</a>
+        </li>
+      {% endfor %}
+      <li class="landing-header__item landing-header__item--guides">
+        <details class="landing-header__guides">
+          <summary class="landing-header__guides-toggle">{{ home.guide_menu_label }}</summary>
+          <ul class="landing-header__guides-menu">
+            {% for item in home.guide_nav_items %}
+              <li class="landing-header__guides-item">
+                <a class="landing-header__guides-link" href="{{ item.url | url }}">{{ item.label }}</a>
+              </li>
+            {% endfor %}
+          </ul>
+        </details>
+      </li>
+    </ul>
+  </nav>
+</header>

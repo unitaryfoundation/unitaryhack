@@ -1,140 +1,50 @@
 ---
 layout: base.njk
 section: home
+bodyClass: body--landing
+mainClass: main--landing
+hideSiteHeader: true
+hideSiteDrawer: true
+hideSiteFooter: true
 ---
 <div class="home-page">
-	{# <div class="home-page__bg-square"></div> #}
+  {% include "partials/home-header.njk" %}
 
-  {# Hero #}
-  <img class="overlay" src="/assets/img/Hero_animation.gif">
-  <div class="hero">
-    <div class="hero__col">
-      {% image
-        home.image,
-        home.image_alt,
-        "(min-width: 1024px) 50vw, 100vw",
-        "hero__image shadow",
-        "eager"
-      %}
+  <section class="landing-hero" aria-labelledby="landing-title">
+    <div class="landing-hero__mark">
+      {% include "partials/home-brand-mark.njk" %}
     </div>
-    <div class="hero__col">
-      {# <h1 class="hero__title gradient-text">{{ home.title }}</h1> #}
-      <h1 class="hero__title">{{ home.title }}</h1>
-      {% if home.body %}
-        <div class="hero__body">{{ home.body | markdown | safe }}</div>
-      {% endif %}
-    </div>
-  </div>
-  <div class="uhack">
-  <p>
-    <b>unitaryHACK</b> is a virtual event encouraging people to make contributions to the open source quantum ecosystem.
-    The event will run May 28-June 11, 2025, and hackers have the opportunity to win cash bounties!
-    For more information, read our <a href="https://unitaryhack.dev/hacker-guide/">hacker guide</a> and check out what happened in <a href="https://unitary.foundation/posts/2024_q2/">unitaryHACK 2024</a>.
-    In the meantime, come hang out on <a href="https://discord.com/invite/JqVGmpkP96">Discord!</a>
-  </p>
-  <br>
-  <p>Make sure you register to be eligible to claim your bounties!</p>
-  <a href="/register" class="button-reg">Register here</a>
-  </div>
-  <br/>
 
-  {# Supporters #}
-  <div class="uhack">
-    <div class="list-header">
-      <h2 class="list-header__title">Supporters</h2>
+    <div class="landing-hero__content">
+      <h1 id="landing-title" class="landing-hero__title">
+        <span class="landing-hero__title-line">{{ home.headline_regular }}</span>
+        <span class="landing-hero__title-line landing-hero__title-line--accent">{{ home.headline_emphasis }}</span>
+      </h1>
+      <p class="landing-hero__subtitle">
+        {% if home.subheadline_lines %}
+          {% for line in home.subheadline_lines %}
+            <span class="landing-hero__subtitle-line">{{ line }}</span>
+          {% endfor %}
+        {% else %}
+          {{ home.subheadline }}
+        {% endif %}
+      </p>
     </div>
-    <p>Thanks so much to all the unitaryHACK supporters! 🙏</p>
+  </section>
 
-    <b>unitaryHACK Advocate Level Sponsors</b>
-    <ul style="list-style-type: square">
-      <li>
-        <a href="https://mothquantum.com/">Moth Quantum</a>
-      </li>
-    </ul>    
-
-    <b>unitaryHACK Champion Level Sponsors</b>
-    <ul style="list-style-type: square">
-      <li>
-        <a href="https://www.nvidia.com/en-us/">NVIDIA</a>
-      </li>
-      <li>
-        <a href="https://www.error-corp.com/">ErrorCorp</a>
-      </li>
-      <li>
-        <a href="https://www.psiquantum.com/">PsiQuantum</a>
-      </li>
-      <li>
-        <a href="https://haiqu.ai/">Haiqu</a>
-      </li>
-    </ul>
-
-    <b><a href="https://unitary.foundation/">Unitary Foundation</a> and its members</b>
-    <ul>
-      <li>
-      <b>Core Members</b>:
-        <a href="https://www.ibm.com/quantum">IBM Quantum</a>,
-        <a href="https://dorahacks.io/">DoraHacks</a>, and
-        <a href="https://openquantumdesign.org/">OQD</a>
-      </li>
-      <li>
-        <b>Supporting Members</b>:
-        <a href="https://aws.amazon.com/braket/">AWS</a>,
-        <a href="https://www.microsoft.com/">Microsoft</a>,
-        <a href="https://www.pasqal.com/">Pasqal</a>,
-        <a href="https://www.qcware.com/">QC Ware</a>,
-        <a href="https://www.sandboxaq.com/">SandboxAQ</a>,
-	<a href="https://www.quantum-machines.co/">Quantum Machines</a>
-	<a href="https://www.riverlane.com/">Riverlane</a>
-      </li>
-    </ul>
-  </div>
-  <br/>
-  <div class="uhack">
-    <div class="list-header">
-      <h2 class="list-header__title">HACKdays</h2>
+  <section class="landing-panel" aria-label="unitaryHACK overview">
+    <div class="landing-panel__copy">
+      {% for paragraph in home.panel_copy %}
+        {{ paragraph | withPathPrefix | markdown | safe }}
+      {% endfor %}
     </div>
-    <div class="table-container">
-    <table>
-      <thead>
-        <tr>
-          <th>Institution/Organization</th>
-          <th>Date & Time</th>
-          <th>Location</th>
-        </tr>
-      </thead>
-      <tbody>	
-        <tr>
-          <td>University of Coimbra</td>
-          <td>May 29th, 11am</td>
-          <td>Coimbra, Portugal</td>
-        </tr>
-        <tr>
-          <td>University of Washington</td>
-          <td>May 29, 10am&ndash;4pm</td>
-          <td>Seattle, WA</td>
-        </tr>
-        <tr>
-          <td>Aalto University</td>
-          <td>May 30 9am&ndash;9pm</td>
-          <td>Helsinki, Finland</td>
-        </tr>
-        <tr>
-          <td>Universidad Nacional Autónoma de México</td>
-          <td>May 30, 4&ndash;6pm</td>
-          <td>Mexico City, Mexico</td>
-        </tr>
-        <tr>
-          <td>EPFL</td>
-          <td>June 3, 9am&ndash;5pm</td>
-          <td>Switzerland</td>
-        </tr>
-	<tr>
-          <td>QLASS Project</td>
-          <td>June 9, 3pm&ndash;6pm</td>
-          <td>Milan, Italy</td>
-        </tr>
-      </tbody>
-    </table>
-    </div>
-  </div>
+
+    <a class="landing-panel__cta" href="{{ home.panel_cta_url | url }}">
+      {{ home.panel_cta_label }}
+    </a>
+
+    {% include "partials/home-supporters.njk" %}
+  </section>
+
+  {% include "partials/home-footer-note.njk" %}
 </div>

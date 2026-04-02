@@ -1,8 +1,10 @@
 /* Article card */
 .article-card {
   margin-top: 20px;
-  padding: 4px 6px;
-  border-radius: var(--border-radius);
+  padding: 18px 20px;
+  border: 1px solid var(--color-border);
+  background-color: rgb(255 255 255 / 42%);
+  border-radius: 0;
 
   &:hover {
     color: var(--color-text);
@@ -14,11 +16,11 @@
   }
 
   &--tags {
-    border-bottom: 2px solid var(--color-border);
+    border-bottom: 1px solid var(--color-border);
     border-radius: 0;
 
     :root[data-theme="dark"] & {
-      border-bottom: 2px solid var(--color-border-dark);
+      border-bottom: 1px solid var(--color-border-dark);
     }
 
     &:last-child {
@@ -73,7 +75,7 @@
   flex-wrap: wrap;
   align-items: center;
   padding: 40px 0 30px;
-  border-bottom: 2px solid var(--color-border);
+  border-bottom: 1px solid var(--color-border);
 
   @media (min-width: 1024px) {
     flex-wrap: nowrap;
@@ -96,14 +98,16 @@
 .tag {
   margin: 10px 10px 0 0;
   padding: 6px 8px;
-  border-radius: var(--border-radius-sm);
+  border-radius: 999px;
   color: var(--color-secondary);
   white-space: nowrap;
   font-size: 13px;
   font-weight: 500;
+  background-color: var(--color-bg-tag);
 
   &:hover {
     border: none;
+    background-color: var(--color-bg-tag-hover);
   }
 
   &:first-child {

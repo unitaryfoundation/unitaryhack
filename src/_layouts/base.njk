@@ -4,23 +4,24 @@
   {% if global.enable_theme_switch %}data-use-system-theme="{{ global.use_system_theme }}"{% endif %}
   {% if global.default_theme %}data-default-theme="{{ global.default_theme }}"{% endif %}
   {% if section %}data-current="{{ section }}"{% endif %}
+  data-path-prefix="{{ sitePathPrefix or '/' }}"
   lang="en"
 >
 
 	{% include "partials/head.njk" %}
 
-  <body>
+  <body class="body--site-theme{% if bodyClass %} {{ bodyClass }}{% endif %}">
 	<div class="wrapper-bg-wrapper">
       <div class="wrapper-bg"></div>
     </div>
 
-		{% include "partials/site-header.njk" %}
-		{% include "partials/drawer.njk" %}
-		<main>
+		{% if not hideSiteHeader %}{% include "partials/site-header.njk" %}{% endif %}
+		{% if not hideSiteDrawer %}{% include "partials/drawer.njk" %}{% endif %}
+		<main class="main--site-theme{% if mainClass %} {{ mainClass }}{% endif %}">
 			{{ layoutContent | safe }}
 		</main>
 
-		{% include "partials/footer.njk" %}
+		{% if not hideSiteFooter %}{% include "partials/footer.njk" %}{% endif %}
 	</body>
 
 </html>

@@ -5,7 +5,7 @@
     <h4 class="project-bounties" style="display: flex; flex-wrap: wrap; justify-content: space-between; align-items: center; border-top: 1px solid #E5E8EB; border-bottom: 1px solid #E5E8EB; padding: 8px 0px 8px 0px;">
       <div class="emoji-name-box" style="display: flex; font-size: 0.8em;">
         <span class="project-card__emoji">{{ project.data.emoji }} </span>
-        <a href="{{ project.url }}">{{ project.data.title }}</a>
+        <a href="{{ project.url | url }}">{{ project.data.title }}</a>
       </div>
       {% if metadata.amount_available > 0 %}
         <span class="bounty-right" style="display: flex; justify-content: right; align-items: center;">

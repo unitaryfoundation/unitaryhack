@@ -1,0 +1,21 @@
+---
+layout: base.njk
+section: page
+mainClass: main--guide
+---
+<div class="guide-shell">
+  <aside class="guide-toc">
+    <p class="guide-toc__title">On this page</p>
+    {{ content | toc | safe }}
+  </aside>
+  <div class="page-container page-container--guide">
+    <h1>{{ title }}</h1>
+    {% if subtitle %}
+      <p class="guide-subtitle">{{ subtitle }}</p>
+    {% endif %}
+    <hr/>
+    <article>
+      {{ layoutContent | safe }}
+    </article>
+  </div>
+</div>
