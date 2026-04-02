@@ -1,0 +1,141 @@
+<!doctype html><html data-enable-theme-switch="true" data-use-system-theme="false" data-default-theme="light" data-current="page" data-path-prefix="/unitaryhack/pr-preview/pr-69/" lang="en"><head><meta charset="utf-8"><meta name="viewport" content="width=device-width,initial-scale=1"><title>unitaryHACK Rules</title><meta name="description" content="Rules for unitaryHACK"><link rel="icon" href="/unitaryhack/pr-preview/pr-69/favicon.ico" sizes="any"><link rel="preconnect" href="https://fonts.googleapis.com"><link rel="preconnect" href="https://fonts.gstatic.com" crossorigin><link href="https://fonts.googleapis.com/css2?family=Poppins:wght@400;500;600;700&family=Share+Tech+Mono&display=swap" rel="stylesheet"><link rel="stylesheet" href="/unitaryhack/pr-preview/pr-69/assets/css/main.css" data-build-path="/unitaryhack/pr-preview/pr-69/assets/css/main.css"><script>// Initialize theme
+    // Must run before page rendering to prevent flash
+    const themeConfig = document.documentElement.dataset;
+    const theme = localStorage.getItem('theme');
+
+    if (theme) {
+      themeConfig.theme = theme;
+    } else {
+      const defaultTheme = themeConfig.defaultTheme;
+      const useSystemTheme = themeConfig.useSystemTheme === 'true';
+      const prefersDark = window.matchMedia && window.matchMedia('(prefers-color-scheme: dark)').matches;
+
+      themeConfig.theme = (useSystemTheme && prefersDark) ? 'dark' : defaultTheme;
+    }</script><script defer="defer" src="/unitaryhack/pr-preview/pr-69/assets/js/main.bundle.js" data-build-path="/unitaryhack/pr-preview/pr-69/assets/js/main.bundle.js"></script><script>(function () {
+      var runRewrite = function () {
+        var pathPrefix = document.documentElement.dataset.pathPrefix || '/';
+        if (pathPrefix !== '/' && !pathPrefix.endsWith('/')) {
+          pathPrefix += '/';
+        }
+
+        var pathname = window.location.pathname;
+        var marker = '/_site/';
+        var markerIndex = pathname.indexOf(marker);
+
+        if (markerIndex === -1) {
+          return;
+        }
+
+        var siteRoot = 'file://' + pathname.slice(0, markerIndex + marker.length);
+        var shouldSkip = function (value) {
+          return !value ||
+            value.startsWith('http://') ||
+            value.startsWith('https://') ||
+            value.startsWith('//') ||
+            value.startsWith('mailto:') ||
+            value.startsWith('tel:') ||
+            value.startsWith('#') ||
+            value.startsWith('data:');
+        };
+
+        var stripPrefix = function (value) {
+          if (pathPrefix !== '/' && value.indexOf(pathPrefix) === 0) {
+            var stripped = value.slice(pathPrefix.length);
+            return stripped.charAt(0) === '/' ? stripped : '/' + stripped;
+          }
+
+          return value;
+        };
+
+        var rewriteValue = function (value) {
+          if (shouldSkip(value)) {
+            return value;
+          }
+
+          if (value.charAt(0) === '/') {
+            var normalized = stripPrefix(value);
+            return siteRoot + normalized.slice(1);
+          }
+
+          return value;
+        };
+
+        var rewriteAttribute = function (node, attr) {
+          if (!node.hasAttribute(attr)) {
+            return;
+          }
+
+          var original = node.getAttribute(attr);
+          var rewritten = rewriteValue(original);
+
+          if (rewritten !== original) {
+            node.setAttribute(attr, rewritten);
+          }
+        };
+
+        var rewriteSrcset = function (node, attr) {
+          if (!node.hasAttribute(attr)) {
+            return;
+          }
+
+          var original = node.getAttribute(attr);
+
+          if (!original) {
+            return;
+          }
+
+          var rewritten = original.split(',').map(function (entry) {
+            var part = entry.trim();
+
+            if (!part) {
+              return part;
+            }
+
+            var spaceIndex = part.indexOf(' ');
+            var url = spaceIndex === -1 ? part : part.slice(0, spaceIndex);
+            var descriptor = spaceIndex === -1 ? '' : part.slice(spaceIndex + 1);
+            var updated = rewriteValue(url);
+
+            return descriptor ? (updated + ' ' + descriptor) : updated;
+          }).join(', ');
+
+          if (rewritten !== original) {
+            node.setAttribute(attr, rewritten);
+          }
+        };
+
+        var nodes = document.querySelectorAll('[data-build-path]');
+        nodes.forEach(function (node) {
+          rewriteAttribute(node, 'href');
+          rewriteAttribute(node, 'src');
+        });
+
+        var selectors = [
+          { selector: 'link[href]', attr: 'href', type: 'attr' },
+          { selector: 'script[src]', attr: 'src', type: 'attr' },
+          { selector: 'img[src]', attr: 'src', type: 'attr' },
+          { selector: 'img[srcset]', attr: 'srcset', type: 'srcset' },
+          { selector: 'source[src]', attr: 'src', type: 'attr' },
+          { selector: 'source[srcset]', attr: 'srcset', type: 'srcset' },
+          { selector: 'a[href]', attr: 'href', type: 'attr' },
+        ];
+
+        selectors.forEach(function (entry) {
+          var elements = document.querySelectorAll(entry.selector);
+
+          elements.forEach(function (node) {
+            if (entry.type === 'srcset') {
+              rewriteSrcset(node, entry.attr);
+            } else {
+              rewriteAttribute(node, entry.attr);
+            }
+          });
+        });
+      };
+
+      if (document.readyState === 'loading') {
+        document.addEventListener('DOMContentLoaded', runRewrite);
+      } else {
+        runRewrite();
+      }
+    })();</script></head><body class="body--site-theme"><div class="wrapper-bg-wrapper"><div class="wrapper-bg"></div></div><header class="site-header"><div class="site-header__container"><a class="site-header__logo" href="/unitaryhack/pr-preview/pr-69/" aria-label="unitaryHACK home"><span class="site-header__logo-letter">H</span> <span class="site-header__logo-glyph">&lt;\&gt;</span> <span class="site-header__logo-letter">K</span> </a><button class="site-header__mobile-nav" data-drawer-trigger="" aria-controls="drawer-name" aria-expanded="false"><span class="site-header__mobile-nav-label">Menu</span> <svg width="226" height="187" viewBox="0 0 226 187" fill="none" xmlns="http://www.w3.org/2000/svg"><path d="M0 0H225.311V22.8494H0V0Z" fill="currentColor"/><path d="M0 81.872H225.311V104.721H0V81.872Z" fill="currentColor"/><path d="M0 163.744H225.311V186.593H0V163.744Z" fill="currentColor"/></svg></button><nav class="site-header__nav" aria-label="Primary"><ul class="site-header__items"><li class="site-header__item"><a class="site-header__link" href="/unitaryhack/pr-preview/pr-69/register/">Registration</a></li><li class="site-header__item"><a class="site-header__link" href="/unitaryhack/pr-preview/pr-69/projects/">Projects</a></li><li class="site-header__item"><a class="site-header__link" href="/unitaryhack/pr-preview/pr-69/bounties/">Bounties</a></li><li class="site-header__item site-header__item--guides"><details class="site-header__guides"><summary class="site-header__guides-toggle site-header__guides-toggle--current">Guides</summary><ul class="site-header__guides-menu"><li class="site-header__guides-item"><a class="site-header__guides-link" href="/unitaryhack/pr-preview/pr-69/hacker-guide/">Hacker Guide</a></li><li class="site-header__guides-item"><a class="site-header__guides-link" href="/unitaryhack/pr-preview/pr-69/project-guide/">Maintainer Guide</a></li><li class="site-header__guides-item"><a class="site-header__guides-link" href="/unitaryhack/pr-preview/pr-69/ai-guide/">AI Policy</a></li><li class="site-header__guides-item"><a class="site-header__guides-link" href="/unitaryhack/pr-preview/pr-69/rules/">Rules</a></li></ul></details></li></ul></nav></div></header><section class="drawer" id="drawer-name" data-drawer-target><div class="drawer__overlay" data-drawer-close tabindex="-1"></div><div class="drawer__wrapper"><div class="drawer__header"><a class="drawer__brand" href="/unitaryhack/pr-preview/pr-69/" aria-label="unitaryHACK home"><span class="drawer__brand-letter">H</span> <span class="drawer__brand-glyph">&lt;\&gt;</span> <span class="drawer__brand-letter">K</span> </a><button class="drawer__close" data-drawer-close aria-label="Close Drawer"><svg width="45" height="45" viewBox="0 0 45 45" fill="none" xmlns="http://www.w3.org/2000/svg"><path fill-rule="evenodd" clip-rule="evenodd" d="M0 3.84294L3.84294 0L22.4996 18.7131L41.2127 0L45 3.84294L26.3425 22.4996L45 41.2127L41.2127 45L22.4996 26.3425L3.84294 45L0 41.2127L18.7131 22.4996L0 3.84294Z" fill="currentColor"/></svg></button></div><div class="drawer__content"><ul class="drawer__nav"><li class="drawer__nav-item"><a href="/unitaryhack/pr-preview/pr-69/register/">Registration</a></li><li class="drawer__nav-item"><a href="/unitaryhack/pr-preview/pr-69/projects/">Projects</a></li><li class="drawer__nav-item"><a href="/unitaryhack/pr-preview/pr-69/bounties/">Bounties</a></li><li class="drawer__nav-item drawer__nav-item--guides"><details class="drawer__nav-group" open><summary class="drawer__nav-group-summary">Guides</summary><ul class="drawer__subnav"><li class="drawer__subnav-item"><a class="drawer__subnav-link" href="/unitaryhack/pr-preview/pr-69/hacker-guide/">Hacker Guide</a></li><li class="drawer__subnav-item"><a class="drawer__subnav-link" href="/unitaryhack/pr-preview/pr-69/project-guide/">Maintainer Guide</a></li><li class="drawer__subnav-item"><a class="drawer__subnav-link" href="/unitaryhack/pr-preview/pr-69/ai-guide/">AI Policy</a></li><li class="drawer__subnav-item"><a class="drawer__subnav-link" href="/unitaryhack/pr-preview/pr-69/rules/">Rules</a></li></ul></details></li></ul></div></div></section><main class="main--site-theme"><div class="page-container"><h1>unitaryHACK Rules</h1><hr><h2 id="eligibility" tabindex="-1">Eligibility</h2><ul><li><strong>Registration:</strong> All participants must <a href="/unitaryhack/pr-preview/pr-69/register/">register here</a> to be eligible for cash bounties.</li><li><strong>Participation:</strong> unitaryHACK is open to any individuals not employed by Unitary Foundation, no matter their citizenship or nationality, as long as they are not organized or ordinarily resident at the time of participation in Cuba, Iran, North Korea, Syria, or the Crimea region of Ukraine (or where otherwise prohibited by U.S. law). For more info on what countries might be impacted, please see the <a href="https://home.treasury.gov/policy-issues/financial-sanctions/sanctions-programs-and-country-information">US Treasury</a>.</li><li><strong>Teams:</strong> You may work in teams, but one designated person must receive the bounty disbursement.</li><li><strong>Maintainers:</strong> Maintainers may participate but cannot claim bounties for their own projects.</li></ul><h2 id="submission-requirements" tabindex="-1">Submission Requirements</h2><ul><li><strong>How to Enter:</strong> Submit a Pull Request (PR) directly to a participating project’s repository. Your PR description <strong>must link</strong> to the specific bountied issue (e.g., &quot;Closes #123&quot;) to be tracked.</li><li><strong>Winning Bounties:</strong> Bounties are awarded to the first functional PR accepted and merged by the project maintainers. This means that submitting your issue first DOES NOT guarantee that you win the bounty. <strong>Acceptance is at the sole discretion of the maintainers.</strong></li><li><strong>Timeline:</strong> Contributions must be made between June 3 and June 17, 2026. Submissions <strong>after 5:00 PM <a href="https://time.is/Anywhere_on_Earth">AoE</a> on June 17</strong> will not be considered without prior approval from the Unitary Foundation team.</li><li><strong>Public Activity:</strong> To ensure transparency and verification, your GitHub contribution activity <strong>must be set to public</strong> for the duration of the event. Failure to do so may result in disqualification from specific bounties or the full hackathon.</li><li><strong>No Squatting:</strong> Commenting on an issue does not &quot;reserve&quot; it. Only a submitted PR counts as a valid entry. We recommend checking for existing open PRs before you start working.</li><li><strong>Quality &amp; Testing:</strong> PRs must be substantive and pass all existing automated tests (CI/CD). Maintainers reserve the right to reject low-effort or &quot;spammy&quot; PRs that do not provide meaningful value.</li><li><strong>AI Policy:</strong> NO AI SLOP. While we allow LLMs as collaborative tools, fully AI-generated PRs are prohibited. Maintainers have the right to reject any contribution that appears to be automated or lacks human oversight. Check out the full unitaryHACK AI policy [here](/unitaryhack/pr-preview/pr-69/ai-guide/</li></ul><h2 id="code-of-conduct-and-disciplinary-action" tabindex="-1">Code of Conduct and Disciplinary Action</h2><p>All participants must adhere to the specific project’s Code of Conduct and the <a href="https://github.com/unitaryfoundation/unitary.foundation/blob/main/CODE_OF_CONDUCT.md">Unitary Foundation Community Code of Conduct</a>.</p><p>Violations of any Codes of Conduct associated with unitaryHACK will be addressed by the Unitary Foundation team, with disciplinary actions determined at their discretion and based on the severity of the offense, up to and including a permanent ban. Those who are reinvited to unitaryHACK for the subsequent year will be placed on probation, with their participation contingent upon adherence to further conditions, again at the discretion of the UF team.</p><h2 id="support" tabindex="-1">Support</h2><p>Questions? Email us at hack@unitary.foundation or join the conversation on <a href="https://discord.gg/2Y9z9xKKbr">Discord</a>!</p></div></main><footer class="site-footer"><small>This project is maintained by <a href="https://unitary.foundation">Unitary Foundation</a>. Find an error? File it on the <a href="https://github.com/unitaryfoundation/unitaryhack">GitHub repo</a>.</small></footer></body></html>
