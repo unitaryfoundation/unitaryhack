@@ -57,9 +57,9 @@
     "Make sure you register to be eligible to claim bounties!"
   ],
   "supporters": {
-    "title": "Supporters",
+    "title": "Early Supporters",
     "intro": "Thanks so much to all the unitaryHACK26 supporters! ✨",
-    "sponsor_heading": "Event Sponsors (Early supporters)",
+    "sponsor_heading": "Event Sponsors",
     "sponsors": [
       {
         "label": "Alice and Bob",
