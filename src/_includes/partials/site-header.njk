@@ -21,7 +21,7 @@
     </button>
     <nav class="site-header__nav" aria-label="Primary">
       <ul class="site-header__items">
-        {%- for item in home.nav_items %}
+        {%- for item in home.primary_nav_items %}
           {% set itemUrl = item.url | url %}
           <li class="site-header__item">
             <a
@@ -33,6 +33,29 @@
             </a>
           </li>
         {%- endfor %}
+        <li class="site-header__item site-header__item--guides">
+          <details class="site-header__guides">
+            <summary
+              class="site-header__guides-toggle{% if page.url in home.guide_nav_urls %} site-header__guides-toggle--current{% endif %}"
+            >
+              {{ home.guide_menu_label }}
+            </summary>
+            <ul class="site-header__guides-menu">
+              {%- for item in home.guide_nav_items %}
+                {% set itemUrl = item.url | url %}
+                <li class="site-header__guides-item">
+                  <a
+                    class="site-header__guides-link"
+                    href="{{ itemUrl }}"
+                    {% if itemUrl == page.url %} aria-current="page"{% endif %}
+                  >
+                    {{ item.label }}
+                  </a>
+                </li>
+              {%- endfor %}
+            </ul>
+          </details>
+        </li>
       </ul>
     </nav>
   </div>

@@ -8,7 +8,7 @@ eleventyNavigation:
   order: 2
 ---
 
-No matter your experience in quantum tech or open source communities, you can help make quantum open source better (and get PAID!). This guide will help you understand more about the event and how you can make the most of it! **There's no TL:DR** - please read this page, the Rules page, and the AI Policy **thoroughly** before you get started. 
+No matter your experience in quantum tech or open source communities, you can help make quantum open source better (and get PAID!). This guide will help you understand more about the event and how you can make the most of it! **There's no TL:DR** - please read this page, the [Rules]({{ '/rules/' | url }}) page, and the [AI Policy]({{ '/ai-guide/' | url }}) **thoroughly** before you get started. 
 
 
 ## ⌚ Phase 1: Preparation

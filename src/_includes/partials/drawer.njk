@@ -13,7 +13,7 @@
     </div>
     <div class="drawer__content">
       <ul class="drawer__nav">
-      {%- for item in home.nav_items %}
+      {%- for item in home.primary_nav_items %}
         {% set itemUrl = item.url | url %}
         <li class="drawer__nav-item">
           <a
@@ -24,6 +24,25 @@
           </a>
         </li>
       {%- endfor %}
+        <li class="drawer__nav-item drawer__nav-item--guides">
+          <details class="drawer__nav-group"{% if page.url in home.guide_nav_urls %} open{% endif %}>
+            <summary class="drawer__nav-group-summary">{{ home.guide_menu_label }}</summary>
+            <ul class="drawer__subnav">
+              {%- for item in home.guide_nav_items %}
+                {% set itemUrl = item.url | url %}
+                <li class="drawer__subnav-item">
+                  <a
+                    class="drawer__subnav-link"
+                    href="{{ itemUrl }}"
+                    {% if itemUrl == page.url %} aria-current="page"{% endif %}
+                  >
+                    {{ item.label }}
+                  </a>
+                </li>
+              {%- endfor %}
+            </ul>
+          </details>
+        </li>
       </ul>
     </div>
   </div>

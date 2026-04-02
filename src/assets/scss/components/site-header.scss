@@ -1,4 +1,5 @@
 .site-header {
+  position: relative;
   width: 100%;
   z-index: var(--z-header);
   max-width: var(--site-width);
@@ -95,6 +96,10 @@
   margin: 0;
 }
 
+.site-header__item--guides {
+  position: relative;
+}
+
 .site-header__link {
   display: inline-flex;
   align-items: center;
@@ -104,7 +109,9 @@
   font-size: 1.4rem;
   font-weight: 600;
 
-  &:hover {
+  &:hover,
+  &:focus {
+    color: var(--landing-glow-start);
     border-bottom: none;
     text-decoration: underline;
     text-underline-offset: 0.25em;
@@ -118,5 +125,87 @@
   &--theme-switch {
     border: none;
     background: none;
+  }
+}
+
+.site-header__guides {
+  position: relative;
+}
+
+.site-header__guides[open] .site-header__guides-toggle {
+  color: var(--landing-glow-start);
+}
+
+.site-header__guides-toggle {
+  display: inline-flex;
+  align-items: center;
+  gap: 6px;
+  padding: 6px 8px;
+  color: #fff;
+  cursor: pointer;
+  font-family: var(--font-family-base);
+  font-size: 1.4rem;
+  font-weight: 600;
+  list-style: none;
+
+  &::-webkit-details-marker {
+    display: none;
+  }
+
+  &::after {
+    content: "▾";
+    font-size: 1.1rem;
+    line-height: 1;
+  }
+
+  &:hover,
+  &:focus {
+    color: var(--landing-glow-start);
+    border-bottom: none;
+    text-decoration: underline;
+    text-underline-offset: 0.25em;
+  }
+}
+
+.site-header__guides-toggle--current {
+  text-decoration: underline;
+  text-underline-offset: 0.25em;
+}
+
+.site-header__guides-menu {
+  position: absolute;
+  top: calc(100% + 10px);
+  right: 0;
+  min-width: 220px;
+  margin: 0;
+  padding: 10px 0;
+  list-style: none;
+  border: 1px solid var(--color-border-dark);
+  background-color: rgb(255 255 255 / 94%);
+  backdrop-filter: blur(8px);
+  z-index: calc(var(--z-header) + 2);
+}
+
+.site-header__guides-item {
+  margin: 0;
+}
+
+.site-header__guides-link {
+  display: block;
+  padding: 8px 14px;
+  color: var(--color-text);
+  font-size: 1.5rem;
+  font-weight: 500;
+
+  &:hover,
+  &:focus {
+    color: var(--landing-glow-start);
+    border-bottom: none;
+    background-color: rgb(52 68 255 / 8%);
+  }
+
+  &[aria-current] {
+    color: var(--landing-glow-start);
+    background-color: rgb(52 68 255 / 8%);
   }
 }

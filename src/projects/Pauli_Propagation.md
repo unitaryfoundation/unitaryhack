@@ -1,29 +1,19 @@
 ---
-title: Pauli Propagation
-id: paulipropagation.jl
-emoji: 🇵 🇵
-project_url: https://github.com/MSRudolph/PauliPropagation.jl
-metaDescription: A framework for simulating quantum circuits and quantum systems in the Pauli basis
-date: 2025-04-02
-summary: A framework for simulating quantum circuits and quantum systems in the Pauli basis
+title: "PauliPropagation.jl"
+id: "paulipropagation.jl"
+emoji: "🅿️🅿️"
+project_url: "https://github.com/MSRudolph/PauliPropagation.jl"
+metaDescription: "A high-performance library for simulating quantum circuits via Pauli propagation."
+date: 2026-03-23
+summary: "A high-performance library for simulating quantum circuits via Pauli propagation."
 tags:
-  - julia
-  - circuits
-  - simulation
-  - pauli strings
-bounties:
-  - issue_num: 88
-    value: 200
-  - issue_num: 86
-    value: 150
-  - issue_num: 87
-    value: 100
-  - issue_num: 89
-    value: 50
+  - "Julia"
+  - "Quantum Simulation"
+  - "Quantum Computing"
+  - "Quantum Circuits"
+bounties: []
 ---
 
-`PauliPropagation.jl` is a Julia package for Pauli propagation simulation of quantum circuits.
-
-Pauli propagation methods are a new kid on the block of classical simulation algorithms, and can in some cases already outperform state-of-the-art tensor networks. Our mission is to develop this flexible and high-performance code base for everyone to use in their research.
-
-The package simulates the evolution of objects expressed in the Pauli basis under noiseless and noisy quantum circuits. Commonly, this is used for the Heisenberg picture evolution of an observable. Some opt-in truncations or approximations are particularly suited for estimating expectation values of evolved observables with quantum states.
+PauliPropagation.jl is a flexible, high-performance library for simulating large-scale quantum circuits.
+Pauli propagation is a new numerical technique popularized by simulating IBM's utility experiment on 127 qubits. Theoretically, it has been shown that it is provably efficient for simulating certain near-Clifford, random, or noisy quantum circuits. In practice, however, it performs far better than its theoretical guarantees when implemented well. Using optimized bitwise operations, pre-allocated data structures, and parallelization, PauliPropagation.jl can yield approximate simulation results for quantum circuits that are beyond the reach of exact verification. 
+Join our efforts, contribute to PauliPropagation.jl, and show what this simulation method is capable of!

@@ -1,17 +1,42 @@
 {
-  "nav_items": [
+  "primary_nav_items": [
     {
       "label": "Registration",
       "url": "/register/"
     },
     {
-      "label": "Rules",
-      "url": "/rules/"
+      "label": "Projects",
+      "url": "/projects/"
     },
     {
-      "label": "Maintainers",
-      "url": "/project-guide/"
+      "label": "Bounties",
+      "url": "/bounties/"
     }
+  ],
+  "guide_menu_label": "Guides",
+  "guide_nav_items": [
+    {
+      "label": "Hacker Guide",
+      "url": "/hacker-guide/"
+    },
+    {
+      "label": "Maintainer Guide",
+      "url": "/project-guide/"
+    },
+    {
+      "label": "AI Policy",
+      "url": "/ai-guide/"
+    },
+    {
+      "label": "Rules",
+      "url": "/rules/"
+    }
+  ],
+  "guide_nav_urls": [
+    "/hacker-guide/",
+    "/project-guide/",
+    "/ai-guide/",
+    "/rules/"
   ],
   "mark": {
     "top": "unitary",
@@ -34,7 +59,7 @@
   "supporters": {
     "title": "Supporters",
     "intro": "Thanks so much to all the unitaryHACK26 supporters! ✨",
-    "sponsor_heading": "Event Sponsors (TBC)",
+    "sponsor_heading": "Event Sponsors (Early supporters)",
     "sponsors": [
       {
         "label": "Alice and Bob",
@@ -57,12 +82,17 @@
         "url": "https://www.quera.com/"
       },
       {
-        "label": "NVIDIA",
-        "url": "https://www.nvidia.com/"
+        "label": "Quantum Rings",
+        "url": "https://quantumrings.com/"
       },
       {
-        "label": "IonQ",
-        "url": "https://ionq.com/"
+        "label": "Center for Quantum Networks",
+        "url": "https://cqn-erc.arizona.edu/"
+      },
+      {
+        "label": "Project11",
+        "url": "https://www.projecteleven.com/"
+
       }
     ],
     "foundation": {

@@ -1,55 +1,18 @@
 ---
-title: H-hat quantum programming language
-id: hhat_lang
-emoji: 🎩👒
-project_url: https://github.com/hhat-lang/hhat_lang
-metaDescription: H-hat is a quantum programming language that aims to bring quantum resources to software developers with no prior knowledge on quantum computing.
-date: 2025-03-25
-summary: H-hat is a quantum programming language that aims to bring quantum resources to software developers with no prior knowledge on quantum computing.
+title: "H-hat"
+id: "hhat_lang"
+emoji: "👒🎩"
+project_url: "https://github.com/hhat-lang/hhat_lang"
+metaDescription: "A statically typed and functional-inspired quantum programming language"
+date: 2026-03-19
+summary: "A statically typed and functional-inspired quantum programming language"
 tags:
-  - programming language
-  - compiler
-bounties:
-  - issue_num: 38
-    value: 50
-  - issue_num: 39
-    value: 100
-  - issue_num: 44
-    value: 100
-  - issue_num: 43
-    value: 100
-  - issue_num: 40
-    value: 75
-  - issue_num: 41
-    value: 75
+  - "programming language"
+  - "compiler"
+  - "classical-quantum"
+bounties: []
 ---
 
-**What H-hat is**
+H-hat aims to support explicit function overloading, algebraic data types, ownership and RAII-like features, strict and lazy evaluation, reflective cast, metaprogramming, structured typing-like approach, concurrency, backend kind-based types (CPU and QPU), and multi-architecture targeting computation (e.g. CPU: x86_64, aarch64; gate- and analog-based QPU: superconducting, trapped ion, neutral atoms, photonics, etc.)
 
-- A quantum programming language family and the ecosystem to build it
-- An abstraction layer above QASM-like languages
-- A language to
-  - Use higher-level abstraction to harness quantum resources, such as superposition, entanglement, etc.
-  - Need no specialized knowledge on quantum mechanics or quantum information theory
-  - Close the gap between developers/programmers/computer scientists and quantum physicists
-  - Use quantum data and quantum data structures to reason about quantum information processing
-  - Solve problems using quantum logic, but not raw quantum mechanics approach
-
-**What H-hat is not**
-
-- A replacement for quantum logic-level quantum computation (circuit-like quantum computing, for instance), such as QASM-like languages
-- A full stack programming language with direct access to the hardware
-- A simulator
-
-Language features
-
-- Code reasoning closer to classical programming languages
-- Quantum data types, variables, functions just as its classical counterpart
-- Additionally, there is quantum primitives to define some general platform-dependent instruction set
-- Classical and quantum parts have similar syntaxes and components
-- Quantum variables:
-  - hold quantum and classical instructions
-  - execute its content and perform measurement once a cast function is called upon it
-  - re-execute the same data content every time it is cast
-- Platform- and quantum logic language- independent
-- Can hold many syntaxes/dialects implementations to work in harmony with each other
+The language is intended to be used on standalone computers, HPCs and embedded systems, for local and distributed computation. Inspired by Fortran, Erlang, Rust, C and Lean, it focuses on good performance, integration, distributed computing resilience, and algorithmic verifiability.

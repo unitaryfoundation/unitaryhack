@@ -1,24 +1,19 @@
 ---
-title: Quantify
+title: "Quantify"
+id: "quantify-os"
 emoji:
-project_url: https://gitlab.com/quantify-os/quantify
-metaDescription: Quantify is a hardware-agnostic framework  designed to allow experimentalists to easily define complex quantum experiments.
-date: 2025-03-27
-summary: Quantify is a hardware-agnostic framework  designed to allow experimentalists to easily define complex quantum experiments.
+project_url: "https://gitlab.com/quantify-os"
+metaDescription: "Quantify is an open-source, Python-based, high-level data acquisition framework for quantum-computing and solid-state physics experiments."
+date: 2026-04-02
+summary: "Quantify is an open-source, Python-based, high-level data acquisition framework for quantum-computing and solid-state physics experiments."
 tags:
-  - data acquisition
-  - instrument control
-  - solid-state physics
-  - experimental physics
-scrape: false
-bounties:
-  - issue_num: 41
-    value: 100
-  - issue_num: 42
-    value: 200
-  - issue_num: 45
-    value: 100
+  - "data acquisition"
+  - "instrument control"
+  - "solid-state physics"
+  - "experimental physics"
+bounties: []
 ---
 
-Quantify is a Python-based data acquisition framework focused on Quantum Computing and solid-state physics experiments. 
-Quantify contains both basic functionality to control experiments and a module for writing quantum programs featuring a hybrid gate-pulse control model with explicit timing control. It includes a well-defined interface to control the instruments, data acquisition loop, and analysis.
+Quantify is an open-source, Python-based, high-level data acquisition framework for quantum-computing and solid-state physics experiments.
+It is developed together with a growing international community of scientists and engineers, and is built on top of QCoDeS for handling various instruments. The framework is available at Quantify. As an open-source project, we welcome the contributions from our growing community!
+Quantify enables users to quickly set up experiments while taking care of practical aspects such as data storage, live plotting of experiments, monitoring the state of instruments, and data analysis. It also provides a unique hybrid gate-pulse control model with explicit timing control, allowing users to easily express complex quantum experiments.
