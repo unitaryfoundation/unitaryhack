@@ -25,7 +25,7 @@
         </li>
       {%- endfor %}
         <li class="drawer__nav-item drawer__nav-item--guides">
-          <details class="drawer__nav-group"{% if page.url in home.guide_nav_urls %} open{% endif %}>
+          <details class="drawer__nav-group" data-nav-dropdown{% if page.url in home.guide_nav_urls %} open{% endif %}>
             <summary class="drawer__nav-group-summary">{{ home.guide_menu_label }}</summary>
             <ul class="drawer__subnav">
               {%- for item in home.guide_nav_items %}

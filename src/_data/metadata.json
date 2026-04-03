@@ -1,4 +1,12 @@
 {
   "title": "unitaryHACK 2026",
-  "description": "An open source hackathon for the quantum technology community."
+  "description": "An open source hackathon for the quantum technology community.",
+  "siteName": "unitaryHACK 2026",
+  "locale": "en_US",
+  "twitterCard": "summary_large_image",
+  "socialImage": "/assets/img/uHACK_26_full.gif",
+  "socialImageAlt": "unitaryHACK 2026 logo",
+  "plausible": {
+    "scriptSrc": "https://plausible.io/js/pa-aZnUCRZpCaf_kNLo7yAkG.js"
+  }
 }

@@ -13,7 +13,7 @@
         </li>
       {% endfor %}
       <li class="landing-header__item landing-header__item--guides">
-        <details class="landing-header__guides">
+        <details class="landing-header__guides" data-nav-dropdown>
           <summary class="landing-header__guides-toggle">{{ home.guide_menu_label }}</summary>
           <ul class="landing-header__guides-menu">
             {% for item in home.guide_nav_items %}

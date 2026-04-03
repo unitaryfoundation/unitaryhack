@@ -1,0 +1,13 @@
+---
+permalink: /robots.txt
+eleventyExcludeFromCollections: true
+---
+User-agent: *
+{% if sitePathPrefix == '/' %}
+Allow: /
+Disallow: /pr-preview/
+
+Sitemap: {{ '/sitemap.xml' | absoluteUrl }}
+{% else %}
+Disallow: /
+{% endif %}

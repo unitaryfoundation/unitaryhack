@@ -31,7 +31,7 @@ If you're new to open source or quantum computing, spend some time with these re
 ## 🔨 Phase 2: During the Hack
 
   1. **Join the Discord** </br>The [Unitary Foundation Discord](https://discord.gg/2Y9z9xKKbr) is your primary hub. Use it to find collaborators, ask maintainers technical questions, or clarify rules with the UF team.
-  2.  **Find Your Issue** </br>Browse the Bounties Page or look for the `unitaryHACK26` label on GitHub.
+  2.  **Find Your Issue** </br>Browse the Bounties Page or look for the <span class="github-label-pill">unitaryHACK26</span> label on GitHub.
       - **The "Squatting" Rule**: We ask that you **do not comment on more than 3–4 projects per day.** And please do not “claim” issues by saying “I’m working on it” or something similar. You can just work on your PR and submit it without discouraging others from trying to support the maintainers as well.
       - **Teaming Up**: If you want to collaborate, comment on the `unitaryHACK` Discord channel to find partners. Note that most bounties are awarded to a single PR; one person must be designated to receive the payout.
   3. **Submit Your PR** </br>When your solution is ready and passes all local tests:

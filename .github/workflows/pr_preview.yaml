@@ -17,6 +17,9 @@ concurrency:
 jobs:
   build-preview:
     runs-on: ubuntu-latest
+    env:
+      PLAUSIBLE_SCRIPT_SRC: ${{ vars.PLAUSIBLE_SCRIPT_SRC }}
+      PLAUSIBLE_ENDPOINT: ${{ vars.PLAUSIBLE_ENDPOINT }}
 
     steps:
       - name: Checkout repository
