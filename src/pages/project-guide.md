@@ -78,7 +78,7 @@ For bountied issues, once you have accepted a pull request (or closed an issue) 
 
 ### AI Moderation
 * We recommend incorporating an LLM to oversee initial PR reviews for all reviews, several fellow maintainers have suggested CodeRabbit. This will cut down on you personally having to review submissions that may not be as serious.
-* Familiarize yourself with the unitaryHACK [Hacker Guide to Ethical AI] and feel free to share it along to any hackers you think are in danger of violating the guide.
+* Familiarize yourself with the unitaryHACK [Hacker Guide to Ethical AI]({{ '/ai-guide/' | url }}) and feel free to share it along to any hackers you think are in danger of violating the guide.
 * Loop in Veena if you’re not sure of how to proceed
 
 
