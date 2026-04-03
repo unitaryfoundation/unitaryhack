@@ -1,15 +1,40 @@
 <head>
+  {% set rawTitle = renderData.title or title %}
+  {% if rawTitle and rawTitle != metadata.title %}
+    {% set resolvedTitle = rawTitle + ' | ' + metadata.title %}
+  {% else %}
+    {% set resolvedTitle = metadata.title %}
+  {% endif %}
+  {% set resolvedDescription = metaDescription or renderData.metaDescription or summary or metadata.description %}
+  {% set resolvedPagePath = page.url | url %}
+  {% set resolvedCanonical = canonical or (resolvedPagePath | absoluteUrl) %}
+  {% set resolvedSocialImage = ((ogImage or renderData.ogImage or metadata.socialImage) | url | absoluteUrl) %}
+  {% set resolvedSocialImageAlt = ogImageAlt or renderData.ogImageAlt or metadata.socialImageAlt or resolvedTitle %}
+  {% set resolvedOgType = ogType or renderData.ogType or 'website' %}
+  {% set isIndexable = (sitePathPrefix == '/') and (page.url != '/404.html') and (noindex != true) and (renderData.noindex != true) %}
+  {% set plausibleEnabled = (sitePathPrefix == '/') and metadata.plausible and metadata.plausible.scriptSrc %}
   <meta charset="utf-8">
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
-  <title>{{ renderData.title or title or metadata.title }}</title>
-  <meta name="description" content="{{ metaDescription or renderData.metaDescription or summary or metadata.description }}">
+  <title>{{ resolvedTitle }}</title>
+  <meta name="description" content="{{ resolvedDescription }}">
+  <meta name="robots" content="{% if isIndexable %}index, follow{% else %}noindex, nofollow{% endif %}">
   {% set faviconPath = '/favicon.ico' | url %}
   <link rel="icon" href="{{ faviconPath }}" sizes="any">
 
-  {# Canonical URL #}
-  {% if canonical %}
-    <link rel="canonical" href="{{ canonical }}" />
-  {% endif %}
+  <link rel="canonical" href="{{ resolvedCanonical }}">
+  <meta property="og:site_name" content="{{ metadata.siteName or metadata.title }}">
+  <meta property="og:locale" content="{{ metadata.locale or 'en_US' }}">
+  <meta property="og:type" content="{{ resolvedOgType }}">
+  <meta property="og:title" content="{{ resolvedTitle }}">
+  <meta property="og:description" content="{{ resolvedDescription }}">
+  <meta property="og:url" content="{{ resolvedCanonical }}">
+  <meta property="og:image" content="{{ resolvedSocialImage }}">
+  <meta property="og:image:alt" content="{{ resolvedSocialImageAlt }}">
+  <meta name="twitter:card" content="{{ metadata.twitterCard or 'summary_large_image' }}">
+  <meta name="twitter:title" content="{{ resolvedTitle }}">
+  <meta name="twitter:description" content="{{ resolvedDescription }}">
+  <meta name="twitter:image" content="{{ resolvedSocialImage }}">
+  <meta name="twitter:image:alt" content="{{ resolvedSocialImageAlt }}">
 
 
   {# Fonts #}
@@ -23,6 +48,23 @@
   {# CSS #}
   {% set cssPath = '/assets/css/main.css' | url %}
   <link rel="stylesheet" href="{{ cssPath }}" data-build-path="{{ cssPath }}">
+
+  {% if plausibleEnabled %}
+    <script async src="{{ metadata.plausible.scriptSrc }}"></script>
+    <script>
+      window.plausible = window.plausible || function () {
+        (plausible.q = plausible.q || []).push(arguments);
+      };
+      plausible.init = plausible.init || function (options) {
+        plausible.o = options || {};
+      };
+      {% if metadata.plausible.endpoint %}
+        plausible.init({ endpoint: "{{ metadata.plausible.endpoint }}" });
+      {% else %}
+        plausible.init();
+      {% endif %}
+    </script>
+  {% endif %}
 
   {# Javascript #}
   <script>

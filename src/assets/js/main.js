@@ -22,6 +22,39 @@ const initRegistrationEmbeds = () => {
   });
 };
 
+let navDropdownsInitialized = false;
+
+const closeNavDropdownsExcept = (activeDropdown) => {
+  const openDropdowns = document.querySelectorAll('[data-nav-dropdown][open]');
+
+  openDropdowns.forEach((dropdown) => {
+    if (dropdown !== activeDropdown) {
+      dropdown.removeAttribute('open');
+    }
+  });
+};
+
+const initNavDropdowns = () => {
+  if (navDropdownsInitialized) {
+    return;
+  }
+
+  navDropdownsInitialized = true;
+
+  document.addEventListener('click', (event) => {
+    const activeDropdown = event.target.closest('[data-nav-dropdown]');
+    closeNavDropdownsExcept(activeDropdown);
+  });
+
+  document.addEventListener('keydown', (event) => {
+    if (event.key !== 'Escape') {
+      return;
+    }
+
+    closeNavDropdownsExcept(null);
+  });
+};
+
 // Initialize Turbolinks
 Turbolinks.start();
 
@@ -39,5 +72,6 @@ if (enableThemeSwitch) {
 document.addEventListener('turbolinks:load', () => {
   const target = new Date('2025-06-12T05:00:00Z');
   countdown('countdown', target);
+  initNavDropdowns();
   initRegistrationEmbeds();
 });

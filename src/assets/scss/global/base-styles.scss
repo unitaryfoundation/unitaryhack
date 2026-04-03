@@ -350,3 +350,19 @@ fieldset {
 p.countdown {
   margin: 0;
 }
+
+.github-label-pill {
+  display: inline-flex;
+  align-items: center;
+  padding: 0.12em 0.55em;
+  margin: 0 0.1em;
+  border: 1px solid rgb(0 0 0 / 18%);
+  border-radius: 999px;
+  background-color: #ffff00;
+  color: #24292f;
+  font-size: 0.86em;
+  font-weight: 600;
+  line-height: 1.2;
+  vertical-align: baseline;
+  white-space: nowrap;
+}

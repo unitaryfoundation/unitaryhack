@@ -86,6 +86,30 @@
   margin-right: 8px;
 }
 
+.project-link-list {
+  margin: 0;
+  padding-left: 1.5rem;
+}
+
+.project-link-list__item + .project-link-list__item {
+  margin-top: 0.8rem;
+}
+
+.project-link-list__entry {
+  display: inline-flex;
+  align-items: baseline;
+  gap: 0.55rem;
+  color: var(--color-text);
+
+  :root[data-theme="dark"] & {
+    color: var(--color-title-dark);
+  }
+}
+
+.project-link-list__emoji {
+  flex: 0 0 auto;
+}
+
 .bounty-right {
   float: right;
   font-size: 0.7em;

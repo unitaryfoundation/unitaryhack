@@ -1,20 +1,13 @@
 ---
 layout: base.njk
 section: projects
-pagination:
-  data: collections
-  size: Infinity
-  filter:
-    - project
 ---
 <div class="page-margin">
   <div class="project-container">
 
     <h1>{{title}}</h1>
 
-    {% if subtitle %}
-      <p>{{ subtitle }}</p>
-    {% endif %}
+    <p>More info on the projects coming soon.</p>
 
     <div class="hr"></div>
 
@@ -23,6 +16,18 @@ pagination:
   {{ layoutContent | safe }}
 
   <section class="page-container">
-    <p>Please check back soon for the 2026 participating projects.</p>
+    {% if collections.sortedProjects.length %}
+      <ul class="project-link-list" aria-label="Participating projects">
+        {% for project in collections.sortedProjects %}
+          <li class="project-link-list__item">
+            <span class="project-link-list__entry">
+              <span class="project-link-list__title">{{ project.data.title or "Untitled" }}</span>
+            </span>
+          </li>
+        {% endfor %}
+      </ul>
+    {% else %}
+      <p>Please check back soon for the 2026 participating projects.</p>
+    {% endif %}
   </section>
 </div>

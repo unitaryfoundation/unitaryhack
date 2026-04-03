@@ -29,6 +29,8 @@ module.exports = function (eleventyConfig) {
   };
 
   const pathPrefix = sanitizePathPrefix(process.env.PATH_PREFIX);
+  const siteUrl = process.env.SITE_URL || 'https://unitaryhack.dev';
+  const normalizedSiteUrl = siteUrl.endsWith('/') ? siteUrl : `${siteUrl}/`;
   eleventyConfig.addGlobalData('sitePathPrefix', pathPrefix);
   const includeCname = process.env.INCLUDE_CNAME !== 'false';
 
@@ -50,6 +52,17 @@ module.exports = function (eleventyConfig) {
       .replace(/src="\/(?!\/)/g, `src="${pathPrefix}`)
       .replace(/href='\/(?!\/)/g, `href='${pathPrefix}`)
       .replace(/src='\/(?!\/)/g, `src='${pathPrefix}`);
+  });
+  eleventyConfig.addFilter('absoluteUrl', (value) => {
+    if (typeof value !== 'string' || !value) {
+      return value;
+    }
+
+    if (/^https?:\/\//i.test(value)) {
+      return value;
+    }
+
+    return new URL(value, normalizedSiteUrl).href;
   });
   eleventyConfig.addFilter('readableDate', readableDateFilter);
   eleventyConfig.addFilter('machineDate', machineDateFilter);
@@ -94,6 +107,18 @@ module.exports = function (eleventyConfig) {
       else if (nameA > nameB) return 1;
       else return 0;
     });
+  });
+  eleventyConfig.addCollection('sitemapPages', function (collection) {
+    return collection.getAll().filter((item) => {
+      return (
+        item.url &&
+        item.outputPath &&
+        item.outputPath.endsWith('.html') &&
+        item.url !== '/404.html' &&
+        item.data &&
+        item.data.sitemap !== false
+      );
+    }).sort((a, b) => a.url.localeCompare(b.url));
   });
   
   // Markdown Plugins
