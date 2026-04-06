@@ -10,7 +10,7 @@ eleventyNavigation:
 
 ## Eligibility
  * **Registration:** All participants must [register here]({{ '/register/' | url }}) to be eligible for cash bounties.
- * **Participation:** unitaryHACK is open to any individuals not employed by Unitary Foundation, no matter their citizenship or nationality, as long as they are not organized or ordinarily resident at the time of participation in Cuba, Iran, North Korea, Syria, or the Crimea region of Ukraine (or where otherwise prohibited by U.S. law). For more info on what countries might be impacted, please see the [US Treasury](https://home.treasury.gov/policy-issues/financial-sanctions/sanctions-programs-and-country-information).
+ * **Participation:** unitaryHACK is open to any individuals not employed by Unitary Foundation, no matter their citizenship or nationality, as long as they are not organized or ordinarily resident at the time of participation in Cuba, Iran, North Korea, or the Crimea region of Ukraine (or where otherwise prohibited by U.S. law). For more info on what countries might be impacted, please see the [US Treasury](https://home.treasury.gov/policy-issues/financial-sanctions/sanctions-programs-and-country-information).
  * **Teams:** You may work in teams, but one designated person must receive the bounty disbursement.
  * **Maintainers:** Maintainers may participate but cannot claim bounties for their own projects.
 
