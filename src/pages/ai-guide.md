@@ -1,5 +1,5 @@
 ---
-title: Hacker's Guide to Ethical AI
+title: unitaryHACK Hacker’s Guide to Ethical AI Contributions
 metaDescription: unitaryHACK AI Policy
 date: 2026-04-01
 permalink: /ai-guide/index.html
@@ -8,7 +8,6 @@ eleventyNavigation:
   order: 5
 ---
 
-# unitaryHACK Hacker’s Guide to Ethical AI Contributions
 At unitaryHACK, we believe AI is a powerful co-pilot, not an autopilot. Quantum computing is hard, and while Large Language Models (LLMs) like ChatGPT, Claude, or Copilot can help you understand a new library, they can also confidently generate code that violates the laws of physics.
 
 To keep the ecosystem healthy and respect our maintainers’ time, we follow a **Human-in-the-Loop** policy.
