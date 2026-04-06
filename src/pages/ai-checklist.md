@@ -31,12 +31,13 @@ If a PR hits **two or more** of these flags, it is likely "AI Slop." You have fu
 _Copy and paste these to save your team from "rejection guilt."_
 
 ### Template A: The "Likely AI" Rejection
-"Hi @[Username], thank you for your interest in unitaryHACK. This PR appears to be a low-effort, AI-generated submission that hasn't been properly verified or tested against our codebase. Per our Human-in-the-Loop AI Policy, we are closing this to prioritize maintainer time for substantive, human-led contributions. Please review the unitaryHACK Hacker Guide before submitting further PRs."
+"Hi @[Username], thank you for your interest in unitaryHACK and this issue. This PR appears to be a low-effort, AI-generated submission that hasn't been properly verified or tested against our codebase. Per unitaryHACK's [Human-in-the-Loop AI Policy](https://unitaryhack.dev/ai-guide/), we are closing this to prioritize maintainer time for substantive, human-led contributions. Please review the [unitaryHACK Hacker Guide](https://unitaryhack.dev/hacker-guide/) before submitting further PRs."
 
 ### Template B: The "Explain Your Work" Challenge
 _(Use this if you aren't 100% sure but are suspicious)_
 "Hi @[Username], thanks for the PR. To ensure this meets our quality standards, could you please explain the logic behind [Specific Line/Function] and confirm that you've run the test suite locally? We require all hackers to be able to defend their technical choices to be eligible for bounties."
 
 
-## Pro-Tip for Maintainers:
-If you see a user submitting "slop" across multiple projects in the Unitary Foundation ecosystem, **flag them in the #maintainers Discord channel.** We can then issue a global ban for the duration of unitaryHACK to stop the noise.
+## Pro-Tips for Maintainers:
+- We recommend incorporating an LLM to oversee initial PR reviews for all reviews, several fellow maintainers have suggested CodeRabbit. This will cut down on you personally having to review submissions that may not be as serious.
+- If you see a user submitting "slop" across multiple projects in the Unitary Foundation ecosystem, **flag them in the #maintainers Discord channel.** We can then issue a global ban for the duration of unitaryHACK to stop the noise.
