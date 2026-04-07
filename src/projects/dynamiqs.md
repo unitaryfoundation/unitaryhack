@@ -1,7 +1,7 @@
 ---
 title: "Dynamiqs"
 id: "dynamiqs"
-emoji:
+emoji: 🔥
 project_url: "https://github.com/dynamiqs/dynamiqs"
 metaDescription: "High-performance, GPU-accelerated and differentiable quantum systems simulation with JAX."
 date: 2026-03-19
