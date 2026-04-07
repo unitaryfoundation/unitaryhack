@@ -1,7 +1,7 @@
 ---
 title: "Quantify"
 id: "quantify-os"
-emoji:
+emoji: "🔢🟰"
 project_url: "https://gitlab.com/quantify-os"
 metaDescription: "Quantify is an open-source, Python-based, high-level data acquisition framework for quantum-computing and solid-state physics experiments."
 date: 2026-04-02
