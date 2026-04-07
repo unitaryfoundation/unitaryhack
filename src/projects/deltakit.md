@@ -1,7 +1,7 @@
 ---
 title: "Deltakit"
 id: "deltakit"
-emoji:
+emoji: 🔼
 project_url: "https://github.com/deltakit/deltakit"
 metaDescription: "The open-source toolkit for quantum error correction"
 date: 2026-03-26
