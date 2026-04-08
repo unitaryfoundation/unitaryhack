@@ -1,7 +1,7 @@
 ---
 title: "QuantumOptics.jl"
 id: "qojulia"
-emoji:
+emoji: "🔍"
 project_url: "https://github.com/qojulia"
 metaDescription: "Library for the numerical simulation of closed as well as open quantum systems."
 date: 2026-03-31

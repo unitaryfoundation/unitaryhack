@@ -1,7 +1,7 @@
 ---
 title: "qlass"
 id: "qlass"
-emoji:
+emoji: "🧊"
 project_url: "https://github.com/unitaryfoundation/qlass"
 metaDescription: "Variational quantum eigen solver simulation on photonics devices."
 date: 2026-04-01

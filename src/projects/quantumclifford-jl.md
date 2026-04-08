@@ -1,7 +1,7 @@
 ---
 title: "QuantumClifford.jl"
 id: "quantumclifford.jl"
-emoji:
+emoji: "🍟"
 project_url: "https://github.com/QuantumSavory/QuantumClifford.jl/"
 metaDescription: "Clifford circuits, graph states, error correction, and other quantum Stabilizer formalism tools."
 date: 2026-03-31

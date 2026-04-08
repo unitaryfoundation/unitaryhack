@@ -7,7 +7,12 @@ metaDescription: "KLayout Python library for superconducting quantum chip design
 date: 2026-03-20
 summary: "KLayout Python library for superconducting quantum chip design."
 tags:
-  - "python design klayout superconducting eda lithography"
+  - python
+  - design
+  - klayout
+  - superconducting
+  - eda
+  - lithography
 bounties: []
 ---
 

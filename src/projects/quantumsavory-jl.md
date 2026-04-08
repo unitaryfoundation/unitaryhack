@@ -1,7 +1,7 @@
 ---
 title: "QuantumSavory.jl"
 id: "quantumsavory.jl"
-emoji:
+emoji: "🍟"
 project_url: "https://github.com/QuantumSavory/QuantumSavory.jl/"
 metaDescription: "A full stack simulator of quantum hardware, from the low-level analog physics to high-level network dynamics. Includes discrete event simulator, symbolic representation for quantum object, and works with many backend simulators."
 date: 2026-03-31

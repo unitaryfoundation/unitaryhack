@@ -1,7 +1,7 @@
 ---
 title: "OpenQudit"
 id: "openqudit"
-emoji:
+emoji: "🛵"
 project_url: "github.com/openqudit/openqudit"
 metaDescription: "A high-performance Rust library providing accelerated and extensible representation for quantum programs as circuits."
 date: 2026-03-27

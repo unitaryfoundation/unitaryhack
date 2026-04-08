@@ -1,7 +1,7 @@
 ---
 title: "Piquasso"
 id: "piquasso"
-emoji: "💡⚛️"
+emoji: "🎨"
 project_url: "https://github.com/Budapest-Quantum-Computing-Group/piquasso"
 metaDescription: "A Photonic Quantum Computer Simulator written in Python and C++."
 date: 2026-03-31
