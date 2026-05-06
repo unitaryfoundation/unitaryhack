@@ -46,5 +46,31 @@ hideSiteFooter: true
     {% include "partials/home-supporters.njk" %}
   </section>
 
+{# HACKdays Table Section #}
+<section class="hackdays-section">
+  <h2>🗓️ HACKdays Schedule</h2>
+  <div class="table-container">
+    <table>
+      <thead>
+        <tr>
+          <th>Institution</th>
+          <th>Date</th>
+          <th>Location</th>
+        </tr>
+      </thead>
+      <tbody>
+        {# Use home.hackdays because the data is inside home.json #}
+        {% for day in home.hackdays %}
+        <tr>
+          <td><strong>{{ day.Institution }}</strong></td>
+          <td>{{ day.Date }}</td>
+          <td>{{ day.Location }}</td>
+        </tr>
+        {% endfor %}
+      </tbody>
+    </table>
+  </div>
+</section>
+
   {% include "partials/home-footer-note.njk" %}
 </div>
