@@ -57,7 +57,7 @@
     "Make sure you register to be eligible to claim bounties!"
   ],
   "supporters": {
-    "title": "Early Supporters",
+    "title": "Supporters",
     "intro": "Thanks so much to all the unitaryHACK26 supporters! ✨",
     "sponsor_heading": "Event Sponsors",
     "sponsors": [
@@ -66,29 +66,33 @@
         "url": "https://alice-bob.com/"
       },
       {
-        "label": "PsiQuantum",
-        "url": "https://psiquantum.com/"
+        "label": "Center for Quantum Networks",
+        "url": "https://cqn-erc.arizona.edu/"
       },
       {
         "label": "Moth Quantum",
         "url": "https://mothquantum.com/"
       },
       {
-        "label": "Xanadu",
-        "url": "https://www.xanadu.ai/"
+        "label": "Project11",
+        "url": "https://www.projecteleven.com/"
+      }
+      {
+        "label": "PsiQuantum",
+        "url": "https://psiquantum.com/"
       },
       {
         "label": "QuEra",
         "url": "https://www.quera.com/"
       },
       {
-        "label": "Center for Quantum Networks",
-        "url": "https://cqn-erc.arizona.edu/"
+        "label": "Xanadu",
+        "url": "https://www.xanadu.ai/"
       },
       {
-        "label": "Project11",
-        "url": "https://www.projecteleven.com/"
-      }
+        "label": "Zapata Quantum",
+        "url": "https://zapataquantum.com/"
+      },
     ],
     "foundation": {
       "title": "Unitary Foundation",
