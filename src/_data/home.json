@@ -154,4 +154,16 @@
   },
   "panel_cta_label": "REGISTER HERE",
   "panel_cta_url": "/register/"
+  "hackdays": [
+    {
+      "Institution": "Zapata Computing",
+      "Date": "June 5, 2026",
+      "Location": "Virtual / Discord"
+    },
+    {
+      "Institution": "Unitary Fund",
+      "Date": "June 12, 2026",
+      "Location": "NYC / Hybrid"
+    }
+  ]
 }
