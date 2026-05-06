@@ -152,8 +152,6 @@
       ]
     }
   },
-  "panel_cta_label": "REGISTER HERE",
-  "panel_cta_url": "/register/"
   "hackdays": [
     {
       "Institution": "EPFL",
@@ -175,5 +173,7 @@
       "Date": "TBA",
       "Location": "NYC / Hybrid"
     }
-  ]
+  ], 
+ "panel_cta_label": "REGISTER HERE",
+ "panel_cta_url": "/register/"
 }
