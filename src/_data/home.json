@@ -156,13 +156,23 @@
   "panel_cta_url": "/register/"
   "hackdays": [
     {
-      "Institution": "Zapata Computing",
-      "Date": "June 5, 2026",
+      "Institution": "EPFL",
+      "Date": "Monday, June 8th",
       "Location": "Virtual / Discord"
     },
     {
-      "Institution": "Unitary Fund",
-      "Date": "June 12, 2026",
+      "Institution": "New York University Tandon",
+      "Date": "Friday, June 12th",
+      "Location": "NYC / Hybrid"
+    }, 
+    {
+      "Institution": "Universidad Nacional Autónoma de México",
+      "Date": "TBA",
+      "Location": "NYC / Hybrid"
+    },
+    {
+      "Institution": "Michigan State University",
+      "Date": "TBA",
       "Location": "NYC / Hybrid"
     }
   ]
