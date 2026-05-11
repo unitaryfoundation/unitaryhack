@@ -355,6 +355,10 @@
   backdrop-filter: blur(6px);
 }
 
+.landing-panel + .landing-panel {
+  margin-top: 24px;
+}
+
 .landing-panel__copy {
   max-width: 802px;
 }
@@ -390,7 +394,7 @@
 }
 
 .landing-supporters {
-  margin-top: 34px;
+  margin-top: 0;
 }
 
 .landing-supporters__title {
@@ -510,6 +514,46 @@
     background-color: #1831ff;
     color: #fff;
   }
+}
+
+.landing-hackdays {
+  width: 100%;
+}
+
+.landing-hackdays__table-wrap {
+  width: 100%;
+  overflow-x: auto;
+}
+
+.landing-hackdays__table {
+  min-width: 620px;
+  text-align: left;
+}
+
+.landing-hackdays__table th {
+  border-bottom-color: var(--landing-border);
+  color: var(--landing-text);
+  font-family: var(--landing-font-display);
+  font-size: 1.6rem;
+  font-weight: 700;
+  line-height: 1.2;
+}
+
+.landing-hackdays__table td {
+  font-family: var(--landing-font-ui);
+  font-size: 1.7rem;
+  line-height: 1.35;
+  vertical-align: top;
+}
+
+.landing-hackdays__table th:first-child,
+.landing-hackdays__table td:first-child {
+  padding-left: 0;
+}
+
+.landing-hackdays__table th:last-child,
+.landing-hackdays__table td:last-child {
+  padding-right: 0;
 }
 
 .landing-footer {

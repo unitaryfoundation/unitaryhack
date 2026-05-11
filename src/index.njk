@@ -42,35 +42,37 @@ hideSiteFooter: true
     <a class="landing-panel__cta" href="{{ home.panel_cta_url | url }}">
       {{ home.panel_cta_label }}
     </a>
-
-    {% include "partials/home-supporters.njk" %}
   </section>
 
-{# HACKdays Table Section #}
-<section class="hackdays-section">
-  <h2>🗓️ HACKdays Schedule</h2>
-  <div class="table-container">
-    <table>
-      <thead>
-        <tr>
-          <th>Institution</th>
-          <th>Date</th>
-          <th>Location</th>
-        </tr>
-      </thead>
-      <tbody>
-        {# Use home.hackdays because the data is inside home.json #}
-        {% for day in home.hackdays %}
-        <tr>
-          <td><strong>{{ day.Institution }}</strong></td>
-          <td>{{ day.Date }}</td>
-          <td>{{ day.Location }}</td>
-        </tr>
-        {% endfor %}
-      </tbody>
-    </table>
+  <div class="landing-panel">
+    {% include "partials/home-supporters.njk" %}
   </div>
-</section>
+
+  <div class="landing-panel">
+    <section class="landing-hackdays" aria-labelledby="hackdays-title">
+      <h2 id="hackdays-title" class="landing-supporters__title">HACKdays Schedule</h2>
+      <div class="landing-hackdays__table-wrap">
+        <table class="landing-hackdays__table">
+          <thead>
+            <tr>
+              <th>Institution</th>
+              <th>Date</th>
+              <th>Location</th>
+            </tr>
+          </thead>
+          <tbody>
+            {% for day in home.hackdays %}
+              <tr>
+                <td><strong>{{ day.Institution }}</strong></td>
+                <td>{{ day.Date }}</td>
+                <td>{{ day.Location }}</td>
+              </tr>
+            {% endfor %}
+          </tbody>
+        </table>
+      </div>
+    </section>
+  </div>
 
   {% include "partials/home-footer-note.njk" %}
 </div>
