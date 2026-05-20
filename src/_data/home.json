@@ -113,6 +113,10 @@
             {
               "label": "OQD",
               "url": "https://openquantumdesign.org/"
+            },
+            {
+              "label": "NVIDIA",
+              "url": "https://www.nvidia.com/en-us/"
             }
           ]
         },
@@ -150,6 +154,10 @@
             {
               "label": "Riverlane",
               "url": "https://riverlane.com/"
+            }, 
+            {
+              "label": "Xanadu",
+              "url": "https://www.xanadu.ai/"
             }
           ]
         }
@@ -158,9 +166,29 @@
   },
   "hackdays": [
     {
+      "Institution": "University of Chicago",
+      "Date": "Wednesday, June 3rd",
+      "Location": "Chicago, USA"
+    },
+    {
+      "Institution": "Michigan State University",
+      "Date": "Wednesday, June 3rd",
+      "Location": "Michigan, USA"
+    },
+    {
+      "Institution": "Le Lab Quantique (TBC)",
+      "Date": "June 5th - 6th",
+      "Location": "France"
+    },
+    {
       "Institution": "EPFL",
       "Date": "Monday, June 8th",
       "Location": "Switzerland"
+    },
+    {
+      "Institution": "Fordham University",
+      "Date": "Monday, June 8th",
+      "Location": "New York, USA"
     },
     {
       "Institution": "New York University Tandon",
@@ -173,9 +201,19 @@
       "Location": "Mexico"
     },
     {
-      "Institution": "Michigan State University",
+      "Institution": "Aalto University",
       "Date": "TBA",
-      "Location": "Michigan, USA"
+      "Location": "Finland"
+    },
+    {
+      "Institution": "African Quantum Consortium",
+      "Date": "TBA (multiple dates)",
+      "Location": "Africa"
+    },
+     {
+      "Institution": "Qlass Project Team",
+      "Date": "TBA",
+      "Location": "Italy"
     }
   ], 
  "panel_cta_label": "REGISTER HERE",
