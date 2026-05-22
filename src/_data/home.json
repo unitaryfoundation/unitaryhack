@@ -176,30 +176,45 @@
       "Location": "Michigan, USA"
     },
     {
+      "Institution": "[Universidad Nacional Autónoma de México](https://orienta.mx/qtogether/2026/)",
+      "Date": "Friday, June 5th",
+      "Location": "Mexico"
+    },
+    {
       "Institution": "Le Lab Quantique (TBC)",
       "Date": "June 5th - 6th",
       "Location": "France"
     },
     {
-      "Institution": "EPFL",
+      "Institution": "[EPFL](https://forms.gle/xUrexdCq5ZSWJpdE9)",
       "Date": "Monday, June 8th",
       "Location": "Switzerland"
     },
     {
-      "Institution": "Fordham University",
+      "Institution": "[Fordham University](https://docs.google.com/forms/d/e/1FAIpQLSeNStW6jTvCc5bb03Y_JpTLoLCC_ViHp0eEn-1g0OY4p_lCSg/viewform)",
       "Date": "Monday, June 8th",
       "Location": "New York, USA"
     },
+     {
+      "Institution": "[Qlass Project Team](https://luma.com/k73gcr0t)",
+      "Date": "Thursday, June 11th",
+      "Location": "Italy"
+    },
     {
-      "Institution": "New York University Tandon",
+      "Institution": "[New York University Tandon](https://forms.gle/aZNQL6rMPfRHip4m7)",
       "Date": "Friday, June 12th",
       "Location": "New York, USA"
     }, 
     {
-      "Institution": "Universidad Nacional Autónoma de México",
-      "Date": "TBA",
-      "Location": "Mexico"
+      "Institution": "[Catholic University of America](https://quantum.riftlabs.org/unitaryhack.html)",
+      "Date": "Monday, June 15th",
+      "Location": "Washington DC USA"
     },
+    {
+      "Institution": "Clubes de Ciencia Peru",
+      "Date": "TBA",
+      "Location": "Peru"
+    },  
     {
       "Institution": "Aalto University",
       "Date": "TBA",
@@ -209,12 +224,7 @@
       "Institution": "African Quantum Consortium",
       "Date": "TBA (multiple dates)",
       "Location": "Africa"
-    },
-     {
-      "Institution": "Qlass Project Team",
-      "Date": "TBA",
-      "Location": "Italy"
-    }
+    }  
   ], 
  "panel_cta_label": "REGISTER HERE",
  "panel_cta_url": "/register/"
