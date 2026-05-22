@@ -168,75 +168,75 @@
     {
       "Institution": "University of Chicago",
       "Date": "Wednesday, June 3rd",
-      "Location": "Chicago, USA"
+      "Location": "Chicago, USA",
       "Public Link": "This is closed to UofC students." 
     },
     {
       "Institution": "Michigan State University",
       "Date": "Wednesday, June 3rd",
-      "Location": "Michigan, USA"
+      "Location": "Michigan, USA",
       "Public Link": "Coming soon" 
     },
     {
       "Institution": "Universidad Nacional Autónoma de México",
       "Date": "Friday, June 5th",
-      "Location": "Mexico"
+      "Location": "Mexico",
       "Public Link": "https://orienta.mx/qtogether/2026/" 
     },
     {
       "Institution": "Le Lab Quantique (TBC)",
       "Date": "June 5th - 6th",
-      "Location": "France"
+      "Location": "France",
       "Public Link": "Coming soon" 
     },
     {
       "Institution": "EPFL",
       "Date": "Monday, June 8th",
-      "Location": "Switzerland"
+      "Location": "Switzerland",
       "Public Link": "https://forms.gle/xUrexdCq5ZSWJpdE9" 
     },
     {
       "Institution": "Fordham University",
       "Date": "Monday, June 8th",
-      "Location": "New York, USA"
+      "Location": "New York, USA",
       "Public Link": "https://docs.google.com/forms/d/e/1FAIpQLSeNStW6jTvCc5bb03Y_JpTLoLCC_ViHp0eEn-1g0OY4p_lCSg/viewform" 
     },
      {
       "Institution": "Qlass Project Team",
       "Date": "Thursday, June 11th",
-      "Location": "Italy"
+      "Location": "Italy",
       "Public Link": "https://luma.com/k73gcr0t" 
     },
     {
       "Institution": "New York University Tandon",
       "Date": "Friday, June 12th",
-      "Location": "New York, USA"
+      "Location": "New York, USA",
       "Public Link": "https://forms.gle/aZNQL6rMPfRHip4m7" 
-    }, 
+    },
     {
       "Institution": "Catholic University of America",
       "Date": "Monday, June 15th",
-      "Location": "Washington DC USA"
+      "Location": "Washington DC USA",
       "Public Link": "https://quantum.riftlabs.org/unitaryhack.html" 
     },
     {
       "Institution": "Clubes de Ciencia Peru",
       "Date": "TBA",
-      "Location": "Peru"
+      "Location": "Peru",
       "Public Link": "Coming soon" 
-    },  
+    },
     {
       "Institution": "Aalto University",
       "Date": "TBA",
-      "Location": "Finland"
+      "Location": "Finland",
       "Public Link": "Coming soon"
     },
     {
       "Institution": "African Quantum Consortium",
       "Date": "TBA (multiple dates)",
-      "Location": "Africa"
+      "Location": "Africa",
       "Public Link": "Coming soon"
-    }  
+    }
   ], 
  "panel_cta_label": "REGISTER HERE",
  "panel_cta_url": "/register/"
