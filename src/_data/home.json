@@ -166,28 +166,28 @@
   },
   "hackdays": [
     {
+      "Institution": "African Quantum Consortium",
+      "Date": "Multiple dates",
+      "Location": "Africa",
+      "Public Link": "Coming soon"
+    },
+    {
       "Institution": "University of Chicago",
       "Date": "Wednesday, June 3rd",
       "Location": "Chicago, USA",
-      "Public Link": "This is closed to UofC students." 
+      "Public Link": "For UofC students only." 
     },
     {
       "Institution": "Michigan State University",
       "Date": "Wednesday, June 3rd",
       "Location": "Michigan, USA",
-      "Public Link": "Coming soon" 
+      "Public Link": "https://forms.gle/rPxApwWYWyiv2C4C6" 
     },
     {
       "Institution": "Universidad Nacional Autónoma de México",
       "Date": "Friday, June 5th",
       "Location": "Mexico",
       "Public Link": "https://orienta.mx/qtogether/2026/" 
-    },
-    {
-      "Institution": "Le Lab Quantique (TBC)",
-      "Date": "June 5th - 6th",
-      "Location": "France",
-      "Public Link": "Coming soon" 
     },
     {
       "Institution": "EPFL",
@@ -214,28 +214,16 @@
       "Public Link": "https://forms.gle/aZNQL6rMPfRHip4m7" 
     },
     {
+      "Institution": "Clubes de Ciencia Peru",
+      "Date": "Friday, June 12th",
+      "Location": "Peru",
+      "Public Link": "https://indico.uni.edu.pe/e/unitaryHACK26atUNI" 
+    },
+    {
       "Institution": "Catholic University of America",
       "Date": "Monday, June 15th",
       "Location": "Washington DC USA",
       "Public Link": "https://quantum.riftlabs.org/unitaryhack.html" 
-    },
-    {
-      "Institution": "Clubes de Ciencia Peru",
-      "Date": "TBA",
-      "Location": "Peru",
-      "Public Link": "Coming soon" 
-    },
-    {
-      "Institution": "Aalto University",
-      "Date": "TBA",
-      "Location": "Finland",
-      "Public Link": "Coming soon"
-    },
-    {
-      "Institution": "African Quantum Consortium",
-      "Date": "TBA (multiple dates)",
-      "Location": "Africa",
-      "Public Link": "Coming soon"
     }
   ], 
  "panel_cta_label": "REGISTER HERE",
