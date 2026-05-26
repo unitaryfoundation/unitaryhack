@@ -64,6 +64,9 @@ module.exports = function (eleventyConfig) {
 
     return new URL(value, normalizedSiteUrl).href;
   });
+  eleventyConfig.addFilter('isHttpUrl', (value) => {
+    return typeof value === 'string' && /^https?:\/\//i.test(value);
+  });
   eleventyConfig.addFilter('readableDate', readableDateFilter);
   eleventyConfig.addFilter('machineDate', machineDateFilter);
   eleventyConfig.addFilter('svg', svgFilter);
