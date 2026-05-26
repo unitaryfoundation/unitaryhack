@@ -526,7 +526,7 @@
 }
 
 .landing-hackdays__table {
-  min-width: 620px;
+  min-width: 720px;
   text-align: left;
 }
 
@@ -554,6 +554,16 @@
 .landing-hackdays__table th:last-child,
 .landing-hackdays__table td:last-child {
   padding-right: 0;
+}
+
+.landing-hackdays__link {
+  color: var(--landing-link);
+
+  &:hover,
+  &:focus {
+    color: var(--landing-link);
+    border-color: var(--landing-link);
+  }
 }
 
 .landing-footer {
