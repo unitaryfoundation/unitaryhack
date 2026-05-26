@@ -168,61 +168,67 @@
     {
       "Institution": "African Quantum Consortium",
       "Date": "Multiple dates",
-      "Location": "Africa",
+      "Location": "Multiple locations (click the link to learn more)",
       "Public Link": "https://unitary.foundation/posts/2026_aqc_hackdays/"
     },
     {
       "Institution": "University of Chicago",
       "Date": "Wednesday, June 3rd",
-      "Location": "Chicago, USA",
+      "Location": "Chicago, Illinois",
       "Public Link": "For UofC students only." 
     },
     {
       "Institution": "Michigan State University",
       "Date": "Wednesday, June 3rd",
-      "Location": "Michigan, USA",
+      "Location": "East Lansing, Michigan",
       "Public Link": "https://forms.gle/rPxApwWYWyiv2C4C6" 
     },
     {
       "Institution": "Universidad Nacional Autónoma de México",
       "Date": "Friday, June 5th",
-      "Location": "Mexico",
+      "Location": "Mexico City, Mexico",
       "Public Link": "https://orienta.mx/qtogether/2026/" 
+    },
+    {
+      "Institution": "Le Lab Quantique",
+      "Date": "Fri, June 5th - Sat, June 6th",
+      "Location": "Paris, France",
+      "Public Link": "https://forms.gle/i7cpgvKZtr7Enji96" 
     },
     {
       "Institution": "EPFL",
       "Date": "Monday, June 8th",
-      "Location": "Switzerland",
+      "Location": "Lausanne, Switzerland",
       "Public Link": "https://forms.gle/xUrexdCq5ZSWJpdE9" 
     },
     {
       "Institution": "Fordham University",
       "Date": "Monday, June 8th",
-      "Location": "New York, USA",
+      "Location": "New York, New York",
       "Public Link": "https://docs.google.com/forms/d/e/1FAIpQLSeNStW6jTvCc5bb03Y_JpTLoLCC_ViHp0eEn-1g0OY4p_lCSg/viewform" 
     },
      {
       "Institution": "Qlass Project Team",
       "Date": "Thursday, June 11th",
-      "Location": "Italy",
+      "Location": "Milan, Italy",
       "Public Link": "https://luma.com/k73gcr0t" 
     },
     {
       "Institution": "New York University Tandon",
       "Date": "Friday, June 12th",
-      "Location": "New York, USA",
+      "Location": "Brooklyn, New York",
       "Public Link": "https://forms.gle/aZNQL6rMPfRHip4m7" 
     },
     {
       "Institution": "Clubes de Ciencia Peru",
       "Date": "Friday, June 12th",
-      "Location": "Peru",
+      "Location": "Lima, Peru",
       "Public Link": "https://indico.uni.edu.pe/e/unitaryHACK26atUNI" 
     },
     {
       "Institution": "Catholic University of America",
       "Date": "Monday, June 15th",
-      "Location": "Washington DC USA",
+      "Location": "Washington DC, USA",
       "Public Link": "https://quantum.riftlabs.org/unitaryhack.html" 
     }
   ], 
