@@ -11,6 +11,10 @@ tags:
   - "Rust"
   - "Circuit Optimization"
 bounties: []
+office_hours:
+  - date: "Monday, June 15, 2026"
+    time: "10:00am ET"
+    maintainer: "Luciano Bello"
 ---
 
 The most popular Qiskit project is [Qiskit SDK](https://github.com/Qiskit/qiskit/), an open-source Software Development Kit for building, optimizing, and running quantum circuits. It includes tools for circuit composition, visualization, and execution, as well as support for quantum operators and primitives like Sampler and Estimator. The transpiler enables circuit optimization, and the quantum information toolbox provides advanced operator support. Qiskit's lean libraries and streamlined workflow help develop utility-scale, domain-specific solutions efficiently.
