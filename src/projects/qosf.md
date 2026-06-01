@@ -1,6 +1,6 @@
 ---
 title: "QOSF"
-id: "qosf.org"
+id: "qosf"
 emoji: "🌐 🔅"
 project_url: "https://github.com/qosf"
 metaDescription: "The Quantum Open Source Foundation (QOSF) is a non-profit organization that promotes the development and use of open-source software in quantum computing. It aims to build a collaborative, inclusive, and transparent community around quantum technology by supporting projects, contributors, and educational resources."

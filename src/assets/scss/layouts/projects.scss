@@ -1,7 +1,7 @@
 .project-grid {
   display: grid;
   grid-template-columns: repeat(1, 1fr);
-  gap: 24px;
+  gap: 32px 24px;
   margin: 24px 0 0;
 
   @media (min-width: 1024px) {
@@ -30,7 +30,6 @@
   display: flex;
   flex-direction: column;
   justify-content: top;
-  min-height: 100%;
   padding: 20px 22px;
   border: 1px solid var(--color-border-dark);
   background-color: var(--color-bg-container);
@@ -84,6 +83,70 @@
 
 .project-card__emoji {
   margin-right: 8px;
+}
+
+.project-office-hours {
+  margin: 28px 0;
+  padding: 20px 0;
+  border-top: 1px solid var(--color-border-dark);
+  border-bottom: 1px solid var(--color-border-dark);
+}
+
+.project-office-hours__title {
+  margin: 0 0 16px;
+  font-size: 1.25em;
+}
+
+.project-office-hours__list {
+  display: grid;
+  gap: 0;
+  margin: 0;
+  padding: 0;
+  list-style: none;
+}
+
+.project-office-hours__item {
+  display: grid;
+  gap: 14px;
+  padding: 16px 0;
+  border-top: 1px solid var(--color-border);
+
+  &:first-child {
+    padding-top: 0;
+    border-top: none;
+  }
+
+  &:last-child {
+    padding-bottom: 0;
+  }
+
+  @media (min-width: 700px) {
+    grid-template-columns: 1.3fr 0.8fr 1.2fr;
+  }
+}
+
+.project-office-hours__label {
+  display: block;
+  color: var(--color-text-gray);
+  font-family: var(--font-family-mono);
+  font-size: 1.2rem;
+  letter-spacing: 0.04em;
+  text-transform: uppercase;
+
+  :root[data-theme="dark"] & {
+    color: var(--color-text-dark);
+  }
+}
+
+.project-office-hours__value {
+  display: block;
+  margin-top: 4px;
+  color: var(--color-text);
+  font-weight: 600;
+
+  :root[data-theme="dark"] & {
+    color: var(--color-title-dark);
+  }
 }
 
 .project-link-list {

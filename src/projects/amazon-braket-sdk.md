@@ -15,4 +15,4 @@ bounties: []
 ---
 
 The Amazon Braket Python SDK is an open source library that provides a framework that you can use to interact with quantum computing hardware devices through Amazon Braket. 
-Amazon Braket is a fully managed quantum computing service designed to help speed up scientific research and software development for quantum computing.
+[Amazon Braket](https://aws.amazon.com/braket/) is a fully managed quantum computing service designed to help speed up scientific research and software development for quantum computing.

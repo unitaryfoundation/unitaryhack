@@ -1,6 +1,6 @@
 ---
 title: "Art with Quantum Dynamics"
-id: "quantumarthack"
+id: "quantumbrush"
 emoji: "⚛️ 🎨"
 project_url: "https://github.com/moth-quantum/QuantumBrush"
 metaDescription: "Harness human creativity in art, science, and technology."

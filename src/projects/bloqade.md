@@ -20,7 +20,7 @@ Bloqade is a Python SDK for neutral atom quantum computing. It provides a set of
 
 The bloqade repository is a namespace package for several components of bloqade, the actual implementation belongs to the following packages:
 
-- bloqade-circuit Bloqade-circuit provides the core components of representing quantum circuits for bloqade.
-- bloqade-decoders The QEC user interface providing integration with popular open-source decoders for the Bloqade SDK.
-- bloqade-lanes Bloqade-lanes provides the core components for compiling neutral atom quantum circuit programs down to moves. It focuses on the physical layout and movement of atoms along fixed lanes in a neutral atom quantum processor.
-- tsim A GPU-accelerated circuit sampler via ZX-calculus stabilizer rank decomposition. Tsim feels just like Stim, but supports non-Clifford gates.
+- [bloqade-circuit](https://github.com/QuEraComputing/bloqade-circuit) Bloqade-circuit provides the core components of representing quantum circuits for bloqade.
+- [bloqade-decoders](https://github.com/QuEraComputing/bloqade-decoders) The QEC user interface providing integration with popular open-source decoders for the [Bloqade SDK](https://github.com/QuEraComputing/bloqade).
+- [bloqade-lanes](https://github.com/QuEraComputing/bloqade-lanes) Bloqade-lanes provides the core components for compiling neutral atom quantum circuit programs down to moves. It focuses on the physical layout and movement of atoms along fixed lanes in a neutral atom quantum processor.
+- [tsim](https://github.com/QuEraComputing/tsim) A GPU-accelerated circuit sampler via ZX-calculus stabilizer rank decomposition. Tsim feels just like [Stim](https://github.com/quantumlib/Stim), but supports non-Clifford gates.

@@ -8,6 +8,10 @@ date: 2026-03-31
 summary: "Clifford circuits, graph states, error correction, and other quantum Stabilizer formalism tools."
 tags: []
 bounties: []
+office_hours:
+  - date: "Friday, June 5, 2026"
+    time: "12:30pm ET"
+    maintainer: "Stefan Krastanov"
 ---
 
-QuantumClifford.jl is a comprehensive library for the study, simulation, and manipulation of Clifford circuits and slightly non-Clifford circuits. This library uses the tableaux formalism with the destabilizer improvements. Moreover, Pauli frames are supported for faster repeated simulation of noisy circuits. Various symbolic and algebraic tools for manipulating, converting, and visualizing states and circuits are also available. Finite-Clifford-rank tools for modeling circuits with few non-Clifford gates are provided.
+QuantumClifford.jl is a comprehensive library for the study, simulation, and manipulation of Clifford circuits and slightly non-Clifford circuits. This library uses the **tableaux formalism** with the **destabilizer improvements**. Moreover, **Pauli frames** are supported for faster repeated simulation of noisy circuits. Various **symbolic and algebraic tools for manipulating, converting, and visualizing states and circuits** are also available. Finite-Clifford-rank tools for modeling circuits with **few non-Clifford gates** are provided.

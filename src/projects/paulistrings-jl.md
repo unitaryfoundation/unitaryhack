@@ -12,9 +12,13 @@ tags:
   - "circuits"
   - "simulation"
 bounties: []
+office_hours:
+  - date: "Monday, June 8, 2026"
+    time: "11:00am ET"
+    maintainer: "Nicolas Loizeau"
 ---
 
-[PauliStrings.jl ](https://paulistrings.org/) is a Julia package for high performance simulation of quantum many-body systems in the Pauli string basis. It is particularly adapted for simulating systems with low-magic and non-trivial geometry.
+[PauliStrings.jl](https://paulistrings.org/) is a Julia package for high performance simulation of quantum many-body systems in the Pauli string basis. It is particularly adapted for simulating systems with low-magic and non-trivial geometry.
 The performance arises from two key features:
 - a binary encoding of the Pauli algebra
 - systematic truncation methods that discard low importance Pauli strings

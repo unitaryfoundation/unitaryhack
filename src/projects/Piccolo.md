@@ -12,6 +12,10 @@ tags:
   - "optimization"
   - "pulse-design"
 bounties: []
+office_hours:
+  - date: "Friday, June 12, 2026"
+    time: "1:00pm ET"
+    maintainer: "Jack Champagne"
 ---
 
 # Piccolo.jl

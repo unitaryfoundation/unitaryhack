@@ -15,4 +15,4 @@ bounties: []
 ---
 
 The Qiskit-Braket Provider is an open-source plugin built on top of the Qiskit SDK and the Amazon Braket SDK. It enables users to leverage Qiskit to design quantum circuits and seamlessly compile and execute them on Amazon Braket's diverse quantum hardware and simulators, providing interoperability between the two platforms.
-Amazon Braket is a fully managed quantum computing service designed to help speed up scientific research and software development for quantum computing.
+[Amazon Braket](https://aws.amazon.com/braket/) is a fully managed quantum computing service designed to help speed up scientific research and software development for quantum computing.
