@@ -1,7 +1,7 @@
 ---
 title: "CUDA-Q"
 id: "cuda-quantum"
-emoji:
+emoji: 💚
 project_url: "https://github.com/NVIDIA/cuda-quantum"
 metaDescription: "The open-source software platform for quantum computing and quantum-GPU supercomputing"
 date: 2026-05-29
