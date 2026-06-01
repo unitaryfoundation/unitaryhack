@@ -93,9 +93,16 @@
   </url>
 
   <url>
-    <loc>https://unitaryhack.dev/projects/bqskit/</loc>
+    <loc>https://unitaryhack.dev/projects/clifft/</loc>
     
-      <lastmod>2026-03-27</lastmod>
+      <lastmod>2026-03-23</lastmod>
+    
+  </url>
+
+  <url>
+    <loc>https://unitaryhack.dev/projects/cuda-q/</loc>
+    
+      <lastmod>2026-05-29</lastmod>
     
   </url>
 
@@ -135,6 +142,13 @@
   </url>
 
   <url>
+    <loc>https://unitaryhack.dev/projects/jeff/</loc>
+    
+      <lastmod>2026-05-21</lastmod>
+    
+  </url>
+
+  <url>
     <loc>https://unitaryhack.dev/projects/kqcircuits/</loc>
     
       <lastmod>2026-03-20</lastmod>
@@ -156,6 +170,20 @@
   </url>
 
   <url>
+    <loc>https://unitaryhack.dev/projects/msft-qdk-chemistry/</loc>
+    
+      <lastmod>2026-05-12</lastmod>
+    
+  </url>
+
+  <url>
+    <loc>https://unitaryhack.dev/projects/msft-qdk/</loc>
+    
+      <lastmod>2026-05-12</lastmod>
+    
+  </url>
+
+  <url>
     <loc>https://unitaryhack.dev/projects/munich-quantum-toolkit/</loc>
     
       <lastmod>2026-03-20</lastmod>
@@ -166,13 +194,6 @@
     <loc>https://unitaryhack.dev/projects/open-quantum-design/</loc>
     
       <lastmod>2026-03-25</lastmod>
-    
-  </url>
-
-  <url>
-    <loc>https://unitaryhack.dev/projects/openqudit/</loc>
-    
-      <lastmod>2026-03-27</lastmod>
     
   </url>
 
@@ -229,6 +250,13 @@
     <loc>https://unitaryhack.dev/projects/piquasso/</loc>
     
       <lastmod>2026-03-31</lastmod>
+    
+  </url>
+
+  <url>
+    <loc>https://unitaryhack.dev/projects/project-eleven/</loc>
+    
+      <lastmod>2026-05-12</lastmod>
     
   </url>
 
@@ -296,7 +324,7 @@
   </url>
 
   <url>
-    <loc>https://unitaryhack.dev/projects/quantum-uinversal-education/</loc>
+    <loc>https://unitaryhack.dev/projects/quantum-universal-education/</loc>
     
       <lastmod>2026-03-26</lastmod>
     
@@ -331,9 +359,23 @@
   </url>
 
   <url>
-    <loc>https://unitaryhack.dev/projects/ucc/</loc>
+    <loc>https://unitaryhack.dev/projects/quimb/</loc>
     
-      <lastmod>2026-03-23</lastmod>
+      <lastmod>2026-04-03</lastmod>
+    
+  </url>
+
+  <url>
+    <loc>https://unitaryhack.dev/projects/stretto/</loc>
+    
+      <lastmod>2026-05-12</lastmod>
+    
+  </url>
+
+  <url>
+    <loc>https://unitaryhack.dev/projects/tqec/</loc>
+    
+      <lastmod>2026-05-08</lastmod>
     
   </url>
 
