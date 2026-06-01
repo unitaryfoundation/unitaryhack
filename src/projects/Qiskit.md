@@ -13,10 +13,9 @@ tags:
 bounties: []
 ---
 
-The most popular Qiskit project is Qiskit SDK, an open-source Software Development Kit for building, optimizing, and running quantum circuits. It includes tools for circuit composition, visualization, and execution, as well as support for quantum operators and primitives like Sampler and Estimator. The transpiler enables circuit optimization, and the quantum information toolbox provides advanced operator support. Qiskit's lean libraries and streamlined workflow help develop utility-scale, domain-specific solutions efficiently.
-GitHub Repository: https://github.com/Qiskit/qiskit/
-Documentation: https://quantum.cloud.ibm.com/docs/
-PyPI: https://pypi.org/project/qiskit/
-If you're new to contributing, please see our contribution guidelines.
-In addition to the SDK, other Qiskit projects participated in unitaryHACK are:
-- TBD
+The most popular Qiskit project is [Qiskit SDK](https://github.com/Qiskit/qiskit/), an open-source Software Development Kit for building, optimizing, and running quantum circuits. It includes tools for circuit composition, visualization, and execution, as well as support for quantum operators and primitives like Sampler and Estimator. The transpiler enables circuit optimization, and the quantum information toolbox provides advanced operator support. Qiskit's lean libraries and streamlined workflow help develop utility-scale, domain-specific solutions efficiently.
+GitHub Repository: [https://github.com/Qiskit/qiskit/](https://github.com/Qiskit/qiskit/)
+Documentation: [https://quantum.cloud.ibm.com/docs/](https://quantum.cloud.ibm.com/docs/)
+PyPI: [https://pypi.org/project/qiskit/](https://pypi.org/project/qiskit/)
+If you're new to contributing, please see our [contribution guidelines](https://github.com/Qiskit/qiskit/blob/main/CONTRIBUTING.md).
+

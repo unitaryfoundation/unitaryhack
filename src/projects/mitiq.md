@@ -19,6 +19,6 @@ Current quantum computers are noisy due to interactions with the environment, im
 - Get help by
 1. opening a GitHub discussion post with a detailed question (this is best when there is code/theory involved)
 2. sending a message in the #mitiq channel on the UF discord
-- AI-assisted contributions are welcome, but as a contributor you must be able to vouch for the code you put online. See our contributing documentation for more details regarding our AI policy.
+- AI-assisted contributions are welcome, but as a contributor you must be able to vouch for the code you put online. See our [contributing documentation](https://mitiq.readthedocs.io/en/stable/contributing.html) for more details regarding our AI policy.
 
 Looking for something extra outside of our bounties? Check out our issues labeled good first issue!

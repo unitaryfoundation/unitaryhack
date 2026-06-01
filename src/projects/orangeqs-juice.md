@@ -10,8 +10,12 @@ tags: []
 bounties: []
 ---
 
-Juice is an open-source operating system that provides a unified control center for quantum R&D and production workflows. It brings system monitoring, measurement control, and data analysis together in a clear dashboard environment that can be accessed and controlled remotely by multiple users. With Juice, users can create custom extensions using editable installs and open APIs that connect with their apps and services, making it a flexible and fully customizable software solution.
-Access Juice now!
-- Juice documentation
-- Juice repository
-- Juice community
+Juice is an open-source operating system that provides a unified control center for quantum R\&D and production workflows. It brings system monitoring, measurement control, and data analysis together in a clear dashboard environment that can be accessed and controlled remotely by multiple users. With Juice, users can create custom extensions using editable installs and open APIs that connect with their apps and services, making it a flexible and fully customizable software solution.
+
+**Access Juice now\!**
+
+* [Juice documentation](https://docs.orangeqs.com/juice/core/dev/index.html)  
+* [Juice repository](https://gitlab.com/orangeqs/juice)  
+* [Juice community](http://community.orangeqs.com/)
+
+

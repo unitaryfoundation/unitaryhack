@@ -10,6 +10,10 @@ tags:
   - "benchmarking"
   - "Python"
 bounties: []
+office_hours:
+  - date: "Monday, June 8, 2026"
+    time: "9:00am ET"
+    maintainer: "Alessandro Cosentino"
 ---
 
 Metriq is a free and open source platform that helps researchers and developers benchmark quantum computers across different vendors and providers. It provides a collaborative environment where users can share their benchmarking results, compare different quantum devices, discuss methodologies, and contribute to the development of new benchmarks.

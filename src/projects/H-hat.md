@@ -11,6 +11,10 @@ tags:
   - "compiler"
   - "classical-quantum"
 bounties: []
+office_hours:
+  - date: "Thursday, June 4, 2026"
+    time: "1:00pm ET"
+    maintainer: "Eduardo Maschio"
 ---
 
 H-hat aims to support explicit function overloading, algebraic data types, ownership and RAII-like features, strict and lazy evaluation, reflective cast, metaprogramming, structured typing-like approach, concurrency, backend kind-based types (CPU and QPU), and multi-architecture targeting computation (e.g. CPU: x86_64, aarch64; gate- and analog-based QPU: superconducting, trapped ion, neutral atoms, photonics, etc.)

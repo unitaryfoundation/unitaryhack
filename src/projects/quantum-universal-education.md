@@ -1,5 +1,5 @@
 ---
-title: "Quantum Uinversal Education"
+title: "Quantum Universal Education"
 id: "quantum-universal-education.github.io"
 emoji: "🐱"
 project_url: "https://github.com/Quantum-Universal-Education/Quantum-Universal-Education.github.io"

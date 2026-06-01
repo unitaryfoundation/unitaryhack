@@ -12,6 +12,30 @@ section: project
 
   {{ layoutContent | safe }}
 
+  {% if office_hours and office_hours.length %}
+    <section class="project-office-hours" aria-labelledby="project-office-hours-title">
+      <h2 class="project-office-hours__title" id="project-office-hours-title">Office hours</h2>
+      <ul class="project-office-hours__list">
+        {% for slot in office_hours %}
+          <li class="project-office-hours__item">
+            <div class="project-office-hours__field">
+              <span class="project-office-hours__label">Date</span>
+              <span class="project-office-hours__value">{{ slot.date }}</span>
+            </div>
+            <div class="project-office-hours__field">
+              <span class="project-office-hours__label">Time</span>
+              <span class="project-office-hours__value project-office-hours__value--time">{{ slot.time }}</span>
+            </div>
+            <div class="project-office-hours__field">
+              <span class="project-office-hours__label">Maintainer</span>
+              <span class="project-office-hours__value">{{ slot.maintainer }}</span>
+            </div>
+          </li>
+        {% endfor %}
+      </ul>
+    </section>
+  {% endif %}
+
   <div class="hr"></div>
 
 
