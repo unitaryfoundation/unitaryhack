@@ -21,7 +21,7 @@ If you're new to open source or quantum computing, spend some time with these re
   * [**Oh my git!**](https://ohmygit.org/): A fun game to learn Git commands and workflows.
   * [**GitHub Skills**](https://skills.github.com/): Interactive, hands-on tutorials for mastering the GitHub flow and PR reviews.
   * [**How to Write a Great Pull Request Description**](https://www.hackerone.com/blog/writing-great-pull-request-description): A modern guide to communicating intent and clarity in your code submissions.
-  * [**Mitiq Contribution Guide**](https://mitiq.readthedocs.io/en/stable/guide/contributing.html): A "gold standard" example (if we say so ourselves... 😊) of how a professional quantum open-source project expects contributions.
+  * [**Mitiq Contribution Guide**](https://mitiq.readthedocs.io/en/stable/contributing.html): A "gold standard" example (if we say so ourselves... 😊) of how a professional quantum open-source project expects contributions.
 
 **Brush Up on Quantum**
   * [**Quantum Open Source Resources**](https://github.com/qosf/awesome-quantum-software): The definitive list of quantum libraries and learning materials.
