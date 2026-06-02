@@ -6,7 +6,11 @@ project_url: "https://github.com/deltakit/deltakit"
 metaDescription: "The open-source toolkit for quantum error correction"
 date: 2026-03-26
 summary: "The open-source toolkit for quantum error correction"
-tags: []
+tags:
+  - "quantum computing"
+  - "error correction"
+  - "scientific visualization"
+  - "python"
 bounties: []
 ---
 
