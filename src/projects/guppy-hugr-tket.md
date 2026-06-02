@@ -7,13 +7,12 @@ metaDescription: "Guppy: Pythonic quantum-classical programming language\n\nHUGR
 date: 2026-03-27
 summary: "Guppy: Pythonic quantum-classical programming language\n\nHUGR: Unified Graph Representation for quantum and classical programs\n\nTKET: Quantinuum's compiler for structured quantum and classical programs"
 tags:
-  - "Guppy: programming language"
+  - "programming language"
   - "compiler"
-  - "python\n\nHUGR: intermediate representation"
+  - "optimization"
   - "structured quantum programs"
   - "rust"
-  - "python\n\nTKET: compiler"
-  - "optimization"
+  - "python"
 bounties: []
 ---
 
