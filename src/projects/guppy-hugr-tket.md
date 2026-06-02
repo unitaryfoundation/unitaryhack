@@ -2,10 +2,10 @@
 title: "Guppy, HUGR, TKET"
 id: "tket2"
 emoji: "🐠 🫂 🎟️"
-project_url: "github.com/quantinuum/"
-metaDescription: "Guppy: Pythonic quantum-classical programming language\n\nHUGR: Unified Graph Representation for quantum and classical programs\n\nTKET: Quantinuum's compiler for structured quantum and classical programs"
+project_url: "https://github.com/quantinuum/"
+metaDescription: "Quantinuum's quantum-classical programming language and compiler."
 date: 2026-03-27
-summary: "Guppy: Pythonic quantum-classical programming language\n\nHUGR: Unified Graph Representation for quantum and classical programs\n\nTKET: Quantinuum's compiler for structured quantum and classical programs"
+summary: "Quantinuum's quantum-classical programming language and compiler."
 tags:
   - "programming language"
   - "compiler"
