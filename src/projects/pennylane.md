@@ -3,9 +3,9 @@ title: "PennyLane"
 id: "pennylane"
 emoji: "🌄"
 project_url: "https://github.com/pennylaneai/pennylane"
-metaDescription: "PennyLane is an open-source quantum software platform for quantum computing, quantum machine learning, and quantum chemistry."
+metaDescription: "PennyLane is an open-source quantum software platform for quantum computing, quantum machine learning, and quantum chemistry. Create meaningful quantum algorithms, from inspiration to implementation."
 date: 2026-03-24
-summary: "PennyLane is an open-source quantum software platform for quantum computing, quantum machine learning, and quantum chemistry."
+summary: "PennyLane is an open-source quantum software platform for quantum computing, quantum machine learning, and quantum chemistry. Create meaningful quantum algorithms, from inspiration to implementation."
 tags:
   - "quantum algorithms"
   - "compilation"
