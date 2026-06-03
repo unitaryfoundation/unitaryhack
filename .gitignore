@@ -3,6 +3,7 @@ node_modules/
 
 src/_data/emails
 src/_data/signups.csv
+src/_data/.cache/
 
 .env
 .DS_Store

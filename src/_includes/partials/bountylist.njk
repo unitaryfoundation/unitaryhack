@@ -1,33 +1,43 @@
 {%- for project in collections.sortedProjects -%}
   {% set project_id = project.data.id or project.data.title | lower %}
   {% set metadata = gh[project_id] %}
-  <section>
-    <h4 class="project-bounties" style="display: flex; flex-wrap: wrap; justify-content: space-between; align-items: center; border-top: 1px solid #E5E8EB; border-bottom: 1px solid #E5E8EB; padding: 8px 0px 8px 0px;">
-      <div class="emoji-name-box" style="display: flex; font-size: 0.8em;">
-        <span class="project-card__emoji">{{ project.data.emoji }} </span>
+  {% set project_bounties = project.data.bounties %}
+  {% if metadata and metadata.bounties %}
+    {% set project_bounties = metadata.bounties %}
+  {% endif %}
+  <section class="bounty-project" aria-labelledby="bounty-project-{{ project.fileSlug }}">
+    <div class="bounty-project__header">
+      <h2 class="bounty-project__title" id="bounty-project-{{ project.fileSlug }}">
+        {% if project.data.emoji %}
+          <span class="project-card__emoji" aria-hidden="true">{{ project.data.emoji }}</span>
+        {% endif %}
         <a href="{{ project.url | url }}">{{ project.data.title }}</a>
-      </div>
-      {% if metadata.amount_available > 0 %}
-        <span class="bounty-right" style="display: flex; justify-content: right; align-items: center;">
-          <span class="completion-emoji">💰</span><b>${{ metadata.amount_available }}</b>&nbsp;up for grabs!<span class="completion-emoji">🤑</span>
-        </span>
-      {% elif metadata.total_amount > 0 and metadata.amount_available == 0 %}
-        <span class="bounty-right" style="display: flex; justify-content: right; align-items: center;">
-          <span class="completion-emoji">🥳</span>Project completed!<span class="completion-emoji">💯</span>
-        </span>
+      </h2>
+      {% if metadata and metadata.amount_available > 0 %}
+        <p class="bounty-project__meta"><b>${{ metadata.amount_available }}</b> up for grabs!</p>
+      {% elif metadata and metadata.total_amount > 0 and metadata.amount_available == 0 %}
+        <p class="bounty-project__meta">Completed</p>
+      {% elif project_bounties and project_bounties.length %}
+        <p class="bounty-project__meta"><b>${{ project_bounties | sumBountyValues }}</b> in bounties</p>
       {% else %}
-        <span class="bounty-right" style="display: flex; justify-content: right; align-items: center;">
-          <span class="completion-emoji">⏰</span>Bounties coming soon!<span class="completion-emoji">💭</span>
-        </span>
+        <p class="bounty-project__meta">Bounties coming soon</p>
       {% endif %}
-
-    </h4>
-    <ul>
-      {%- for bounty in metadata.bounties -%}
-        <li>
-          <a class="tag bounty-{{ bounty.state }}" href="{{ bounty.url | url }}">${{ bounty.value }} | {% mdRender %}{{ bounty.title }}{% endmdRender %}</a>
-        </li>
-      {%- endfor -%}
-    </ul>
+    </div>
+    {% if project_bounties and project_bounties.length %}
+      <ul class="bounties bounty-list">
+        {%- for bounty in project_bounties -%}
+          {% set state = bounty | bountyState %}
+          <li class="bounty-list__item bounty-list__item--{{ state }}">
+            <a class="bounty-link bounty-{{ state }}" href="{{ bounty | bountyIssueUrl(project.data.project_url) | url }}">
+              <span class="bounty-link__value">${{ bounty.value }}</span>
+              <span class="bounty-link__title">{% mdRender %}{{ bounty | bountyIssueLabel(project.data.project_url) }}{% endmdRender %}</span>
+              {% if state != "open" %}
+                <span class="bounty-link__state">{{ state | capitalize }}</span>
+              {% endif %}
+            </a>
+          </li>
+        {%- endfor -%}
+      </ul>
+    {% endif %}
   </section>
 {%- endfor -%}

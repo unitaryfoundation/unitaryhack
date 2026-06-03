@@ -7,7 +7,13 @@ metaDescription: "Variational quantum eigen solver simulation on photonics devic
 date: 2026-04-01
 summary: "Variational quantum eigen solver simulation on photonics devices."
 tags: []
-bounties: []
+bounties:
+  - issue_num: 199
+    value: 100
+  - issue_num: 181
+    value: 100
+  - issue_num: 176
+    value: 100
 ---
 
 Variational quantum eigen solver simulation on photonics devices.

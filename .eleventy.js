@@ -67,6 +67,103 @@ module.exports = function (eleventyConfig) {
   eleventyConfig.addFilter('isHttpUrl', (value) => {
     return typeof value === 'string' && /^https?:\/\//i.test(value);
   });
+  const parseRepoInfo = (value, fallbackProvider = 'github') => {
+    if (typeof value !== 'string' || !value.trim()) {
+      return { provider: fallbackProvider, repoKey: '' };
+    }
+
+    let raw = value.trim().replace(/^['"]|['"]$/g, '');
+    if (/^(github|gitlab)\.com\//i.test(raw)) {
+      raw = `https://${raw}`;
+    }
+
+    try {
+      const parsed = new URL(raw);
+      const host = parsed.hostname.toLowerCase();
+      let path = parsed.pathname.replace(/^\/+|\/+$/g, '');
+
+      if (host.endsWith('github.com')) {
+        const parts = path.split('/').filter(Boolean);
+        return { provider: 'github', repoKey: parts.slice(0, 2).join('/') };
+      }
+
+      if (host.endsWith('gitlab.com')) {
+        path = path.split('/-/')[0].replace(/\.git$/i, '');
+        return { provider: 'gitlab', repoKey: path };
+      }
+    } catch (error) {
+      // Fall through to the repo-like parser below.
+    }
+
+    const repoMatch = raw.match(/^([A-Za-z0-9_.-]+\/[A-Za-z0-9_.-]+)(?:$|[:#?\s])/);
+    if (repoMatch) {
+      return { provider: fallbackProvider, repoKey: repoMatch[1] };
+    }
+
+    return { provider: fallbackProvider, repoKey: '' };
+  };
+  eleventyConfig.addFilter('bountyIssueUrl', (bounty, projectUrl) => {
+    if (!bounty) {
+      return '#';
+    }
+
+    if (bounty.url) {
+      return bounty.url;
+    }
+
+    const projectRepo = parseRepoInfo(projectUrl);
+    const repoInfo = bounty.repo
+      ? parseRepoInfo(bounty.repo, projectRepo.provider)
+      : projectRepo;
+    if (!repoInfo.repoKey || !bounty.issue_num) {
+      return '#';
+    }
+
+    const kind = bounty.kind || 'issues';
+    if (repoInfo.provider === 'gitlab') {
+      const gitlabPath = ['merge_requests', 'work_items'].includes(kind)
+        ? kind
+        : 'issues';
+      return `https://gitlab.com/${repoInfo.repoKey}/-/${gitlabPath}/${bounty.issue_num}`;
+    }
+
+    if (kind === 'pull') {
+      return `https://github.com/${repoInfo.repoKey}/pull/${bounty.issue_num}`;
+    }
+
+    return `https://github.com/${repoInfo.repoKey}/issues/${bounty.issue_num}`;
+  });
+  eleventyConfig.addFilter('bountyIssueLabel', (bounty, projectUrl) => {
+    if (!bounty) {
+      return 'Issue';
+    }
+
+    if (bounty.title) {
+      return bounty.title;
+    }
+
+    const projectRepo = parseRepoInfo(projectUrl);
+    const repoInfo = bounty.repo
+      ? parseRepoInfo(bounty.repo, projectRepo.provider)
+      : projectRepo;
+    if (repoInfo.repoKey && bounty.issue_num) {
+      return `${repoInfo.repoKey}#${bounty.issue_num}`;
+    }
+
+    return bounty.issue_num ? `Issue #${bounty.issue_num}` : 'Issue';
+  });
+  eleventyConfig.addFilter('bountyState', (bounty) => {
+    return bounty && bounty.state ? bounty.state : 'open';
+  });
+  eleventyConfig.addFilter('sumBountyValues', (bounties) => {
+    if (!Array.isArray(bounties)) {
+      return 0;
+    }
+
+    return bounties.reduce((total, bounty) => {
+      return total + Number(bounty && bounty.value ? bounty.value : 0);
+    }, 0);
+  });
   eleventyConfig.addFilter('readableDate', readableDateFilter);
   eleventyConfig.addFilter('machineDate', machineDateFilter);
   eleventyConfig.addFilter('svg', svgFilter);

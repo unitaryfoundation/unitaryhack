@@ -30,6 +30,7 @@ jobs:
       - name: Scrape GitHub
         env:
           GH_TOKEN: ${{ secrets.GITHUB_TOKEN }}
+          GL_TOKEN: ${{ secrets.GL_TOKEN }}
         run: |
           cd src/_data
           python scrape_github.py
@@ -38,7 +39,7 @@ jobs:
         id: push_data
         uses: EndBug/add-and-commit@v9
         with:
-          add: "*.json"
+          add: "src/_data/*.json"
           message: "🏆 update hackathon results 🏆"
           default_author: github_actions
 

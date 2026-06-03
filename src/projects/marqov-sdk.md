@@ -19,7 +19,19 @@ tags:
   - "pyquil"
   - "temporal"
   - "sdk"
-bounties: []
+bounties:
+  - issue_num: 1
+    value: 150
+  - issue_num: 2
+    value: 125
+  - issue_num: 3
+    value: 65
+  - issue_num: 4
+    value: 75
+  - issue_num: 5
+    value: 50
+  - issue_num: 6
+    value: 35
 ---
 
 **Marqov SDK** is the open-source Python interface to the Marqov platform, a quantum-classical hybrid orchestration layer for building, running, and reproducing hybrid workflows across multiple quantum backends.

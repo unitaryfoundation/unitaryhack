@@ -12,7 +12,13 @@ tags:
   - "resource-estimation"
   - "cryptography"
   - "crypto"
-bounties: []
+bounties:
+  - issue_num: 6
+    value: 250
+    repo: Fitzoutofwater/SQuaRE-ROOT
+  - issue_num: 5
+    value: 100
+    repo: Fitzoutofwater/SQuaRE-ROOT
 ---
 
 SQuARE aims to be the most transparent, extensible, and modality-agnostic Quantum Resource Estimation (QRE) framework available, capable of modeling the path from physical qubits to a cryptographically relevant quantum computer (CRQC).

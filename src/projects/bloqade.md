@@ -13,7 +13,25 @@ tags:
   - "compiler"
   - "emulator"
   - "SDK"
-bounties: []
+bounties:
+  - issue_num: 408
+    value: 100
+    repo: QuEraComputing/bloqade-circuit
+  - issue_num: 516
+    value: 75
+    repo: QuEraComputing/bloqade-circuit
+  - issue_num: 665
+    value: 50
+    repo: QuEraComputing/bloqade-circuit
+  - issue_num: 119
+    value: 200
+    repo: QuEraComputing/tsim
+  - issue_num: 142
+    value: 100
+    repo: QuEraComputing/tsim
+  - issue_num: 41
+    value: 150
+    repo: QuEraComputing/tsim
 ---
 
 Bloqade is a Python SDK for neutral atom quantum computing. It provides a set of embedded domain-specific languages (eDSLs) for programming neutral atom quantum computers. Bloqade is designed to be a high-level, user-friendly SDK that abstracts away the complexities of neutral atom quantum computing, allowing users to focus on developing quantum algorithms and compilation strategies for neutral atom quantum computers.

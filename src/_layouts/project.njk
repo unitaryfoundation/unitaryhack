@@ -39,15 +39,15 @@ section: project
   <div class="hr"></div>
 
 
-  {% set bounties = gh[id or title | lower].bounties %}
-  {% if bounties %}
-    {% for state, bts in bounties | groupby("state") | dictsort | reverse %}
+  {% set project_meta = gh[id or title | lower] %}
+  {% if project_meta and project_meta.bounties %}
+    {% for state, bts in project_meta.bounties | groupby("state") | dictsort | reverse %}
       <h5>{{ state | capitalize }} bounties:</h5>
       <ul class="bounties">
         {% for bounty in bts %}
           {% set comma = joiner(", ") %}
           <li>
-            <a class="tag bounty-{{ state }}" href="{{ bounty.url | url }}">${{ bounty.value }} | {% mdRender %}{{ bounty.title }}{% endmdRender %}</a>
+            <a class="bounty-link bounty-{{ state }}" href="{{ bounty.url | url }}">${{ bounty.value }} | {% mdRender %}{{ bounty.title }}{% endmdRender %}</a>
             {% if state == "closed" and bounty.assignees.length != 0 %}
               <br>
               closed by:
@@ -59,6 +59,15 @@ section: project
         {% endfor %}
       </ul>
     {% endfor %}
+  {% elif bounties %}
+    <h5>Open bounties:</h5>
+    <ul class="bounties">
+      {% for bounty in bounties %}
+        <li>
+          <a class="bounty-link bounty-open" href="{{ bounty | bountyIssueUrl(project_url) | url }}">${{ bounty.value }} | {% mdRender %}{{ bounty | bountyIssueLabel(project_url) }}{% endmdRender %}</a>
+        </li>
+      {% endfor %}
+    </ul>
   {% endif %}
 
   <nav>

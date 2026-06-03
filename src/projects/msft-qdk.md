@@ -18,7 +18,15 @@ tags:
   - "Rust"
   - "TypeScript"
   - "Q#"
-bounties: []
+bounties:
+  - issue_num: 3236
+    value: 100
+  - issue_num: 3233
+    value: 250
+  - issue_num: 3232
+    value: 100
+  - issue_num: 1966
+    value: 50
 ---
 
 The Microsoft Quantum Development Kit (QDK) is an open‑source platform for building, simulating, and running quantum applications. 

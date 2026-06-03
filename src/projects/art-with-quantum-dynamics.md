@@ -11,7 +11,19 @@ tags:
   - "Creative computing"
   - "Computational thinking"
   - "Creative practice"
-bounties: []
+bounties:
+  - issue_num: 46
+    value: 50
+  - issue_num: 47
+    value: 100
+  - issue_num: 48
+    value: 90
+  - issue_num: 49
+    value: 70
+  - issue_num: 50
+    value: 100
+  - issue_num: 51
+    value: 90
 ---
 
 Innovation is widely recognised as a product of creativity. Today, individuals collaborate with hardware and software to enhance their creative work. How can technology facilitate the development of new ideas? How should creativity be defined in a modern context?

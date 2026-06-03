@@ -9,7 +9,17 @@ summary: "A cross platform error-mitigating compiler that improves the performan
 tags:
   - "python"
   - "qem"
-bounties: []
+bounties:
+  - issue_num: 2876
+    value: 75
+  - issue_num: 2936
+    value: 75
+  - issue_num: 1955
+    value: 150
+  - issue_num: 1507
+    value: 50
+  - issue_num: 3006
+    value: 150
 ---
 
 Mitiq is a Python toolkit used for applying error mitigation techniques on quantum computers.

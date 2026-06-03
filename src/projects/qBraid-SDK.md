@@ -13,7 +13,13 @@ tags:
   - "openqasm"
   - "qir"
   - "rustworkx"
-bounties: []
+bounties:
+  - issue_num: 1200
+    value: 175
+  - issue_num: 1179
+    value: 150
+  - issue_num: 1186
+    value: 175
 ---
 
 The qBraid-SDK is a platform-agnostic quantum runtime framework designed for both quantum software and hardware providers. This Python-based tool streamlines the full lifecycle management of quantum jobs—from defining program specifications to job submission and through to the post-processing and visualization of results.

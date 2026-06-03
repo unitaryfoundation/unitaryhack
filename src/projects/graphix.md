@@ -12,7 +12,15 @@ tags:
   - "Measurement Calculus"
   - "ZX-calculus"
   - "Quantum Simulation"
-bounties: []
+bounties:
+  - issue_num: 497
+    value: 100
+  - issue_num: 496
+    value: 150
+  - issue_num: 432
+    value: 200
+  - issue_num: 501
+    value: 50
 ---
 
 Graphix is a measurement-based quantum computing (MBQC) software package, featuring

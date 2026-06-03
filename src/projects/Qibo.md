@@ -11,7 +11,23 @@ tags:
   - "quantum-control"
   - "quantum-calibration"
   - "quantum-information"
-bounties: []
+bounties:
+  - issue_num: 1411
+    value: 50
+    repo: qiboteam/qibolab
+  - issue_num: 1414
+    value: 25
+    repo: qiboteam/qibolab
+  - issue_num: 1415
+    value: 25
+    repo: qiboteam/qibolab
+  - issue_num: 207
+    value: 25
+    repo: qiboteam/qiboml
+  - issue_num: 1845
+    value: 25
+  - issue_num: 1843
+    value: 50
 ---
 
 Qibo is designed with three target goals: a simple application programming interface (API) for quantum circuit design and adiabatic quantum computation, a high-performance simulation engine based on hardware acceleration tools, with particular emphasis on multithreading CPU, single GPU and multi-GPU setups, and ﬁnally a clean design pattern to include classical/quantum hybrid algorithms.

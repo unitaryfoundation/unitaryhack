@@ -13,7 +13,19 @@ tags:
   - "structured quantum programs"
   - "rust"
   - "python"
-bounties: []
+bounties:
+  - issue_num: 1732
+    value: 175
+    repo: Quantinuum/guppylang
+  - issue_num: 1545
+    value: 100
+    repo: Quantinuum/guppylang
+  - issue_num: 1578
+    value: 100
+    repo: Quantinuum/guppylang
+  - issue_num: 1315
+    value: 125
+    repo: Quantinuum/tket2
 ---
 
 # [Guppy](https://github.com/quantinuum/guppylang)

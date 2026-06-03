@@ -11,7 +11,11 @@ tags:
   - "julia"
   - "optimization"
   - "pulse-design"
-bounties: []
+bounties:
+  - issue_num: 197
+    value: 100
+  - issue_num: 198
+    value: 100
 office_hours:
   - date: "Friday, June 12, 2026"
     time: "1:00pm ET"

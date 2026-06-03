@@ -10,7 +10,13 @@ tags:
   - "quantum algorithms"
   - "compilation"
   - "Python"
-bounties: []
+bounties:
+  - issue_num: 9389
+    value: 30
+  - issue_num: 9396
+    value: 50
+  - issue_num: 9394
+    value: 100
 ---
 
 *Create meaningful quantum algorithms, from inspiration to implementation.*

@@ -11,7 +11,19 @@ tags:
   - "circuits"
   - "compilation"
   - "openqasm"
-bounties: []
+bounties:
+  - issue_num: 255
+    value: 130
+    repo: amazon-braket/qiskit-braket-provider
+  - issue_num: 325
+    value: 120
+    repo: amazon-braket/qiskit-braket-provider
+  - issue_num: 153
+    value: 75
+    repo: amazon-braket/qiskit-braket-provider
+  - issue_num: 326
+    value: 75
+    repo: amazon-braket/qiskit-braket-provider
 ---
 
 The Qiskit-Braket Provider is an open-source plugin built on top of the Qiskit SDK and the Amazon Braket SDK. It enables users to leverage Qiskit to design quantum circuits and seamlessly compile and execute them on Amazon Braket's diverse quantum hardware and simulators, providing interoperability between the two platforms.

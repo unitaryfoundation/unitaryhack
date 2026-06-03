@@ -12,7 +12,15 @@ tags:
   - "fault tolerance"
   - "C++"
   - "python"
-bounties: []
+bounties:
+  - issue_num: 63
+    value: 50
+  - issue_num: 36
+    value: 50
+  - issue_num: 40
+    value: 200
+  - issue_num: 39
+    value: 200
 ---
 
 Clifft is a python package with C++ core that leverages a factored quantum state representation to quickly simulate quantum circuits. Rather than scaling exponentially with the number of qubits N, Clifft's runtime scales exponentially based on the size of the non-magic subspace of the quantum state -- growing with non-Clifford operations and shrinking with Clifford ones. Clifft's efficiency comes from a compiler-like architecture that optimizes the workload once per circuit and generates a custom bytecode for fast per-shot sampling via an efficient virtual machine. Clifft has a stim-like API and has been used to explore fault-tolerant protocols like magic state distillation and cultivation.
