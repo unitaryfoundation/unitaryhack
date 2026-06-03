@@ -3,23 +3,35 @@ title: "Qiskit"
 id: "qiskit"
 emoji: "🌐"
 project_url: "https://github.com/Qiskit/"
-metaDescription: "Qiskit is the world’s most popular and performant software stack for quantum computing and algorithms research"
+metaDescription: "Qiskit is the world's most popular and performant software stack for quantum computing and algorithms research"
 date: 2026-03-26
-summary: "Qiskit is the world’s most popular and performant software stack for quantum computing and algorithms research"
+summary: "Qiskit is the world's most popular and performant software stack for quantum computing and algorithms research"
 tags:
-  - "Python"
-  - "Rust"
-  - "Circuit Optimization"
+  - "python"
+  - "rust"
+  - "C++"
+  - "julia"
 bounties: []
 office_hours:
   - date: "Monday, June 15, 2026"
     time: "10:00am ET"
-    maintainer: "Luciano Bello"
+    maintainer: "Qiskit Team"
 ---
 
-The most popular Qiskit project is [Qiskit SDK](https://github.com/Qiskit/qiskit/), an open-source Software Development Kit for building, optimizing, and running quantum circuits. It includes tools for circuit composition, visualization, and execution, as well as support for quantum operators and primitives like Sampler and Estimator. The transpiler enables circuit optimization, and the quantum information toolbox provides advanced operator support. Qiskit's lean libraries and streamlined workflow help develop utility-scale, domain-specific solutions efficiently.
-GitHub Repository: [https://github.com/Qiskit/qiskit/](https://github.com/Qiskit/qiskit/)
-Documentation: [https://quantum.cloud.ibm.com/docs/](https://quantum.cloud.ibm.com/docs/)
-PyPI: [https://pypi.org/project/qiskit/](https://pypi.org/project/qiskit/)
-If you're new to contributing, please see our [contribution guidelines](https://github.com/Qiskit/qiskit/blob/main/CONTRIBUTING.md).
+Qiskit SDK is one of the [Qiskit Projects](https://github.com/Qiskit/) alongside several language bindings, tools, and quantum computation clients.
 
+GitHub organization: [github.com/Qiskit/](https://github.com/Qiskit/)
+Documentation: [quantum.cloud.ibm.com/docs/](https://quantum.cloud.ibm.com/docs/)
+Contribution guidelines: [CONTRIBUTING.md](https://github.com/Qiskit/qiskit/blob/main/CONTRIBUTING.md)
+Other good first issues: [qisk.it/good-first-issues](https://qisk.it/good-first-issues) (these are not participating on unitaryHACK)
+
+For the issues participating in this unitaryHACK edition, **hackers don't need to be assigned to them in advance**. Please submit your PR and maintainers will evaluate it to assign the bounty.
+
+
+<section class="landing-panel">
+<div class="landing-panel__copy">
+<p>
+⚠️ PRs not following the <a href="/ai-guide/">unitaryHACK Hacker's Guide to Ethical AI Contributions</a> will be closed directly and repeat offenders will be banned from the Qiskit GitHub organization.
+</p>
+</div>
+</section>
