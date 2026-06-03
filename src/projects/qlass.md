@@ -6,7 +6,14 @@ project_url: "https://github.com/unitaryfoundation/qlass"
 metaDescription: "Variational quantum eigen solver simulation on photonics devices."
 date: 2026-04-01
 summary: "Variational quantum eigen solver simulation on photonics devices."
-tags: []
+tags:
+  - "quantum computing"
+  - "python"
+  - "perceval"
+  - "photonic quantum computing"
+  - "quantum chemistry"
+  - "vqe"
+
 bounties: []
 ---
 
