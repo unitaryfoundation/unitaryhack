@@ -10,7 +10,15 @@ tags:
   - "programming language"
   - "compiler"
   - "classical-quantum"
-bounties: []
+bounties:
+  - issue_num: 111
+    value: 125
+  - issue_num: 63
+    value: 125
+  - issue_num: 78
+    value: 50
+  - issue_num: 113
+    value: 200
 office_hours:
   - date: "Thursday, June 4, 2026"
     time: "1:00pm ET"

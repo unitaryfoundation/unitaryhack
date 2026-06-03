@@ -10,7 +10,15 @@ tags:
   - "python"
   - "quantum"
   - "tensor-networks"
-bounties: []
+bounties:
+  - issue_num: 357
+    value: 125
+  - issue_num: 358
+    value: 150
+  - issue_num: 359
+    value: 175
+  - issue_num: 256
+    value: 50
 ---
 
 `quimb` is a python library for tensor networks that aims to apply state-of-the-art methods across tasks in quantum physics, quantum computing, classical physics, and computer science. Its design is focused on flexibility and interactive development of new methods, achieved by abstracting over both target geometries (1D, 2D, 3D, arbitrary hyper-graphs, ...), and underlying data arrays (cpu, gpu, lazily traced, abelian symmetric, fermionic, ...). Whilst primarily a 'hands-on' research tool, it provides a number of high level interfaces, including for simulating quantum circuits.

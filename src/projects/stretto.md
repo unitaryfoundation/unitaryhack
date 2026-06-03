@@ -8,7 +8,13 @@ date: 2026-05-12
 summary: "Stretto.jl is the circuit-to-pulse compilation layer of the Piccolo.jl ecosystem."
 tags:
   - "Julia"
-bounties: []
+bounties:
+  - issue_num: 12
+    value: 100
+  - issue_num: 14
+    value: 100
+  - issue_num: 15
+    value: 100
 office_hours:
   - date: "Friday, June 12, 2026"
     time: "1:00pm ET"

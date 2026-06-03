@@ -9,7 +9,22 @@ summary: "Metriq is a collaborative platform for quantum computer benchmarking"
 tags:
   - "benchmarking"
   - "Python"
-bounties: []
+bounties:
+  - issue_num: 15
+    value: 100
+    repo: unitaryfoundation/metriq-web
+  - issue_num: 668
+    value: 100
+    repo: unitaryfoundation/metriq-gym
+  - issue_num: 521
+    value: 50
+    repo: unitaryfoundation/metriq-gym
+  - issue_num: 624
+    value: 150
+    repo: unitaryfoundation/metriq-gym
+  - issue_num: 715
+    value: 100
+    repo: unitaryfoundation/metriq-gym
 office_hours:
   - date: "Monday, June 8, 2026"
     time: "9:00am ET"

@@ -10,7 +10,19 @@ tags:
   - "quantum computing"
   - "optimizing compiler"
   - "MLIR"
-bounties: []
+bounties:
+  - issue_num: 1695
+    value: 100
+    repo: munich-quantum-toolkit/core
+  - issue_num: 1693
+    value: 200
+    repo: munich-quantum-toolkit/core
+  - issue_num: 797
+    value: 50
+    repo: munich-quantum-toolkit/bench
+  - issue_num: 798
+    value: 50
+    repo: munich-quantum-toolkit/bench
 office_hours:
   - date: "Tuesday, June 9, 2026"
     time: "TBC"

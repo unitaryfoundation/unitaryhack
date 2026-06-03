@@ -2,7 +2,7 @@
 title: "PauliPropagation.jl"
 id: "paulipropagation.jl"
 emoji: "🅿️🅿️"
-project_url: "https://github.com/MSRudolph/PauliPropagation.jl"
+project_url: "https://github.com/SparqleSim/PauliPropagation.jl"
 metaDescription: "A high-performance library for simulating quantum circuits via Pauli propagation."
 date: 2026-03-23
 summary: "A high-performance library for simulating quantum circuits via Pauli propagation."
@@ -11,7 +11,15 @@ tags:
   - "Quantum Simulation"
   - "Quantum Computing"
   - "Quantum Circuits"
-bounties: []
+bounties:
+  - issue_num: 145
+    value: 250
+  - issue_num: 144
+    value: 100
+  - issue_num: 146
+    value: 100
+  - issue_num: 143
+    value: 50
 office_hours:
   - date: "Friday, June 5, 2026"
     time: "10:00am ET"

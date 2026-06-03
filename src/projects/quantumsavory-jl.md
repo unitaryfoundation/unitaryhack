@@ -7,7 +7,13 @@ metaDescription: "A full stack simulator of quantum hardware, from the low-level
 date: 2026-03-31
 summary: "A full stack simulator of quantum hardware, from the low-level analog physics to high-level network dynamics. Includes discrete event simulator, symbolic representation for quantum object, and works with many backend simulators."
 tags: []
-bounties: []
+bounties:
+  - issue_num: 401
+    value: 200
+  - issue_num: 402
+    value: 100
+  - issue_num: 403
+    value: 200
 office_hours:
   - date: "Friday, June 5, 2026"
     time: "12:30pm ET"

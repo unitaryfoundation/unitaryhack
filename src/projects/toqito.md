@@ -10,7 +10,19 @@ tags:
   - "python"
   - "quantum information"
   - "quantum computing"
-bounties: []
+bounties:
+  - issue_num: 1521
+    value: 100
+  - issue_num: 1519
+    value: 100
+  - issue_num: 1525
+    value: 90
+  - issue_num: 1523
+    value: 70
+  - issue_num: 1522
+    value: 70
+  - issue_num: 1520
+    value: 70
 ---
 
 The |toqito⟩ package is an open-source Python library for studying various

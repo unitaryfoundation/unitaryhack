@@ -18,6 +18,7 @@ class ParsedBounty:
     value: int
     repo_key: str
     provider: str
+    kind: str = "issues"
 
 
 @dataclass(frozen=True)
@@ -51,6 +52,19 @@ def normalize_token(value: Optional[str]) -> str:
     return re.sub(r"[^a-z0-9]+", "", value.lower())
 
 
+def clean_project_name(value: Optional[str]) -> str:
+    if not value:
+        return ""
+    cleaned = value.replace("\u00a0", " ").strip()
+    if (
+        len(cleaned) >= 2
+        and cleaned[0] == cleaned[-1]
+        and cleaned[0] in {'"', "'"}
+    ):
+        cleaned = cleaned[1:-1].strip()
+    return cleaned
+
+
 def first_nonempty(row: dict[str, str], *keys: str) -> str:
     for key in keys:
         value = row.get(key)
@@ -72,15 +86,22 @@ def parse_money(amount: Optional[str]) -> Optional[int]:
 
 
 def parse_repo_key_from_url(url: str) -> Optional[str]:
-    parsed = urlparse(url.strip())
+    raw = url.strip().strip('"').strip("'")
+    if not raw:
+        return None
+
+    if raw.startswith(("github.com/", "gitlab.com/")):
+        raw = f"https://{raw}"
+
+    parsed = urlparse(raw)
     host = parsed.netloc.lower()
     path = parsed.path.strip("/")
 
     if host.endswith("github.com"):
         parts = [p for p in path.split("/") if p]
-        if len(parts) < 2:
+        if not parts:
             return None
-        return f"{parts[0]}/{parts[1]}"
+        return "/".join(parts[:2])
 
     if host.endswith("gitlab.com"):
         if "/-/" in path:
@@ -89,11 +110,18 @@ def parse_repo_key_from_url(url: str) -> Optional[str]:
             path = path[: -len(".git")]
         return path or None
 
+    repo_like = re.match(r"^([A-Za-z0-9_.-]+/[A-Za-z0-9_.-]+)(?:$|[:#?\s])", raw)
+    if repo_like:
+        return repo_like.group(1)
+
     return None
 
 
 def parse_provider_from_url(url: str) -> Optional[str]:
-    parsed = urlparse(url.strip())
+    raw = url.strip()
+    if raw.startswith(("github.com/", "gitlab.com/")):
+        raw = f"https://{raw}"
+    parsed = urlparse(raw)
     host = parsed.netloc.lower()
     if host.endswith("github.com"):
         return "github"
@@ -132,15 +160,20 @@ def canonical_repo_url(provider: str, repo_key: str) -> str:
     raise ValueError(f"Unknown provider: {provider}")
 
 
-def parse_issue_num_from_url(url: str) -> Optional[int]:
+def parse_issue_from_url(url: str) -> Optional[tuple[int, str]]:
     url = url.strip()
-    match = re.search(r"/(?:issues|pull|merge_requests)/(\d+)", url)
+    match = re.search(r"/(issues|pull|merge_requests|work_items)/(\d+)", url)
     if match:
-        return int(match.group(1))
-    match = re.search(r"/-/issues/(\d+)", url)
+        return (int(match.group(2)), match.group(1))
+    match = re.search(r"/-/(issues|work_items)/(\d+)", url)
     if match:
-        return int(match.group(1))
+        return (int(match.group(2)), match.group(1))
     return None
+
+
+def parse_issue_num_from_url(url: str) -> Optional[int]:
+    parsed = parse_issue_from_url(url)
+    return parsed[0] if parsed else None
 
 
 def parse_bounty(url: Optional[str], amount: Optional[str]) -> Optional[ParsedBounty]:
@@ -150,9 +183,10 @@ def parse_bounty(url: Optional[str], amount: Optional[str]) -> Optional[ParsedBo
     if not url:
         return None
 
-    issue_num = parse_issue_num_from_url(url)
-    if issue_num is None:
+    parsed_issue = parse_issue_from_url(url)
+    if parsed_issue is None:
         return None
+    issue_num, kind = parsed_issue
 
     provider = parse_provider_from_url(url)
     if not provider:
@@ -166,7 +200,13 @@ def parse_bounty(url: Optional[str], amount: Optional[str]) -> Optional[ParsedBo
     if value is None:
         return None
 
-    return ParsedBounty(issue_num=issue_num, value=value, repo_key=repo_key, provider=provider)
+    return ParsedBounty(
+        issue_num=issue_num,
+        value=value,
+        repo_key=repo_key,
+        provider=provider,
+        kind=kind,
+    )
 
 
 def split_front_matter(text: str) -> tuple[list[str], list[str]]:
@@ -214,7 +254,7 @@ def load_project_files(projects_dir: Path) -> list[ProjectFile]:
         project_url = extract_front_matter_value(front_matter_lines, "project_url") or ""
         project_id = extract_front_matter_value(front_matter_lines, "id")
         repo_key = parse_repo_key_from_url(project_url) or ""
-        if not title or not project_url or not repo_key:
+        if not title or not project_url:
             # Skip malformed project files rather than crashing.
             continue
         project_files.append(
@@ -243,7 +283,7 @@ def choose_project_file(
         if matched:
             return matched
 
-    row_key = normalize_token(row_project_name)
+    row_key = normalize_token(clean_project_name(row_project_name))
     if not row_key:
         return None
 
@@ -269,7 +309,9 @@ def render_bounties_yaml(
     for bounty in bounties:
         lines.append(f"  - issue_num: {bounty.issue_num}\n")
         lines.append(f"    value: {bounty.value}\n")
-        if bounty.repo_key.lower() != main_repo_key.lower():
+        if bounty.kind != "issues":
+            lines.append(f"    kind: {bounty.kind}\n")
+        if not main_repo_key or bounty.repo_key.lower() != main_repo_key.lower():
             lines.append(f"    repo: {bounty.repo_key}\n")
     return lines
 
@@ -285,11 +327,7 @@ def update_bounties_in_markdown(
         raise ValueError("project_url not found in front matter")
 
     effective_project_url = (project_url_override or project_url).strip()
-    main_repo_key = parse_repo_key_from_url(effective_project_url)
-    if not main_repo_key:
-        raise ValueError(
-            f"could not parse repo key from project_url: {effective_project_url}"
-        )
+    main_repo_key = parse_repo_key_from_url(effective_project_url) or ""
 
     if project_url_override:
         updated_project_url_line = f"project_url: {effective_project_url}\n"
@@ -306,7 +344,7 @@ def update_bounties_in_markdown(
 
     start_idx = None
     for idx, line in enumerate(front_matter_lines):
-        if line.rstrip("\r\n") == "bounties:":
+        if re.match(r"^bounties:\s*(?:\[.*\])?\s*$", line.rstrip("\r\n")):
             start_idx = idx
             break
 
@@ -347,6 +385,15 @@ def parse_csv_bounties(row: dict[str, str]) -> list[ParsedBounty]:
         if bounty:
             bounties.append(bounty)
     return bounties
+
+
+def infer_project_repo_url_from_bounties(
+    bounties: list[ParsedBounty],
+) -> Optional[str]:
+    if not bounties:
+        return None
+    first = bounties[0]
+    return canonical_repo_url(first.provider, first.repo_key)
 
 
 def is_truthy(value: Optional[str]) -> bool:
@@ -615,8 +662,11 @@ def main(argv: list[str]) -> int:
 
     project_files = load_project_files(projects_dir)
     repo_key_to_project: dict[str, ProjectFile] = {}
-    for project in sorted(project_files, key=lambda p: (p.archive_rank, len(p.path.parts))):
-        repo_key_to_project.setdefault(project.repo_key.lower(), project)
+    for project in sorted(
+        project_files, key=lambda p: (p.archive_rank, len(p.path.parts))
+    ):
+        if project.repo_key:
+            repo_key_to_project.setdefault(project.repo_key.lower(), project)
 
     created_files: list[Path] = []
     updated_files: list[Path] = []
@@ -633,12 +683,14 @@ def main(argv: list[str]) -> int:
     with csv_path.open("r", encoding="utf-8-sig", newline="") as f:
         reader = csv.DictReader(f)
         for row in reader:
-            row_name = first_nonempty(
-                row,
-                "Project Name",
-                "Please Pick Project Name",
-                "Name (from Invited Projects)",
-                "Participating Project",
+            row_name = clean_project_name(
+                first_nonempty(
+                    row,
+                    "Project Name",
+                    "Please Pick Project Name",
+                    "Name (from Invited Projects)",
+                    "Participating Project",
+                )
             )
             if not row_name:
                 continue
@@ -647,23 +699,29 @@ def main(argv: list[str]) -> int:
                 skipped_rows.append(f"{row_name}: marked withdrawn")
                 continue
 
-            row_project_repo_url = (
-                first_nonempty(row, "Project URL", "Project Repo URL") or None
-            )
-            if not row_project_repo_url:
-                skipped_rows.append(f"{row_name}: missing Project URL")
-                continue
-
             bounties = parse_csv_bounties(row)
             if bounties:
                 rows_with_bounty_data += 1
 
+            row_project_repo_url = (
+                first_nonempty(row, "Project URL", "Project Repo URL") or None
+            )
+            matching_project_repo_url = (
+                row_project_repo_url or infer_project_repo_url_from_bounties(bounties)
+            )
+
             project = choose_project_file(
                 row_project_name=row_name,
-                row_project_repo_url=row_project_repo_url,
+                row_project_repo_url=matching_project_repo_url,
                 project_files=project_files,
                 repo_key_to_project=repo_key_to_project,
             )
+            if not row_project_repo_url and not project:
+                skipped_rows.append(
+                    f"{row_name}: missing Project URL and no matching project markdown"
+                )
+                continue
+
             output_path = choose_output_path(row_name, project, projects_dir)
 
             prior_row = seen_output_paths.get(output_path)
@@ -675,9 +733,13 @@ def main(argv: list[str]) -> int:
                 continue
             seen_output_paths[output_path] = row_name
 
-            if output_path.exists():
-                existing_text = output_path.read_text(encoding="utf-8")
-                existing_front, _ = split_front_matter(existing_text)
+            original = (
+                output_path.read_text(encoding="utf-8")
+                if output_path.exists()
+                else None
+            )
+            if original is not None and row_project_repo_url:
+                existing_front, _ = split_front_matter(original)
                 existing_project_url = extract_front_matter_value(
                     existing_front[1:-1], "project_url"
                 )
@@ -694,16 +756,30 @@ def main(argv: list[str]) -> int:
                         strict_failed = True
                         continue
 
-            rendered = render_project_markdown(
-                row=row,
-                output_path=output_path,
-                matched_project=project,
-                bounties=bounties,
-            )
+            if original is not None:
+                project_url_override = (
+                    row_project_repo_url if args.sync_project_url else None
+                )
+                rendered = update_bounties_in_markdown(
+                    original,
+                    bounties,
+                    project_url_override=project_url_override,
+                )
+            else:
+                if not row_project_repo_url:
+                    skipped_rows.append(
+                        f"{row_name}: missing Project URL and no project file to update"
+                    )
+                    continue
+                rendered = render_project_markdown(
+                    row=row,
+                    output_path=output_path,
+                    matched_project=project,
+                    bounties=bounties,
+                )
 
-            original = output_path.read_text(encoding="utf-8") if output_path.exists() else None
             if rendered != original:
-                if output_path.exists():
+                if original is not None:
                     updated_files.append(output_path)
                 else:
                     created_files.append(output_path)

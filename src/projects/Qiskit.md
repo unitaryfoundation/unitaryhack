@@ -11,7 +11,16 @@ tags:
   - "rust"
   - "C++"
   - "julia"
-bounties: []
+bounties:
+  - issue_num: 146
+    value: 150
+    repo: Qiskit/qiskit-cpp
+  - issue_num: 145
+    value: 200
+    repo: Qiskit/qiskit-cpp
+  - issue_num: 51
+    value: 100
+    repo: Qiskit/Qiskit.jl
 office_hours:
   - date: "Monday, June 15, 2026"
     time: "10:00am ET"

@@ -7,7 +7,15 @@ metaDescription: "Clifford circuits, graph states, error correction, and other q
 date: 2026-03-31
 summary: "Clifford circuits, graph states, error correction, and other quantum Stabilizer formalism tools."
 tags: []
-bounties: []
+bounties:
+  - issue_num: 726
+    value: 125
+  - issue_num: 727
+    value: 125
+  - issue_num: 728
+    value: 125
+  - issue_num: 729
+    value: 125
 office_hours:
   - date: "Friday, June 5, 2026"
     time: "12:30pm ET"

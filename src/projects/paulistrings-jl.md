@@ -11,7 +11,19 @@ tags:
   - "pauli propagation"
   - "circuits"
   - "simulation"
-bounties: []
+bounties:
+  - issue_num: 80
+    value: 200
+  - issue_num: 78
+    value: 100
+  - issue_num: 75
+    value: 50
+  - issue_num: 81
+    value: 50
+  - issue_num: 82
+    value: 50
+  - issue_num: 79
+    value: 50
 office_hours:
   - date: "Monday, June 8, 2026"
     time: "11:00am ET"

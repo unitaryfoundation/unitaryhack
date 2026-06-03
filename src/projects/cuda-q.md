@@ -7,7 +7,17 @@ metaDescription: "The open-source software platform for quantum computing and qu
 date: 2026-05-29
 summary: "The open-source software platform for quantum computing and quantum-GPU supercomputing"
 tags: []
-bounties: []
+bounties:
+  - issue_num: 4289
+    value: 100
+  - issue_num: 3437
+    value: 100
+  - issue_num: 2982
+    value: 100
+  - issue_num: 2942
+    value: 100
+  - issue_num: 2242
+    value: 100
 ---
 
 CUDA-Q is NVIDIA's open-source platform for quantum-GPU computing. Write a quantum program once in Python or C++ using @cudaq.kernel, and run it across NVIDIA's GPU-accelerated simulators or real QPUs without rewriting your code.

@@ -13,7 +13,17 @@ tags:
   - "gpu-acceleration"
   - "python"
   - "jax"
-bounties: []
+bounties:
+  - issue_num: 1079
+    value: 140
+  - issue_num: 1080
+    value: 50
+  - issue_num: 1081
+    value: 75
+  - issue_num: 1082
+    value: 100
+  - issue_num: 1083
+    value: 135
 office_hours:
   - date: "Monday, June 15, 2026"
     time: "11:00am ET"
