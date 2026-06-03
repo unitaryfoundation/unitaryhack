@@ -20,9 +20,10 @@ office_hours:
 
 Qiskit SDK is one of the [Qiskit Projects](https://github.com/Qiskit/) alongside several language bindings, tools, and quantum computation clients.
 
-GitHub organization: [https://github.com/Qiskit/](https://github.com/Qiskit/)
-Documentation: [https://quantum.cloud.ibm.com/docs/](https://quantum.cloud.ibm.com/docs/)
+GitHub organization: [github.com/Qiskit/](https://github.com/Qiskit/)
+Documentation: [quantum.cloud.ibm.com/docs/](https://quantum.cloud.ibm.com/docs/)
 Contribution guidelines: [CONTRIBUTING.md](https://github.com/Qiskit/qiskit/blob/main/CONTRIBUTING.md)
+Other good first issues: [qisk.it/good-first-issues](https://qisk.it/good-first-issues) (these are not participating on unitaryHACK)
 
 For the issues participating in this unitaryHACK edition, **hackers don't need to be assigned to them in advance**. Please submit your PR and maintainers will evaluate it to assign the bounty.
 
