@@ -21,6 +21,15 @@ bounties:
   - issue_num: 51
     value: 100
     repo: Qiskit/Qiskit.jl
+  - issue_num: 16350
+    value: 50
+    repo: Qiskit/qiskit
+  - issue_num: 5098
+    value: 75
+    repo: Qiskit/qiskit
+  - issue_num: 1083
+    value: 50
+    repo: Qiskit/ecosystem
 office_hours:
   - date: "Monday, June 15, 2026"
     time: "10:00am ET"

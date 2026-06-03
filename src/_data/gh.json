@@ -762,28 +762,28 @@
         "assignees": [],
         "state": "open",
         "title": "GPU-compatible long interger types",
-        "url": "https://github.com/MSRudolph/PauliPropagation.jl/issues/145",
+        "url": "https://github.com/SparqleSim/PauliPropagation.jl/issues/145",
         "value": 250
       },
       {
         "assignees": [],
         "state": "open",
         "title": "Overhaul transfer maps and TransferMapGate",
-        "url": "https://github.com/MSRudolph/PauliPropagation.jl/issues/144",
+        "url": "https://github.com/SparqleSim/PauliPropagation.jl/issues/144",
         "value": 100
       },
       {
         "assignees": [],
         "state": "open",
         "title": "Yao Extension",
-        "url": "https://github.com/MSRudolph/PauliPropagation.jl/issues/146",
+        "url": "https://github.com/SparqleSim/PauliPropagation.jl/issues/146",
         "value": 100
       },
       {
         "assignees": [],
         "state": "open",
         "title": "Embed example Jupyter notebooks into docs website",
-        "url": "https://github.com/MSRudolph/PauliPropagation.jl/issues/143",
+        "url": "https://github.com/SparqleSim/PauliPropagation.jl/issues/143",
         "value": 50
       }
     ],
@@ -792,7 +792,7 @@
     "num_bounties": 4,
     "num_open_bounties": 4,
     "total_amount": 500,
-    "url": "https://github.com/MSRudolph/PauliPropagation.jl"
+    "url": "https://github.com/SparqleSim/PauliPropagation.jl"
   },
   "paulistrings.jl": {
     "amount_available": 500,
@@ -1129,7 +1129,7 @@
     "url": "https://github.com/qiboteam/qibo"
   },
   "qiskit": {
-    "amount_available": 450,
+    "amount_available": 625,
     "bounties": [
       {
         "assignees": [],
@@ -1151,13 +1151,34 @@
         "title": "Make `circuit.unitary(...)` do the right thing",
         "url": "https://github.com/Qiskit/Qiskit.jl/issues/51",
         "value": 100
+      },
+      {
+        "assignees": [],
+        "state": "open",
+        "title": "Extend the documentation of `TwoQubitControlledUDecomposer`",
+        "url": "https://github.com/Qiskit/qiskit/issues/16350",
+        "value": 50
+      },
+      {
+        "assignees": [],
+        "state": "open",
+        "title": "add the missing `label` parameter to gate functions that produce a single gate",
+        "url": "https://github.com/Qiskit/qiskit/issues/5098",
+        "value": 75
+      },
+      {
+        "assignees": [],
+        "state": "open",
+        "title": "review member.interface field for full corpus",
+        "url": "https://github.com/Qiskit/ecosystem/issues/1083",
+        "value": 50
       }
     ],
     "emoji": "\ud83c\udf10",
     "name": "Qiskit",
-    "num_bounties": 3,
-    "num_open_bounties": 3,
-    "total_amount": 450,
+    "num_bounties": 6,
+    "num_open_bounties": 6,
+    "total_amount": 625,
     "url": "https://github.com/Qiskit/"
   },
   "qiskit-braket-provider": {
