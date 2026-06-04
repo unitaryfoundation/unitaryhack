@@ -2,7 +2,7 @@
 title: "MSFT QDK - Chemistry"
 id: "qdk-chemistry: a high-performance toolkit for quantum and classical chemistry calculations."
 emoji: "⚛️ 💻"
-project_url: "microsoft/qdk-chemistry: A high-performance toolkit for quantum and classical chemistry calculations."
+project_url: "https://github.com/microsoft/qdk-chemistry"
 metaDescription: "A high-performance toolkit for quantum and classical chemistry calculations."
 date: 2026-05-12
 summary: "A high-performance toolkit for quantum and classical chemistry calculations."
