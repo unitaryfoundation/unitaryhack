@@ -359,6 +359,38 @@
     "total_amount": 500,
     "url": "https://github.com/hhat-lang/hhat_lang"
   },
+  "ionq-core-python": {
+    "amount_available": 425,
+    "bounties": [
+      {
+        "assignees": [],
+        "state": "open",
+        "title": "Add an examples/ directory demonstrating downstream-SDK integration via the extension API",
+        "url": "https://github.com/ionq/ionq-core-python/issues/56",
+        "value": 125
+      },
+      {
+        "assignees": [],
+        "state": "open",
+        "title": "Add pure-Python results post-processing helpers (counts, bitstrings, marginals, expectation values)",
+        "url": "https://github.com/ionq/ionq-core-python/issues/57",
+        "value": 150
+      },
+      {
+        "assignees": [],
+        "state": "open",
+        "title": "Add an examples/ quantum-function workload (Hamiltonian energy) with parameter optimization",
+        "url": "https://github.com/ionq/ionq-core-python/issues/58",
+        "value": 150
+      }
+    ],
+    "emoji": "\u269b\ufe0f\ud83d\udc0d",
+    "name": "IonQ Core",
+    "num_bounties": 3,
+    "num_open_bounties": 3,
+    "total_amount": 425,
+    "url": "https://github.com/ionq/ionq-core-python"
+  },
   "jeff": {
     "amount_available": 150,
     "bounties": [
