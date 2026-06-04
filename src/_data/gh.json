@@ -1624,7 +1624,7 @@
     "url": "https://github.com/harmoniqs/Stretto.jl"
   },
   "tket2": {
-    "amount_available": 325,
+    "amount_available": 225,
     "bounties": [
       {
         "assignees": [
@@ -1643,8 +1643,10 @@
         "value": 100
       },
       {
-        "assignees": [],
-        "state": "open",
+        "assignees": [
+          "luffy-orf"
+        ],
+        "state": "closed",
         "title": "[Feature]: Add a native PCG32 randon number generator to the guppy standard library",
         "url": "https://github.com/Quantinuum/guppylang/issues/1578",
         "value": 100
@@ -1660,7 +1662,7 @@
     "emoji": "\ud83d\udc20 \ud83e\udec2 \ud83c\udf9f\ufe0f",
     "name": "Guppy, HUGR, TKET",
     "num_bounties": 4,
-    "num_open_bounties": 3,
+    "num_open_bounties": 2,
     "total_amount": 500,
     "url": "https://github.com/quantinuum/"
   },

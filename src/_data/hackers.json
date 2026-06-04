@@ -11,5 +11,18 @@
     "num_projects": 1,
     "total_value": 175,
     "username": "Kitsunp"
+  },
+  {
+    "bounties": [
+      {
+        "project": "tket2",
+        "title": "[Feature]: Add a native PCG32 randon number generator to the guppy standard library",
+        "url": "https://github.com/Quantinuum/guppylang/issues/1578",
+        "value": 100
+      }
+    ],
+    "num_projects": 1,
+    "total_value": 100,
+    "username": "luffy-orf"
   }
 ]
