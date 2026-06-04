@@ -12,8 +12,6 @@ tags:
   - "scientific visualization"
   - "python"
 bounties:
-  - issue_num: 134
-    value: 150
   - issue_num: 135
     value: 150
   - issue_num: 215
