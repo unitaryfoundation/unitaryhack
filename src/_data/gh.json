@@ -1029,7 +1029,7 @@
     "num_bounties": 3,
     "num_open_bounties": 3,
     "total_amount": 500,
-    "url": "microsoft/qdk-chemistry: A high-performance toolkit for quantum and classical chemistry calculations."
+    "url": "https://github.com/microsoft/qdk-chemistry"
   },
   "qdk: microsoft quantum development kit, including the q": {
     "amount_available": 500,
@@ -1068,7 +1068,7 @@
     "num_bounties": 4,
     "num_open_bounties": 4,
     "total_amount": 500,
-    "url": "microsoft/qdk: Microsoft Quantum Development Kit, including the Q# programming language, resource estimator, and Quantum Katas"
+    "url": "https://github.com/microsoft/qdk"
   },
   "qibo": {
     "amount_available": 200,
@@ -1624,11 +1624,13 @@
     "url": "https://github.com/harmoniqs/Stretto.jl"
   },
   "tket2": {
-    "amount_available": 500,
+    "amount_available": 325,
     "bounties": [
       {
-        "assignees": [],
-        "state": "open",
+        "assignees": [
+          "Kitsunp"
+        ],
+        "state": "closed",
         "title": "[Refactor] Refactor recursive type-definition checks for structs and enums",
         "url": "https://github.com/Quantinuum/guppylang/issues/1732",
         "value": 175
@@ -1658,7 +1660,7 @@
     "emoji": "\ud83d\udc20 \ud83e\udec2 \ud83c\udf9f\ufe0f",
     "name": "Guppy, HUGR, TKET",
     "num_bounties": 4,
-    "num_open_bounties": 4,
+    "num_open_bounties": 3,
     "total_amount": 500,
     "url": "https://github.com/quantinuum/"
   },
