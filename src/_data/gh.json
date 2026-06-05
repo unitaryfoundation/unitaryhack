@@ -110,7 +110,7 @@
     "url": "https://github.com/QuEraComputing/bloqade"
   },
   "clifft": {
-    "amount_available": 500,
+    "amount_available": 450,
     "bounties": [
       {
         "assignees": [],
@@ -120,8 +120,10 @@
         "value": 50
       },
       {
-        "assignees": [],
-        "state": "open",
+        "assignees": [
+          "Samfresh-ai"
+        ],
+        "state": "closed",
         "title": "Add starter circuit catalog to the playground",
         "url": "https://github.com/unitaryfoundation/clifft/issues/36",
         "value": 50
@@ -144,7 +146,7 @@
     "emoji": "\u26f0",
     "name": "clifft",
     "num_bounties": 4,
-    "num_open_bounties": 4,
+    "num_open_bounties": 3,
     "total_amount": 500,
     "url": "https://github.com/unitaryfoundation/clifft"
   },
@@ -1703,11 +1705,11 @@
     "url": "https://github.com/quantinuum/"
   },
   "toqito": {
-    "amount_available": 500,
+    "amount_available": 400,
     "bounties": [
       {
         "assignees": [],
-        "state": "open",
+        "state": "closed",
         "title": "Implement channel exclusion (channel antidistinguishability)",
         "url": "https://github.com/vprusso/toqito/issues/1521",
         "value": 100
@@ -1751,7 +1753,7 @@
     "emoji": "\ud83c\udf2e\u269b\ufe0f",
     "name": "|toqito\u27e9",
     "num_bounties": 6,
-    "num_open_bounties": 6,
+    "num_open_bounties": 5,
     "total_amount": 500,
     "url": "https://github.com/vprusso/toqito"
   },

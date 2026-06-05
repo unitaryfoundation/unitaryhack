@@ -28,6 +28,19 @@
   {
     "bounties": [
       {
+        "project": "clifft",
+        "title": "Add starter circuit catalog to the playground",
+        "url": "https://github.com/unitaryfoundation/clifft/issues/36",
+        "value": 50
+      }
+    ],
+    "num_projects": 1,
+    "total_value": 50,
+    "username": "Samfresh-ai"
+  },
+  {
+    "bounties": [
+      {
         "project": "tket2",
         "title": "[Feature]: Add a native PCG32 randon number generator to the guppy standard library",
         "url": "https://github.com/Quantinuum/guppylang/issues/1578",
