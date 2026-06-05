@@ -136,7 +136,9 @@
         "value": 200
       },
       {
-        "assignees": [],
+        "assignees": [
+          "ashmitjsg"
+        ],
         "state": "open",
         "title": "Prototype a Qiskit backend provider for Clifft",
         "url": "https://github.com/unitaryfoundation/clifft/issues/39",
@@ -1705,7 +1707,7 @@
     "url": "https://github.com/quantinuum/"
   },
   "toqito": {
-    "amount_available": 400,
+    "amount_available": 330,
     "bounties": [
       {
         "assignees": [],
@@ -1730,7 +1732,7 @@
       },
       {
         "assignees": [],
-        "state": "open",
+        "state": "closed",
         "title": "Add symmetric extension hierarchy for state exclusion (separable measurement bounds on antidistinguishability)",
         "url": "https://github.com/vprusso/toqito/issues/1523",
         "value": 70
@@ -1753,7 +1755,7 @@
     "emoji": "\ud83c\udf2e\u269b\ufe0f",
     "name": "|toqito\u27e9",
     "num_bounties": 6,
-    "num_open_bounties": 5,
+    "num_open_bounties": 4,
     "total_amount": 500,
     "url": "https://github.com/vprusso/toqito"
   },
