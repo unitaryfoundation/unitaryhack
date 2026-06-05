@@ -37,5 +37,18 @@
     "num_projects": 1,
     "total_value": 100,
     "username": "luffy-orf"
+  },
+  {
+    "bounties": [
+      {
+        "project": "quantumbrush",
+        "title": "Canvas window optimization breaks after relaunching the project",
+        "url": "https://github.com/moth-quantum/QuantumBrush/issues/46",
+        "value": 50
+      }
+    ],
+    "num_projects": 1,
+    "total_value": 50,
+    "username": "tzh476"
   }
 ]

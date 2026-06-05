@@ -1415,11 +1415,13 @@
     "url": "https://github.com/Quantum-Universal-Education/Quantum-Universal-Education.github.io"
   },
   "quantumbrush": {
-    "amount_available": 500,
+    "amount_available": 450,
     "bounties": [
       {
-        "assignees": [],
-        "state": "open",
+        "assignees": [
+          "tzh476"
+        ],
+        "state": "closed",
         "title": "Canvas window optimization breaks after relaunching the project",
         "url": "https://github.com/moth-quantum/QuantumBrush/issues/46",
         "value": 50
@@ -1463,7 +1465,7 @@
     "emoji": "\u269b\ufe0f \ud83c\udfa8",
     "name": "Art with Quantum Dynamics",
     "num_bounties": 6,
-    "num_open_bounties": 6,
+    "num_open_bounties": 5,
     "total_amount": 500,
     "url": "https://github.com/moth-quantum/QuantumBrush"
   },
