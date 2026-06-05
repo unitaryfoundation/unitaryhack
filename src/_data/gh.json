@@ -884,13 +884,13 @@
     "url": "https://github.com/nicolasloizeau/PauliStrings.jl"
   },
   "pennylane": {
-    "amount_available": 130,
+    "amount_available": 100,
     "bounties": [
       {
         "assignees": [
           "ahkatlio"
         ],
-        "state": "open",
+        "state": "closed",
         "title": "Add `__repr__` to `qp.Tracker` to improve readability",
         "url": "https://github.com/pennylaneai/pennylane/issues/9389",
         "value": 30
@@ -915,7 +915,7 @@
     "emoji": "\ud83c\udf04",
     "name": "PennyLane",
     "num_bounties": 3,
-    "num_open_bounties": 2,
+    "num_open_bounties": 1,
     "total_amount": 180,
     "url": "https://github.com/pennylaneai/pennylane"
   },
@@ -1186,7 +1186,9 @@
         "value": 200
       },
       {
-        "assignees": [],
+        "assignees": [
+          "axif0"
+        ],
         "state": "closed",
         "title": "Make `circuit.unitary(...)` do the right thing",
         "url": "https://github.com/Qiskit/Qiskit.jl/issues/51",
