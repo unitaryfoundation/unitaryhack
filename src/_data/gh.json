@@ -887,7 +887,9 @@
     "amount_available": 130,
     "bounties": [
       {
-        "assignees": [],
+        "assignees": [
+          "ahkatlio"
+        ],
         "state": "open",
         "title": "Add `__repr__` to `qp.Tracker` to improve readability",
         "url": "https://github.com/pennylaneai/pennylane/issues/9389",
@@ -1167,7 +1169,7 @@
     "url": "https://github.com/qiboteam/qibo"
   },
   "qiskit": {
-    "amount_available": 625,
+    "amount_available": 525,
     "bounties": [
       {
         "assignees": [],
@@ -1185,7 +1187,7 @@
       },
       {
         "assignees": [],
-        "state": "open",
+        "state": "closed",
         "title": "Make `circuit.unitary(...)` do the right thing",
         "url": "https://github.com/Qiskit/Qiskit.jl/issues/51",
         "value": 100
@@ -1215,7 +1217,7 @@
     "emoji": "\ud83c\udf10",
     "name": "Qiskit",
     "num_bounties": 6,
-    "num_open_bounties": 6,
+    "num_open_bounties": 5,
     "total_amount": 625,
     "url": "https://github.com/Qiskit/"
   },
