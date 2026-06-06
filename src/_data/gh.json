@@ -110,11 +110,11 @@
     "url": "https://github.com/QuEraComputing/bloqade"
   },
   "clifft": {
-    "amount_available": 450,
+    "amount_available": 400,
     "bounties": [
       {
         "assignees": [],
-        "state": "open",
+        "state": "closed",
         "title": "docs: auto-generate Python API reference via mkdocstrings",
         "url": "https://github.com/unitaryfoundation/clifft/issues/63",
         "value": 50
@@ -148,7 +148,7 @@
     "emoji": "\u26f0",
     "name": "clifft",
     "num_bounties": 4,
-    "num_open_bounties": 3,
+    "num_open_bounties": 2,
     "total_amount": 500,
     "url": "https://github.com/unitaryfoundation/clifft"
   },
