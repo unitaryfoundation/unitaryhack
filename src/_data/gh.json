@@ -1020,7 +1020,9 @@
         "value": 175
       },
       {
-        "assignees": [],
+        "assignees": [
+          "ashmitjsg"
+        ],
         "state": "open",
         "title": "[FEATURE] Add OpenQASM 3 to pyQuil conversion",
         "url": "https://github.com/qBraid/qBraid/issues/1179",
