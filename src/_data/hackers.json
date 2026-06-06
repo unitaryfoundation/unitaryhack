@@ -80,6 +80,19 @@
   {
     "bounties": [
       {
+        "project": "clifft",
+        "title": "docs: auto-generate Python API reference via mkdocstrings",
+        "url": "https://github.com/unitaryfoundation/clifft/issues/63",
+        "value": 50
+      }
+    ],
+    "num_projects": 1,
+    "total_value": 50,
+    "username": "manasa-manoj-nbr"
+  },
+  {
+    "bounties": [
+      {
         "project": "quantumbrush",
         "title": "Canvas window optimization breaks after relaunching the project",
         "url": "https://github.com/moth-quantum/QuantumBrush/issues/46",

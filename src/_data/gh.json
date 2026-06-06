@@ -113,7 +113,9 @@
     "amount_available": 400,
     "bounties": [
       {
-        "assignees": [],
+        "assignees": [
+          "manasa-manoj-nbr"
+        ],
         "state": "closed",
         "title": "docs: auto-generate Python API reference via mkdocstrings",
         "url": "https://github.com/unitaryfoundation/clifft/issues/63",
