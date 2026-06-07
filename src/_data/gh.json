@@ -1717,7 +1717,7 @@
     "url": "https://github.com/quantinuum/"
   },
   "toqito": {
-    "amount_available": 330,
+    "amount_available": 240,
     "bounties": [
       {
         "assignees": [],
@@ -1735,7 +1735,7 @@
       },
       {
         "assignees": [],
-        "state": "open",
+        "state": "closed",
         "title": "Implement SDP bounds for quantum state exclusion under LOCC constraints via see-saw optimization",
         "url": "https://github.com/vprusso/toqito/issues/1525",
         "value": 90
@@ -1765,7 +1765,7 @@
     "emoji": "\ud83c\udf2e\u269b\ufe0f",
     "name": "|toqito\u27e9",
     "num_bounties": 6,
-    "num_open_bounties": 4,
+    "num_open_bounties": 3,
     "total_amount": 500,
     "url": "https://github.com/vprusso/toqito"
   },
