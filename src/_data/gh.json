@@ -794,7 +794,7 @@
     "url": "https://github.com/QPauLie/PauLie"
   },
   "paulipropagation.jl": {
-    "amount_available": 500,
+    "amount_available": 450,
     "bounties": [
       {
         "assignees": [],
@@ -818,8 +818,10 @@
         "value": 100
       },
       {
-        "assignees": [],
-        "state": "open",
+        "assignees": [
+          "Vortriz"
+        ],
+        "state": "closed",
         "title": "Embed example Jupyter notebooks into docs website",
         "url": "https://github.com/SparqleSim/PauliPropagation.jl/issues/143",
         "value": 50
@@ -828,7 +830,7 @@
     "emoji": "\ud83c\udd7f\ufe0f\ud83c\udd7f\ufe0f",
     "name": "PauliPropagation.jl",
     "num_bounties": 4,
-    "num_open_bounties": 4,
+    "num_open_bounties": 3,
     "total_amount": 500,
     "url": "https://github.com/SparqleSim/PauliPropagation.jl"
   },
