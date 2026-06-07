@@ -67,14 +67,20 @@
   {
     "bounties": [
       {
+        "project": "clifft",
+        "title": "Prototype a Qiskit backend provider for Clifft",
+        "url": "https://github.com/unitaryfoundation/clifft/issues/39",
+        "value": 200
+      },
+      {
         "project": "qbraid",
         "title": "[FEATURE] Add OpenQASM 3 to pyQuil conversion",
         "url": "https://github.com/qBraid/qBraid/issues/1179",
         "value": 150
       }
     ],
-    "num_projects": 1,
-    "total_value": 150,
+    "num_projects": 2,
+    "total_value": 350,
     "username": "ashmitjsg"
   },
   {
