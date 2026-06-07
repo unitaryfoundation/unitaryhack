@@ -1010,7 +1010,7 @@
     "url": "https://github.com/Budapest-Quantum-Computing-Group/piquasso"
   },
   "qbraid": {
-    "amount_available": 500,
+    "amount_available": 350,
     "bounties": [
       {
         "assignees": [],
@@ -1023,7 +1023,7 @@
         "assignees": [
           "ashmitjsg"
         ],
-        "state": "open",
+        "state": "closed",
         "title": "[FEATURE] Add OpenQASM 3 to pyQuil conversion",
         "url": "https://github.com/qBraid/qBraid/issues/1179",
         "value": 150
@@ -1039,7 +1039,7 @@
     "emoji": "\ud83c\udfc3\u200d\u2642\ufe0f\u23f1\ufe0f",
     "name": "qBraid-SDK",
     "num_bounties": 3,
-    "num_open_bounties": 3,
+    "num_open_bounties": 2,
     "total_amount": 500,
     "url": "https://github.com/qBraid/qBraid"
   },

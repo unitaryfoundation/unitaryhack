@@ -54,6 +54,19 @@
   {
     "bounties": [
       {
+        "project": "qbraid",
+        "title": "[FEATURE] Add OpenQASM 3 to pyQuil conversion",
+        "url": "https://github.com/qBraid/qBraid/issues/1179",
+        "value": 150
+      }
+    ],
+    "num_projects": 1,
+    "total_value": 150,
+    "username": "ashmitjsg"
+  },
+  {
+    "bounties": [
+      {
         "project": "qiskit",
         "title": "Make `circuit.unitary(...)` do the right thing",
         "url": "https://github.com/Qiskit/Qiskit.jl/issues/51",
