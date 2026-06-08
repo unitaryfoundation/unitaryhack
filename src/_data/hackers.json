@@ -99,14 +99,20 @@
   {
     "bounties": [
       {
+        "project": "qibo",
+        "title": "Binary encoder following `Mottonen et al.(2004)`",
+        "url": "https://github.com/qiboteam/qibo/issues/1845",
+        "value": 25
+      },
+      {
         "project": "qiskit",
         "title": "Make `circuit.unitary(...)` do the right thing",
         "url": "https://github.com/Qiskit/Qiskit.jl/issues/51",
         "value": 100
       }
     ],
-    "num_projects": 1,
-    "total_value": 100,
+    "num_projects": 2,
+    "total_value": 125,
     "username": "axif0"
   },
   {

@@ -1121,7 +1121,7 @@
     "url": "https://github.com/microsoft/qdk"
   },
   "qibo": {
-    "amount_available": 200,
+    "amount_available": 175,
     "bounties": [
       {
         "assignees": [
@@ -1157,8 +1157,10 @@
         "value": 25
       },
       {
-        "assignees": [],
-        "state": "open",
+        "assignees": [
+          "axif0"
+        ],
+        "state": "closed",
         "title": "Binary encoder following `Mottonen et al.(2004)`",
         "url": "https://github.com/qiboteam/qibo/issues/1845",
         "value": 25
@@ -1174,7 +1176,7 @@
     "emoji": "\ud83d\udc2a",
     "name": "Qibo",
     "num_bounties": 6,
-    "num_open_bounties": 6,
+    "num_open_bounties": 5,
     "total_amount": 200,
     "url": "https://github.com/qiboteam/qibo"
   },
