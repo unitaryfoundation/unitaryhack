@@ -1177,7 +1177,7 @@
     "url": "https://github.com/qiboteam/qibo"
   },
   "qiskit": {
-    "amount_available": 525,
+    "amount_available": 475,
     "bounties": [
       {
         "assignees": [],
@@ -1217,8 +1217,10 @@
         "value": 75
       },
       {
-        "assignees": [],
-        "state": "open",
+        "assignees": [
+          "mhmohona"
+        ],
+        "state": "closed",
         "title": "review member.interface field for full corpus",
         "url": "https://github.com/Qiskit/ecosystem/issues/1083",
         "value": 50
@@ -1227,7 +1229,7 @@
     "emoji": "\ud83c\udf10",
     "name": "Qiskit",
     "num_bounties": 6,
-    "num_open_bounties": 5,
+    "num_open_bounties": 4,
     "total_amount": 625,
     "url": "https://github.com/Qiskit/"
   },

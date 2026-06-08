@@ -138,6 +138,19 @@
   {
     "bounties": [
       {
+        "project": "qiskit",
+        "title": "review member.interface field for full corpus",
+        "url": "https://github.com/Qiskit/ecosystem/issues/1083",
+        "value": 50
+      }
+    ],
+    "num_projects": 1,
+    "total_value": 50,
+    "username": "mhmohona"
+  },
+  {
+    "bounties": [
+      {
         "project": "quantumbrush",
         "title": "Canvas window optimization breaks after relaunching the project",
         "url": "https://github.com/moth-quantum/QuantumBrush/issues/46",
