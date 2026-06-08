@@ -28,6 +28,19 @@
   {
     "bounties": [
       {
+        "project": "kqcircuits",
+        "title": "Better highlighting of elements in Instance Hierarchy tool",
+        "url": "https://github.com/iqm-finland/KQCircuits/issues/124",
+        "value": 75
+      }
+    ],
+    "num_projects": 1,
+    "total_value": 75,
+    "username": "Rajesh270712"
+  },
+  {
+    "bounties": [
+      {
         "project": "clifft",
         "title": "Add starter circuit catalog to the playground",
         "url": "https://github.com/unitaryfoundation/clifft/issues/36",
