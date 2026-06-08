@@ -158,7 +158,9 @@
     "amount_available": 500,
     "bounties": [
       {
-        "assignees": [],
+        "assignees": [
+          "border-b"
+        ],
         "state": "open",
         "title": "SABRE qubit-mapping pass: topology-aware initial placement to reduce SWAPs on irregular devices",
         "url": "https://github.com/NVIDIA/cuda-quantum/issues/4289",
@@ -1273,7 +1275,7 @@
     "url": "https://github.com/qiskit-community/qiskit-braket-provider"
   },
   "qlass": {
-    "amount_available": 300,
+    "amount_available": 200,
     "bounties": [
       {
         "assignees": [],
@@ -1291,7 +1293,7 @@
       },
       {
         "assignees": [],
-        "state": "open",
+        "state": "closed",
         "title": "Add function to draw linear optics circuit for VQE",
         "url": "https://github.com/unitaryfoundation/qlass/issues/176",
         "value": 100
@@ -1300,7 +1302,7 @@
     "emoji": "\ud83e\uddca",
     "name": "qlass",
     "num_bounties": 3,
-    "num_open_bounties": 3,
+    "num_open_bounties": 2,
     "total_amount": 300,
     "url": "https://github.com/unitaryfoundation/qlass"
   },
