@@ -743,17 +743,19 @@
     "url": "https://github.com/OpenQuantumDesign"
   },
   "p-11": {
-    "amount_available": 250,
+    "amount_available": 0,
     "bounties": [
       {
         "assignees": [],
-        "state": "open",
+        "state": "closed",
         "title": "Q-Day Leaderboard: nightly CI run of flagship scenarios with public scoreboard",
         "url": "https://github.com/Fitzoutofwater/SQuaRE-ROOT/issues/6",
         "value": 250
       },
       {
-        "assignees": [],
+        "assignees": [
+          "CleanDev-Fix"
+        ],
         "state": "closed",
         "title": "Add a Sankey resource-flow diagram to the report output",
         "url": "https://github.com/Fitzoutofwater/SQuaRE-ROOT/issues/5",
@@ -763,7 +765,7 @@
     "emoji": "\u269b\ufe0f \ud83d\udee1\ufe0f",
     "name": "Project Eleven",
     "num_bounties": 2,
-    "num_open_bounties": 1,
+    "num_open_bounties": 0,
     "total_amount": 350,
     "url": "https://github.com/p-11/"
   },
