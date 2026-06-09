@@ -1,6 +1,6 @@
 {
   "amazon-braket-sdk-python": {
-    "amount_available": 500,
+    "amount_available": 400,
     "bounties": [
       {
         "assignees": [],
@@ -10,8 +10,10 @@
         "value": 50
       },
       {
-        "assignees": [],
-        "state": "open",
+        "assignees": [
+          "border-b"
+        ],
+        "state": "closed",
         "title": "Support math functions (`sin`, `cos`, `exp`, \u2026) in `FreeParameterExpression`",
         "url": "https://github.com/amazon-braket/amazon-braket-sdk-python/issues/1252",
         "value": 100
@@ -48,7 +50,7 @@
     "emoji": "\u269b\ufe0f\ud83d\udcbb",
     "name": "Amazon Braket SDK",
     "num_bounties": 6,
-    "num_open_bounties": 6,
+    "num_open_bounties": 5,
     "total_amount": 500,
     "url": "https://github.com/amazon-braket/amazon-braket-sdk-python"
   },
@@ -1016,11 +1018,13 @@
     "url": "https://github.com/Budapest-Quantum-Computing-Group/piquasso"
   },
   "qbraid": {
-    "amount_available": 350,
+    "amount_available": 175,
     "bounties": [
       {
-        "assignees": [],
-        "state": "open",
+        "assignees": [
+          "ashmitjsg"
+        ],
+        "state": "closed",
         "title": "[FEATURE] Add new conversion(s) of your choice (2/2)",
         "url": "https://github.com/qBraid/qBraid/issues/1200",
         "value": 175
@@ -1045,7 +1049,7 @@
     "emoji": "\ud83c\udfc3\u200d\u2642\ufe0f\u23f1\ufe0f",
     "name": "qBraid-SDK",
     "num_bounties": 3,
-    "num_open_bounties": 2,
+    "num_open_bounties": 1,
     "total_amount": 500,
     "url": "https://github.com/qBraid/qBraid"
   },
@@ -1181,7 +1185,7 @@
     "url": "https://github.com/qiboteam/qibo"
   },
   "qiskit": {
-    "amount_available": 475,
+    "amount_available": 275,
     "bounties": [
       {
         "assignees": [],
@@ -1192,7 +1196,7 @@
       },
       {
         "assignees": [],
-        "state": "open",
+        "state": "closed",
         "title": "Implementing estimator interface",
         "url": "https://github.com/Qiskit/qiskit-cpp/issues/145",
         "value": 200
@@ -1233,7 +1237,7 @@
     "emoji": "\ud83c\udf10",
     "name": "Qiskit",
     "num_bounties": 6,
-    "num_open_bounties": 4,
+    "num_open_bounties": 3,
     "total_amount": 625,
     "url": "https://github.com/Qiskit/"
   },

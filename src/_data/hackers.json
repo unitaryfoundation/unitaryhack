@@ -93,13 +93,19 @@
       },
       {
         "project": "qbraid",
+        "title": "[FEATURE] Add new conversion(s) of your choice (2/2)",
+        "url": "https://github.com/qBraid/qBraid/issues/1200",
+        "value": 175
+      },
+      {
+        "project": "qbraid",
         "title": "[FEATURE] Add OpenQASM 3 to pyQuil conversion",
         "url": "https://github.com/qBraid/qBraid/issues/1179",
         "value": 150
       }
     ],
     "num_projects": 2,
-    "total_value": 350,
+    "total_value": 525,
     "username": "ashmitjsg"
   },
   {
@@ -120,6 +126,19 @@
     "num_projects": 2,
     "total_value": 125,
     "username": "axif0"
+  },
+  {
+    "bounties": [
+      {
+        "project": "amazon-braket-sdk-python",
+        "title": "Support math functions (`sin`, `cos`, `exp`, \u2026) in `FreeParameterExpression`",
+        "url": "https://github.com/amazon-braket/amazon-braket-sdk-python/issues/1252",
+        "value": 100
+      }
+    ],
+    "num_projects": 1,
+    "total_value": 100,
+    "username": "border-b"
   },
   {
     "bounties": [
