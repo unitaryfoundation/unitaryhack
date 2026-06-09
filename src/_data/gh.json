@@ -1082,11 +1082,11 @@
     "url": "https://github.com/microsoft/qdk-chemistry"
   },
   "qdk: microsoft quantum development kit, including the q": {
-    "amount_available": 500,
+    "amount_available": 350,
     "bounties": [
       {
         "assignees": [],
-        "state": "open",
+        "state": "closed",
         "title": "Add auto-import quickfix for unresolved names",
         "url": "https://github.com/microsoft/qdk/issues/3236",
         "value": 100
@@ -1107,7 +1107,7 @@
       },
       {
         "assignees": [],
-        "state": "open",
+        "state": "closed",
         "title": "Grey out conditionally compiled items in the editor when they don't match the current target profile",
         "url": "https://github.com/microsoft/qdk/issues/1966",
         "value": 50
@@ -1116,7 +1116,7 @@
     "emoji": "\u269b\ufe0f \ud83d\udcbb",
     "name": "MSFT QDK",
     "num_bounties": 4,
-    "num_open_bounties": 4,
+    "num_open_bounties": 2,
     "total_amount": 500,
     "url": "https://github.com/microsoft/qdk"
   },
