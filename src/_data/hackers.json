@@ -28,6 +28,19 @@
   {
     "bounties": [
       {
+        "project": "quimb",
+        "title": "Add OpenQASM 3 support",
+        "url": "https://github.com/jcmgray/quimb/issues/256",
+        "value": 50
+      }
+    ],
+    "num_projects": 1,
+    "total_value": 50,
+    "username": "EthanFeld"
+  },
+  {
+    "bounties": [
+      {
         "project": "qlass",
         "title": "Add function to draw linear optics circuit for VQE",
         "url": "https://github.com/unitaryfoundation/qlass/issues/176",
@@ -191,6 +204,25 @@
     "num_projects": 1,
     "total_value": 50,
     "username": "mhmohona"
+  },
+  {
+    "bounties": [
+      {
+        "project": "qdk: microsoft quantum development kit, including the q",
+        "title": "Add auto-import quickfix for unresolved names",
+        "url": "https://github.com/microsoft/qdk/issues/3236",
+        "value": 100
+      },
+      {
+        "project": "qdk: microsoft quantum development kit, including the q",
+        "title": "Grey out conditionally compiled items in the editor when they don't match the current target profile",
+        "url": "https://github.com/microsoft/qdk/issues/1966",
+        "value": 50
+      }
+    ],
+    "num_projects": 1,
+    "total_value": 150,
+    "username": "sorin-bolos"
   },
   {
     "bounties": [

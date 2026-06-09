@@ -743,7 +743,7 @@
     "url": "https://github.com/OpenQuantumDesign"
   },
   "p-11": {
-    "amount_available": 350,
+    "amount_available": 250,
     "bounties": [
       {
         "assignees": [],
@@ -754,7 +754,7 @@
       },
       {
         "assignees": [],
-        "state": "open",
+        "state": "closed",
         "title": "Add a Sankey resource-flow diagram to the report output",
         "url": "https://github.com/Fitzoutofwater/SQuaRE-ROOT/issues/5",
         "value": 100
@@ -763,7 +763,7 @@
     "emoji": "\u269b\ufe0f \ud83d\udee1\ufe0f",
     "name": "Project Eleven",
     "num_bounties": 2,
-    "num_open_bounties": 2,
+    "num_open_bounties": 1,
     "total_amount": 350,
     "url": "https://github.com/p-11/"
   },
@@ -1091,7 +1091,9 @@
     "amount_available": 350,
     "bounties": [
       {
-        "assignees": [],
+        "assignees": [
+          "sorin-bolos"
+        ],
         "state": "closed",
         "title": "Add auto-import quickfix for unresolved names",
         "url": "https://github.com/microsoft/qdk/issues/3236",
@@ -1112,7 +1114,9 @@
         "value": 100
       },
       {
-        "assignees": [],
+        "assignees": [
+          "sorin-bolos"
+        ],
         "state": "closed",
         "title": "Grey out conditionally compiled items in the editor when they don't match the current target profile",
         "url": "https://github.com/microsoft/qdk/issues/1966",
@@ -1619,7 +1623,7 @@
     "url": "https://github.com/QuEST-Kit/QuEST"
   },
   "quimb": {
-    "amount_available": 500,
+    "amount_available": 450,
     "bounties": [
       {
         "assignees": [],
@@ -1643,8 +1647,10 @@
         "value": 175
       },
       {
-        "assignees": [],
-        "state": "open",
+        "assignees": [
+          "EthanFeld"
+        ],
+        "state": "closed",
         "title": "Add OpenQASM 3 support",
         "url": "https://github.com/jcmgray/quimb/issues/256",
         "value": 50
@@ -1653,7 +1659,7 @@
     "emoji": "\u26a1",
     "name": "quimb",
     "num_bounties": 4,
-    "num_open_bounties": 4,
+    "num_open_bounties": 3,
     "total_amount": 500,
     "url": "https://github.com/jcmgray/quimb"
   },
