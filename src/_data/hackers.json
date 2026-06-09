@@ -15,14 +15,20 @@
   {
     "bounties": [
       {
+        "project": "qlass",
+        "title": "Add function to draw linear optics circuit for VQE",
+        "url": "https://github.com/unitaryfoundation/qlass/issues/176",
+        "value": 100
+      },
+      {
         "project": "tket2",
         "title": "[Refactor] Refactor recursive type-definition checks for structs and enums",
         "url": "https://github.com/Quantinuum/guppylang/issues/1732",
         "value": 175
       }
     ],
-    "num_projects": 1,
-    "total_value": 175,
+    "num_projects": 2,
+    "total_value": 275,
     "username": "Kitsunp"
   },
   {
