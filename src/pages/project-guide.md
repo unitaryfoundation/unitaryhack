@@ -69,7 +69,7 @@ To make sure that everyone can participate in the hackathon, we encourage projec
 
 As the hackathon progresses (and sometimes right away if there are eager folks who read up on the project), you should get some useful PRs! **If a PR does not meet a minimum bar for quality, or if another PR has been accepted, please provide some details through PR comments that it is not accepted.**
 
-For bountied issues, once you have accepted a pull request (or closed an issue) please assign the hacker to the issue so that our bots can understand it as complete, and distribute the bounty accordingly. There will be no split bounties this year. **Bounties will not be distributed until the end of the event, so if there is any confusion, please don't hesitate to reach out** to [hack@unitary.foundation](mailto:hack@unitary.foundation).
+For bountied issues, once you have accepted a pull request (or closed an issue) please assign the hacker to the issue so that our bots can understand it as complete, and distribute the bounty accordingly. **Notes:** (1) For many project repos, the hacker needs to comment on the issue in ordered to be assigned to it. (2) There will be no split bounties this year. (3) **Bounties will not be distributed until the after the event**, so if there is any confusion, please don't hesitate to reach out to [hack@unitary.foundation](mailto:hack@unitary.foundation).
 
 ### Maintainer Tips and Tricks During the HACK
 - We recommend turning on github notifications for issue/PR events, so you can respond to activity as quickly as your bandwidth allows. The quicker hackers receive responses to their questions and/or PRs, the less confusion there is in general
