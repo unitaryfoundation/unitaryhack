@@ -1209,7 +1209,9 @@
         "value": 150
       },
       {
-        "assignees": [],
+        "assignees": [
+          "GoiBasia"
+        ],
         "state": "closed",
         "title": "Implementing estimator interface",
         "url": "https://github.com/Qiskit/qiskit-cpp/issues/145",
