@@ -86,6 +86,19 @@
   {
     "bounties": [
       {
+        "project": "paulipropagation.jl",
+        "title": "Overhaul transfer maps and TransferMapGate",
+        "url": "https://github.com/SparqleSim/PauliPropagation.jl/issues/144",
+        "value": 100
+      }
+    ],
+    "num_projects": 1,
+    "total_value": 100,
+    "username": "LubuSeb"
+  },
+  {
+    "bounties": [
+      {
         "project": "kqcircuits",
         "title": "Better highlighting of elements in Instance Hierarchy tool",
         "url": "https://github.com/iqm-finland/KQCircuits/issues/124",

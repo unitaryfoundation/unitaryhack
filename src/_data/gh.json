@@ -491,7 +491,9 @@
         "value": 150
       },
       {
-        "assignees": [],
+        "assignees": [
+          "manasa-manoj-nbr"
+        ],
         "state": "open",
         "title": "Refactor out usage of t_cross_parameters function",
         "url": "https://github.com/iqm-finland/KQCircuits/issues/123",
@@ -810,7 +812,7 @@
     "url": "https://github.com/QPauLie/PauLie"
   },
   "paulipropagation.jl": {
-    "amount_available": 450,
+    "amount_available": 350,
     "bounties": [
       {
         "assignees": [],
@@ -820,8 +822,10 @@
         "value": 250
       },
       {
-        "assignees": [],
-        "state": "open",
+        "assignees": [
+          "LubuSeb"
+        ],
+        "state": "closed",
         "title": "Overhaul transfer maps and TransferMapGate",
         "url": "https://github.com/SparqleSim/PauliPropagation.jl/issues/144",
         "value": 100
@@ -846,7 +850,7 @@
     "emoji": "\ud83c\udd7f\ufe0f\ud83c\udd7f\ufe0f",
     "name": "PauliPropagation.jl",
     "num_bounties": 4,
-    "num_open_bounties": 3,
+    "num_open_bounties": 2,
     "total_amount": 500,
     "url": "https://github.com/SparqleSim/PauliPropagation.jl"
   },
@@ -1201,7 +1205,7 @@
     "url": "https://github.com/qiboteam/qibo"
   },
   "qiskit": {
-    "amount_available": 275,
+    "amount_available": 225,
     "bounties": [
       {
         "assignees": [],
@@ -1230,7 +1234,7 @@
       },
       {
         "assignees": [],
-        "state": "open",
+        "state": "closed",
         "title": "Extend the documentation of `TwoQubitControlledUDecomposer`",
         "url": "https://github.com/Qiskit/qiskit/issues/16350",
         "value": 50
@@ -1255,7 +1259,7 @@
     "emoji": "\ud83c\udf10",
     "name": "Qiskit",
     "num_bounties": 6,
-    "num_open_bounties": 3,
+    "num_open_bounties": 2,
     "total_amount": 625,
     "url": "https://github.com/Qiskit/"
   },
