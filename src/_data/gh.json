@@ -250,11 +250,13 @@
     "url": "https://github.com/deltakit/deltakit"
   },
   "dynamiqs": {
-    "amount_available": 500,
+    "amount_available": 360,
     "bounties": [
       {
-        "assignees": [],
-        "state": "open",
+        "assignees": [
+          "Ronit-Raj9"
+        ],
+        "state": "closed",
         "title": "unitaryHACK - Add tests for stochastic solvers",
         "url": "https://github.com/dynamiqs/dynamiqs/issues/1079",
         "value": 140
@@ -291,7 +293,7 @@
     "emoji": "\ud83d\udd25",
     "name": "Dynamiqs",
     "num_bounties": 5,
-    "num_open_bounties": 5,
+    "num_open_bounties": 4,
     "total_amount": 500,
     "url": "https://github.com/dynamiqs/dynamiqs"
   },
@@ -1300,14 +1302,18 @@
     "amount_available": 200,
     "bounties": [
       {
-        "assignees": [],
+        "assignees": [
+          "Kitsunp"
+        ],
         "state": "open",
         "title": "New loss function to compute expectation value of a Bose-Hubbard Hamiltonian",
         "url": "https://github.com/unitaryfoundation/qlass/issues/199",
         "value": 100
       },
       {
-        "assignees": [],
+        "assignees": [
+          "Kitsunp"
+        ],
         "state": "open",
         "title": "[Feature Request] Design of Zero Noise Extrapolation on photonic devices",
         "url": "https://github.com/unitaryfoundation/qlass/issues/181",

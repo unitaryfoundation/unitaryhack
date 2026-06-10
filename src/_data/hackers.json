@@ -99,6 +99,19 @@
   {
     "bounties": [
       {
+        "project": "dynamiqs",
+        "title": "unitaryHACK - Add tests for stochastic solvers",
+        "url": "https://github.com/dynamiqs/dynamiqs/issues/1079",
+        "value": 140
+      }
+    ],
+    "num_projects": 1,
+    "total_value": 140,
+    "username": "Ronit-Raj9"
+  },
+  {
+    "bounties": [
+      {
         "project": "clifft",
         "title": "Add starter circuit catalog to the playground",
         "url": "https://github.com/unitaryfoundation/clifft/issues/36",
