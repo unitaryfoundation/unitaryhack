@@ -54,6 +54,19 @@
   {
     "bounties": [
       {
+        "project": "paulie",
+        "title": "Animations of Graph Transformation",
+        "url": "https://github.com/QPauLie/PauLie/issues/199",
+        "value": 200
+      }
+    ],
+    "num_projects": 1,
+    "total_value": 200,
+    "username": "Gmin2"
+  },
+  {
+    "bounties": [
+      {
         "project": "qiskit",
         "title": "Implementing estimator interface",
         "url": "https://github.com/Qiskit/qiskit-cpp/issues/145",

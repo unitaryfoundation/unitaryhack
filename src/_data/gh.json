@@ -780,11 +780,13 @@
     "url": "https://github.com/p-11/"
   },
   "paulie": {
-    "amount_available": 450,
+    "amount_available": 250,
     "bounties": [
       {
-        "assignees": [],
-        "state": "open",
+        "assignees": [
+          "Gmin2"
+        ],
+        "state": "closed",
         "title": "Animations of Graph Transformation",
         "url": "https://github.com/QPauLie/PauLie/issues/199",
         "value": 200
@@ -807,7 +809,7 @@
     "emoji": "\ud83e\udd38\ud83c\udffe\u200d\u2640\ufe0f\ud83d\udc18",
     "name": "paulie",
     "num_bounties": 3,
-    "num_open_bounties": 2,
+    "num_open_bounties": 1,
     "total_amount": 500,
     "url": "https://github.com/QPauLie/PauLie"
   },
