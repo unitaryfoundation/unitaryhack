@@ -169,7 +169,9 @@
         "value": 100
       },
       {
-        "assignees": [],
+        "assignees": [
+          "friedsam"
+        ],
         "state": "open",
         "title": "Propagator computation for dynamics",
         "url": "https://github.com/NVIDIA/cuda-quantum/issues/3437",
