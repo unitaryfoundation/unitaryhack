@@ -190,7 +190,9 @@
         "value": 100
       },
       {
-        "assignees": [],
+        "assignees": [
+          "thedaemon-wizard"
+        ],
         "state": "open",
         "title": "[custom op] Support unitary synthesis for 3+ qubit operations",
         "url": "https://github.com/NVIDIA/cuda-quantum/issues/2242",
