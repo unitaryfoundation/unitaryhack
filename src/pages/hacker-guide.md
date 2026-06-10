@@ -38,7 +38,7 @@ If you're new to open source or quantum computing, spend some time with these re
   3. **Submit Your PR** </br>When your solution is ready and passes all local tests:
       - **Link the Issue:** Your PR description **must** link to the issue (e.g., `Closes #123`).
       - **PR Limit:** You may have **no more than 4 open Pull Requests at one time.** This ensures you are focusing on quality and gives other hackers a fair chance to contribute. To keep everyone honest, we ask that hackers' Github contribution activity is set to public during the HACK. Maintainers have the right to disregard your contribution if your activity is set to private. 
-      - **Get Assigned:** To help our bots track your work, ask a maintainer to "assign" the issue to you once they've decided that your issue is the winning one. **Note:** In order to be assigned to an issue, Github requires that you've commented on that issue at least once. 
+      - **Get Assigned:** To help our bots track your work, ask a maintainer to "assign" the issue to you once they've decided that your issue is the winning one. **Note:** In order to be assigned to an issue, many Github projects require that you've commented on that issue at least once. 
   4. **The Ethical AI Standard** </br> We have a strict **No AI Slop** policy. AI should be your co-pilot, not your author.
 **[Read the Hacker’s Guide to Ethical AI]({{ '/ai-guide/' | url }})** Unverified, "copy-paste" AI submissions are disrespectful to maintainers and will lead to immediate disqualification.
 
