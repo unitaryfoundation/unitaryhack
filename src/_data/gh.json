@@ -774,7 +774,7 @@
     "url": "https://github.com/p-11/"
   },
   "paulie": {
-    "amount_available": 500,
+    "amount_available": 450,
     "bounties": [
       {
         "assignees": [],
@@ -785,7 +785,7 @@
       },
       {
         "assignees": [],
-        "state": "open",
+        "state": "closed",
         "title": "Completing Isomorphism Check",
         "url": "https://github.com/QPauLie/PauLie/issues/198",
         "value": 50
@@ -801,7 +801,7 @@
     "emoji": "\ud83e\udd38\ud83c\udffe\u200d\u2640\ufe0f\ud83d\udc18",
     "name": "paulie",
     "num_bounties": 3,
-    "num_open_bounties": 3,
+    "num_open_bounties": 2,
     "total_amount": 500,
     "url": "https://github.com/QPauLie/PauLie"
   },
