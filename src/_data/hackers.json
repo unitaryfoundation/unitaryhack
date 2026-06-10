@@ -58,10 +58,16 @@
         "title": "Animations of Graph Transformation",
         "url": "https://github.com/QPauLie/PauLie/issues/199",
         "value": 200
+      },
+      {
+        "project": "qdk: microsoft quantum development kit, including the q",
+        "title": "Support OpenQASM in the Playground",
+        "url": "https://github.com/microsoft/qdk/issues/3233",
+        "value": 250
       }
     ],
-    "num_projects": 1,
-    "total_value": 200,
+    "num_projects": 2,
+    "total_value": 450,
     "username": "Gmin2"
   },
   {
@@ -269,6 +275,19 @@
     "num_projects": 1,
     "total_value": 50,
     "username": "mhmohona"
+  },
+  {
+    "bounties": [
+      {
+        "project": "piquasso",
+        "title": "`Gaussian.get_xp_string_moment` but for ladder operators",
+        "url": "https://github.com/Budapest-Quantum-Computing-Group/piquasso/issues/524",
+        "value": 50
+      }
+    ],
+    "num_projects": 1,
+    "total_value": 50,
+    "username": "simsaidan"
   },
   {
     "bounties": [

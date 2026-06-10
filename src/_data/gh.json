@@ -981,7 +981,7 @@
     "url": "https://github.com/harmoniqs/Piccolo.jl"
   },
   "piquasso": {
-    "amount_available": 500,
+    "amount_available": 450,
     "bounties": [
       {
         "assignees": [],
@@ -1019,8 +1019,10 @@
         "value": 200
       },
       {
-        "assignees": [],
-        "state": "open",
+        "assignees": [
+          "simsaidan"
+        ],
+        "state": "closed",
         "title": "`Gaussian.get_xp_string_moment` but for ladder operators",
         "url": "https://github.com/Budapest-Quantum-Computing-Group/piquasso/issues/524",
         "value": 50
@@ -1029,7 +1031,7 @@
     "emoji": "\ud83c\udfa8",
     "name": "Piquasso",
     "num_bounties": 6,
-    "num_open_bounties": 6,
+    "num_open_bounties": 5,
     "total_amount": 500,
     "url": "https://github.com/Budapest-Quantum-Computing-Group/piquasso"
   },
@@ -1104,7 +1106,7 @@
     "url": "https://github.com/microsoft/qdk-chemistry"
   },
   "qdk: microsoft quantum development kit, including the q": {
-    "amount_available": 350,
+    "amount_available": 100,
     "bounties": [
       {
         "assignees": [
@@ -1116,8 +1118,10 @@
         "value": 100
       },
       {
-        "assignees": [],
-        "state": "open",
+        "assignees": [
+          "Gmin2"
+        ],
+        "state": "closed",
         "title": "Support OpenQASM in the Playground",
         "url": "https://github.com/microsoft/qdk/issues/3233",
         "value": 250
@@ -1142,7 +1146,7 @@
     "emoji": "\u269b\ufe0f \ud83d\udcbb",
     "name": "MSFT QDK",
     "num_bounties": 4,
-    "num_open_bounties": 2,
+    "num_open_bounties": 1,
     "total_amount": 500,
     "url": "https://github.com/microsoft/qdk"
   },
