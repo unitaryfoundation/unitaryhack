@@ -320,7 +320,9 @@
         "value": 200
       },
       {
-        "assignees": [],
+        "assignees": [
+          "Vinny010"
+        ],
         "state": "open",
         "title": "Pretty-print for `Statevec` and `DensityMatrix`",
         "url": "https://github.com/TeamGraphix/graphix/issues/501",
