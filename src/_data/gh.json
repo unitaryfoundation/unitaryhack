@@ -981,7 +981,7 @@
     "url": "https://github.com/harmoniqs/Piccolo.jl"
   },
   "piquasso": {
-    "amount_available": 450,
+    "amount_available": 400,
     "bounties": [
       {
         "assignees": [],
@@ -1005,8 +1005,10 @@
         "value": 50
       },
       {
-        "assignees": [],
-        "state": "open",
+        "assignees": [
+          "Rajesh270712"
+        ],
+        "state": "closed",
         "title": "Implement `ParticleNumberMeasurement` for `fermionic.PureFockSimulator`",
         "url": "https://github.com/Budapest-Quantum-Computing-Group/piquasso/issues/522",
         "value": 50
@@ -1031,7 +1033,7 @@
     "emoji": "\ud83c\udfa8",
     "name": "Piquasso",
     "num_bounties": 6,
-    "num_open_bounties": 5,
+    "num_open_bounties": 4,
     "total_amount": 500,
     "url": "https://github.com/Budapest-Quantum-Computing-Group/piquasso"
   },
@@ -1239,7 +1241,9 @@
         "value": 100
       },
       {
-        "assignees": [],
+        "assignees": [
+          "sorin-bolos"
+        ],
         "state": "closed",
         "title": "Extend the documentation of `TwoQubitControlledUDecomposer`",
         "url": "https://github.com/Qiskit/qiskit/issues/16350",

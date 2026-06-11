@@ -122,10 +122,16 @@
         "title": "Better highlighting of elements in Instance Hierarchy tool",
         "url": "https://github.com/iqm-finland/KQCircuits/issues/124",
         "value": 75
+      },
+      {
+        "project": "piquasso",
+        "title": "Implement `ParticleNumberMeasurement` for `fermionic.PureFockSimulator`",
+        "url": "https://github.com/Budapest-Quantum-Computing-Group/piquasso/issues/522",
+        "value": 50
       }
     ],
-    "num_projects": 1,
-    "total_value": 75,
+    "num_projects": 2,
+    "total_value": 125,
     "username": "Rajesh270712"
   },
   {
@@ -302,10 +308,16 @@
         "title": "Grey out conditionally compiled items in the editor when they don't match the current target profile",
         "url": "https://github.com/microsoft/qdk/issues/1966",
         "value": 50
+      },
+      {
+        "project": "qiskit",
+        "title": "Extend the documentation of `TwoQubitControlledUDecomposer`",
+        "url": "https://github.com/Qiskit/qiskit/issues/16350",
+        "value": 50
       }
     ],
-    "num_projects": 1,
-    "total_value": 150,
+    "num_projects": 2,
+    "total_value": 200,
     "username": "sorin-bolos"
   },
   {
