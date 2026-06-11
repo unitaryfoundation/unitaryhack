@@ -998,7 +998,9 @@
         "value": 50
       },
       {
-        "assignees": [],
+        "assignees": [
+          "simsaidan"
+        ],
         "state": "open",
         "title": "Implement `ParticleNumberMeasurement` for `pq.fermionic.GaussianSimulator`",
         "url": "https://github.com/Budapest-Quantum-Computing-Group/piquasso/issues/521",
