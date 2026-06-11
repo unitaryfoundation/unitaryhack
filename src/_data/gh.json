@@ -859,7 +859,7 @@
     "url": "https://github.com/SparqleSim/PauliPropagation.jl"
   },
   "paulistrings.jl": {
-    "amount_available": 500,
+    "amount_available": 450,
     "bounties": [
       {
         "assignees": [],
@@ -883,8 +883,10 @@
         "value": 50
       },
       {
-        "assignees": [],
-        "state": "open",
+        "assignees": [
+          "Cedriq1astaken"
+        ],
+        "state": "closed",
         "title": "Translation symmetric OperatorMathLink",
         "url": "https://github.com/nicolasloizeau/PauliStrings.jl/issues/81",
         "value": 50
@@ -907,7 +909,7 @@
     "emoji": "\ud83e\uddf6",
     "name": "PauliStrings.jl",
     "num_bounties": 6,
-    "num_open_bounties": 6,
+    "num_open_bounties": 5,
     "total_amount": 500,
     "url": "https://github.com/nicolasloizeau/PauliStrings.jl"
   },
@@ -1112,7 +1114,7 @@
     "url": "https://github.com/microsoft/qdk-chemistry"
   },
   "qdk: microsoft quantum development kit, including the q": {
-    "amount_available": 100,
+    "amount_available": 0,
     "bounties": [
       {
         "assignees": [
@@ -1136,7 +1138,7 @@
         "assignees": [
           "tzh476"
         ],
-        "state": "open",
+        "state": "closed",
         "title": "Allow running visual circuit files (.qsc) directly from Python",
         "url": "https://github.com/microsoft/qdk/issues/3232",
         "value": 100
@@ -1154,7 +1156,7 @@
     "emoji": "\u269b\ufe0f \ud83d\udcbb",
     "name": "MSFT QDK",
     "num_bounties": 4,
-    "num_open_bounties": 1,
+    "num_open_bounties": 0,
     "total_amount": 500,
     "url": "https://github.com/microsoft/qdk"
   },

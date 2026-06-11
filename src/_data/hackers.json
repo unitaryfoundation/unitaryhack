@@ -15,6 +15,19 @@
   {
     "bounties": [
       {
+        "project": "paulistrings.jl",
+        "title": "Translation symmetric OperatorMathLink",
+        "url": "https://github.com/nicolasloizeau/PauliStrings.jl/issues/81",
+        "value": 50
+      }
+    ],
+    "num_projects": 1,
+    "total_value": 50,
+    "username": "Cedriq1astaken"
+  },
+  {
+    "bounties": [
+      {
         "project": "p-11",
         "title": "Add a Sankey resource-flow diagram to the report output",
         "url": "https://github.com/Fitzoutofwater/SQuaRE-ROOT/issues/5",
@@ -342,14 +355,20 @@
   {
     "bounties": [
       {
+        "project": "qdk: microsoft quantum development kit, including the q",
+        "title": "Allow running visual circuit files (.qsc) directly from Python",
+        "url": "https://github.com/microsoft/qdk/issues/3232",
+        "value": 100
+      },
+      {
         "project": "quantumbrush",
         "title": "Canvas window optimization breaks after relaunching the project",
         "url": "https://github.com/moth-quantum/QuantumBrush/issues/46",
         "value": 50
       }
     ],
-    "num_projects": 1,
-    "total_value": 50,
+    "num_projects": 2,
+    "total_value": 150,
     "username": "tzh476"
   },
   {
