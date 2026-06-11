@@ -320,5 +320,18 @@
     "num_projects": 1,
     "total_value": 50,
     "username": "tzh476"
+  },
+  {
+    "bounties": [
+      {
+        "project": "quimb",
+        "title": "implement a PEPS quantum circuit simulator",
+        "url": "https://github.com/jcmgray/quimb/issues/358",
+        "value": 150
+      }
+    ],
+    "num_projects": 1,
+    "total_value": 150,
+    "username": "zkasuran"
   }
 ]

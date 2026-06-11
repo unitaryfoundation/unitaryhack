@@ -1649,7 +1649,7 @@
     "url": "https://github.com/QuEST-Kit/QuEST"
   },
   "quimb": {
-    "amount_available": 450,
+    "amount_available": 300,
     "bounties": [
       {
         "assignees": [],
@@ -1659,8 +1659,10 @@
         "value": 125
       },
       {
-        "assignees": [],
-        "state": "open",
+        "assignees": [
+          "zkasuran"
+        ],
+        "state": "closed",
         "title": "implement a PEPS quantum circuit simulator",
         "url": "https://github.com/jcmgray/quimb/issues/358",
         "value": 150
@@ -1685,7 +1687,7 @@
     "emoji": "\u26a1",
     "name": "quimb",
     "num_bounties": 4,
-    "num_open_bounties": 3,
+    "num_open_bounties": 2,
     "total_amount": 500,
     "url": "https://github.com/jcmgray/quimb"
   },
