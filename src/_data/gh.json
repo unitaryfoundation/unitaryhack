@@ -339,7 +339,7 @@
     "url": "https://github.com/TeamGraphix/graphix"
   },
   "hhat_lang": {
-    "amount_available": 500,
+    "amount_available": 375,
     "bounties": [
       {
         "assignees": [],
@@ -349,8 +349,10 @@
         "value": 125
       },
       {
-        "assignees": [],
-        "state": "open",
+        "assignees": [
+          "tnemoz"
+        ],
+        "state": "closed",
         "title": "[IMPL] configuration file for quantum device information",
         "url": "https://github.com/hhat-lang/hhat_lang/issues/63",
         "value": 125
@@ -373,7 +375,7 @@
     "emoji": "\ud83d\udc52\ud83c\udfa9",
     "name": "H-hat",
     "num_bounties": 4,
-    "num_open_bounties": 4,
+    "num_open_bounties": 3,
     "total_amount": 500,
     "url": "https://github.com/hhat-lang/hhat_lang"
   },

@@ -323,6 +323,19 @@
   {
     "bounties": [
       {
+        "project": "hhat_lang",
+        "title": "[IMPL] configuration file for quantum device information",
+        "url": "https://github.com/hhat-lang/hhat_lang/issues/63",
+        "value": 125
+      }
+    ],
+    "num_projects": 1,
+    "total_value": 125,
+    "username": "tnemoz"
+  },
+  {
+    "bounties": [
+      {
         "project": "quantumbrush",
         "title": "Canvas window optimization breaks after relaunching the project",
         "url": "https://github.com/moth-quantum/QuantumBrush/issues/46",
