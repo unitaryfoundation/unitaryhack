@@ -1317,13 +1317,13 @@
     "url": "https://github.com/qiskit-community/qiskit-braket-provider"
   },
   "qlass": {
-    "amount_available": 200,
+    "amount_available": 100,
     "bounties": [
       {
         "assignees": [
           "Kitsunp"
         ],
-        "state": "open",
+        "state": "closed",
         "title": "New loss function to compute expectation value of a Bose-Hubbard Hamiltonian",
         "url": "https://github.com/unitaryfoundation/qlass/issues/199",
         "value": 100
@@ -1350,7 +1350,7 @@
     "emoji": "\ud83e\uddca",
     "name": "qlass",
     "num_bounties": 3,
-    "num_open_bounties": 2,
+    "num_open_bounties": 1,
     "total_amount": 300,
     "url": "https://github.com/unitaryfoundation/qlass"
   },

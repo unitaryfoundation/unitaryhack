@@ -87,6 +87,12 @@
     "bounties": [
       {
         "project": "qlass",
+        "title": "New loss function to compute expectation value of a Bose-Hubbard Hamiltonian",
+        "url": "https://github.com/unitaryfoundation/qlass/issues/199",
+        "value": 100
+      },
+      {
+        "project": "qlass",
         "title": "Add function to draw linear optics circuit for VQE",
         "url": "https://github.com/unitaryfoundation/qlass/issues/176",
         "value": 100
@@ -99,7 +105,7 @@
       }
     ],
     "num_projects": 2,
-    "total_value": 275,
+    "total_value": 375,
     "username": "Kitsunp"
   },
   {
