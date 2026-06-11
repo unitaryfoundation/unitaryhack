@@ -1133,7 +1133,9 @@
         "value": 250
       },
       {
-        "assignees": [],
+        "assignees": [
+          "tzh476"
+        ],
         "state": "open",
         "title": "Allow running visual circuit files (.qsc) directly from Python",
         "url": "https://github.com/microsoft/qdk/issues/3232",
