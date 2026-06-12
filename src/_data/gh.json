@@ -233,9 +233,7 @@
         "value": 150
       },
       {
-        "assignees": [
-          "rolandriver"
-        ],
+        "assignees": [],
         "state": "open",
         "title": "request:  Generic Plot should dispatch to `plot_lambda` instead of vice versa",
         "url": "https://github.com/deltakit/deltakit/issues/233",
