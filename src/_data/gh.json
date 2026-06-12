@@ -250,7 +250,7 @@
     "url": "https://github.com/deltakit/deltakit"
   },
   "dynamiqs": {
-    "amount_available": 360,
+    "amount_available": 260,
     "bounties": [
       {
         "assignees": [
@@ -277,7 +277,7 @@
       },
       {
         "assignees": [],
-        "state": "open",
+        "state": "closed",
         "title": "unitaryHACK - Enable Hessian computation",
         "url": "https://github.com/dynamiqs/dynamiqs/issues/1082",
         "value": 100
@@ -293,7 +293,7 @@
     "emoji": "\ud83d\udd25",
     "name": "Dynamiqs",
     "num_bounties": 5,
-    "num_open_bounties": 4,
+    "num_open_bounties": 3,
     "total_amount": 500,
     "url": "https://github.com/dynamiqs/dynamiqs"
   },
@@ -469,11 +469,13 @@
     "url": "https://gitlab.com/orangeqs/juice"
   },
   "kqcircuits": {
-    "amount_available": 250,
+    "amount_available": 150,
     "bounties": [
       {
-        "assignees": [],
-        "state": "open",
+        "assignees": [
+          "manasa-manoj-nbr"
+        ],
+        "state": "closed",
         "title": "Unit tests for klayout_package/python/scripts/simulations/post_process",
         "url": "https://github.com/iqm-finland/KQCircuits/issues/121",
         "value": 100
@@ -523,7 +525,7 @@
     "emoji": "\ud83e\udd91",
     "name": "KQCircuits",
     "num_bounties": 6,
-    "num_open_bounties": 3,
+    "num_open_bounties": 2,
     "total_amount": 500,
     "url": "https://github.com/iqm-finland/KQCircuits"
   },
@@ -608,7 +610,8 @@
       },
       {
         "assignees": [
-          "Changhao-Li"
+          "Changhao-Li",
+          "alyabouzaid"
         ],
         "state": "open",
         "title": "Possibly import circuits from or integrate with quantum advantage tracker",
@@ -841,7 +844,9 @@
         "value": 100
       },
       {
-        "assignees": [],
+        "assignees": [
+          "simsaidan"
+        ],
         "state": "open",
         "title": "Yao Extension",
         "url": "https://github.com/SparqleSim/PauliPropagation.jl/issues/146",
@@ -1327,7 +1332,7 @@
     "url": "https://github.com/qiskit-community/qiskit-braket-provider"
   },
   "qlass": {
-    "amount_available": 100,
+    "amount_available": 0,
     "bounties": [
       {
         "assignees": [
@@ -1342,7 +1347,7 @@
         "assignees": [
           "Kitsunp"
         ],
-        "state": "open",
+        "state": "closed",
         "title": "[Feature Request] Design of Zero Noise Extrapolation on photonic devices",
         "url": "https://github.com/unitaryfoundation/qlass/issues/181",
         "value": 100
@@ -1360,7 +1365,7 @@
     "emoji": "\ud83e\uddca",
     "name": "qlass",
     "num_bounties": 3,
-    "num_open_bounties": 1,
+    "num_open_bounties": 0,
     "total_amount": 300,
     "url": "https://github.com/unitaryfoundation/qlass"
   },
