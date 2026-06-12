@@ -265,6 +265,19 @@
   {
     "bounties": [
       {
+        "project": "paulie",
+        "title": "Completing Isomorphism Check",
+        "url": "https://github.com/QPauLie/PauLie/issues/198",
+        "value": 50
+      }
+    ],
+    "num_projects": 1,
+    "total_value": 50,
+    "username": "codexbountylab"
+  },
+  {
+    "bounties": [
+      {
         "project": "tket2",
         "title": "[Feature]: Add a native PCG32 randon number generator to the guppy standard library",
         "url": "https://github.com/Quantinuum/guppylang/issues/1578",

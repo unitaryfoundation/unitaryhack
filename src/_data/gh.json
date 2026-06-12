@@ -794,7 +794,9 @@
         "value": 200
       },
       {
-        "assignees": [],
+        "assignees": [
+          "codexbountylab"
+        ],
         "state": "closed",
         "title": "Completing Isomorphism Check",
         "url": "https://github.com/QPauLie/PauLie/issues/198",
