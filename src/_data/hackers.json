@@ -99,6 +99,19 @@
   {
     "bounties": [
       {
+        "project": "munich-quantum-toolkit",
+        "title": "\u2728 Iterative Quantum Phase Estimation (IQPE)",
+        "url": "https://github.com/munich-quantum-toolkit/bench/issues/797",
+        "value": 50
+      }
+    ],
+    "num_projects": 1,
+    "total_value": 50,
+    "username": "JohannesWittmann9"
+  },
+  {
+    "bounties": [
+      {
         "project": "qlass",
         "title": "New loss function to compute expectation value of a Bose-Hubbard Hamiltonian",
         "url": "https://github.com/unitaryfoundation/qlass/issues/199",

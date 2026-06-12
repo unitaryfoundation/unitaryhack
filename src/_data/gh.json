@@ -679,7 +679,7 @@
     "url": "https://github.com/unitaryfoundation/mitiq"
   },
   "munich-quantum-toolkit": {
-    "amount_available": 400,
+    "amount_available": 350,
     "bounties": [
       {
         "assignees": [],
@@ -696,8 +696,10 @@
         "value": 200
       },
       {
-        "assignees": [],
-        "state": "open",
+        "assignees": [
+          "JohannesWittmann9"
+        ],
+        "state": "closed",
         "title": "\u2728 Iterative Quantum Phase Estimation (IQPE)",
         "url": "https://github.com/munich-quantum-toolkit/bench/issues/797",
         "value": 50
@@ -713,7 +715,7 @@
     "emoji": "\u269b\ufe0f\ud83d\udee0\ufe0f",
     "name": "Munich Quantum Toolkit",
     "num_bounties": 4,
-    "num_open_bounties": 4,
+    "num_open_bounties": 3,
     "total_amount": 400,
     "url": "https://github.com/munich-quantum-toolkit/"
   },
