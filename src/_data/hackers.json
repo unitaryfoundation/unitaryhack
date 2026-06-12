@@ -295,10 +295,16 @@
         "title": "docs: auto-generate Python API reference via mkdocstrings",
         "url": "https://github.com/unitaryfoundation/clifft/issues/63",
         "value": 50
+      },
+      {
+        "project": "kqcircuits",
+        "title": "Refactor out usage of t_cross_parameters function",
+        "url": "https://github.com/iqm-finland/KQCircuits/issues/123",
+        "value": 25
       }
     ],
-    "num_projects": 1,
-    "total_value": 50,
+    "num_projects": 2,
+    "total_value": 75,
     "username": "manasa-manoj-nbr"
   },
   {
@@ -387,14 +393,20 @@
   {
     "bounties": [
       {
+        "project": "kqcircuits",
+        "title": "Export layout present in KLayout GUI as an Elmer simulation",
+        "url": "https://github.com/iqm-finland/KQCircuits/issues/122",
+        "value": 150
+      },
+      {
         "project": "quimb",
         "title": "implement a PEPS quantum circuit simulator",
         "url": "https://github.com/jcmgray/quimb/issues/358",
         "value": 150
       }
     ],
-    "num_projects": 1,
-    "total_value": 150,
+    "num_projects": 2,
+    "total_value": 300,
     "username": "zkasuran"
   }
 ]
