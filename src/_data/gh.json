@@ -276,7 +276,9 @@
         "value": 75
       },
       {
-        "assignees": [],
+        "assignees": [
+          "spital"
+        ],
         "state": "closed",
         "title": "unitaryHACK - Enable Hessian computation",
         "url": "https://github.com/dynamiqs/dynamiqs/issues/1082",
@@ -925,7 +927,7 @@
     "url": "https://github.com/nicolasloizeau/PauliStrings.jl"
   },
   "pennylane": {
-    "amount_available": 100,
+    "amount_available": 0,
     "bounties": [
       {
         "assignees": [
@@ -946,8 +948,10 @@
         "value": 50
       },
       {
-        "assignees": [],
-        "state": "open",
+        "assignees": [
+          "miguelcsx"
+        ],
+        "state": "closed",
         "title": "Inspection tools (`qp.specs`, `qp.draw`, `qp.draw_mpl`) can handle `functools.partial` wrappers around input circuits",
         "url": "https://github.com/pennylaneai/pennylane/issues/9394",
         "value": 100
@@ -956,7 +960,7 @@
     "emoji": "\ud83c\udf04",
     "name": "PennyLane",
     "num_bounties": 3,
-    "num_open_bounties": 1,
+    "num_open_bounties": 0,
     "total_amount": 180,
     "url": "https://github.com/pennylaneai/pennylane"
   },
