@@ -209,7 +209,7 @@
     "url": "https://github.com/NVIDIA/cuda-quantum"
   },
   "deltakit": {
-    "amount_available": 500,
+    "amount_available": 450,
     "bounties": [
       {
         "assignees": [],
@@ -226,15 +226,19 @@
         "value": 150
       },
       {
-        "assignees": [],
+        "assignees": [
+          "Ronit-Raj9"
+        ],
         "state": "open",
         "title": "request: use `uncertainties` instead of computing standard deviations manually",
         "url": "https://github.com/deltakit/deltakit/issues/215",
         "value": 150
       },
       {
-        "assignees": [],
-        "state": "open",
+        "assignees": [
+          "abdelghanibelgaid"
+        ],
+        "state": "closed",
         "title": "request:  Generic Plot should dispatch to `plot_lambda` instead of vice versa",
         "url": "https://github.com/deltakit/deltakit/issues/233",
         "value": 50
@@ -243,7 +247,7 @@
     "emoji": "\ud83d\udd3c",
     "name": "Deltakit",
     "num_bounties": 4,
-    "num_open_bounties": 4,
+    "num_open_bounties": 3,
     "total_amount": 500,
     "url": "https://github.com/deltakit/deltakit"
   },
@@ -1000,7 +1004,7 @@
     "url": "https://github.com/harmoniqs/Piccolo.jl"
   },
   "piquasso": {
-    "amount_available": 400,
+    "amount_available": 200,
     "bounties": [
       {
         "assignees": [],
@@ -1035,8 +1039,10 @@
         "value": 50
       },
       {
-        "assignees": [],
-        "state": "open",
+        "assignees": [
+          "JaipreethTiruvaipati"
+        ],
+        "state": "closed",
         "title": "Improve performance of `GaussianState.density_matrix`",
         "url": "https://github.com/Budapest-Quantum-Computing-Group/piquasso/issues/523",
         "value": 200
@@ -1054,7 +1060,7 @@
     "emoji": "\ud83c\udfa8",
     "name": "Piquasso",
     "num_bounties": 6,
-    "num_open_bounties": 4,
+    "num_open_bounties": 3,
     "total_amount": 500,
     "url": "https://github.com/Budapest-Quantum-Computing-Group/piquasso"
   },
