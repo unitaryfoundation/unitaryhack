@@ -209,7 +209,7 @@
     "url": "https://github.com/NVIDIA/cuda-quantum"
   },
   "deltakit": {
-    "amount_available": 450,
+    "amount_available": 300,
     "bounties": [
       {
         "assignees": [],
@@ -229,7 +229,7 @@
         "assignees": [
           "Ronit-Raj9"
         ],
-        "state": "open",
+        "state": "closed",
         "title": "request: use `uncertainties` instead of computing standard deviations manually",
         "url": "https://github.com/deltakit/deltakit/issues/215",
         "value": 150
@@ -247,7 +247,7 @@
     "emoji": "\ud83d\udd3c",
     "name": "Deltakit",
     "num_bounties": 4,
-    "num_open_bounties": 3,
+    "num_open_bounties": 2,
     "total_amount": 500,
     "url": "https://github.com/deltakit/deltakit"
   },

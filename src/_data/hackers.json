@@ -188,14 +188,20 @@
   {
     "bounties": [
       {
+        "project": "deltakit",
+        "title": "request: use `uncertainties` instead of computing standard deviations manually",
+        "url": "https://github.com/deltakit/deltakit/issues/215",
+        "value": 150
+      },
+      {
         "project": "dynamiqs",
         "title": "unitaryHACK - Add tests for stochastic solvers",
         "url": "https://github.com/dynamiqs/dynamiqs/issues/1079",
         "value": 140
       }
     ],
-    "num_projects": 1,
-    "total_value": 140,
+    "num_projects": 2,
+    "total_value": 290,
     "username": "Ronit-Raj9"
   },
   {
