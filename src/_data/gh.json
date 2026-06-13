@@ -308,7 +308,9 @@
         "value": 100
       },
       {
-        "assignees": [],
+        "assignees": [
+          "ljcamargo"
+        ],
         "state": "open",
         "title": "New statevector simulator backend plugin based on `cuQuantum`",
         "url": "https://github.com/TeamGraphix/graphix/issues/496",
