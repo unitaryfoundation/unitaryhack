@@ -589,7 +589,7 @@
     "url": "https://github.com/marqov-dev/marqov-sdk"
   },
   "metriq": {
-    "amount_available": 500,
+    "amount_available": 350,
     "bounties": [
       {
         "assignees": [
@@ -616,10 +616,9 @@
       },
       {
         "assignees": [
-          "Changhao-Li",
           "alyabouzaid"
         ],
-        "state": "open",
+        "state": "closed",
         "title": "Possibly import circuits from or integrate with quantum advantage tracker",
         "url": "https://github.com/unitaryfoundation/metriq-gym/issues/624",
         "value": 150
@@ -637,7 +636,7 @@
     "emoji": "\ud83d\udcca\ufe0f\ud83d\udccf",
     "name": "Metriq",
     "num_bounties": 5,
-    "num_open_bounties": 5,
+    "num_open_bounties": 4,
     "total_amount": 500,
     "url": "https://github.com/unitaryfoundation/metriq"
   },

@@ -259,6 +259,19 @@
   {
     "bounties": [
       {
+        "project": "metriq",
+        "title": "Possibly import circuits from or integrate with quantum advantage tracker",
+        "url": "https://github.com/unitaryfoundation/metriq-gym/issues/624",
+        "value": 150
+      }
+    ],
+    "num_projects": 1,
+    "total_value": 150,
+    "username": "alyabouzaid"
+  },
+  {
+    "bounties": [
+      {
         "project": "clifft",
         "title": "Prototype a Qiskit backend provider for Clifft",
         "url": "https://github.com/unitaryfoundation/clifft/issues/39",
