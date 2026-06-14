@@ -728,7 +728,7 @@
     "url": "https://github.com/munich-quantum-toolkit/"
   },
   "openquantumdesign": {
-    "amount_available": 200,
+    "amount_available": 0,
     "bounties": [
       {
         "assignees": [
@@ -740,8 +740,10 @@
         "value": 150
       },
       {
-        "assignees": [],
-        "state": "open",
+        "assignees": [
+          "Ronit-Raj9"
+        ],
+        "state": "closed",
         "title": "unitaryHACK 2026: Dynamiqs backend for TrICal",
         "url": "https://github.com/OpenQuantumDesign/oqd-trical/issues/43",
         "value": 200
@@ -768,7 +770,7 @@
     "emoji": "\ud83d\udca1",
     "name": "Open Quantum Design",
     "num_bounties": 4,
-    "num_open_bounties": 1,
+    "num_open_bounties": 0,
     "total_amount": 500,
     "url": "https://github.com/OpenQuantumDesign"
   },

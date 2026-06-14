@@ -224,10 +224,16 @@
         "title": "unitaryHACK - Add tests for stochastic solvers",
         "url": "https://github.com/dynamiqs/dynamiqs/issues/1079",
         "value": 140
+      },
+      {
+        "project": "openquantumdesign",
+        "title": "unitaryHACK 2026: Dynamiqs backend for TrICal",
+        "url": "https://github.com/OpenQuantumDesign/oqd-trical/issues/43",
+        "value": 200
       }
     ],
-    "num_projects": 2,
-    "total_value": 290,
+    "num_projects": 3,
+    "total_value": 490,
     "username": "Ronit-Raj9"
   },
   {
