@@ -728,11 +728,13 @@
     "url": "https://github.com/munich-quantum-toolkit/"
   },
   "openquantumdesign": {
-    "amount_available": 500,
+    "amount_available": 200,
     "bounties": [
       {
-        "assignees": [],
-        "state": "open",
+        "assignees": [
+          "Randl"
+        ],
+        "state": "closed",
         "title": "unitaryHACK 2026: Port TrICal backend to JAX",
         "url": "https://github.com/OpenQuantumDesign/oqd-trical/issues/42",
         "value": 150
@@ -745,15 +747,19 @@
         "value": 200
       },
       {
-        "assignees": [],
-        "state": "open",
+        "assignees": [
+          "CodeMaverick2"
+        ],
+        "state": "closed",
         "title": "unitaryHACK 2026: Update `oqd-analog-emulator` backend to return a datastore",
         "url": "https://github.com/OpenQuantumDesign/oqd-analog-emulator/issues/9",
         "value": 75
       },
       {
-        "assignees": [],
-        "state": "open",
+        "assignees": [
+          "glasses666"
+        ],
+        "state": "closed",
         "title": "unitaryHACK 2026: Update `oqd-trical` Qutip backend to return a datastore",
         "url": "https://github.com/OpenQuantumDesign/oqd-trical/issues/44",
         "value": 75
@@ -762,7 +768,7 @@
     "emoji": "\ud83d\udca1",
     "name": "Open Quantum Design",
     "num_bounties": 4,
-    "num_open_bounties": 4,
+    "num_open_bounties": 1,
     "total_amount": 500,
     "url": "https://github.com/OpenQuantumDesign"
   },
@@ -1003,7 +1009,7 @@
     "url": "https://github.com/harmoniqs/Piccolo.jl"
   },
   "piquasso": {
-    "amount_available": 200,
+    "amount_available": 150,
     "bounties": [
       {
         "assignees": [],
@@ -1013,8 +1019,10 @@
         "value": 100
       },
       {
-        "assignees": [],
-        "state": "open",
+        "assignees": [
+          "dannyward630"
+        ],
+        "state": "closed",
         "title": "Validation check: raise an error with descriptive error message if specified cutoff is not high enough",
         "url": "https://github.com/Budapest-Quantum-Computing-Group/piquasso/issues/472",
         "value": 50
@@ -1059,7 +1067,7 @@
     "emoji": "\ud83c\udfa8",
     "name": "Piquasso",
     "num_bounties": 6,
-    "num_open_bounties": 3,
+    "num_open_bounties": 2,
     "total_amount": 500,
     "url": "https://github.com/Budapest-Quantum-Computing-Group/piquasso"
   },
@@ -1799,7 +1807,7 @@
     "url": "https://github.com/quantinuum/"
   },
   "toqito": {
-    "amount_available": 240,
+    "amount_available": 140,
     "bounties": [
       {
         "assignees": [],
@@ -1810,7 +1818,7 @@
       },
       {
         "assignees": [],
-        "state": "open",
+        "state": "closed",
         "title": "Add constrained extended nonlocal games support for SDP upper bounds and reproduce constrained BB84",
         "url": "https://github.com/vprusso/toqito/issues/1519",
         "value": 100
@@ -1847,7 +1855,7 @@
     "emoji": "\ud83c\udf2e\u269b\ufe0f",
     "name": "|toqito\u27e9",
     "num_bounties": 6,
-    "num_open_bounties": 3,
+    "num_open_bounties": 2,
     "total_amount": 500,
     "url": "https://github.com/vprusso/toqito"
   },

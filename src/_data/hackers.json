@@ -41,6 +41,19 @@
   {
     "bounties": [
       {
+        "project": "openquantumdesign",
+        "title": "unitaryHACK 2026: Update `oqd-analog-emulator` backend to return a datastore",
+        "url": "https://github.com/OpenQuantumDesign/oqd-analog-emulator/issues/9",
+        "value": 75
+      }
+    ],
+    "num_projects": 1,
+    "total_value": 75,
+    "username": "CodeMaverick2"
+  },
+  {
+    "bounties": [
+      {
         "project": "pennylane",
         "title": "Add documentation testing support for `pennylane/shadows`",
         "url": "https://github.com/pennylaneai/pennylane/issues/9396",
@@ -184,6 +197,19 @@
     "num_projects": 2,
     "total_value": 125,
     "username": "Rajesh270712"
+  },
+  {
+    "bounties": [
+      {
+        "project": "openquantumdesign",
+        "title": "unitaryHACK 2026: Port TrICal backend to JAX",
+        "url": "https://github.com/OpenQuantumDesign/oqd-trical/issues/42",
+        "value": 150
+      }
+    ],
+    "num_projects": 1,
+    "total_value": 150,
+    "username": "Randl"
   },
   {
     "bounties": [
@@ -338,6 +364,32 @@
     "num_projects": 1,
     "total_value": 50,
     "username": "codexbountylab"
+  },
+  {
+    "bounties": [
+      {
+        "project": "piquasso",
+        "title": "Validation check: raise an error with descriptive error message if specified cutoff is not high enough",
+        "url": "https://github.com/Budapest-Quantum-Computing-Group/piquasso/issues/472",
+        "value": 50
+      }
+    ],
+    "num_projects": 1,
+    "total_value": 50,
+    "username": "dannyward630"
+  },
+  {
+    "bounties": [
+      {
+        "project": "openquantumdesign",
+        "title": "unitaryHACK 2026: Update `oqd-trical` Qutip backend to return a datastore",
+        "url": "https://github.com/OpenQuantumDesign/oqd-trical/issues/44",
+        "value": 75
+      }
+    ],
+    "num_projects": 1,
+    "total_value": 75,
+    "username": "glasses666"
   },
   {
     "bounties": [
