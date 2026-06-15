@@ -431,6 +431,19 @@
   {
     "bounties": [
       {
+        "project": "cuda-quantum",
+        "title": "Propagator computation for dynamics",
+        "url": "https://github.com/NVIDIA/cuda-quantum/issues/3437",
+        "value": 100
+      }
+    ],
+    "num_projects": 1,
+    "total_value": 100,
+    "username": "friedsam"
+  },
+  {
+    "bounties": [
+      {
         "project": "openquantumdesign",
         "title": "unitaryHACK 2026: Update `oqd-trical` Qutip backend to return a datastore",
         "url": "https://github.com/OpenQuantumDesign/oqd-trical/issues/44",
@@ -574,6 +587,19 @@
     "num_projects": 1,
     "total_value": 100,
     "username": "spital"
+  },
+  {
+    "bounties": [
+      {
+        "project": "cuda-quantum",
+        "title": "[custom op] Support unitary synthesis for 3+ qubit operations",
+        "url": "https://github.com/NVIDIA/cuda-quantum/issues/2242",
+        "value": 100
+      }
+    ],
+    "num_projects": 1,
+    "total_value": 100,
+    "username": "thedaemon-wizard"
   },
   {
     "bounties": [
