@@ -15,6 +15,19 @@
   {
     "bounties": [
       {
+        "project": "kqcircuits",
+        "title": "Generalise Swissmon EPR regions",
+        "url": "https://github.com/iqm-finland/KQCircuits/issues/116",
+        "value": 50
+      }
+    ],
+    "num_projects": 1,
+    "total_value": 50,
+    "username": "AbdullahKazi500"
+  },
+  {
+    "bounties": [
+      {
         "project": "paulistrings.jl",
         "title": "Translation symmetric OperatorMathLink",
         "url": "https://github.com/nicolasloizeau/PauliStrings.jl/issues/81",
@@ -329,6 +342,12 @@
   {
     "bounties": [
       {
+        "project": "hhat_lang",
+        "title": "[IMPL] improve github workflows checks",
+        "url": "https://github.com/hhat-lang/hhat_lang/issues/78",
+        "value": 50
+      },
+      {
         "project": "mitiq",
         "title": "Add tutorial: error detection with the [[4,2,2]] code and ZNE",
         "url": "https://github.com/unitaryfoundation/mitiq/issues/3006",
@@ -347,8 +366,8 @@
         "value": 100
       }
     ],
-    "num_projects": 3,
-    "total_value": 275,
+    "num_projects": 4,
+    "total_value": 325,
     "username": "axif0"
   },
   {
@@ -402,6 +421,19 @@
     "num_projects": 1,
     "total_value": 75,
     "username": "glasses666"
+  },
+  {
+    "bounties": [
+      {
+        "project": "juice",
+        "title": "Keep track of published topics and expose them through an API",
+        "url": "https://gitlab.com/orangeqs/juice/-/work_items/329",
+        "value": 100
+      }
+    ],
+    "num_projects": 1,
+    "total_value": 100,
+    "username": "harsh.verma1503"
   },
   {
     "bounties": [
@@ -565,14 +597,20 @@
         "value": 150
       },
       {
+        "project": "paulistrings.jl",
+        "title": "OpenQASM interface",
+        "url": "https://github.com/nicolasloizeau/PauliStrings.jl/issues/82",
+        "value": 50
+      },
+      {
         "project": "quimb",
         "title": "implement a PEPS quantum circuit simulator",
         "url": "https://github.com/jcmgray/quimb/issues/358",
         "value": 150
       }
     ],
-    "num_projects": 2,
-    "total_value": 300,
+    "num_projects": 3,
+    "total_value": 350,
     "username": "zkasuran"
   }
 ]

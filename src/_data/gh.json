@@ -271,7 +271,9 @@
         "value": 50
       },
       {
-        "assignees": [],
+        "assignees": [
+          "Mayank447"
+        ],
         "state": "open",
         "title": "unitaryHACK - Expand type coverage across Dynamiqs",
         "url": "https://github.com/dynamiqs/dynamiqs/issues/1081",
@@ -345,7 +347,7 @@
     "url": "https://github.com/TeamGraphix/graphix"
   },
   "hhat_lang": {
-    "amount_available": 375,
+    "amount_available": 325,
     "bounties": [
       {
         "assignees": [],
@@ -364,8 +366,10 @@
         "value": 125
       },
       {
-        "assignees": [],
-        "state": "open",
+        "assignees": [
+          "axif0"
+        ],
+        "state": "closed",
         "title": "[IMPL] improve github workflows checks",
         "url": "https://github.com/hhat-lang/hhat_lang/issues/78",
         "value": 50
@@ -381,7 +385,7 @@
     "emoji": "\ud83d\udc52\ud83c\udfa9",
     "name": "H-hat",
     "num_bounties": 4,
-    "num_open_bounties": 3,
+    "num_open_bounties": 2,
     "total_amount": 500,
     "url": "https://github.com/hhat-lang/hhat_lang"
   },
@@ -443,7 +447,7 @@
     "url": "https://github.com/unitaryfoundation/jeff"
   },
   "juice": {
-    "amount_available": 500,
+    "amount_available": 400,
     "bounties": [
       {
         "assignees": [],
@@ -460,8 +464,10 @@
         "value": 200
       },
       {
-        "assignees": [],
-        "state": "open",
+        "assignees": [
+          "harsh.verma1503"
+        ],
+        "state": "closed",
         "title": "Keep track of published topics and expose them through an API",
         "url": "https://gitlab.com/orangeqs/juice/-/work_items/329",
         "value": 100
@@ -470,12 +476,12 @@
     "emoji": "\ud83e\uddc3 \ud83c\udf9b\ufe0f",
     "name": "OrangeQS Juice",
     "num_bounties": 3,
-    "num_open_bounties": 3,
+    "num_open_bounties": 2,
     "total_amount": 500,
     "url": "https://gitlab.com/orangeqs/juice"
   },
   "kqcircuits": {
-    "amount_available": 150,
+    "amount_available": 100,
     "bounties": [
       {
         "assignees": [
@@ -487,8 +493,10 @@
         "value": 100
       },
       {
-        "assignees": [],
-        "state": "open",
+        "assignees": [
+          "AbdullahKazi500"
+        ],
+        "state": "closed",
         "title": "Generalise Swissmon EPR regions",
         "url": "https://github.com/iqm-finland/KQCircuits/issues/116",
         "value": 50
@@ -531,12 +539,12 @@
     "emoji": "\ud83e\udd91",
     "name": "KQCircuits",
     "num_bounties": 6,
-    "num_open_bounties": 2,
+    "num_open_bounties": 1,
     "total_amount": 500,
     "url": "https://github.com/iqm-finland/KQCircuits"
   },
   "marqov-sdk": {
-    "amount_available": 500,
+    "amount_available": 450,
     "bounties": [
       {
         "assignees": [],
@@ -568,7 +576,7 @@
       },
       {
         "assignees": [],
-        "state": "open",
+        "state": "closed",
         "title": "feat(benchmarks): unified multi-backend benchmark harness",
         "url": "https://github.com/marqov-dev/marqov-sdk/issues/5",
         "value": 50
@@ -584,7 +592,7 @@
     "emoji": "\u269b\ufe0f\ud83e\udd98",
     "name": "Marqov SDK",
     "num_bounties": 6,
-    "num_open_bounties": 6,
+    "num_open_bounties": 5,
     "total_amount": 500,
     "url": "https://github.com/marqov-dev/marqov-sdk"
   },
@@ -885,7 +893,7 @@
     "url": "https://github.com/SparqleSim/PauliPropagation.jl"
   },
   "paulistrings.jl": {
-    "amount_available": 450,
+    "amount_available": 400,
     "bounties": [
       {
         "assignees": [],
@@ -918,8 +926,10 @@
         "value": 50
       },
       {
-        "assignees": [],
-        "state": "open",
+        "assignees": [
+          "zkasuran"
+        ],
+        "state": "closed",
         "title": "OpenQASM interface",
         "url": "https://github.com/nicolasloizeau/PauliStrings.jl/issues/82",
         "value": 50
@@ -935,7 +945,7 @@
     "emoji": "\ud83e\uddf6",
     "name": "PauliStrings.jl",
     "num_bounties": 6,
-    "num_open_bounties": 5,
+    "num_open_bounties": 4,
     "total_amount": 500,
     "url": "https://github.com/nicolasloizeau/PauliStrings.jl"
   },
