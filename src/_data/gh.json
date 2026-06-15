@@ -641,7 +641,7 @@
     "url": "https://github.com/unitaryfoundation/metriq"
   },
   "mitiq": {
-    "amount_available": 500,
+    "amount_available": 350,
     "bounties": [
       {
         "assignees": [],
@@ -672,8 +672,10 @@
         "value": 50
       },
       {
-        "assignees": [],
-        "state": "open",
+        "assignees": [
+          "axif0"
+        ],
+        "state": "closed",
         "title": "Add tutorial: error detection with the [[4,2,2]] code and ZNE",
         "url": "https://github.com/unitaryfoundation/mitiq/issues/3006",
         "value": 150
@@ -682,7 +684,7 @@
     "emoji": "\ud83d\udef8\ud83c\udf1a",
     "name": "mitiq",
     "num_bounties": 5,
-    "num_open_bounties": 5,
+    "num_open_bounties": 4,
     "total_amount": 500,
     "url": "https://github.com/unitaryfoundation/mitiq"
   },
