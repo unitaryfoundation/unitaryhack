@@ -195,6 +195,19 @@
   {
     "bounties": [
       {
+        "project": "dynamiqs",
+        "title": "unitaryHACK - Expand type coverage across Dynamiqs",
+        "url": "https://github.com/dynamiqs/dynamiqs/issues/1081",
+        "value": 75
+      }
+    ],
+    "num_projects": 1,
+    "total_value": 75,
+    "username": "Mayank447"
+  },
+  {
+    "bounties": [
+      {
         "project": "kqcircuits",
         "title": "Better highlighting of elements in Instance Hierarchy tool",
         "url": "https://github.com/iqm-finland/KQCircuits/issues/124",
@@ -205,10 +218,16 @@
         "title": "Implement `ParticleNumberMeasurement` for `fermionic.PureFockSimulator`",
         "url": "https://github.com/Budapest-Quantum-Computing-Group/piquasso/issues/522",
         "value": 50
+      },
+      {
+        "project": "qiskit-braket-provider",
+        "title": "Support `ParameterExpression`s with operations other then add, mul, div, and neg",
+        "url": "https://github.com/amazon-braket/qiskit-braket-provider/issues/153",
+        "value": 75
       }
     ],
-    "num_projects": 2,
-    "total_value": 125,
+    "num_projects": 3,
+    "total_value": 200,
     "username": "Rajesh270712"
   },
   {
