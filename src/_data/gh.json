@@ -1027,7 +1027,7 @@
     "url": "https://github.com/harmoniqs/Piccolo.jl"
   },
   "piquasso": {
-    "amount_available": 150,
+    "amount_available": 100,
     "bounties": [
       {
         "assignees": [],
@@ -1049,7 +1049,7 @@
         "assignees": [
           "simsaidan"
         ],
-        "state": "open",
+        "state": "closed",
         "title": "Implement `ParticleNumberMeasurement` for `pq.fermionic.GaussianSimulator`",
         "url": "https://github.com/Budapest-Quantum-Computing-Group/piquasso/issues/521",
         "value": 50
@@ -1085,7 +1085,7 @@
     "emoji": "\ud83c\udfa8",
     "name": "Piquasso",
     "num_bounties": 6,
-    "num_open_bounties": 2,
+    "num_open_bounties": 1,
     "total_amount": 500,
     "url": "https://github.com/Budapest-Quantum-Computing-Group/piquasso"
   },
@@ -1886,11 +1886,13 @@
     "url": "https://github.com/vprusso/toqito"
   },
   "tqec": {
-    "amount_available": 450,
+    "amount_available": 300,
     "bounties": [
       {
-        "assignees": [],
-        "state": "open",
+        "assignees": [
+          "Samfresh-ai"
+        ],
+        "state": "closed",
         "title": "Re-introduce extended plaquette drawers",
         "url": "https://github.com/tqec/tqec/issues/657",
         "value": 150
@@ -1920,7 +1922,7 @@
     "emoji": null,
     "name": "TQEC",
     "num_bounties": 4,
-    "num_open_bounties": 4,
+    "num_open_bounties": 3,
     "total_amount": 450,
     "url": "https://github.com/tqec/tqec"
   },

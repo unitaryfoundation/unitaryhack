@@ -288,10 +288,16 @@
         "title": "Add starter circuit catalog to the playground",
         "url": "https://github.com/unitaryfoundation/clifft/issues/36",
         "value": 50
+      },
+      {
+        "project": "tqec",
+        "title": "Re-introduce extended plaquette drawers",
+        "url": "https://github.com/tqec/tqec/issues/657",
+        "value": 150
       }
     ],
-    "num_projects": 1,
-    "total_value": 50,
+    "num_projects": 2,
+    "total_value": 200,
     "username": "Samfresh-ai"
   },
   {
@@ -599,13 +605,19 @@
       },
       {
         "project": "piquasso",
+        "title": "Implement `ParticleNumberMeasurement` for `pq.fermionic.GaussianSimulator`",
+        "url": "https://github.com/Budapest-Quantum-Computing-Group/piquasso/issues/521",
+        "value": 50
+      },
+      {
+        "project": "piquasso",
         "title": "`Gaussian.get_xp_string_moment` but for ladder operators",
         "url": "https://github.com/Budapest-Quantum-Computing-Group/piquasso/issues/524",
         "value": 50
       }
     ],
     "num_projects": 2,
-    "total_value": 150,
+    "total_value": 200,
     "username": "simsaidan"
   },
   {
