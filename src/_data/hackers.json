@@ -19,10 +19,16 @@
         "title": "Generalise Swissmon EPR regions",
         "url": "https://github.com/iqm-finland/KQCircuits/issues/116",
         "value": 50
+      },
+      {
+        "project": "kqcircuits",
+        "title": "Migrate EPR shapes preview in GUI to pya.Marker",
+        "url": "https://github.com/iqm-finland/KQCircuits/issues/125",
+        "value": 100
       }
     ],
     "num_projects": 1,
-    "total_value": 50,
+    "total_value": 150,
     "username": "AbdullahKazi500"
   },
   {

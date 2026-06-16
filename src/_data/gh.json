@@ -483,7 +483,7 @@
     "url": "https://gitlab.com/orangeqs/juice"
   },
   "kqcircuits": {
-    "amount_available": 100,
+    "amount_available": 0,
     "bounties": [
       {
         "assignees": [
@@ -534,7 +534,7 @@
         "assignees": [
           "AbdullahKazi500"
         ],
-        "state": "open",
+        "state": "closed",
         "title": "Migrate EPR shapes preview in GUI to pya.Marker",
         "url": "https://github.com/iqm-finland/KQCircuits/issues/125",
         "value": 100
@@ -543,7 +543,7 @@
     "emoji": "\ud83e\udd91",
     "name": "KQCircuits",
     "num_bounties": 6,
-    "num_open_bounties": 1,
+    "num_open_bounties": 0,
     "total_amount": 500,
     "url": "https://github.com/iqm-finland/KQCircuits"
   },
