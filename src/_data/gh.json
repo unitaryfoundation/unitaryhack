@@ -705,11 +705,13 @@
     "url": "https://github.com/unitaryfoundation/mitiq"
   },
   "munich-quantum-toolkit": {
-    "amount_available": 350,
+    "amount_available": 250,
     "bounties": [
       {
-        "assignees": [],
-        "state": "open",
+        "assignees": [
+          "rturrado"
+        ],
+        "state": "closed",
         "title": "\u2728 Add QIR Program Format Support to the QDMI DDSim Device",
         "url": "https://github.com/munich-quantum-toolkit/core/issues/1695",
         "value": 100
@@ -741,7 +743,7 @@
     "emoji": "\u269b\ufe0f\ud83d\udee0\ufe0f",
     "name": "Munich Quantum Toolkit",
     "num_bounties": 4,
-    "num_open_bounties": 3,
+    "num_open_bounties": 2,
     "total_amount": 400,
     "url": "https://github.com/munich-quantum-toolkit/"
   },
@@ -1923,7 +1925,9 @@
         "value": 100
       },
       {
-        "assignees": [],
+        "assignees": [
+          "Danop404"
+        ],
         "state": "closed",
         "title": "Make `PauliString` more efficient",
         "url": "https://github.com/tqec/tqecd/issues/47",
@@ -1945,7 +1949,7 @@
     "url": "https://github.com/tqec/tqec"
   },
   "zxlive": {
-    "amount_available": 500,
+    "amount_available": 400,
     "bounties": [
       {
         "assignees": [],
@@ -1962,8 +1966,10 @@
         "value": 150
       },
       {
-        "assignees": [],
-        "state": "open",
+        "assignees": [
+          "Hope-Alemayehu"
+        ],
+        "state": "closed",
         "title": "Documentation about support for measurements and mixed processes",
         "url": "https://github.com/zxcalc/pyzx/issues/455",
         "value": 100
@@ -1972,7 +1978,7 @@
     "emoji": "\ud83d\udfe2\ud83d\udd34",
     "name": "PyZX & ZXLive",
     "num_bounties": 3,
-    "num_open_bounties": 3,
+    "num_open_bounties": 2,
     "total_amount": 500,
     "url": "https://github.com/zxcalc/"
   }
