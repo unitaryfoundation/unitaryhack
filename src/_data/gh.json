@@ -3,7 +3,9 @@
     "amount_available": 350,
     "bounties": [
       {
-        "assignees": [],
+        "assignees": [
+          "Cedriq1astaken"
+        ],
         "state": "closed",
         "title": "Accept `/` in `FreeParameterExpression` string constructor",
         "url": "https://github.com/amazon-braket/amazon-braket-sdk-python/issues/1251",
@@ -529,7 +531,9 @@
         "value": 75
       },
       {
-        "assignees": [],
+        "assignees": [
+          "AbdullahKazi500"
+        ],
         "state": "open",
         "title": "Migrate EPR shapes preview in GUI to pya.Marker",
         "url": "https://github.com/iqm-finland/KQCircuits/issues/125",
@@ -1330,7 +1334,7 @@
     "url": "https://github.com/Qiskit/"
   },
   "qiskit-braket-provider": {
-    "amount_available": 325,
+    "amount_available": 250,
     "bounties": [
       {
         "assignees": [],
@@ -1356,8 +1360,10 @@
         "value": 75
       },
       {
-        "assignees": [],
-        "state": "open",
+        "assignees": [
+          "mhmohona"
+        ],
+        "state": "closed",
         "title": "Provide CI/CD for examples via Amazon Braket Examples",
         "url": "https://github.com/amazon-braket/qiskit-braket-provider/issues/326",
         "value": 75
@@ -1366,7 +1372,7 @@
     "emoji": "\u269b\ufe0f\ud83c\udf10",
     "name": "Qiskit-Braket Provider",
     "num_bounties": 4,
-    "num_open_bounties": 3,
+    "num_open_bounties": 2,
     "total_amount": 400,
     "url": "https://github.com/qiskit-community/qiskit-braket-provider"
   },

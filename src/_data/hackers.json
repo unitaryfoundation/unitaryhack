@@ -28,14 +28,20 @@
   {
     "bounties": [
       {
+        "project": "amazon-braket-sdk-python",
+        "title": "Accept `/` in `FreeParameterExpression` string constructor",
+        "url": "https://github.com/amazon-braket/amazon-braket-sdk-python/issues/1251",
+        "value": 50
+      },
+      {
         "project": "paulistrings.jl",
         "title": "Translation symmetric OperatorMathLink",
         "url": "https://github.com/nicolasloizeau/PauliStrings.jl/issues/81",
         "value": 50
       }
     ],
-    "num_projects": 1,
-    "total_value": 50,
+    "num_projects": 2,
+    "total_value": 100,
     "username": "Cedriq1astaken"
   },
   {
@@ -556,10 +562,16 @@
         "title": "review member.interface field for full corpus",
         "url": "https://github.com/Qiskit/ecosystem/issues/1083",
         "value": 50
+      },
+      {
+        "project": "qiskit-braket-provider",
+        "title": "Provide CI/CD for examples via Amazon Braket Examples",
+        "url": "https://github.com/amazon-braket/qiskit-braket-provider/issues/326",
+        "value": 75
       }
     ],
-    "num_projects": 1,
-    "total_value": 50,
+    "num_projects": 2,
+    "total_value": 125,
     "username": "mhmohona"
   },
   {
