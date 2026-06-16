@@ -59,7 +59,7 @@
     "bounties": [
       {
         "assignees": [
-          "david-pl"
+          "has9sayed"
         ],
         "state": "open",
         "title": "Emit if-statement from squin kernel as cirq classical control",
