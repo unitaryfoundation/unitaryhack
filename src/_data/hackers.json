@@ -329,14 +329,20 @@
   {
     "bounties": [
       {
+        "project": "paulipropagation.jl",
+        "title": "GPU-compatible long interger types",
+        "url": "https://github.com/SparqleSim/PauliPropagation.jl/issues/145",
+        "value": 250
+      },
+      {
         "project": "pennylane",
         "title": "Add `__repr__` to `qp.Tracker` to improve readability",
         "url": "https://github.com/pennylaneai/pennylane/issues/9389",
         "value": 30
       }
     ],
-    "num_projects": 1,
-    "total_value": 30,
+    "num_projects": 2,
+    "total_value": 280,
     "username": "ahkatlio"
   },
   {

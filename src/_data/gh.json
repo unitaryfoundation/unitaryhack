@@ -848,11 +848,13 @@
     "url": "https://github.com/QPauLie/PauLie"
   },
   "paulipropagation.jl": {
-    "amount_available": 250,
+    "amount_available": 0,
     "bounties": [
       {
-        "assignees": [],
-        "state": "open",
+        "assignees": [
+          "ahkatlio"
+        ],
+        "state": "closed",
         "title": "GPU-compatible long interger types",
         "url": "https://github.com/SparqleSim/PauliPropagation.jl/issues/145",
         "value": 250
@@ -888,7 +890,7 @@
     "emoji": "\ud83c\udd7f\ufe0f\ud83c\udd7f\ufe0f",
     "name": "PauliPropagation.jl",
     "num_bounties": 4,
-    "num_open_bounties": 1,
+    "num_open_bounties": 0,
     "total_amount": 500,
     "url": "https://github.com/SparqleSim/PauliPropagation.jl"
   },
