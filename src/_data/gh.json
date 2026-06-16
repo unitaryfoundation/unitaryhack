@@ -1008,7 +1008,9 @@
         "value": 100
       },
       {
-        "assignees": [],
+        "assignees": [
+          "leespen1"
+        ],
         "state": "open",
         "title": "Add literate tutorial: 2-qubit gate synthesis with three pulse parameterizations + QuantumToolbox validation",
         "url": "https://github.com/harmoniqs/Piccolo.jl/issues/198",
@@ -1263,11 +1265,11 @@
     "url": "https://github.com/qiboteam/qibo"
   },
   "qiskit": {
-    "amount_available": 225,
+    "amount_available": 75,
     "bounties": [
       {
         "assignees": [],
-        "state": "open",
+        "state": "closed",
         "title": "QASM3 exporter with parameterized circuit support",
         "url": "https://github.com/Qiskit/qiskit-cpp/issues/146",
         "value": 150
@@ -1319,7 +1321,7 @@
     "emoji": "\ud83c\udf10",
     "name": "Qiskit",
     "num_bounties": 6,
-    "num_open_bounties": 2,
+    "num_open_bounties": 1,
     "total_amount": 625,
     "url": "https://github.com/Qiskit/"
   },
