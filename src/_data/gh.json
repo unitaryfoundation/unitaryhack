@@ -211,7 +211,7 @@
     "url": "https://github.com/NVIDIA/cuda-quantum"
   },
   "deltakit": {
-    "amount_available": 300,
+    "amount_available": 150,
     "bounties": [
       {
         "assignees": [],
@@ -221,8 +221,10 @@
         "value": 150
       },
       {
-        "assignees": [],
-        "state": "open",
+        "assignees": [
+          "Shanwis"
+        ],
+        "state": "closed",
         "title": "request: visualise detection probability on patch",
         "url": "https://github.com/deltakit/deltakit/issues/135",
         "value": 150
@@ -249,7 +251,7 @@
     "emoji": "\ud83d\udd3c",
     "name": "Deltakit",
     "num_bounties": 4,
-    "num_open_bounties": 2,
+    "num_open_bounties": 1,
     "total_amount": 500,
     "url": "https://github.com/deltakit/deltakit"
   },
@@ -349,11 +351,13 @@
     "url": "https://github.com/TeamGraphix/graphix"
   },
   "hhat_lang": {
-    "amount_available": 325,
+    "amount_available": 200,
     "bounties": [
       {
-        "assignees": [],
-        "state": "open",
+        "assignees": [
+          "kwyip"
+        ],
+        "state": "closed",
         "title": "[IMPL] Check doc and code matching on `hat` CLI",
         "url": "https://github.com/hhat-lang/hhat_lang/issues/111",
         "value": 125
@@ -387,7 +391,7 @@
     "emoji": "\ud83d\udc52\ud83c\udfa9",
     "name": "H-hat",
     "num_bounties": 4,
-    "num_open_bounties": 2,
+    "num_open_bounties": 1,
     "total_amount": 500,
     "url": "https://github.com/hhat-lang/hhat_lang"
   },
@@ -1276,7 +1280,9 @@
     "amount_available": 75,
     "bounties": [
       {
-        "assignees": [],
+        "assignees": [
+          "spital"
+        ],
         "state": "closed",
         "title": "QASM3 exporter with parameterized circuit support",
         "url": "https://github.com/Qiskit/qiskit-cpp/issues/146",
@@ -1671,7 +1677,7 @@
     "url": "https://github.com/QuantumSavory/QuantumSavory.jl/"
   },
   "quest": {
-    "amount_available": 250,
+    "amount_available": 0,
     "bounties": [
       {
         "assignees": [
@@ -1683,15 +1689,19 @@
         "value": 150
       },
       {
-        "assignees": [],
-        "state": "open",
+        "assignees": [
+          "zkasuran"
+        ],
+        "state": "closed",
         "title": "Implement SWAP fusion",
         "url": "https://github.com/QuEST-Kit/QuEST/issues/595",
         "value": 150
       },
       {
-        "assignees": [],
-        "state": "open",
+        "assignees": [
+          "thedaemon-wizard"
+        ],
+        "state": "closed",
         "title": "Profile and optimise-away small GPU allocations",
         "url": "https://github.com/QuEST-Kit/QuEST/issues/749",
         "value": 100
@@ -1718,7 +1728,7 @@
     "emoji": "\ud83c\udfc6",
     "name": "QuEST",
     "num_bounties": 5,
-    "num_open_bounties": 2,
+    "num_open_bounties": 0,
     "total_amount": 500,
     "url": "https://github.com/QuEST-Kit/QuEST"
   },
@@ -1894,7 +1904,7 @@
     "url": "https://github.com/vprusso/toqito"
   },
   "tqec": {
-    "amount_available": 300,
+    "amount_available": 150,
     "bounties": [
       {
         "assignees": [
@@ -1914,7 +1924,7 @@
       },
       {
         "assignees": [],
-        "state": "open",
+        "state": "closed",
         "title": "Make `PauliString` more efficient",
         "url": "https://github.com/tqec/tqecd/issues/47",
         "value": 150
@@ -1930,7 +1940,7 @@
     "emoji": null,
     "name": "TQEC",
     "num_bounties": 4,
-    "num_open_bounties": 3,
+    "num_open_bounties": 2,
     "total_amount": 450,
     "url": "https://github.com/tqec/tqec"
   },

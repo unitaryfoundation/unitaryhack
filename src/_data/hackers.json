@@ -315,6 +315,19 @@
   {
     "bounties": [
       {
+        "project": "deltakit",
+        "title": "request: visualise detection probability on patch",
+        "url": "https://github.com/deltakit/deltakit/issues/135",
+        "value": 150
+      }
+    ],
+    "num_projects": 1,
+    "total_value": 150,
+    "username": "Shanwis"
+  },
+  {
+    "bounties": [
+      {
         "project": "paulipropagation.jl",
         "title": "Embed example Jupyter notebooks into docs website",
         "url": "https://github.com/SparqleSim/PauliPropagation.jl/issues/143",
@@ -513,6 +526,19 @@
   {
     "bounties": [
       {
+        "project": "hhat_lang",
+        "title": "[IMPL] Check doc and code matching on `hat` CLI",
+        "url": "https://github.com/hhat-lang/hhat_lang/issues/111",
+        "value": 125
+      }
+    ],
+    "num_projects": 1,
+    "total_value": 125,
+    "username": "kwyip"
+  },
+  {
+    "bounties": [
+      {
         "project": "piccolo.jl",
         "title": "Add literate tutorial: 2-qubit gate synthesis with three pulse parameterizations + QuantumToolbox validation",
         "url": "https://github.com/harmoniqs/Piccolo.jl/issues/198",
@@ -676,10 +702,16 @@
         "title": "unitaryHACK - Enable Hessian computation",
         "url": "https://github.com/dynamiqs/dynamiqs/issues/1082",
         "value": 100
+      },
+      {
+        "project": "qiskit",
+        "title": "QASM3 exporter with parameterized circuit support",
+        "url": "https://github.com/Qiskit/qiskit-cpp/issues/146",
+        "value": 150
       }
     ],
-    "num_projects": 1,
-    "total_value": 100,
+    "num_projects": 2,
+    "total_value": 250,
     "username": "spital"
   },
   {
@@ -689,10 +721,16 @@
         "title": "[custom op] Support unitary synthesis for 3+ qubit operations",
         "url": "https://github.com/NVIDIA/cuda-quantum/issues/2242",
         "value": 100
+      },
+      {
+        "project": "quest",
+        "title": "Profile and optimise-away small GPU allocations",
+        "url": "https://github.com/QuEST-Kit/QuEST/issues/749",
+        "value": 100
       }
     ],
-    "num_projects": 1,
-    "total_value": 100,
+    "num_projects": 2,
+    "total_value": 200,
     "username": "thedaemon-wizard"
   },
   {
@@ -742,14 +780,20 @@
         "value": 50
       },
       {
+        "project": "quest",
+        "title": "Implement SWAP fusion",
+        "url": "https://github.com/QuEST-Kit/QuEST/issues/595",
+        "value": 150
+      },
+      {
         "project": "quimb",
         "title": "implement a PEPS quantum circuit simulator",
         "url": "https://github.com/jcmgray/quimb/issues/358",
         "value": 150
       }
     ],
-    "num_projects": 3,
-    "total_value": 350,
+    "num_projects": 4,
+    "total_value": 500,
     "username": "zkasuran"
   }
 ]
