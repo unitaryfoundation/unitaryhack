@@ -208,6 +208,19 @@
   {
     "bounties": [
       {
+        "project": "piccolo.jl",
+        "title": "Add DualRailEncoding + EmbeddedOperator quality-of-life utilities",
+        "url": "https://github.com/harmoniqs/Piccolo.jl/issues/197",
+        "value": 100
+      }
+    ],
+    "num_projects": 1,
+    "total_value": 100,
+    "username": "Oishi1029"
+  },
+  {
+    "bounties": [
+      {
         "project": "kqcircuits",
         "title": "Better highlighting of elements in Instance Hierarchy tool",
         "url": "https://github.com/iqm-finland/KQCircuits/issues/124",
@@ -352,10 +365,16 @@
         "title": "[FEATURE] Add OpenQASM 3 to pyQuil conversion",
         "url": "https://github.com/qBraid/qBraid/issues/1179",
         "value": 150
+      },
+      {
+        "project": "quest",
+        "title": "Add `Qureg` checkpointing.",
+        "url": "https://github.com/QuEST-Kit/QuEST/issues/747",
+        "value": 150
       }
     ],
-    "num_projects": 2,
-    "total_value": 525,
+    "num_projects": 3,
+    "total_value": 675,
     "username": "ashmitjsg"
   },
   {
@@ -470,6 +489,19 @@
   {
     "bounties": [
       {
+        "project": "piccolo.jl",
+        "title": "Add literate tutorial: 2-qubit gate synthesis with three pulse parameterizations + QuantumToolbox validation",
+        "url": "https://github.com/harmoniqs/Piccolo.jl/issues/198",
+        "value": 100
+      }
+    ],
+    "num_projects": 1,
+    "total_value": 100,
+    "username": "leespen1"
+  },
+  {
+    "bounties": [
+      {
         "project": "tket2",
         "title": "[Feature]: Add a native PCG32 randon number generator to the guppy standard library",
         "url": "https://github.com/Quantinuum/guppylang/issues/1578",
@@ -530,6 +562,32 @@
     "num_projects": 1,
     "total_value": 100,
     "username": "miguelcsx"
+  },
+  {
+    "bounties": [
+      {
+        "project": "quest",
+        "title": "Improve `applyCompMatr` accuracy with compensated summation",
+        "url": "https://github.com/QuEST-Kit/QuEST/issues/598",
+        "value": 50
+      }
+    ],
+    "num_projects": 1,
+    "total_value": 50,
+    "username": "mk0dz"
+  },
+  {
+    "bounties": [
+      {
+        "project": "quest",
+        "title": "Optimise `getValueOfBits` and `insertBits`",
+        "url": "https://github.com/QuEST-Kit/QuEST/issues/717",
+        "value": 50
+      }
+    ],
+    "num_projects": 1,
+    "total_value": 50,
+    "username": "nez0b"
   },
   {
     "bounties": [

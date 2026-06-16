@@ -998,11 +998,13 @@
     "url": "https://github.com/leanprover-community/physlib"
   },
   "piccolo.jl": {
-    "amount_available": 200,
+    "amount_available": 0,
     "bounties": [
       {
-        "assignees": [],
-        "state": "open",
+        "assignees": [
+          "Oishi1029"
+        ],
+        "state": "closed",
         "title": "Add DualRailEncoding + EmbeddedOperator quality-of-life utilities",
         "url": "https://github.com/harmoniqs/Piccolo.jl/issues/197",
         "value": 100
@@ -1011,7 +1013,7 @@
         "assignees": [
           "leespen1"
         ],
-        "state": "open",
+        "state": "closed",
         "title": "Add literate tutorial: 2-qubit gate synthesis with three pulse parameterizations + QuantumToolbox validation",
         "url": "https://github.com/harmoniqs/Piccolo.jl/issues/198",
         "value": 100
@@ -1020,7 +1022,7 @@
     "emoji": "\ud83c\udfaf\ud83e\udd16",
     "name": "Piccolo",
     "num_bounties": 2,
-    "num_open_bounties": 2,
+    "num_open_bounties": 0,
     "total_amount": 200,
     "url": "https://github.com/harmoniqs/Piccolo.jl"
   },
@@ -1661,13 +1663,13 @@
     "url": "https://github.com/QuantumSavory/QuantumSavory.jl/"
   },
   "quest": {
-    "amount_available": 500,
+    "amount_available": 250,
     "bounties": [
       {
         "assignees": [
           "ashmitjsg"
         ],
-        "state": "open",
+        "state": "closed",
         "title": "Add `Qureg` checkpointing.",
         "url": "https://github.com/QuEST-Kit/QuEST/issues/747",
         "value": 150
@@ -1688,16 +1690,18 @@
       },
       {
         "assignees": [
-          "TysonRayJones"
+          "nez0b"
         ],
-        "state": "open",
+        "state": "closed",
         "title": "Optimise `getValueOfBits` and `insertBits`",
         "url": "https://github.com/QuEST-Kit/QuEST/issues/717",
         "value": 50
       },
       {
-        "assignees": [],
-        "state": "open",
+        "assignees": [
+          "mk0dz"
+        ],
+        "state": "closed",
         "title": "Improve `applyCompMatr` accuracy with compensated summation",
         "url": "https://github.com/QuEST-Kit/QuEST/issues/598",
         "value": 50
@@ -1706,7 +1710,7 @@
     "emoji": "\ud83c\udfc6",
     "name": "QuEST",
     "num_bounties": 5,
-    "num_open_bounties": 5,
+    "num_open_bounties": 2,
     "total_amount": 500,
     "url": "https://github.com/QuEST-Kit/QuEST"
   },
