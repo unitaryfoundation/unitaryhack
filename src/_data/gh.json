@@ -1,6 +1,6 @@
 {
   "amazon-braket-sdk-python": {
-    "amount_available": 350,
+    "amount_available": 270,
     "bounties": [
       {
         "assignees": [
@@ -28,8 +28,10 @@
         "value": 100
       },
       {
-        "assignees": [],
-        "state": "open",
+        "assignees": [
+          "hassaansaleem28"
+        ],
+        "state": "closed",
         "title": "Complete a Braket SDK Cheat sheet",
         "url": "https://github.com/amazon-braket/amazon-braket-sdk-python/issues/1255",
         "value": 80
@@ -52,7 +54,7 @@
     "emoji": "\u269b\ufe0f\ud83d\udcbb",
     "name": "Amazon Braket SDK",
     "num_bounties": 6,
-    "num_open_bounties": 4,
+    "num_open_bounties": 3,
     "total_amount": 500,
     "url": "https://github.com/amazon-braket/amazon-braket-sdk-python"
   },

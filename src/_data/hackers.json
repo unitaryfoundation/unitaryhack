@@ -552,6 +552,19 @@
   {
     "bounties": [
       {
+        "project": "amazon-braket-sdk-python",
+        "title": "Complete a Braket SDK Cheat sheet",
+        "url": "https://github.com/amazon-braket/amazon-braket-sdk-python/issues/1255",
+        "value": 80
+      }
+    ],
+    "num_projects": 1,
+    "total_value": 80,
+    "username": "hassaansaleem28"
+  },
+  {
+    "bounties": [
+      {
         "project": "hhat_lang",
         "title": "[IMPL] Check doc and code matching on `hat` CLI",
         "url": "https://github.com/hhat-lang/hhat_lang/issues/111",
