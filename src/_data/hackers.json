@@ -939,6 +939,12 @@
         "value": 50
       },
       {
+        "project": "qiskit-braket-provider",
+        "title": "Allow for device emulators ",
+        "url": "https://github.com/amazon-braket/qiskit-braket-provider/issues/325",
+        "value": 120
+      },
+      {
         "project": "quest",
         "title": "Implement SWAP fusion",
         "url": "https://github.com/QuEST-Kit/QuEST/issues/595",
@@ -951,8 +957,8 @@
         "value": 150
       }
     ],
-    "num_projects": 5,
-    "total_value": 625,
+    "num_projects": 6,
+    "total_value": 745,
     "username": "zkasuran"
   }
 ]

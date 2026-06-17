@@ -1191,7 +1191,9 @@
         "value": 150
       },
       {
-        "assignees": [],
+        "assignees": [
+          "luffy-orf"
+        ],
         "state": "open",
         "title": "Implement specialized paths in QubitMapper for sparse/factorized Hamiltonians",
         "url": "https://github.com/microsoft/qdk-chemistry/issues/474",
@@ -1376,7 +1378,7 @@
     "url": "https://github.com/Qiskit/"
   },
   "qiskit-braket-provider": {
-    "amount_available": 250,
+    "amount_available": 130,
     "bounties": [
       {
         "assignees": [],
@@ -1386,8 +1388,10 @@
         "value": 130
       },
       {
-        "assignees": [],
-        "state": "open",
+        "assignees": [
+          "zkasuran"
+        ],
+        "state": "closed",
         "title": "Allow for device emulators ",
         "url": "https://github.com/amazon-braket/qiskit-braket-provider/issues/325",
         "value": 120
@@ -1414,7 +1418,7 @@
     "emoji": "\u269b\ufe0f\ud83c\udf10",
     "name": "Qiskit-Braket Provider",
     "num_bounties": 4,
-    "num_open_bounties": 2,
+    "num_open_bounties": 1,
     "total_amount": 400,
     "url": "https://github.com/qiskit-community/qiskit-braket-provider"
   },
