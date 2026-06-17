@@ -21,7 +21,9 @@
         "value": 100
       },
       {
-        "assignees": [],
+        "assignees": [
+          "spital"
+        ],
         "state": "open",
         "title": "Interactive circuit visualization with Plotly",
         "url": "https://github.com/amazon-braket/amazon-braket-sdk-python/issues/1250",
