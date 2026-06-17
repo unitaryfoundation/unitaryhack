@@ -936,14 +936,18 @@
     "amount_available": 400,
     "bounties": [
       {
-        "assignees": [],
+        "assignees": [
+          "khopade-works"
+        ],
         "state": "open",
         "title": "Speed up tr(H^k) by another k! factor",
         "url": "https://github.com/nicolasloizeau/PauliStrings.jl/issues/80",
         "value": 200
       },
       {
-        "assignees": [],
+        "assignees": [
+          "DhruvaSambrani"
+        ],
         "state": "open",
         "title": "Translation symmetric trotterization",
         "url": "https://github.com/nicolasloizeau/PauliStrings.jl/issues/78",
