@@ -933,7 +933,7 @@
     "url": "https://github.com/SparqleSim/PauliPropagation.jl"
   },
   "paulistrings.jl": {
-    "amount_available": 400,
+    "amount_available": 350,
     "bounties": [
       {
         "assignees": [
@@ -954,8 +954,10 @@
         "value": 100
       },
       {
-        "assignees": [],
-        "state": "open",
+        "assignees": [
+          "mhmohona"
+        ],
+        "state": "closed",
         "title": "Custom period translation symmetry",
         "url": "https://github.com/nicolasloizeau/PauliStrings.jl/issues/75",
         "value": 50
@@ -989,7 +991,7 @@
     "emoji": "\ud83e\uddf6",
     "name": "PauliStrings.jl",
     "num_bounties": 6,
-    "num_open_bounties": 4,
+    "num_open_bounties": 3,
     "total_amount": 500,
     "url": "https://github.com/nicolasloizeau/PauliStrings.jl"
   },
