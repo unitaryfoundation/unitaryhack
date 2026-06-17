@@ -562,24 +562,30 @@
     "url": "https://github.com/iqm-finland/KQCircuits"
   },
   "marqov-sdk": {
-    "amount_available": 300,
+    "amount_available": 175,
     "bounties": [
       {
-        "assignees": [],
+        "assignees": [
+          "manasa-manoj-nbr"
+        ],
         "state": "closed",
         "title": "feat(executors): IonQ native API executor",
         "url": "https://github.com/marqov-dev/marqov-sdk/issues/1",
         "value": 150
       },
       {
-        "assignees": [],
-        "state": "open",
+        "assignees": [
+          "zkasuran"
+        ],
+        "state": "closed",
         "title": "feat(executors): Rigetti QCS executor",
         "url": "https://github.com/marqov-dev/marqov-sdk/issues/2",
         "value": 125
       },
       {
-        "assignees": [],
+        "assignees": [
+          "sim-eng-ii"
+        ],
         "state": "open",
         "title": "feat(circuits): add Circuit.to_pytket() export",
         "url": "https://github.com/marqov-dev/marqov-sdk/issues/3",
@@ -593,14 +599,18 @@
         "value": 75
       },
       {
-        "assignees": [],
+        "assignees": [
+          "AsherNoble"
+        ],
         "state": "closed",
         "title": "feat(benchmarks): unified multi-backend benchmark harness",
         "url": "https://github.com/marqov-dev/marqov-sdk/issues/5",
         "value": 50
       },
       {
-        "assignees": [],
+        "assignees": [
+          "sim-eng-ii"
+        ],
         "state": "open",
         "title": "feat(executors): Quantinuum executor via pytket",
         "url": "https://github.com/marqov-dev/marqov-sdk/issues/6",
@@ -610,7 +620,7 @@
     "emoji": "\u269b\ufe0f\ud83e\udd98",
     "name": "Marqov SDK",
     "num_bounties": 6,
-    "num_open_bounties": 4,
+    "num_open_bounties": 3,
     "total_amount": 500,
     "url": "https://github.com/marqov-dev/marqov-sdk"
   },
@@ -1231,7 +1241,7 @@
     "url": "https://github.com/microsoft/qdk"
   },
   "qibo": {
-    "amount_available": 125,
+    "amount_available": 100,
     "bounties": [
       {
         "assignees": [
@@ -1247,7 +1257,7 @@
       },
       {
         "assignees": [],
-        "state": "open",
+        "state": "closed",
         "title": "GPU support for the emulator",
         "url": "https://github.com/qiboteam/qibolab/issues/1414",
         "value": 25
@@ -1286,7 +1296,7 @@
     "emoji": "\ud83d\udc2a",
     "name": "Qibo",
     "num_bounties": 6,
-    "num_open_bounties": 4,
+    "num_open_bounties": 3,
     "total_amount": 200,
     "url": "https://github.com/qiboteam/qibo"
   },

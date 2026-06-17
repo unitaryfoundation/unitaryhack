@@ -34,6 +34,19 @@
   {
     "bounties": [
       {
+        "project": "marqov-sdk",
+        "title": "feat(benchmarks): unified multi-backend benchmark harness",
+        "url": "https://github.com/marqov-dev/marqov-sdk/issues/5",
+        "value": 50
+      }
+    ],
+    "num_projects": 1,
+    "total_value": 50,
+    "username": "AsherNoble"
+  },
+  {
+    "bounties": [
+      {
         "project": "amazon-braket-sdk-python",
         "title": "Accept `/` in `FreeParameterExpression` string constructor",
         "url": "https://github.com/amazon-braket/amazon-braket-sdk-python/issues/1251",
@@ -665,10 +678,16 @@
         "title": "Refactor out usage of t_cross_parameters function",
         "url": "https://github.com/iqm-finland/KQCircuits/issues/123",
         "value": 25
+      },
+      {
+        "project": "marqov-sdk",
+        "title": "feat(executors): IonQ native API executor",
+        "url": "https://github.com/marqov-dev/marqov-sdk/issues/1",
+        "value": 150
       }
     ],
-    "num_projects": 2,
-    "total_value": 175,
+    "num_projects": 3,
+    "total_value": 325,
     "username": "manasa-manoj-nbr"
   },
   {
@@ -890,6 +909,12 @@
         "value": 150
       },
       {
+        "project": "marqov-sdk",
+        "title": "feat(executors): Rigetti QCS executor",
+        "url": "https://github.com/marqov-dev/marqov-sdk/issues/2",
+        "value": 125
+      },
+      {
         "project": "paulistrings.jl",
         "title": "OpenQASM interface",
         "url": "https://github.com/nicolasloizeau/PauliStrings.jl/issues/82",
@@ -908,8 +933,8 @@
         "value": 150
       }
     ],
-    "num_projects": 4,
-    "total_value": 500,
+    "num_projects": 5,
+    "total_value": 625,
     "username": "zkasuran"
   }
 ]
