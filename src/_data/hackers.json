@@ -322,6 +322,19 @@
   {
     "bounties": [
       {
+        "project": "qibo",
+        "title": "Dynamiqs integration as simulation engine",
+        "url": "https://github.com/qiboteam/qibolab/issues/1411",
+        "value": 12
+      }
+    ],
+    "num_projects": 1,
+    "total_value": 12,
+    "username": "RoyStegeman"
+  },
+  {
+    "bounties": [
+      {
         "project": "clifft",
         "title": "Add starter circuit catalog to the playground",
         "url": "https://github.com/unitaryfoundation/clifft/issues/36",
@@ -395,6 +408,19 @@
     "num_projects": 2,
     "total_value": 280,
     "username": "ahkatlio"
+  },
+  {
+    "bounties": [
+      {
+        "project": "qibo",
+        "title": "Dynamiqs integration as simulation engine",
+        "url": "https://github.com/qiboteam/qibolab/issues/1411",
+        "value": 12
+      }
+    ],
+    "num_projects": 1,
+    "total_value": 12,
+    "username": "alecandido"
   },
   {
     "bounties": [
@@ -578,6 +604,19 @@
   {
     "bounties": [
       {
+        "project": "qibo",
+        "title": "Dynamiqs integration as simulation engine",
+        "url": "https://github.com/qiboteam/qibolab/issues/1411",
+        "value": 12
+      }
+    ],
+    "num_projects": 1,
+    "total_value": 12,
+    "username": "lballerio"
+  },
+  {
+    "bounties": [
+      {
         "project": "piccolo.jl",
         "title": "Add literate tutorial: 2-qubit gate synthesis with three pulse parameterizations + QuantumToolbox validation",
         "url": "https://github.com/harmoniqs/Piccolo.jl/issues/198",
@@ -696,6 +735,19 @@
     "num_projects": 1,
     "total_value": 100,
     "username": "rturrado"
+  },
+  {
+    "bounties": [
+      {
+        "project": "qibo",
+        "title": "Dynamiqs integration as simulation engine",
+        "url": "https://github.com/qiboteam/qibolab/issues/1411",
+        "value": 12
+      }
+    ],
+    "num_projects": 1,
+    "total_value": 12,
+    "username": "scarrazza"
   },
   {
     "bounties": [

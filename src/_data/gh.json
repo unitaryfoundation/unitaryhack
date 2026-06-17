@@ -333,7 +333,9 @@
         "value": 150
       },
       {
-        "assignees": [],
+        "assignees": [
+          "Vinny010"
+        ],
         "state": "open",
         "title": "Pauli-flow extraction from pattern",
         "url": "https://github.com/TeamGraphix/graphix/issues/432",
@@ -680,7 +682,9 @@
         "value": 75
       },
       {
-        "assignees": [],
+        "assignees": [
+          "mnn31"
+        ],
         "state": "open",
         "title": "New technique: debiasing/symmetrization/sharpening",
         "url": "https://github.com/unitaryfoundation/mitiq/issues/1955",
@@ -1225,7 +1229,7 @@
     "url": "https://github.com/microsoft/qdk"
   },
   "qibo": {
-    "amount_available": 175,
+    "amount_available": 125,
     "bounties": [
       {
         "assignees": [
@@ -1234,7 +1238,7 @@
           "lballerio",
           "scarrazza"
         ],
-        "state": "open",
+        "state": "closed",
         "title": "Dynamiqs integration as simulation engine",
         "url": "https://github.com/qiboteam/qibolab/issues/1411",
         "value": 50
@@ -1280,7 +1284,7 @@
     "emoji": "\ud83d\udc2a",
     "name": "Qibo",
     "num_bounties": 6,
-    "num_open_bounties": 5,
+    "num_open_bounties": 4,
     "total_amount": 200,
     "url": "https://github.com/qiboteam/qibo"
   },
