@@ -700,6 +700,12 @@
   {
     "bounties": [
       {
+        "project": "cuda-quantum",
+        "title": "Add common quantum embeddings",
+        "url": "https://github.com/NVIDIA/cuda-quantum/issues/2982",
+        "value": 100
+      },
+      {
         "project": "paulipropagation.jl",
         "title": "Yao Extension",
         "url": "https://github.com/SparqleSim/PauliPropagation.jl/issues/146",
@@ -718,8 +724,8 @@
         "value": 50
       }
     ],
-    "num_projects": 2,
-    "total_value": 200,
+    "num_projects": 3,
+    "total_value": 300,
     "username": "simsaidan"
   },
   {

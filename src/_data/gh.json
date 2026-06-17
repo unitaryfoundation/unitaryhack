@@ -163,7 +163,7 @@
     "url": "https://github.com/unitaryfoundation/clifft"
   },
   "cuda-quantum": {
-    "amount_available": 300,
+    "amount_available": 200,
     "bounties": [
       {
         "assignees": [
@@ -184,8 +184,10 @@
         "value": 100
       },
       {
-        "assignees": [],
-        "state": "open",
+        "assignees": [
+          "simsaidan"
+        ],
+        "state": "closed",
         "title": "Add common quantum embeddings",
         "url": "https://github.com/NVIDIA/cuda-quantum/issues/2982",
         "value": 100
@@ -210,7 +212,7 @@
     "emoji": "\ud83d\udc9a",
     "name": "CUDA-Q",
     "num_bounties": 5,
-    "num_open_bounties": 3,
+    "num_open_bounties": 2,
     "total_amount": 500,
     "url": "https://github.com/NVIDIA/cuda-quantum"
   },
