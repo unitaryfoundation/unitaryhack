@@ -79,14 +79,20 @@
   {
     "bounties": [
       {
+        "project": "marqov-sdk",
+        "title": "feat(circuits): add Circuit.from_pyquil() import",
+        "url": "https://github.com/marqov-dev/marqov-sdk/issues/4",
+        "value": 75
+      },
+      {
         "project": "openquantumdesign",
         "title": "unitaryHACK 2026: Update `oqd-analog-emulator` backend to return a datastore",
         "url": "https://github.com/OpenQuantumDesign/oqd-analog-emulator/issues/9",
         "value": 75
       }
     ],
-    "num_projects": 1,
-    "total_value": 75,
+    "num_projects": 2,
+    "total_value": 150,
     "username": "CodeMaverick2"
   },
   {
@@ -233,14 +239,20 @@
   {
     "bounties": [
       {
+        "project": "juice",
+        "title": "\"juice config view\" command",
+        "url": "https://gitlab.com/orangeqs/juice/-/work_items/292",
+        "value": 200
+      },
+      {
         "project": "paulipropagation.jl",
         "title": "Overhaul transfer maps and TransferMapGate",
         "url": "https://github.com/SparqleSim/PauliPropagation.jl/issues/144",
         "value": 100
       }
     ],
-    "num_projects": 1,
-    "total_value": 100,
+    "num_projects": 2,
+    "total_value": 300,
     "username": "LubuSeb"
   },
   {

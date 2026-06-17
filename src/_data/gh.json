@@ -317,7 +317,9 @@
     "amount_available": 500,
     "bounties": [
       {
-        "assignees": [],
+        "assignees": [
+          "NandanPatel24"
+        ],
         "state": "open",
         "title": "Implement amplitude damping noise model",
         "url": "https://github.com/TeamGraphix/graphix/issues/497",
@@ -461,11 +463,13 @@
     "url": "https://github.com/unitaryfoundation/jeff"
   },
   "juice": {
-    "amount_available": 200,
+    "amount_available": 0,
     "bounties": [
       {
-        "assignees": [],
-        "state": "open",
+        "assignees": [
+          "LubuSeb"
+        ],
+        "state": "closed",
         "title": "\"juice config view\" command",
         "url": "https://gitlab.com/orangeqs/juice/-/work_items/292",
         "value": 200
@@ -492,7 +496,7 @@
     "emoji": "\ud83e\uddc3 \ud83c\udf9b\ufe0f",
     "name": "OrangeQS Juice",
     "num_bounties": 3,
-    "num_open_bounties": 1,
+    "num_open_bounties": 0,
     "total_amount": 500,
     "url": "https://gitlab.com/orangeqs/juice"
   },
@@ -562,7 +566,7 @@
     "url": "https://github.com/iqm-finland/KQCircuits"
   },
   "marqov-sdk": {
-    "amount_available": 175,
+    "amount_available": 100,
     "bounties": [
       {
         "assignees": [
@@ -592,8 +596,10 @@
         "value": 65
       },
       {
-        "assignees": [],
-        "state": "open",
+        "assignees": [
+          "CodeMaverick2"
+        ],
+        "state": "closed",
         "title": "feat(circuits): add Circuit.from_pyquil() import",
         "url": "https://github.com/marqov-dev/marqov-sdk/issues/4",
         "value": 75
@@ -620,7 +626,7 @@
     "emoji": "\u269b\ufe0f\ud83e\udd98",
     "name": "Marqov SDK",
     "num_bounties": 6,
-    "num_open_bounties": 3,
+    "num_open_bounties": 2,
     "total_amount": 500,
     "url": "https://github.com/marqov-dev/marqov-sdk"
   },
