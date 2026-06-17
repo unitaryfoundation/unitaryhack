@@ -314,7 +314,7 @@
     "url": "https://github.com/dynamiqs/dynamiqs"
   },
   "graphix": {
-    "amount_available": 500,
+    "amount_available": 450,
     "bounties": [
       {
         "assignees": [
@@ -347,7 +347,7 @@
         "assignees": [
           "Vinny010"
         ],
-        "state": "open",
+        "state": "closed",
         "title": "Pretty-print for `Statevec` and `DensityMatrix`",
         "url": "https://github.com/TeamGraphix/graphix/issues/501",
         "value": 50
@@ -356,7 +356,7 @@
     "emoji": "\ud83d\udd78\ufe0f",
     "name": "Graphix",
     "num_bounties": 4,
-    "num_open_bounties": 4,
+    "num_open_bounties": 3,
     "total_amount": 500,
     "url": "https://github.com/TeamGraphix/graphix"
   },
@@ -1174,7 +1174,7 @@
     "url": "https://github.com/qBraid/qBraid"
   },
   "qdk-chemistry: a high-performance toolkit for quantum and classical chemistry calculations.": {
-    "amount_available": 500,
+    "amount_available": 400,
     "bounties": [
       {
         "assignees": [],
@@ -1194,7 +1194,7 @@
         "assignees": [
           "luffy-orf"
         ],
-        "state": "open",
+        "state": "closed",
         "title": "Implement specialized paths in QubitMapper for sparse/factorized Hamiltonians",
         "url": "https://github.com/microsoft/qdk-chemistry/issues/474",
         "value": 100
@@ -1203,7 +1203,7 @@
     "emoji": "\u269b\ufe0f \ud83d\udcbb",
     "name": "MSFT QDK - Chemistry",
     "num_bounties": 3,
-    "num_open_bounties": 3,
+    "num_open_bounties": 2,
     "total_amount": 500,
     "url": "https://github.com/microsoft/qdk-chemistry"
   },
@@ -1591,7 +1591,7 @@
     "url": "https://github.com/Quantum-Universal-Education/Quantum-Universal-Education.github.io"
   },
   "quantumbrush": {
-    "amount_available": 450,
+    "amount_available": 360,
     "bounties": [
       {
         "assignees": [
@@ -1610,8 +1610,10 @@
         "value": 100
       },
       {
-        "assignees": [],
-        "state": "open",
+        "assignees": [
+          "codexbountylab"
+        ],
+        "state": "closed",
         "title": "Combine the Control Panel with the Canvas window",
         "url": "https://github.com/moth-quantum/QuantumBrush/issues/48",
         "value": 90
@@ -1641,7 +1643,7 @@
     "emoji": "\u269b\ufe0f \ud83c\udfa8",
     "name": "Art with Quantum Dynamics",
     "num_bounties": 6,
-    "num_open_bounties": 5,
+    "num_open_bounties": 4,
     "total_amount": 500,
     "url": "https://github.com/moth-quantum/QuantumBrush"
   },

@@ -392,6 +392,19 @@
   {
     "bounties": [
       {
+        "project": "graphix",
+        "title": "Pretty-print for `Statevec` and `DensityMatrix`",
+        "url": "https://github.com/TeamGraphix/graphix/issues/501",
+        "value": 50
+      }
+    ],
+    "num_projects": 1,
+    "total_value": 50,
+    "username": "Vinny010"
+  },
+  {
+    "bounties": [
+      {
         "project": "paulipropagation.jl",
         "title": "Embed example Jupyter notebooks into docs website",
         "url": "https://github.com/SparqleSim/PauliPropagation.jl/issues/143",
@@ -542,10 +555,16 @@
         "title": "Completing Isomorphism Check",
         "url": "https://github.com/QPauLie/PauLie/issues/198",
         "value": 50
+      },
+      {
+        "project": "quantumbrush",
+        "title": "Combine the Control Panel with the Canvas window",
+        "url": "https://github.com/moth-quantum/QuantumBrush/issues/48",
+        "value": 90
       }
     ],
-    "num_projects": 1,
-    "total_value": 50,
+    "num_projects": 2,
+    "total_value": 140,
     "username": "codexbountylab"
   },
   {
@@ -661,14 +680,20 @@
   {
     "bounties": [
       {
+        "project": "qdk-chemistry: a high-performance toolkit for quantum and classical chemistry calculations.",
+        "title": "Implement specialized paths in QubitMapper for sparse/factorized Hamiltonians",
+        "url": "https://github.com/microsoft/qdk-chemistry/issues/474",
+        "value": 100
+      },
+      {
         "project": "tket2",
         "title": "[Feature]: Add a native PCG32 randon number generator to the guppy standard library",
         "url": "https://github.com/Quantinuum/guppylang/issues/1578",
         "value": 100
       }
     ],
-    "num_projects": 1,
-    "total_value": 100,
+    "num_projects": 2,
+    "total_value": 200,
     "username": "luffy-orf"
   },
   {
