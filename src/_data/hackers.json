@@ -566,13 +566,19 @@
     "bounties": [
       {
         "project": "juice",
+        "title": "Notify users of available update",
+        "url": "https://gitlab.com/orangeqs/juice/-/work_items/262",
+        "value": 200
+      },
+      {
+        "project": "juice",
         "title": "Keep track of published topics and expose them through an API",
         "url": "https://gitlab.com/orangeqs/juice/-/work_items/329",
         "value": 100
       }
     ],
     "num_projects": 1,
-    "total_value": 100,
+    "total_value": 300,
     "username": "harsh.verma1503"
   },
   {

@@ -461,7 +461,7 @@
     "url": "https://github.com/unitaryfoundation/jeff"
   },
   "juice": {
-    "amount_available": 400,
+    "amount_available": 200,
     "bounties": [
       {
         "assignees": [],
@@ -471,8 +471,10 @@
         "value": 200
       },
       {
-        "assignees": [],
-        "state": "open",
+        "assignees": [
+          "harsh.verma1503"
+        ],
+        "state": "closed",
         "title": "Notify users of available update",
         "url": "https://gitlab.com/orangeqs/juice/-/work_items/262",
         "value": 200
@@ -490,7 +492,7 @@
     "emoji": "\ud83e\uddc3 \ud83c\udf9b\ufe0f",
     "name": "OrangeQS Juice",
     "num_bounties": 3,
-    "num_open_bounties": 2,
+    "num_open_bounties": 1,
     "total_amount": 500,
     "url": "https://gitlab.com/orangeqs/juice"
   },
@@ -1916,7 +1918,7 @@
     "url": "https://github.com/vprusso/toqito"
   },
   "tqec": {
-    "amount_available": 150,
+    "amount_available": 100,
     "bounties": [
       {
         "assignees": [
@@ -1945,7 +1947,7 @@
       },
       {
         "assignees": [],
-        "state": "open",
+        "state": "closed",
         "title": "Add information analyzing error plots for the gallery examples",
         "url": "https://github.com/tqec/tqec/issues/630",
         "value": 50
@@ -1954,7 +1956,7 @@
     "emoji": null,
     "name": "TQEC",
     "num_bounties": 4,
-    "num_open_bounties": 2,
+    "num_open_bounties": 1,
     "total_amount": 450,
     "url": "https://github.com/tqec/tqec"
   },
