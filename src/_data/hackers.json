@@ -201,14 +201,20 @@
   {
     "bounties": [
       {
+        "project": "clifft",
+        "title": "Explore HIR-level global T-count optimization",
+        "url": "https://github.com/unitaryfoundation/clifft/issues/40",
+        "value": 200
+      },
+      {
         "project": "piquasso",
         "title": "Improve performance of `GaussianState.density_matrix`",
         "url": "https://github.com/Budapest-Quantum-Computing-Group/piquasso/issues/523",
         "value": 200
       }
     ],
-    "num_projects": 1,
-    "total_value": 200,
+    "num_projects": 2,
+    "total_value": 400,
     "username": "JaipreethTiruvaipati"
   },
   {
@@ -943,7 +949,7 @@
         "project": "cuda-quantum",
         "title": "Add common quantum embeddings",
         "url": "https://github.com/NVIDIA/cuda-quantum/issues/2982",
-        "value": 100
+        "value": 50
       },
       {
         "project": "paulipropagation.jl",
@@ -965,7 +971,7 @@
       }
     ],
     "num_projects": 3,
-    "total_value": 300,
+    "total_value": 250,
     "username": "simsaidan"
   },
   {
@@ -1017,6 +1023,19 @@
     "num_projects": 3,
     "total_value": 350,
     "username": "spital"
+  },
+  {
+    "bounties": [
+      {
+        "project": "cuda-quantum",
+        "title": "Add common quantum embeddings",
+        "url": "https://github.com/NVIDIA/cuda-quantum/issues/2982",
+        "value": 50
+      }
+    ],
+    "num_projects": 1,
+    "total_value": 50,
+    "username": "ssmswapnil"
   },
   {
     "bounties": [
