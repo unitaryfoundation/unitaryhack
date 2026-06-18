@@ -554,10 +554,16 @@
         "title": "Make `circuit.unitary(...)` do the right thing",
         "url": "https://github.com/Qiskit/Qiskit.jl/issues/51",
         "value": 100
+      },
+      {
+        "project": "quantify-os",
+        "title": "Add \u201cLoad Settings from Snapshot\u201d button to Instrument Monitor UI",
+        "url": "https://gitlab.com/quantify-os/quantify/-/work_items/166",
+        "value": 50
       }
     ],
-    "num_projects": 4,
-    "total_value": 325,
+    "num_projects": 5,
+    "total_value": 375,
     "username": "axif0"
   },
   {
@@ -655,6 +661,19 @@
     "num_projects": 1,
     "total_value": 300,
     "username": "harsh.verma1503"
+  },
+  {
+    "bounties": [
+      {
+        "project": "bloqade",
+        "title": "Emit if-statement from squin kernel as cirq classical control",
+        "url": "https://github.com/QuEraComputing/bloqade-circuit/issues/408",
+        "value": 100
+      }
+    ],
+    "num_projects": 1,
+    "total_value": 100,
+    "username": "has9sayed"
   },
   {
     "bounties": [

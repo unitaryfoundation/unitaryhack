@@ -63,13 +63,13 @@
     "url": "https://github.com/amazon-braket/amazon-braket-sdk-python"
   },
   "bloqade": {
-    "amount_available": 675,
+    "amount_available": 575,
     "bounties": [
       {
         "assignees": [
           "has9sayed"
         ],
-        "state": "open",
+        "state": "closed",
         "title": "Emit if-statement from squin kernel as cirq classical control",
         "url": "https://github.com/QuEraComputing/bloqade-circuit/issues/408",
         "value": 100
@@ -115,7 +115,7 @@
     "emoji": "\u269b\ufe0f",
     "name": "bloqade",
     "num_bounties": 6,
-    "num_open_bounties": 6,
+    "num_open_bounties": 5,
     "total_amount": 675,
     "url": "https://github.com/QuEraComputing/bloqade"
   },
@@ -1533,11 +1533,13 @@
     "url": "https://github.com/qosf"
   },
   "quantify-os": {
-    "amount_available": 500,
+    "amount_available": 450,
     "bounties": [
       {
-        "assignees": [],
-        "state": "open",
+        "assignees": [
+          "axif0"
+        ],
+        "state": "closed",
         "title": "Add \u201cLoad Settings from Snapshot\u201d button to Instrument Monitor UI",
         "url": "https://gitlab.com/quantify-os/quantify/-/work_items/166",
         "value": 50
@@ -1562,7 +1564,7 @@
     "emoji": "\ud83d\udd22\ud83d\udff0",
     "name": "Quantify",
     "num_bounties": 3,
-    "num_open_bounties": 3,
+    "num_open_bounties": 2,
     "total_amount": 500,
     "url": "https://gitlab.com/quantify-os"
   },
