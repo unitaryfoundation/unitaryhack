@@ -1826,11 +1826,13 @@
     "url": "https://github.com/jcmgray/quimb"
   },
   "stretto.jl": {
-    "amount_available": 300,
+    "amount_available": 0,
     "bounties": [
       {
-        "assignees": [],
-        "state": "open",
+        "assignees": [
+          "Oishi1029"
+        ],
+        "state": "closed",
         "title": "Add FFT pulse-spectrum analyzer",
         "url": "https://github.com/harmoniqs/Stretto.jl/issues/12",
         "value": 100
@@ -1839,14 +1841,16 @@
         "assignees": [
           "Kitsunp"
         ],
-        "state": "open",
+        "state": "closed",
         "title": "Add OpenQASM 3 circuit input (from_qasm)",
         "url": "https://github.com/harmoniqs/Stretto.jl/issues/14",
         "value": 100
       },
       {
-        "assignees": [],
-        "state": "open",
+        "assignees": [
+          "codexbountylab"
+        ],
+        "state": "closed",
         "title": "Add IBM Heron R2 device profile",
         "url": "https://github.com/harmoniqs/Stretto.jl/issues/15",
         "value": 100
@@ -1855,7 +1859,7 @@
     "emoji": null,
     "name": "Stretto",
     "num_bounties": 3,
-    "num_open_bounties": 3,
+    "num_open_bounties": 0,
     "total_amount": 300,
     "url": "https://github.com/harmoniqs/Stretto.jl"
   },

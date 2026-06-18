@@ -239,14 +239,20 @@
         "value": 100
       },
       {
+        "project": "stretto.jl",
+        "title": "Add OpenQASM 3 circuit input (from_qasm)",
+        "url": "https://github.com/harmoniqs/Stretto.jl/issues/14",
+        "value": 100
+      },
+      {
         "project": "tket2",
         "title": "[Refactor] Refactor recursive type-definition checks for structs and enums",
         "url": "https://github.com/Quantinuum/guppylang/issues/1732",
         "value": 175
       }
     ],
-    "num_projects": 2,
-    "total_value": 475,
+    "num_projects": 3,
+    "total_value": 575,
     "username": "Kitsunp"
   },
   {
@@ -288,10 +294,16 @@
         "title": "Add DualRailEncoding + EmbeddedOperator quality-of-life utilities",
         "url": "https://github.com/harmoniqs/Piccolo.jl/issues/197",
         "value": 100
+      },
+      {
+        "project": "stretto.jl",
+        "title": "Add FFT pulse-spectrum analyzer",
+        "url": "https://github.com/harmoniqs/Stretto.jl/issues/12",
+        "value": 100
       }
     ],
-    "num_projects": 1,
-    "total_value": 100,
+    "num_projects": 2,
+    "total_value": 200,
     "username": "Oishi1029"
   },
   {
@@ -574,10 +586,16 @@
         "title": "Combine the Control Panel with the Canvas window",
         "url": "https://github.com/moth-quantum/QuantumBrush/issues/48",
         "value": 90
+      },
+      {
+        "project": "stretto.jl",
+        "title": "Add IBM Heron R2 device profile",
+        "url": "https://github.com/harmoniqs/Stretto.jl/issues/15",
+        "value": 100
       }
     ],
-    "num_projects": 2,
-    "total_value": 140,
+    "num_projects": 3,
+    "total_value": 240,
     "username": "codexbountylab"
   },
   {
