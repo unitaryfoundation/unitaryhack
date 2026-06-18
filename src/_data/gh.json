@@ -683,11 +683,13 @@
     "url": "https://github.com/unitaryfoundation/metriq"
   },
   "mitiq": {
-    "amount_available": 350,
+    "amount_available": 275,
     "bounties": [
       {
-        "assignees": [],
-        "state": "open",
+        "assignees": [
+          "kim-renaud"
+        ],
+        "state": "closed",
         "title": "Benchmark mitiq against similar error mitigation tools",
         "url": "https://github.com/unitaryfoundation/mitiq/issues/2876",
         "value": 75
@@ -709,7 +711,9 @@
         "value": 150
       },
       {
-        "assignees": [],
+        "assignees": [
+          "qnelsonksh"
+        ],
         "state": "open",
         "title": "Add CDR example to mitiq's example gallery",
         "url": "https://github.com/unitaryfoundation/mitiq/issues/1507",
@@ -728,7 +732,7 @@
     "emoji": "\ud83d\udef8\ud83c\udf1a",
     "name": "mitiq",
     "num_bounties": 5,
-    "num_open_bounties": 4,
+    "num_open_bounties": 3,
     "total_amount": 500,
     "url": "https://github.com/unitaryfoundation/mitiq"
   },
@@ -933,13 +937,13 @@
     "url": "https://github.com/SparqleSim/PauliPropagation.jl"
   },
   "paulistrings.jl": {
-    "amount_available": 350,
+    "amount_available": 50,
     "bounties": [
       {
         "assignees": [
           "khopade-works"
         ],
-        "state": "open",
+        "state": "closed",
         "title": "Speed up tr(H^k) by another k! factor",
         "url": "https://github.com/nicolasloizeau/PauliStrings.jl/issues/80",
         "value": 200
@@ -948,7 +952,7 @@
         "assignees": [
           "DhruvaSambrani"
         ],
-        "state": "open",
+        "state": "closed",
         "title": "Translation symmetric trotterization",
         "url": "https://github.com/nicolasloizeau/PauliStrings.jl/issues/78",
         "value": 100
@@ -991,7 +995,7 @@
     "emoji": "\ud83e\uddf6",
     "name": "PauliStrings.jl",
     "num_bounties": 6,
-    "num_open_bounties": 3,
+    "num_open_bounties": 1,
     "total_amount": 500,
     "url": "https://github.com/nicolasloizeau/PauliStrings.jl"
   },

@@ -124,6 +124,19 @@
   {
     "bounties": [
       {
+        "project": "paulistrings.jl",
+        "title": "Translation symmetric trotterization",
+        "url": "https://github.com/nicolasloizeau/PauliStrings.jl/issues/78",
+        "value": 100
+      }
+    ],
+    "num_projects": 1,
+    "total_value": 100,
+    "username": "DhruvaSambrani"
+  },
+  {
+    "bounties": [
+      {
         "project": "quimb",
         "title": "Add OpenQASM 3 support",
         "url": "https://github.com/jcmgray/quimb/issues/256",
@@ -637,6 +650,32 @@
     "num_projects": 1,
     "total_value": 80,
     "username": "hassaansaleem28"
+  },
+  {
+    "bounties": [
+      {
+        "project": "paulistrings.jl",
+        "title": "Speed up tr(H^k) by another k! factor",
+        "url": "https://github.com/nicolasloizeau/PauliStrings.jl/issues/80",
+        "value": 200
+      }
+    ],
+    "num_projects": 1,
+    "total_value": 200,
+    "username": "khopade-works"
+  },
+  {
+    "bounties": [
+      {
+        "project": "mitiq",
+        "title": "Benchmark mitiq against similar error mitigation tools",
+        "url": "https://github.com/unitaryfoundation/mitiq/issues/2876",
+        "value": 75
+      }
+    ],
+    "num_projects": 1,
+    "total_value": 75,
+    "username": "kim-renaud"
   },
   {
     "bounties": [
