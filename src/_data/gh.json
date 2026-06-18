@@ -1798,7 +1798,7 @@
     "url": "https://github.com/QuEST-Kit/QuEST"
   },
   "quimb": {
-    "amount_available": 300,
+    "amount_available": 125,
     "bounties": [
       {
         "assignees": [],
@@ -1817,8 +1817,10 @@
         "value": 150
       },
       {
-        "assignees": [],
-        "state": "open",
+        "assignees": [
+          "pandey-tushar"
+        ],
+        "state": "closed",
         "title": "implement a PEPO Heisenberg picture quantum circuit simulator",
         "url": "https://github.com/jcmgray/quimb/issues/359",
         "value": 175
@@ -1836,7 +1838,7 @@
     "emoji": "\u26a1",
     "name": "quimb",
     "num_bounties": 4,
-    "num_open_bounties": 2,
+    "num_open_bounties": 1,
     "total_amount": 500,
     "url": "https://github.com/jcmgray/quimb"
   },

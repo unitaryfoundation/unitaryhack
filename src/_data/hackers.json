@@ -939,6 +939,19 @@
   {
     "bounties": [
       {
+        "project": "quimb",
+        "title": "implement a PEPO Heisenberg picture quantum circuit simulator",
+        "url": "https://github.com/jcmgray/quimb/issues/359",
+        "value": 175
+      }
+    ],
+    "num_projects": 1,
+    "total_value": 175,
+    "username": "pandey-tushar"
+  },
+  {
+    "bounties": [
+      {
         "project": "munich-quantum-toolkit",
         "title": "\u2728 Add QIR Program Format Support to the QDMI DDSim Device",
         "url": "https://github.com/munich-quantum-toolkit/core/issues/1695",
