@@ -1263,7 +1263,7 @@
     "url": "https://github.com/microsoft/qdk"
   },
   "qibo": {
-    "amount_available": 100,
+    "amount_available": 75,
     "bounties": [
       {
         "assignees": [
@@ -1286,7 +1286,7 @@
       },
       {
         "assignees": [],
-        "state": "open",
+        "state": "closed",
         "title": "Store Hamiltonian and state evolutions",
         "url": "https://github.com/qiboteam/qibolab/issues/1415",
         "value": 25
@@ -1318,7 +1318,7 @@
     "emoji": "\ud83d\udc2a",
     "name": "Qibo",
     "num_bounties": 6,
-    "num_open_bounties": 3,
+    "num_open_bounties": 2,
     "total_amount": 200,
     "url": "https://github.com/qiboteam/qibo"
   },
