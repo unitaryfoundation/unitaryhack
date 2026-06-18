@@ -525,14 +525,20 @@
         "value": 150
       },
       {
+        "project": "quantify-os",
+        "title": "Data formatting with measurement control sorts by acquisition channel",
+        "url": "https://gitlab.com/quantify-os/quantify/-/work_items/151",
+        "value": 200
+      },
+      {
         "project": "quest",
         "title": "Add `Qureg` checkpointing.",
         "url": "https://github.com/QuEST-Kit/QuEST/issues/747",
         "value": 150
       }
     ],
-    "num_projects": 3,
-    "total_value": 675,
+    "num_projects": 4,
+    "total_value": 875,
     "username": "ashmitjsg"
   },
   {
