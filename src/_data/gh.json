@@ -46,7 +46,9 @@
         "value": 70
       },
       {
-        "assignees": [],
+        "assignees": [
+          "CleanDev-Fix"
+        ],
         "state": "open",
         "title": "Allow for Sums of PauliStrings",
         "url": "https://github.com/amazon-braket/amazon-braket-sdk-python/issues/1256",
@@ -1385,7 +1387,9 @@
     "amount_available": 130,
     "bounties": [
       {
-        "assignees": [],
+        "assignees": [
+          "rylanmalarchick"
+        ],
         "state": "open",
         "title": "Group mutually commuting observables in BraketEstimator",
         "url": "https://github.com/amazon-braket/qiskit-braket-provider/issues/255",
@@ -1832,7 +1836,9 @@
         "value": 100
       },
       {
-        "assignees": [],
+        "assignees": [
+          "Kitsunp"
+        ],
         "state": "open",
         "title": "Add OpenQASM 3 circuit input (from_qasm)",
         "url": "https://github.com/harmoniqs/Stretto.jl/issues/14",
