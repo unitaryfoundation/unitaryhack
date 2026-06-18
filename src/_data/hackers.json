@@ -182,14 +182,20 @@
   {
     "bounties": [
       {
+        "project": "tqec",
+        "title": "Gallery curves show duplicate points for each physical error rate",
+        "url": "https://github.com/tqec/tqec/issues/825",
+        "value": 100
+      },
+      {
         "project": "zxlive",
         "title": "Documentation about support for measurements and mixed processes",
         "url": "https://github.com/zxcalc/pyzx/issues/455",
         "value": 100
       }
     ],
-    "num_projects": 1,
-    "total_value": 100,
+    "num_projects": 2,
+    "total_value": 200,
     "username": "Hope-Alemayehu"
   },
   {
@@ -656,10 +662,16 @@
         "title": "Keep track of published topics and expose them through an API",
         "url": "https://gitlab.com/orangeqs/juice/-/work_items/329",
         "value": 100
+      },
+      {
+        "project": "quantify-os",
+        "title": "Add \u201cFavorite Parameters\u201d feature to Instrument Monitor UI",
+        "url": "https://gitlab.com/quantify-os/quantify/-/work_items/165",
+        "value": 250
       }
     ],
-    "num_projects": 1,
-    "total_value": 300,
+    "num_projects": 2,
+    "total_value": 550,
     "username": "harsh.verma1503"
   },
   {
@@ -752,6 +764,19 @@
     "num_projects": 1,
     "total_value": 100,
     "username": "leespen1"
+  },
+  {
+    "bounties": [
+      {
+        "project": "graphix",
+        "title": "New statevector simulator backend plugin based on `cuQuantum`",
+        "url": "https://github.com/TeamGraphix/graphix/issues/496",
+        "value": 150
+      }
+    ],
+    "num_projects": 1,
+    "total_value": 150,
+    "username": "ljcamargo"
   },
   {
     "bounties": [

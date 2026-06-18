@@ -222,7 +222,9 @@
     "amount_available": 150,
     "bounties": [
       {
-        "assignees": [],
+        "assignees": [
+          "Ronit-Raj9"
+        ],
         "state": "open",
         "title": "request: support asymmetric error-bars in `deltakit.analysis`",
         "url": "https://github.com/deltakit/deltakit/issues/134",
@@ -316,7 +318,7 @@
     "url": "https://github.com/dynamiqs/dynamiqs"
   },
   "graphix": {
-    "amount_available": 450,
+    "amount_available": 300,
     "bounties": [
       {
         "assignees": [
@@ -331,7 +333,7 @@
         "assignees": [
           "ljcamargo"
         ],
-        "state": "open",
+        "state": "closed",
         "title": "New statevector simulator backend plugin based on `cuQuantum`",
         "url": "https://github.com/TeamGraphix/graphix/issues/496",
         "value": 150
@@ -358,7 +360,7 @@
     "emoji": "\ud83d\udd78\ufe0f",
     "name": "Graphix",
     "num_bounties": 4,
-    "num_open_bounties": 3,
+    "num_open_bounties": 2,
     "total_amount": 500,
     "url": "https://github.com/TeamGraphix/graphix"
   },
@@ -1533,7 +1535,7 @@
     "url": "https://github.com/qosf"
   },
   "quantify-os": {
-    "amount_available": 450,
+    "amount_available": 200,
     "bounties": [
       {
         "assignees": [
@@ -1545,8 +1547,10 @@
         "value": 50
       },
       {
-        "assignees": [],
-        "state": "open",
+        "assignees": [
+          "harsh.verma1503"
+        ],
+        "state": "closed",
         "title": "Add \u201cFavorite Parameters\u201d feature to Instrument Monitor UI",
         "url": "https://gitlab.com/quantify-os/quantify/-/work_items/165",
         "value": 250
@@ -1564,7 +1568,7 @@
     "emoji": "\ud83d\udd22\ud83d\udff0",
     "name": "Quantify",
     "num_bounties": 3,
-    "num_open_bounties": 2,
+    "num_open_bounties": 1,
     "total_amount": 500,
     "url": "https://gitlab.com/quantify-os"
   },
@@ -1962,7 +1966,7 @@
     "url": "https://github.com/vprusso/toqito"
   },
   "tqec": {
-    "amount_available": 100,
+    "amount_available": 0,
     "bounties": [
       {
         "assignees": [
@@ -1974,8 +1978,10 @@
         "value": 150
       },
       {
-        "assignees": [],
-        "state": "open",
+        "assignees": [
+          "Hope-Alemayehu"
+        ],
+        "state": "closed",
         "title": "Gallery curves show duplicate points for each physical error rate",
         "url": "https://github.com/tqec/tqec/issues/825",
         "value": 100
@@ -2000,7 +2006,7 @@
     "emoji": null,
     "name": "TQEC",
     "num_bounties": 4,
-    "num_open_bounties": 1,
+    "num_open_bounties": 0,
     "total_amount": 450,
     "url": "https://github.com/tqec/tqec"
   },
