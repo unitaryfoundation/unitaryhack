@@ -53,8 +53,8 @@
     "and get rewarded!"
   ],
   "panel_copy": [
-    "unitaryHACK is an annual, virtual hackathon encouraging people to make contributions to the open source quantum ecosystem. This year’s HACK will run June 3-17, and hackers have the opportunity to win cash bounties! For more information, read our [hacker guide](/hacker-guide/) and check out the [2025 stats](https://unitary.foundation/posts/2025_uhack/). In the meantime, come hang out on the [Unitary Foundation Discord](https://discord.com/invite/JqVGmpkP96)!",
-    "Make sure you register to be eligible to claim bounties!"
+    "unitaryHACK is an annual, virtual hackathon encouraging people to make contributions to the open source quantum ecosystem. This year’s HACK ran June 3-17.",
+    "Thanks to all our sponsors, project maintainers, and hackers for participating in unitaryHACK 2026!"
   ],
   "supporters": {
     "title": "Supporters",
@@ -250,6 +250,6 @@
       "Public Link": "https://quantum.riftlabs.org/unitaryhack.html" 
     }
   ], 
- "panel_cta_label": "REGISTER HERE",
- "panel_cta_url": "/register/"
+ "panel_cta_label": "VIEW RESULTS",
+ "panel_cta_url": "/bounties/"
 }

@@ -5,12 +5,22 @@ section: projects
 <div class="page-container">
   <h1>{{title}}</h1>
   <hr>
-  {% if subtitle %}
+  {# {% if subtitle %}
     <p>{{ subtitle }}</p>
-  {% endif %}
+  {% endif %} #}
 
+  <p>
+    During unitaryHACK 2026 <b>{{ stats["num_hackers"] }} participants</b> managed to close
+    <b>{{ stats["num_closed_bounties"] }} bounties</b> and collect a total of
+    <b>${{ stats["total_bounty_value"] - stats["open_bounty_value"] }}</b>.
+    See how you stack up on the <a href="{{ '/leaderboard/' | url }}">leaderboard</a>!
+  </p>
+  <p>
+    <em>Final numbers are still provisional. Pull Requests that were opened during the hackathon but not merged before the end of the event 
+    are still eligible for bounties.</em>
+  </p>
   {{ layoutContent | safe }}
 
-  {% include "partials/bountylist.njk" %}
+  {# {% include "partials/bountylist.njk" %} #}
 
 </div>
