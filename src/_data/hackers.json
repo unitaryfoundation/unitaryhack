@@ -449,6 +449,19 @@
   {
     "bounties": [
       {
+        "project": "paulie",
+        "title": "Matrix Basis for the Classified Algebra",
+        "url": "https://github.com/QPauLie/PauLie/issues/200",
+        "value": 250
+      }
+    ],
+    "num_projects": 1,
+    "total_value": 250,
+    "username": "WEEKEAT-LIM"
+  },
+  {
+    "bounties": [
+      {
         "project": "deltakit",
         "title": "request:  Generic Plot should dispatch to `plot_lambda` instead of vice versa",
         "url": "https://github.com/deltakit/deltakit/issues/233",
@@ -983,6 +996,12 @@
   {
     "bounties": [
       {
+        "project": "amazon-braket-sdk-python",
+        "title": "Interactive circuit visualization with Plotly",
+        "url": "https://github.com/amazon-braket/amazon-braket-sdk-python/issues/1250",
+        "value": 100
+      },
+      {
         "project": "dynamiqs",
         "title": "unitaryHACK - Enable Hessian computation",
         "url": "https://github.com/dynamiqs/dynamiqs/issues/1082",
@@ -995,8 +1014,8 @@
         "value": 150
       }
     ],
-    "num_projects": 2,
-    "total_value": 250,
+    "num_projects": 3,
+    "total_value": 350,
     "username": "spital"
   },
   {

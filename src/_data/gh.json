@@ -1,6 +1,6 @@
 {
   "amazon-braket-sdk-python": {
-    "amount_available": 270,
+    "amount_available": 170,
     "bounties": [
       {
         "assignees": [
@@ -24,7 +24,7 @@
         "assignees": [
           "spital"
         ],
-        "state": "open",
+        "state": "closed",
         "title": "Interactive circuit visualization with Plotly",
         "url": "https://github.com/amazon-braket/amazon-braket-sdk-python/issues/1250",
         "value": 100
@@ -58,7 +58,7 @@
     "emoji": "\u269b\ufe0f\ud83d\udcbb",
     "name": "Amazon Braket SDK",
     "num_bounties": 6,
-    "num_open_bounties": 3,
+    "num_open_bounties": 2,
     "total_amount": 500,
     "url": "https://github.com/amazon-braket/amazon-braket-sdk-python"
   },
@@ -858,7 +858,7 @@
     "url": "https://github.com/p-11/"
   },
   "paulie": {
-    "amount_available": 250,
+    "amount_available": 0,
     "bounties": [
       {
         "assignees": [
@@ -879,8 +879,10 @@
         "value": 50
       },
       {
-        "assignees": [],
-        "state": "open",
+        "assignees": [
+          "WEEKEAT-LIM"
+        ],
+        "state": "closed",
         "title": "Matrix Basis for the Classified Algebra",
         "url": "https://github.com/QPauLie/PauLie/issues/200",
         "value": 250
@@ -889,7 +891,7 @@
     "emoji": "\ud83e\udd38\ud83c\udffe\u200d\u2640\ufe0f\ud83d\udc18",
     "name": "paulie",
     "num_bounties": 3,
-    "num_open_bounties": 1,
+    "num_open_bounties": 0,
     "total_amount": 500,
     "url": "https://github.com/QPauLie/PauLie"
   },
@@ -1605,7 +1607,7 @@
     "url": "https://github.com/Quantum-Universal-Education/Quantum-Universal-Education.github.io"
   },
   "quantumbrush": {
-    "amount_available": 360,
+    "amount_available": 100,
     "bounties": [
       {
         "assignees": [
@@ -1634,21 +1636,21 @@
       },
       {
         "assignees": [],
-        "state": "open",
+        "state": "closed",
         "title": "Wanted: Robust installer",
         "url": "https://github.com/moth-quantum/QuantumBrush/issues/49",
         "value": 70
       },
       {
         "assignees": [],
-        "state": "open",
+        "state": "closed",
         "title": "Make your own Quantum Brush!",
         "url": "https://github.com/moth-quantum/QuantumBrush/issues/50",
         "value": 100
       },
       {
         "assignees": [],
-        "state": "open",
+        "state": "closed",
         "title": "Imagine the modern version of Quantum Brush",
         "url": "https://github.com/moth-quantum/QuantumBrush/issues/51",
         "value": 90
@@ -1657,7 +1659,7 @@
     "emoji": "\u269b\ufe0f \ud83c\udfa8",
     "name": "Art with Quantum Dynamics",
     "num_bounties": 6,
-    "num_open_bounties": 4,
+    "num_open_bounties": 1,
     "total_amount": 500,
     "url": "https://github.com/moth-quantum/QuantumBrush"
   },
