@@ -446,10 +446,16 @@
         "title": "Embed example Jupyter notebooks into docs website",
         "url": "https://github.com/SparqleSim/PauliPropagation.jl/issues/143",
         "value": 50
+      },
+      {
+        "project": "quantumsavory.jl",
+        "title": "`show` and visualization methods for multipartite Gaussian states from Gabs",
+        "url": "https://github.com/QuantumSavory/QuantumSavory.jl/issues/402",
+        "value": 100
       }
     ],
-    "num_projects": 1,
-    "total_value": 50,
+    "num_projects": 2,
+    "total_value": 150,
     "username": "Vortriz"
   },
   {
@@ -916,6 +922,19 @@
     "num_projects": 1,
     "total_value": 50,
     "username": "nez0b"
+  },
+  {
+    "bounties": [
+      {
+        "project": "jeff",
+        "title": "Add verification tool",
+        "url": "https://github.com/unitaryfoundation/jeff/issues/57",
+        "value": 75
+      }
+    ],
+    "num_projects": 1,
+    "total_value": 75,
+    "username": "orisus42"
   },
   {
     "bounties": [
