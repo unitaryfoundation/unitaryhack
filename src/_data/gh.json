@@ -1192,7 +1192,9 @@
     "amount_available": 400,
     "bounties": [
       {
-        "assignees": [],
+        "assignees": [
+          "nirajvenkat"
+        ],
         "state": "open",
         "title": "Add Verstraete-Cirac Fermion-to-Qubit Encoding",
         "url": "https://github.com/microsoft/qdk-chemistry/issues/482",
