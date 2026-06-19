@@ -1883,7 +1883,7 @@
     "url": "https://github.com/harmoniqs/Stretto.jl"
   },
   "tket2": {
-    "amount_available": 125,
+    "amount_available": 0,
     "bounties": [
       {
         "assignees": [
@@ -1895,7 +1895,9 @@
         "value": 175
       },
       {
-        "assignees": [],
+        "assignees": [
+          "cmdr-chara"
+        ],
         "state": "closed",
         "title": "[Docs]: Use a real-world classical optimizer in the QAOA MaxCut example",
         "url": "https://github.com/Quantinuum/guppylang/issues/1545",
@@ -1911,8 +1913,10 @@
         "value": 100
       },
       {
-        "assignees": [],
-        "state": "open",
+        "assignees": [
+          "nathandelcid"
+        ],
+        "state": "closed",
         "title": "Rewrite to replace non-Clifford operations with Clifford",
         "url": "https://github.com/Quantinuum/tket2/issues/1315",
         "value": 125
@@ -1921,7 +1925,7 @@
     "emoji": "\ud83d\udc20 \ud83e\udec2 \ud83c\udf9f\ufe0f",
     "name": "Guppy, HUGR, TKET",
     "num_bounties": 4,
-    "num_open_bounties": 1,
+    "num_open_bounties": 0,
     "total_amount": 500,
     "url": "https://github.com/quantinuum/"
   },
