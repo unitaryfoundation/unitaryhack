@@ -1047,6 +1047,19 @@
   {
     "bounties": [
       {
+        "project": "mitiq",
+        "title": "Add CDR example to mitiq's example gallery",
+        "url": "https://github.com/unitaryfoundation/mitiq/issues/1507",
+        "value": 50
+      }
+    ],
+    "num_projects": 1,
+    "total_value": 50,
+    "username": "qnelsonksh"
+  },
+  {
+    "bounties": [
+      {
         "project": "munich-quantum-toolkit",
         "title": "\u2728 Add QIR Program Format Support to the QDMI DDSim Device",
         "url": "https://github.com/munich-quantum-toolkit/core/issues/1695",
