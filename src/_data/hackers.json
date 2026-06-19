@@ -6,10 +6,16 @@
         "title": "[FEATURE] Add new conversion(s) of your choice (1/2)",
         "url": "https://github.com/qBraid/qBraid/issues/1186",
         "value": 175
+      },
+      {
+        "project": "quimb",
+        "title": "implement a lazy mps compression circuit simulator",
+        "url": "https://github.com/jcmgray/quimb/issues/357",
+        "value": 125
       }
     ],
-    "num_projects": 1,
-    "total_value": 175,
+    "num_projects": 2,
+    "total_value": 300,
     "username": "ACE07-Sev"
   },
   {
