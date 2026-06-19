@@ -321,13 +321,13 @@
     "url": "https://github.com/dynamiqs/dynamiqs"
   },
   "graphix": {
-    "amount_available": 300,
+    "amount_available": 0,
     "bounties": [
       {
         "assignees": [
           "NandanPatel24"
         ],
-        "state": "open",
+        "state": "closed",
         "title": "Implement amplitude damping noise model",
         "url": "https://github.com/TeamGraphix/graphix/issues/497",
         "value": 100
@@ -345,7 +345,7 @@
         "assignees": [
           "Vinny010"
         ],
-        "state": "open",
+        "state": "closed",
         "title": "Pauli-flow extraction from pattern",
         "url": "https://github.com/TeamGraphix/graphix/issues/432",
         "value": 200
@@ -363,7 +363,7 @@
     "emoji": "\ud83d\udd78\ufe0f",
     "name": "Graphix",
     "num_bounties": 4,
-    "num_open_bounties": 2,
+    "num_open_bounties": 0,
     "total_amount": 500,
     "url": "https://github.com/TeamGraphix/graphix"
   },
@@ -1929,7 +1929,9 @@
     "amount_available": 0,
     "bounties": [
       {
-        "assignees": [],
+        "assignees": [
+          "mathTar"
+        ],
         "state": "closed",
         "title": "Implement channel exclusion (channel antidistinguishability)",
         "url": "https://github.com/vprusso/toqito/issues/1521",
@@ -1943,14 +1945,18 @@
         "value": 100
       },
       {
-        "assignees": [],
+        "assignees": [
+          "pandey-tushar"
+        ],
         "state": "closed",
         "title": "Implement SDP bounds for quantum state exclusion under LOCC constraints via see-saw optimization",
         "url": "https://github.com/vprusso/toqito/issues/1525",
         "value": 90
       },
       {
-        "assignees": [],
+        "assignees": [
+          "pandey-tushar"
+        ],
         "state": "closed",
         "title": "Add symmetric extension hierarchy for state exclusion (separable measurement bounds on antidistinguishability)",
         "url": "https://github.com/vprusso/toqito/issues/1523",
@@ -1966,7 +1972,9 @@
         "value": 70
       },
       {
-        "assignees": [],
+        "assignees": [
+          "kris70lesgo"
+        ],
         "state": "closed",
         "title": "Add PPT measurement support to state exclusion SDP",
         "url": "https://github.com/vprusso/toqito/issues/1520",

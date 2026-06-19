@@ -308,6 +308,19 @@
   {
     "bounties": [
       {
+        "project": "graphix",
+        "title": "Implement amplitude damping noise model",
+        "url": "https://github.com/TeamGraphix/graphix/issues/497",
+        "value": 100
+      }
+    ],
+    "num_projects": 1,
+    "total_value": 100,
+    "username": "NandanPatel24"
+  },
+  {
+    "bounties": [
+      {
         "project": "piccolo.jl",
         "title": "Add DualRailEncoding + EmbeddedOperator quality-of-life utilities",
         "url": "https://github.com/harmoniqs/Piccolo.jl/issues/197",
@@ -442,13 +455,19 @@
     "bounties": [
       {
         "project": "graphix",
+        "title": "Pauli-flow extraction from pattern",
+        "url": "https://github.com/TeamGraphix/graphix/issues/432",
+        "value": 200
+      },
+      {
+        "project": "graphix",
         "title": "Pretty-print for `Statevec` and `DensityMatrix`",
         "url": "https://github.com/TeamGraphix/graphix/issues/501",
         "value": 50
       }
     ],
     "num_projects": 1,
-    "total_value": 50,
+    "total_value": 250,
     "username": "Vinny010"
   },
   {
@@ -772,6 +791,19 @@
   {
     "bounties": [
       {
+        "project": "toqito",
+        "title": "Add PPT measurement support to state exclusion SDP",
+        "url": "https://github.com/vprusso/toqito/issues/1520",
+        "value": 70
+      }
+    ],
+    "num_projects": 1,
+    "total_value": 70,
+    "username": "kris70lesgo"
+  },
+  {
+    "bounties": [
+      {
         "project": "hhat_lang",
         "title": "[IMPL] Check doc and code matching on `hat` CLI",
         "url": "https://github.com/hhat-lang/hhat_lang/issues/111",
@@ -874,6 +906,19 @@
   {
     "bounties": [
       {
+        "project": "toqito",
+        "title": "Implement channel exclusion (channel antidistinguishability)",
+        "url": "https://github.com/vprusso/toqito/issues/1521",
+        "value": 100
+      }
+    ],
+    "num_projects": 1,
+    "total_value": 100,
+    "username": "mathTar"
+  },
+  {
+    "bounties": [
+      {
         "project": "paulistrings.jl",
         "title": "Custom period translation symmetry",
         "url": "https://github.com/nicolasloizeau/PauliStrings.jl/issues/75",
@@ -955,10 +1000,22 @@
         "title": "implement a PEPO Heisenberg picture quantum circuit simulator",
         "url": "https://github.com/jcmgray/quimb/issues/359",
         "value": 175
+      },
+      {
+        "project": "toqito",
+        "title": "Implement SDP bounds for quantum state exclusion under LOCC constraints via see-saw optimization",
+        "url": "https://github.com/vprusso/toqito/issues/1525",
+        "value": 90
+      },
+      {
+        "project": "toqito",
+        "title": "Add symmetric extension hierarchy for state exclusion (separable measurement bounds on antidistinguishability)",
+        "url": "https://github.com/vprusso/toqito/issues/1523",
+        "value": 70
       }
     ],
-    "num_projects": 1,
-    "total_value": 175,
+    "num_projects": 2,
+    "total_value": 335,
     "username": "pandey-tushar"
   },
   {
