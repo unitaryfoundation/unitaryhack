@@ -366,6 +366,12 @@
     "bounties": [
       {
         "project": "deltakit",
+        "title": "request: support asymmetric error-bars in `deltakit.analysis`",
+        "url": "https://github.com/deltakit/deltakit/issues/134",
+        "value": 150
+      },
+      {
+        "project": "deltakit",
         "title": "request: use `uncertainties` instead of computing standard deviations manually",
         "url": "https://github.com/deltakit/deltakit/issues/215",
         "value": 150
@@ -384,7 +390,7 @@
       }
     ],
     "num_projects": 3,
-    "total_value": 490,
+    "total_value": 640,
     "username": "Ronit-Raj9"
   },
   {
@@ -1101,10 +1107,16 @@
         "title": "[IMPL] configuration file for quantum device information",
         "url": "https://github.com/hhat-lang/hhat_lang/issues/63",
         "value": 125
+      },
+      {
+        "project": "toqito",
+        "title": "Implement closed-form eigenvalue criterion for antidistinguishability of circulant sets of pure states",
+        "url": "https://github.com/vprusso/toqito/issues/1522",
+        "value": 70
       }
     ],
-    "num_projects": 1,
-    "total_value": 125,
+    "num_projects": 2,
+    "total_value": 195,
     "username": "tnemoz"
   },
   {

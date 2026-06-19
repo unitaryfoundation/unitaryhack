@@ -222,13 +222,13 @@
     "url": "https://github.com/NVIDIA/cuda-quantum"
   },
   "deltakit": {
-    "amount_available": 150,
+    "amount_available": 0,
     "bounties": [
       {
         "assignees": [
           "Ronit-Raj9"
         ],
-        "state": "open",
+        "state": "closed",
         "title": "request: support asymmetric error-bars in `deltakit.analysis`",
         "url": "https://github.com/deltakit/deltakit/issues/134",
         "value": 150
@@ -264,7 +264,7 @@
     "emoji": "\ud83d\udd3c",
     "name": "Deltakit",
     "num_bounties": 4,
-    "num_open_bounties": 1,
+    "num_open_bounties": 0,
     "total_amount": 500,
     "url": "https://github.com/deltakit/deltakit"
   },
@@ -1957,7 +1957,9 @@
         "value": 70
       },
       {
-        "assignees": [],
+        "assignees": [
+          "tnemoz"
+        ],
         "state": "closed",
         "title": "Implement closed-form eigenvalue criterion for antidistinguishability of circulant sets of pure states",
         "url": "https://github.com/vprusso/toqito/issues/1522",
