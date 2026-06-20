@@ -983,6 +983,19 @@
   {
     "bounties": [
       {
+        "project": "mitiq",
+        "title": "New technique: debiasing/symmetrization/sharpening",
+        "url": "https://github.com/unitaryfoundation/mitiq/issues/1955",
+        "value": 150
+      }
+    ],
+    "num_projects": 1,
+    "total_value": 150,
+    "username": "mnn31"
+  },
+  {
+    "bounties": [
+      {
         "project": "tket2",
         "title": "Rewrite to replace non-Clifford operations with Clifford",
         "url": "https://github.com/Quantinuum/tket2/issues/1315",

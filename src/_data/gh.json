@@ -692,7 +692,7 @@
     "url": "https://github.com/unitaryfoundation/metriq"
   },
   "mitiq": {
-    "amount_available": 225,
+    "amount_available": 75,
     "bounties": [
       {
         "assignees": [
@@ -714,7 +714,7 @@
         "assignees": [
           "mnn31"
         ],
-        "state": "open",
+        "state": "closed",
         "title": "New technique: debiasing/symmetrization/sharpening",
         "url": "https://github.com/unitaryfoundation/mitiq/issues/1955",
         "value": 150
@@ -741,7 +741,7 @@
     "emoji": "\ud83d\udef8\ud83c\udf1a",
     "name": "mitiq",
     "num_bounties": 5,
-    "num_open_bounties": 2,
+    "num_open_bounties": 1,
     "total_amount": 500,
     "url": "https://github.com/unitaryfoundation/mitiq"
   },
