@@ -1,6 +1,6 @@
 {
   "amazon-braket-sdk-python": {
-    "amount_available": 170,
+    "amount_available": 70,
     "bounties": [
       {
         "assignees": [
@@ -49,7 +49,7 @@
         "assignees": [
           "CleanDev-Fix"
         ],
-        "state": "open",
+        "state": "closed",
         "title": "Allow for Sums of PauliStrings",
         "url": "https://github.com/amazon-braket/amazon-braket-sdk-python/issues/1256",
         "value": 100
@@ -58,7 +58,7 @@
     "emoji": "\u269b\ufe0f\ud83d\udcbb",
     "name": "Amazon Braket SDK",
     "num_bounties": 6,
-    "num_open_bounties": 2,
+    "num_open_bounties": 1,
     "total_amount": 500,
     "url": "https://github.com/amazon-braket/amazon-braket-sdk-python"
   },
@@ -1395,13 +1395,13 @@
     "url": "https://github.com/Qiskit/"
   },
   "qiskit-braket-provider": {
-    "amount_available": 130,
+    "amount_available": 0,
     "bounties": [
       {
         "assignees": [
           "rylanmalarchick"
         ],
-        "state": "open",
+        "state": "closed",
         "title": "Group mutually commuting observables in BraketEstimator",
         "url": "https://github.com/amazon-braket/qiskit-braket-provider/issues/255",
         "value": 130
@@ -1437,7 +1437,7 @@
     "emoji": "\u269b\ufe0f\ud83c\udf10",
     "name": "Qiskit-Braket Provider",
     "num_bounties": 4,
-    "num_open_bounties": 1,
+    "num_open_bounties": 0,
     "total_amount": 400,
     "url": "https://github.com/qiskit-community/qiskit-braket-provider"
   },

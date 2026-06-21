@@ -72,14 +72,20 @@
   {
     "bounties": [
       {
+        "project": "amazon-braket-sdk-python",
+        "title": "Allow for Sums of PauliStrings",
+        "url": "https://github.com/amazon-braket/amazon-braket-sdk-python/issues/1256",
+        "value": 100
+      },
+      {
         "project": "p-11",
         "title": "Add a Sankey resource-flow diagram to the report output",
         "url": "https://github.com/Fitzoutofwater/SQuaRE-ROOT/issues/5",
         "value": 100
       }
     ],
-    "num_projects": 1,
-    "total_value": 100,
+    "num_projects": 2,
+    "total_value": 200,
     "username": "CleanDev-Fix"
   },
   {
@@ -1082,6 +1088,19 @@
     "num_projects": 1,
     "total_value": 100,
     "username": "rturrado"
+  },
+  {
+    "bounties": [
+      {
+        "project": "qiskit-braket-provider",
+        "title": "Group mutually commuting observables in BraketEstimator",
+        "url": "https://github.com/amazon-braket/qiskit-braket-provider/issues/255",
+        "value": 130
+      }
+    ],
+    "num_projects": 1,
+    "total_value": 130,
+    "username": "rylanmalarchick"
   },
   {
     "bounties": [
