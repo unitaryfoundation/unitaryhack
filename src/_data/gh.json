@@ -2034,7 +2034,9 @@
         "value": 150
       },
       {
-        "assignees": [],
+        "assignees": [
+          "sohamjoshi-python"
+        ],
         "state": "closed",
         "title": "Add information analyzing error plots for the gallery examples",
         "url": "https://github.com/tqec/tqec/issues/630",

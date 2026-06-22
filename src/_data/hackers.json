@@ -1193,6 +1193,19 @@
   {
     "bounties": [
       {
+        "project": "tqec",
+        "title": "Add information analyzing error plots for the gallery examples",
+        "url": "https://github.com/tqec/tqec/issues/630",
+        "value": 50
+      }
+    ],
+    "num_projects": 1,
+    "total_value": 50,
+    "username": "sohamjoshi-python"
+  },
+  {
+    "bounties": [
+      {
         "project": "qdk: microsoft quantum development kit, including the q",
         "title": "Add auto-import quickfix for unresolved names",
         "url": "https://github.com/microsoft/qdk/issues/3236",
