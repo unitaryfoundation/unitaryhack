@@ -1091,7 +1091,9 @@
     "amount_available": 100,
     "bounties": [
       {
-        "assignees": [],
+        "assignees": [
+          "sarah-ceo"
+        ],
         "state": "open",
         "title": "Always all modes are measured for ``ParticleNumberMeasurement`` on ``SamplingSimulator``",
         "url": "https://github.com/Budapest-Quantum-Computing-Group/piquasso/issues/499",
