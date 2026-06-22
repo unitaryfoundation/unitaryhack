@@ -1373,7 +1373,9 @@
         "value": 50
       },
       {
-        "assignees": [],
+        "assignees": [
+          "DennisWayo"
+        ],
         "state": "open",
         "title": "add the missing `label` parameter to gate functions that produce a single gate",
         "url": "https://github.com/Qiskit/qiskit/issues/5098",
