@@ -647,10 +647,16 @@
         "title": "Support math functions (`sin`, `cos`, `exp`, \u2026) in `FreeParameterExpression`",
         "url": "https://github.com/amazon-braket/amazon-braket-sdk-python/issues/1252",
         "value": 100
+      },
+      {
+        "project": "cuda-quantum",
+        "title": "SABRE qubit-mapping pass: topology-aware initial placement to reduce SWAPs on irregular devices",
+        "url": "https://github.com/NVIDIA/cuda-quantum/issues/4289",
+        "value": 100
       }
     ],
-    "num_projects": 1,
-    "total_value": 100,
+    "num_projects": 2,
+    "total_value": 200,
     "username": "border-b"
   },
   {
