@@ -1091,13 +1091,13 @@
     "url": "https://github.com/harmoniqs/Piccolo.jl"
   },
   "piquasso": {
-    "amount_available": 100,
+    "amount_available": 0,
     "bounties": [
       {
         "assignees": [
           "sarah-ceo"
         ],
-        "state": "open",
+        "state": "closed",
         "title": "Always all modes are measured for ``ParticleNumberMeasurement`` on ``SamplingSimulator``",
         "url": "https://github.com/Budapest-Quantum-Computing-Group/piquasso/issues/499",
         "value": 100
@@ -1151,7 +1151,7 @@
     "emoji": "\ud83c\udfa8",
     "name": "Piquasso",
     "num_bounties": 6,
-    "num_open_bounties": 1,
+    "num_open_bounties": 0,
     "total_amount": 500,
     "url": "https://github.com/Budapest-Quantum-Computing-Group/piquasso"
   },
@@ -1206,7 +1206,9 @@
         "value": 250
       },
       {
-        "assignees": [],
+        "assignees": [
+          "nirajvenkat"
+        ],
         "state": "open",
         "title": "Add Zassenhaus Recursion for Hamiltonian Simulation",
         "url": "https://github.com/microsoft/qdk-chemistry/issues/483",
