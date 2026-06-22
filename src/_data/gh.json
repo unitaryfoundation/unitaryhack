@@ -704,7 +704,10 @@
         "value": 75
       },
       {
-        "assignees": [],
+        "assignees": [
+          "nez0b",
+          "zkasuran"
+        ],
         "state": "open",
         "title": "Support representations directly in PEA",
         "url": "https://github.com/unitaryfoundation/mitiq/issues/2936",
@@ -1334,7 +1337,7 @@
     "url": "https://github.com/qiboteam/qibo"
   },
   "qiskit": {
-    "amount_available": 75,
+    "amount_available": 0,
     "bounties": [
       {
         "assignees": [
@@ -1376,7 +1379,7 @@
         "assignees": [
           "DennisWayo"
         ],
-        "state": "open",
+        "state": "closed",
         "title": "add the missing `label` parameter to gate functions that produce a single gate",
         "url": "https://github.com/Qiskit/qiskit/issues/5098",
         "value": 75
@@ -1394,7 +1397,7 @@
     "emoji": "\ud83c\udf10",
     "name": "Qiskit",
     "num_bounties": 6,
-    "num_open_bounties": 1,
+    "num_open_bounties": 0,
     "total_amount": 625,
     "url": "https://github.com/Qiskit/"
   },
