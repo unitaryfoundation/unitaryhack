@@ -1194,13 +1194,13 @@
     "url": "https://github.com/qBraid/qBraid"
   },
   "qdk-chemistry: a high-performance toolkit for quantum and classical chemistry calculations.": {
-    "amount_available": 400,
+    "amount_available": 150,
     "bounties": [
       {
         "assignees": [
           "nirajvenkat"
         ],
-        "state": "open",
+        "state": "closed",
         "title": "Add Verstraete-Cirac Fermion-to-Qubit Encoding",
         "url": "https://github.com/microsoft/qdk-chemistry/issues/482",
         "value": 250
@@ -1227,7 +1227,7 @@
     "emoji": "\u269b\ufe0f \ud83d\udcbb",
     "name": "MSFT QDK - Chemistry",
     "num_bounties": 3,
-    "num_open_bounties": 2,
+    "num_open_bounties": 1,
     "total_amount": 500,
     "url": "https://github.com/microsoft/qdk-chemistry"
   },

@@ -1046,6 +1046,19 @@
   {
     "bounties": [
       {
+        "project": "qdk-chemistry: a high-performance toolkit for quantum and classical chemistry calculations.",
+        "title": "Add Verstraete-Cirac Fermion-to-Qubit Encoding",
+        "url": "https://github.com/microsoft/qdk-chemistry/issues/482",
+        "value": 250
+      }
+    ],
+    "num_projects": 1,
+    "total_value": 250,
+    "username": "nirajvenkat"
+  },
+  {
+    "bounties": [
+      {
         "project": "jeff",
         "title": "Add verification tool",
         "url": "https://github.com/unitaryfoundation/jeff/issues/57",
