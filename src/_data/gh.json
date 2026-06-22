@@ -39,7 +39,9 @@
         "value": 80
       },
       {
-        "assignees": [],
+        "assignees": [
+          "skushagra"
+        ],
         "state": "open",
         "title": "Easily count instructions in a circuit",
         "url": "https://github.com/amazon-braket/amazon-braket-sdk-python/issues/1235",
