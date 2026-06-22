@@ -63,7 +63,7 @@
     "url": "https://github.com/amazon-braket/amazon-braket-sdk-python"
   },
   "bloqade": {
-    "amount_available": 575,
+    "amount_available": 500,
     "bounties": [
       {
         "assignees": [
@@ -78,7 +78,7 @@
         "assignees": [
           "mhmohona"
         ],
-        "state": "open",
+        "state": "closed",
         "title": "Clean up gate and broadcast statements with no qubit inputs.",
         "url": "https://github.com/QuEraComputing/bloqade-circuit/issues/516",
         "value": 75
@@ -115,7 +115,7 @@
     "emoji": "\u269b\ufe0f",
     "name": "bloqade",
     "num_bounties": 6,
-    "num_open_bounties": 5,
+    "num_open_bounties": 4,
     "total_amount": 675,
     "url": "https://github.com/QuEraComputing/bloqade"
   },
