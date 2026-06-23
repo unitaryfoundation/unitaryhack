@@ -1326,6 +1326,19 @@
   {
     "bounties": [
       {
+        "project": "metriq",
+        "title": "Add 2Q gate count for input and transpiled circuit(s) to benchmark data",
+        "url": "https://github.com/unitaryfoundation/metriq-gym/issues/715",
+        "value": 100
+      }
+    ],
+    "num_projects": 1,
+    "total_value": 100,
+    "username": "vprusso"
+  },
+  {
+    "bounties": [
+      {
         "project": "kqcircuits",
         "title": "Export layout present in KLayout GUI as an Elmer simulation",
         "url": "https://github.com/iqm-finland/KQCircuits/issues/122",
