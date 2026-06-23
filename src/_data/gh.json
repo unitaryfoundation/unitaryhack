@@ -678,7 +678,7 @@
       },
       {
         "assignees": [
-          "vprusso"
+          "manasa-manoj-nbr"
         ],
         "state": "closed",
         "title": "Add 2Q gate count for input and transpiled circuit(s) to benchmark data",

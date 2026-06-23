@@ -928,10 +928,16 @@
         "title": "feat(executors): IonQ native API executor",
         "url": "https://github.com/marqov-dev/marqov-sdk/issues/1",
         "value": 150
+      },
+      {
+        "project": "metriq",
+        "title": "Add 2Q gate count for input and transpiled circuit(s) to benchmark data",
+        "url": "https://github.com/unitaryfoundation/metriq-gym/issues/715",
+        "value": 100
       }
     ],
-    "num_projects": 3,
-    "total_value": 325,
+    "num_projects": 4,
+    "total_value": 425,
     "username": "manasa-manoj-nbr"
   },
   {
@@ -1322,19 +1328,6 @@
     "num_projects": 2,
     "total_value": 150,
     "username": "tzh476"
-  },
-  {
-    "bounties": [
-      {
-        "project": "metriq",
-        "title": "Add 2Q gate count for input and transpiled circuit(s) to benchmark data",
-        "url": "https://github.com/unitaryfoundation/metriq-gym/issues/715",
-        "value": 100
-      }
-    ],
-    "num_projects": 1,
-    "total_value": 100,
-    "username": "vprusso"
   },
   {
     "bounties": [
