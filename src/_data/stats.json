@@ -1,9 +1,9 @@
 {
   "num_bounties": 185,
   "total_bounty_value": 20555,
-  "num_open_bounties": 43,
-  "open_bounty_value": 5305,
-  "num_closed_bounties": 142,
-  "closed_bounty_value": 15250,
+  "num_open_bounties": 42,
+  "open_bounty_value": 5205,
+  "num_closed_bounties": 143,
+  "closed_bounty_value": 15350,
   "num_hackers": 77
 }

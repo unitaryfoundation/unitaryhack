@@ -65,7 +65,7 @@
     "url": "https://github.com/amazon-braket/amazon-braket-sdk-python"
   },
   "bloqade": {
-    "amount_available": 500,
+    "amount_available": 400,
     "bounties": [
       {
         "assignees": [
@@ -101,7 +101,7 @@
       },
       {
         "assignees": [],
-        "state": "open",
+        "state": "closed",
         "title": "Implement `R_XX`, `R_ZZ`, `R_YY`, and `R_PAULI` gates",
         "url": "https://github.com/QuEraComputing/tsim/issues/142",
         "value": 100
@@ -117,7 +117,7 @@
     "emoji": "\u269b\ufe0f",
     "name": "bloqade",
     "num_bounties": 6,
-    "num_open_bounties": 4,
+    "num_open_bounties": 3,
     "total_amount": 675,
     "url": "https://github.com/QuEraComputing/bloqade"
   },
