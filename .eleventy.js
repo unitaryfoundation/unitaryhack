@@ -155,6 +155,15 @@ module.exports = function (eleventyConfig) {
   eleventyConfig.addFilter('bountyState', (bounty) => {
     return bounty && bounty.state ? bounty.state : 'open';
   });
+  eleventyConfig.addFilter('closedBounties', (bounties) => {
+    if (!Array.isArray(bounties)) {
+      return [];
+    }
+
+    return bounties.filter((bounty) => {
+      return bounty && bounty.state === 'closed';
+    });
+  });
   eleventyConfig.addFilter('sumBountyValues', (bounties) => {
     if (!Array.isArray(bounties)) {
       return 0;
