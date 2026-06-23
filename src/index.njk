@@ -58,23 +58,14 @@ hideSiteFooter: true
               <th>Institution</th>
               <th>Date</th>
               <th>Location</th>
-              <th>Link</th>
             </tr>
           </thead>
           <tbody>
             {% for day in home.hackdays %}
-              {% set publicLink = day["Public Link"] %}
               <tr>
                 <td><strong>{{ day.Institution }}</strong></td>
                 <td>{{ day.Date }}</td>
                 <td>{{ day.Location }}</td>
-                <td>
-                  {% if publicLink | isHttpUrl %}
-                    <a class="landing-hackdays__link" href="{{ publicLink }}" target="_blank" rel="noopener noreferrer">Link</a>
-                  {% else %}
-                    {{ publicLink }}
-                  {% endif %}
-                </td>
               </tr>
             {% endfor %}
           </tbody>
