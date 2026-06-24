@@ -625,6 +625,12 @@
   {
     "bounties": [
       {
+        "project": "bloqade",
+        "title": "feat: Support postselection masks",
+        "url": "https://github.com/QuEraComputing/tsim/issues/41",
+        "value": 150
+      },
+      {
         "project": "hhat_lang",
         "title": "[IMPL] improve github workflows checks",
         "url": "https://github.com/hhat-lang/hhat_lang/issues/78",
@@ -655,8 +661,8 @@
         "value": 50
       }
     ],
-    "num_projects": 5,
-    "total_value": 375,
+    "num_projects": 6,
+    "total_value": 525,
     "username": "axif0"
   },
   {

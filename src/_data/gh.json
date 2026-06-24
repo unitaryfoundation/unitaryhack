@@ -109,7 +109,9 @@
         "value": 100
       },
       {
-        "assignees": [],
+        "assignees": [
+          "axif0"
+        ],
         "state": "closed",
         "title": "feat: Support postselection masks",
         "url": "https://github.com/QuEraComputing/tsim/issues/41",
