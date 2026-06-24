@@ -65,7 +65,7 @@
     "url": "https://github.com/amazon-braket/amazon-braket-sdk-python"
   },
   "bloqade": {
-    "amount_available": 400,
+    "amount_available": 250,
     "bounties": [
       {
         "assignees": [
@@ -100,7 +100,9 @@
         "value": 200
       },
       {
-        "assignees": [],
+        "assignees": [
+          "Mostafa-Atallah2020"
+        ],
         "state": "closed",
         "title": "Implement `R_XX`, `R_ZZ`, `R_YY`, and `R_PAULI` gates",
         "url": "https://github.com/QuEraComputing/tsim/issues/142",
@@ -108,7 +110,7 @@
       },
       {
         "assignees": [],
-        "state": "open",
+        "state": "closed",
         "title": "feat: Support postselection masks",
         "url": "https://github.com/QuEraComputing/tsim/issues/41",
         "value": 150
@@ -117,7 +119,7 @@
     "emoji": "\u269b\ufe0f",
     "name": "bloqade",
     "num_bounties": 6,
-    "num_open_bounties": 3,
+    "num_open_bounties": 2,
     "total_amount": 675,
     "url": "https://github.com/QuEraComputing/bloqade"
   },

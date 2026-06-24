@@ -320,6 +320,19 @@
   {
     "bounties": [
       {
+        "project": "bloqade",
+        "title": "Implement `R_XX`, `R_ZZ`, `R_YY`, and `R_PAULI` gates",
+        "url": "https://github.com/QuEraComputing/tsim/issues/142",
+        "value": 100
+      }
+    ],
+    "num_projects": 1,
+    "total_value": 100,
+    "username": "Mostafa-Atallah2020"
+  },
+  {
+    "bounties": [
+      {
         "project": "graphix",
         "title": "Implement amplitude damping noise model",
         "url": "https://github.com/TeamGraphix/graphix/issues/497",
