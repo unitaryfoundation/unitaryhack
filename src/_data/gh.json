@@ -175,7 +175,7 @@
     "url": "https://github.com/unitaryfoundation/clifft"
   },
   "cuda-quantum": {
-    "amount_available": 100,
+    "amount_available": 0,
     "bounties": [
       {
         "assignees": [
@@ -207,7 +207,7 @@
       },
       {
         "assignees": [],
-        "state": "open",
+        "state": "closed",
         "title": "Mathematical functions support",
         "url": "https://github.com/NVIDIA/cuda-quantum/issues/2942",
         "value": 100
@@ -225,7 +225,7 @@
     "emoji": "\ud83d\udc9a",
     "name": "CUDA-Q",
     "num_bounties": 5,
-    "num_open_bounties": 1,
+    "num_open_bounties": 0,
     "total_amount": 500,
     "url": "https://github.com/NVIDIA/cuda-quantum"
   },
