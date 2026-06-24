@@ -1202,7 +1202,7 @@
     "url": "https://github.com/qBraid/qBraid"
   },
   "qdk-chemistry: a high-performance toolkit for quantum and classical chemistry calculations.": {
-    "amount_available": 150,
+    "amount_available": 0,
     "bounties": [
       {
         "assignees": [
@@ -1217,7 +1217,7 @@
         "assignees": [
           "nirajvenkat"
         ],
-        "state": "open",
+        "state": "closed",
         "title": "Add Zassenhaus Recursion for Hamiltonian Simulation",
         "url": "https://github.com/microsoft/qdk-chemistry/issues/483",
         "value": 150
@@ -1235,7 +1235,7 @@
     "emoji": "\u269b\ufe0f \ud83d\udcbb",
     "name": "MSFT QDK - Chemistry",
     "num_bounties": 3,
-    "num_open_bounties": 1,
+    "num_open_bounties": 0,
     "total_amount": 500,
     "url": "https://github.com/microsoft/qdk-chemistry"
   },

@@ -1087,10 +1087,16 @@
         "title": "Add Verstraete-Cirac Fermion-to-Qubit Encoding",
         "url": "https://github.com/microsoft/qdk-chemistry/issues/482",
         "value": 250
+      },
+      {
+        "project": "qdk-chemistry: a high-performance toolkit for quantum and classical chemistry calculations.",
+        "title": "Add Zassenhaus Recursion for Hamiltonian Simulation",
+        "url": "https://github.com/microsoft/qdk-chemistry/issues/483",
+        "value": 150
       }
     ],
     "num_projects": 1,
-    "total_value": 250,
+    "total_value": 400,
     "username": "nirajvenkat"
   },
   {
