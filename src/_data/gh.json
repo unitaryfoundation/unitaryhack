@@ -93,7 +93,9 @@
         "value": 50
       },
       {
-        "assignees": [],
+        "assignees": [
+          "shalini9894"
+        ],
         "state": "open",
         "title": "Tutorial: Subjecting codes of various dimensionality to global rotations",
         "url": "https://github.com/QuEraComputing/tsim/issues/119",
