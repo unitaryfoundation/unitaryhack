@@ -1529,7 +1529,7 @@
     "url": "https://github.com/qojulia"
   },
   "qosf": {
-    "amount_available": 400,
+    "amount_available": 100,
     "bounties": [
       {
         "assignees": [],
@@ -1539,15 +1539,19 @@
         "value": 100
       },
       {
-        "assignees": [],
-        "state": "open",
+        "assignees": [
+          "manasa-manoj-nbr"
+        ],
+        "state": "closed",
         "title": "Mentorship program form webapp",
         "url": "https://github.com/qosf/qosf.org/issues/135",
         "value": 200
       },
       {
-        "assignees": [],
-        "state": "open",
+        "assignees": [
+          "ljcamargo"
+        ],
+        "state": "closed",
         "title": "Infographic of the main quantum open source projects.",
         "url": "https://github.com/qosf/qosf.org/issues/93",
         "value": 100
@@ -1556,7 +1560,7 @@
     "emoji": "\ud83c\udf10 \ud83d\udd05",
     "name": "QOSF",
     "num_bounties": 3,
-    "num_open_bounties": 3,
+    "num_open_bounties": 1,
     "total_amount": 400,
     "url": "https://github.com/qosf"
   },

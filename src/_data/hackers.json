@@ -897,10 +897,16 @@
         "title": "New statevector simulator backend plugin based on `cuQuantum`",
         "url": "https://github.com/TeamGraphix/graphix/issues/496",
         "value": 150
+      },
+      {
+        "project": "qosf",
+        "title": "Infographic of the main quantum open source projects.",
+        "url": "https://github.com/qosf/qosf.org/issues/93",
+        "value": 100
       }
     ],
-    "num_projects": 1,
-    "total_value": 150,
+    "num_projects": 2,
+    "total_value": 250,
     "username": "ljcamargo"
   },
   {
@@ -953,10 +959,16 @@
         "title": "Add 2Q gate count for input and transpiled circuit(s) to benchmark data",
         "url": "https://github.com/unitaryfoundation/metriq-gym/issues/715",
         "value": 100
+      },
+      {
+        "project": "qosf",
+        "title": "Mentorship program form webapp",
+        "url": "https://github.com/qosf/qosf.org/issues/135",
+        "value": 200
       }
     ],
-    "num_projects": 4,
-    "total_value": 425,
+    "num_projects": 5,
+    "total_value": 625,
     "username": "manasa-manoj-nbr"
   },
   {
