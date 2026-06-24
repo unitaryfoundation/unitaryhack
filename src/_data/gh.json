@@ -1643,7 +1643,9 @@
         "value": 50
       },
       {
-        "assignees": [],
+        "assignees": [
+          "codexbountylab"
+        ],
         "state": "open",
         "title": "Serialization and what's next? Improve communication between different language stack",
         "url": "https://github.com/moth-quantum/QuantumBrush/issues/47",
