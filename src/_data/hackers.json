@@ -229,10 +229,16 @@
         "title": "Improve performance of `GaussianState.density_matrix`",
         "url": "https://github.com/Budapest-Quantum-Computing-Group/piquasso/issues/523",
         "value": 200
+      },
+      {
+        "project": "quantum-universal-education.github.io",
+        "title": "Quantum compilation tutorial",
+        "url": "https://github.com/Quantum-Universal-Education/Quantum-Universal-Education.github.io/issues/53",
+        "value": 200
       }
     ],
-    "num_projects": 2,
-    "total_value": 400,
+    "num_projects": 3,
+    "total_value": 600,
     "username": "JaipreethTiruvaipati"
   },
   {
@@ -588,6 +594,19 @@
   {
     "bounties": [
       {
+        "project": "qosf",
+        "title": "monthly challenge",
+        "url": "https://github.com/qosf/monthly-challenges/issues/70",
+        "value": 100
+      }
+    ],
+    "num_projects": 1,
+    "total_value": 100,
+    "username": "arvizu-god"
+  },
+  {
+    "bounties": [
+      {
         "project": "clifft",
         "title": "Prototype a Qiskit backend provider for Clifft",
         "url": "https://github.com/unitaryfoundation/clifft/issues/39",
@@ -876,6 +895,19 @@
     "num_projects": 1,
     "total_value": 12,
     "username": "lballerio"
+  },
+  {
+    "bounties": [
+      {
+        "project": "quantum-universal-education.github.io",
+        "title": "Program a quantum game",
+        "url": "https://github.com/Quantum-Universal-Education/Quantum-Universal-Education.github.io/issues/54",
+        "value": 200
+      }
+    ],
+    "num_projects": 1,
+    "total_value": 200,
+    "username": "learningdungeon"
   },
   {
     "bounties": [
@@ -1175,6 +1207,19 @@
     "num_projects": 1,
     "total_value": 130,
     "username": "rylanmalarchick"
+  },
+  {
+    "bounties": [
+      {
+        "project": "quantum-universal-education.github.io",
+        "title": "Quantum Software Application tutorial",
+        "url": "https://github.com/Quantum-Universal-Education/Quantum-Universal-Education.github.io/issues/52",
+        "value": 100
+      }
+    ],
+    "num_projects": 1,
+    "total_value": 100,
+    "username": "sahilmp"
   },
   {
     "bounties": [
