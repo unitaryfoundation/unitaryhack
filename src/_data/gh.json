@@ -1643,7 +1643,7 @@
     "url": "https://github.com/Quantum-Universal-Education/Quantum-Universal-Education.github.io"
   },
   "quantumbrush": {
-    "amount_available": 100,
+    "amount_available": 290,
     "bounties": [
       {
         "assignees": [
@@ -1681,14 +1681,14 @@
       },
       {
         "assignees": [],
-        "state": "closed",
+        "state": "open",
         "title": "Make your own Quantum Brush!",
         "url": "https://github.com/moth-quantum/QuantumBrush/issues/50",
         "value": 100
       },
       {
         "assignees": [],
-        "state": "closed",
+        "state": "open",
         "title": "Imagine the modern version of Quantum Brush",
         "url": "https://github.com/moth-quantum/QuantumBrush/issues/51",
         "value": 90
@@ -1697,7 +1697,7 @@
     "emoji": "\u269b\ufe0f \ud83c\udfa8",
     "name": "Art with Quantum Dynamics",
     "num_bounties": 6,
-    "num_open_bounties": 1,
+    "num_open_bounties": 3,
     "total_amount": 500,
     "url": "https://github.com/moth-quantum/QuantumBrush"
   },
