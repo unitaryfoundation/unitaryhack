@@ -1,6 +1,6 @@
 {
   "amazon-braket-sdk-python": {
-    "amount_available": 70,
+    "amount_available": 0,
     "bounties": [
       {
         "assignees": [
@@ -42,7 +42,7 @@
         "assignees": [
           "skushagra"
         ],
-        "state": "open",
+        "state": "closed",
         "title": "Easily count instructions in a circuit",
         "url": "https://github.com/amazon-braket/amazon-braket-sdk-python/issues/1235",
         "value": 70
@@ -60,7 +60,7 @@
     "emoji": "\u269b\ufe0f\ud83d\udcbb",
     "name": "Amazon Braket SDK",
     "num_bounties": 6,
-    "num_open_bounties": 1,
+    "num_open_bounties": 0,
     "total_amount": 500,
     "url": "https://github.com/amazon-braket/amazon-braket-sdk-python"
   },

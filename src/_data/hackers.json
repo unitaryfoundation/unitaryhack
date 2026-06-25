@@ -1281,6 +1281,19 @@
   {
     "bounties": [
       {
+        "project": "amazon-braket-sdk-python",
+        "title": "Easily count instructions in a circuit",
+        "url": "https://github.com/amazon-braket/amazon-braket-sdk-python/issues/1235",
+        "value": 70
+      }
+    ],
+    "num_projects": 1,
+    "total_value": 70,
+    "username": "skushagra"
+  },
+  {
+    "bounties": [
+      {
         "project": "tqec",
         "title": "Add information analyzing error plots for the gallery examples",
         "url": "https://github.com/tqec/tqec/issues/630",
