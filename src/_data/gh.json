@@ -583,7 +583,7 @@
     "url": "https://github.com/iqm-finland/KQCircuits"
   },
   "marqov-sdk": {
-    "amount_available": 100,
+    "amount_available": 0,
     "bounties": [
       {
         "assignees": [
@@ -607,7 +607,7 @@
         "assignees": [
           "sim-eng-ii"
         ],
-        "state": "open",
+        "state": "closed",
         "title": "feat(circuits): add Circuit.to_pytket() export",
         "url": "https://github.com/marqov-dev/marqov-sdk/issues/3",
         "value": 65
@@ -634,7 +634,7 @@
         "assignees": [
           "sim-eng-ii"
         ],
-        "state": "open",
+        "state": "closed",
         "title": "feat(executors): Quantinuum executor via pytket",
         "url": "https://github.com/marqov-dev/marqov-sdk/issues/6",
         "value": 35
@@ -643,7 +643,7 @@
     "emoji": "\u269b\ufe0f\ud83e\udd98",
     "name": "Marqov SDK",
     "num_bounties": 6,
-    "num_open_bounties": 2,
+    "num_open_bounties": 0,
     "total_amount": 500,
     "url": "https://github.com/marqov-dev/marqov-sdk"
   },

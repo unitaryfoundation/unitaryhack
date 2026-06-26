@@ -1250,6 +1250,25 @@
   {
     "bounties": [
       {
+        "project": "marqov-sdk",
+        "title": "feat(circuits): add Circuit.to_pytket() export",
+        "url": "https://github.com/marqov-dev/marqov-sdk/issues/3",
+        "value": 65
+      },
+      {
+        "project": "marqov-sdk",
+        "title": "feat(executors): Quantinuum executor via pytket",
+        "url": "https://github.com/marqov-dev/marqov-sdk/issues/6",
+        "value": 35
+      }
+    ],
+    "num_projects": 1,
+    "total_value": 100,
+    "username": "sim-eng-ii"
+  },
+  {
+    "bounties": [
+      {
         "project": "cuda-quantum",
         "title": "Add common quantum embeddings",
         "url": "https://github.com/NVIDIA/cuda-quantum/issues/2982",
