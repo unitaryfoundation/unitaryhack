@@ -877,10 +877,16 @@
         "title": "[IMPL] Check doc and code matching on `hat` CLI",
         "url": "https://github.com/hhat-lang/hhat_lang/issues/111",
         "value": 125
+      },
+      {
+        "project": "metriq",
+        "title": "Minimal two-device comparison view ",
+        "url": "https://github.com/unitaryfoundation/metriq-web/issues/15",
+        "value": 50
       }
     ],
-    "num_projects": 1,
-    "total_value": 125,
+    "num_projects": 2,
+    "total_value": 175,
     "username": "kwyip"
   },
   {
@@ -931,14 +937,20 @@
         "value": 150
       },
       {
+        "project": "metriq",
+        "title": "Minimal two-device comparison view ",
+        "url": "https://github.com/unitaryfoundation/metriq-web/issues/15",
+        "value": 50
+      },
+      {
         "project": "qosf",
         "title": "Infographic of the main quantum open source projects.",
         "url": "https://github.com/qosf/qosf.org/issues/93",
         "value": 100
       }
     ],
-    "num_projects": 2,
-    "total_value": 250,
+    "num_projects": 3,
+    "total_value": 300,
     "username": "ljcamargo"
   },
   {

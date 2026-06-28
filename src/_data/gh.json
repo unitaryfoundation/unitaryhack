@@ -648,13 +648,14 @@
     "url": "https://github.com/marqov-dev/marqov-sdk"
   },
   "metriq": {
-    "amount_available": 250,
+    "amount_available": 150,
     "bounties": [
       {
         "assignees": [
-          "cosenal"
+          "kwyip",
+          "ljcamargo"
         ],
-        "state": "open",
+        "state": "closed",
         "title": "Minimal two-device comparison view ",
         "url": "https://github.com/unitaryfoundation/metriq-web/issues/15",
         "value": 100
@@ -695,7 +696,7 @@
     "emoji": "\ud83d\udcca\ufe0f\ud83d\udccf",
     "name": "Metriq",
     "num_bounties": 5,
-    "num_open_bounties": 3,
+    "num_open_bounties": 2,
     "total_amount": 500,
     "url": "https://github.com/unitaryfoundation/metriq"
   },
