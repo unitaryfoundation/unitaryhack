@@ -2086,7 +2086,9 @@
         "value": 250
       },
       {
-        "assignees": [],
+        "assignees": [
+          "Hope-Alemayehu"
+        ],
         "state": "open",
         "title": "Add gestures, magic wand, etc features to the tutorial docs",
         "url": "https://github.com/zxcalc/zxlive/issues/522",
