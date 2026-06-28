@@ -2,6 +2,19 @@
   {
     "bounties": [
       {
+        "project": "quantumbrush",
+        "title": "Imagine the modern version of Quantum Brush",
+        "url": "https://github.com/moth-quantum/QuantumBrush/issues/51",
+        "value": 90
+      }
+    ],
+    "num_projects": 1,
+    "total_value": 90,
+    "username": "1vei"
+  },
+  {
+    "bounties": [
+      {
         "project": "qbraid",
         "title": "[FEATURE] Add new conversion(s) of your choice (1/2)",
         "url": "https://github.com/qBraid/qBraid/issues/1186",
