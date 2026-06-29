@@ -42,6 +42,7 @@ def build_email_body(hacker, username):
 
     email_contents += f"Hence, your total payout is **${hacker['total_value']}USD**! This information is also summarized at https://unitaryhack.dev/hackers/{username}/."
     email_contents += f""" It's now time to get you paid! We'll need to collect some information from you in order to make this happen. Would you please submit a (single!) response to [this form]({BOUNTY_WINNER_FORM}) at your earliest convenience? Once we have the necessary information, we can begin processing your payment."""
+    email_contents += f" Additionally, if you'd like a certificate of participation, please reply to this email with the full name that you'd like to see on it."
     return email_contents
 
 
