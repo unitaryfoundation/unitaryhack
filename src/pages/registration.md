@@ -1,6 +1,6 @@
 ---
-title: Registration
-metaDescription: Register for unitaryHACK!
+title: Registration Closed
+metaDescription: Registration for unitaryHACK 2026 is closed.
 permalink: /register/index.html
 eleventyNavigation:
   key: Registration
@@ -10,13 +10,7 @@ eleventyExcludeFromCollections: false # set to true to hide in navbars pre-hack
 
 <div class="registration-form">
   <p class="registration-form__intro">
-    Fill out the form below to register for unitaryHACK. If the embedded form is slow or unavailable in your browser, use the button below instead.
-  </p>
-
-  <p class="registration-form__actions">
-    <a class="btn" href="https://airtable.com/appfhkqSH4zVtjha0/pag7CoNawqpRfN6Oo/form" target="_blank" rel="noopener noreferrer">
-      Open Form In New Tab
-    </a>
+    Registration for unitaryHACK 2026 is now closed. Thanks to everyone who signed up and took part.
   </p>
 
   <div class="registration-form__embed-shell is-loading" data-registration-embed>
