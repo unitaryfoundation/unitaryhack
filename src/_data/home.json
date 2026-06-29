@@ -1,10 +1,6 @@
 {
   "primary_nav_items": [
     {
-      "label": "Registration",
-      "url": "/register/"
-    },
-    {
       "label": "Projects",
       "url": "/projects/"
     },
