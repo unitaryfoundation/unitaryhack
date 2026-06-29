@@ -3,7 +3,7 @@ pagination:
   data: hackers
   size: 1
   alias: hacker
-permalink: "hackers/{{ hacker.username | slugify }}/"
+permalink: "hackers/{{ hacker.username | lower }}/"
 layout: base.njk
 ---
 
