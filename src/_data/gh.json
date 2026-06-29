@@ -1645,7 +1645,7 @@
     "url": "https://github.com/Quantum-Universal-Education/Quantum-Universal-Education.github.io"
   },
   "quantumbrush": {
-    "amount_available": 100,
+    "amount_available": 0,
     "bounties": [
       {
         "assignees": [
@@ -1660,7 +1660,7 @@
         "assignees": [
           "codexbountylab"
         ],
-        "state": "open",
+        "state": "closed",
         "title": "Serialization and what's next? Improve communication between different language stack",
         "url": "https://github.com/moth-quantum/QuantumBrush/issues/47",
         "value": 100
@@ -1703,7 +1703,7 @@
     "emoji": "\u269b\ufe0f \ud83c\udfa8",
     "name": "Art with Quantum Dynamics",
     "num_bounties": 6,
-    "num_open_bounties": 1,
+    "num_open_bounties": 0,
     "total_amount": 500,
     "url": "https://github.com/moth-quantum/QuantumBrush"
   },
