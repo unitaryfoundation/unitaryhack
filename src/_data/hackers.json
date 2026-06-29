@@ -3,13 +3,19 @@
     "bounties": [
       {
         "project": "quantumbrush",
+        "title": "Make your own Quantum Brush!",
+        "url": "https://github.com/moth-quantum/QuantumBrush/issues/50",
+        "value": 100
+      },
+      {
+        "project": "quantumbrush",
         "title": "Imagine the modern version of Quantum Brush",
         "url": "https://github.com/moth-quantum/QuantumBrush/issues/51",
         "value": 90
       }
     ],
     "num_projects": 1,
-    "total_value": 90,
+    "total_value": 190,
     "username": "1vei"
   },
   {
