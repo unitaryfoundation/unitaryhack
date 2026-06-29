@@ -148,14 +148,20 @@
         "value": 50
       },
       {
+        "project": "qibo",
+        "title": "Dynamiqs integration as simulation engine",
+        "url": "https://github.com/qiboteam/qibolab/issues/1411",
+        "value": 50
+      },
+      {
         "project": "qiskit",
         "title": "add the missing `label` parameter to gate functions that produce a single gate",
         "url": "https://github.com/Qiskit/qiskit/issues/5098",
         "value": 75
       }
     ],
-    "num_projects": 2,
-    "total_value": 125,
+    "num_projects": 3,
+    "total_value": 175,
     "username": "DennisWayo"
   },
   {
@@ -362,10 +368,16 @@
         "title": "Implement amplitude damping noise model",
         "url": "https://github.com/TeamGraphix/graphix/issues/497",
         "value": 100
+      },
+      {
+        "project": "qibo",
+        "title": "Store Hamiltonian and state evolutions",
+        "url": "https://github.com/qiboteam/qibolab/issues/1415",
+        "value": 25
       }
     ],
-    "num_projects": 1,
-    "total_value": 100,
+    "num_projects": 2,
+    "total_value": 125,
     "username": "NandanPatel24"
   },
   {
@@ -455,19 +467,6 @@
     "num_projects": 3,
     "total_value": 640,
     "username": "Ronit-Raj9"
-  },
-  {
-    "bounties": [
-      {
-        "project": "qibo",
-        "title": "Dynamiqs integration as simulation engine",
-        "url": "https://github.com/qiboteam/qibolab/issues/1411",
-        "value": 12
-      }
-    ],
-    "num_projects": 1,
-    "total_value": 12,
-    "username": "RoyStegeman"
   },
   {
     "bounties": [
@@ -583,19 +582,6 @@
     "num_projects": 2,
     "total_value": 280,
     "username": "ahkatlio"
-  },
-  {
-    "bounties": [
-      {
-        "project": "qibo",
-        "title": "Dynamiqs integration as simulation engine",
-        "url": "https://github.com/qiboteam/qibolab/issues/1411",
-        "value": 12
-      }
-    ],
-    "num_projects": 1,
-    "total_value": 12,
-    "username": "alecandido"
   },
   {
     "bounties": [
@@ -907,19 +893,6 @@
     "num_projects": 2,
     "total_value": 175,
     "username": "kwyip"
-  },
-  {
-    "bounties": [
-      {
-        "project": "qibo",
-        "title": "Dynamiqs integration as simulation engine",
-        "url": "https://github.com/qiboteam/qibolab/issues/1411",
-        "value": 12
-      }
-    ],
-    "num_projects": 1,
-    "total_value": 12,
-    "username": "lballerio"
   },
   {
     "bounties": [
@@ -1268,19 +1241,6 @@
   {
     "bounties": [
       {
-        "project": "qibo",
-        "title": "Dynamiqs integration as simulation engine",
-        "url": "https://github.com/qiboteam/qibolab/issues/1411",
-        "value": 12
-      }
-    ],
-    "num_projects": 1,
-    "total_value": 12,
-    "username": "scarrazza"
-  },
-  {
-    "bounties": [
-      {
         "project": "marqov-sdk",
         "title": "feat(circuits): add Circuit.to_pytket() export",
         "url": "https://github.com/marqov-dev/marqov-sdk/issues/3",
@@ -1394,14 +1354,20 @@
         "value": 100
       },
       {
+        "project": "qibo",
+        "title": "GPU support for the emulator",
+        "url": "https://github.com/qiboteam/qibolab/issues/1414",
+        "value": 25
+      },
+      {
         "project": "qiskit",
         "title": "QASM3 exporter with parameterized circuit support",
         "url": "https://github.com/Qiskit/qiskit-cpp/issues/146",
         "value": 150
       }
     ],
-    "num_projects": 3,
-    "total_value": 350,
+    "num_projects": 4,
+    "total_value": 375,
     "username": "spital"
   },
   {

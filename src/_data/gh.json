@@ -1292,10 +1292,7 @@
     "bounties": [
       {
         "assignees": [
-          "RoyStegeman",
-          "alecandido",
-          "lballerio",
-          "scarrazza"
+          "DennisWayo"
         ],
         "state": "closed",
         "title": "Dynamiqs integration as simulation engine",
@@ -1303,14 +1300,18 @@
         "value": 50
       },
       {
-        "assignees": [],
+        "assignees": [
+          "spital"
+        ],
         "state": "closed",
         "title": "GPU support for the emulator",
         "url": "https://github.com/qiboteam/qibolab/issues/1414",
         "value": 25
       },
       {
-        "assignees": [],
+        "assignees": [
+          "NandanPatel24"
+        ],
         "state": "closed",
         "title": "Store Hamiltonian and state evolutions",
         "url": "https://github.com/qiboteam/qibolab/issues/1415",
