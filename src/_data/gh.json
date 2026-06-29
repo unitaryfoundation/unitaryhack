@@ -2079,7 +2079,9 @@
     "amount_available": 400,
     "bounties": [
       {
-        "assignees": [],
+        "assignees": [
+          "Gmin2"
+        ],
         "state": "open",
         "title": "Add an interactive onboarding tutorial",
         "url": "https://github.com/zxcalc/zxlive/issues/523",
