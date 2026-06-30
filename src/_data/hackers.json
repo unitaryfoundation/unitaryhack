@@ -599,6 +599,19 @@
   {
     "bounties": [
       {
+        "project": "toqito",
+        "title": "Add constrained extended nonlocal games support for SDP upper bounds and reproduce constrained BB84",
+        "url": "https://github.com/vprusso/toqito/issues/1519",
+        "value": 100
+      }
+    ],
+    "num_projects": 1,
+    "total_value": 100,
+    "username": "arnavk23"
+  },
+  {
+    "bounties": [
+      {
         "project": "qosf",
         "title": "monthly challenge",
         "url": "https://github.com/qosf/monthly-challenges/issues/70",

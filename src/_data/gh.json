@@ -1981,7 +1981,9 @@
         "value": 100
       },
       {
-        "assignees": [],
+        "assignees": [
+          "arnavk23"
+        ],
         "state": "closed",
         "title": "Add constrained extended nonlocal games support for SDP upper bounds and reproduce constrained BB84",
         "url": "https://github.com/vprusso/toqito/issues/1519",
