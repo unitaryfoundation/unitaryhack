@@ -65,7 +65,7 @@
     "url": "https://github.com/amazon-braket/amazon-braket-sdk-python"
   },
   "bloqade": {
-    "amount_available": 250,
+    "amount_available": 50,
     "bounties": [
       {
         "assignees": [
@@ -96,7 +96,7 @@
         "assignees": [
           "shalini9894"
         ],
-        "state": "open",
+        "state": "closed",
         "title": "Tutorial: Subjecting codes of various dimensionality to global rotations",
         "url": "https://github.com/QuEraComputing/tsim/issues/119",
         "value": 200
@@ -123,7 +123,7 @@
     "emoji": "\u269b\ufe0f",
     "name": "bloqade",
     "num_bounties": 6,
-    "num_open_bounties": 2,
+    "num_open_bounties": 1,
     "total_amount": 675,
     "url": "https://github.com/QuEraComputing/bloqade"
   },

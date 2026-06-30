@@ -1266,6 +1266,19 @@
   {
     "bounties": [
       {
+        "project": "bloqade",
+        "title": "Tutorial: Subjecting codes of various dimensionality to global rotations",
+        "url": "https://github.com/QuEraComputing/tsim/issues/119",
+        "value": 200
+      }
+    ],
+    "num_projects": 1,
+    "total_value": 200,
+    "username": "shalini9894"
+  },
+  {
+    "bounties": [
+      {
         "project": "marqov-sdk",
         "title": "feat(circuits): add Circuit.to_pytket() export",
         "url": "https://github.com/marqov-dev/marqov-sdk/issues/3",
