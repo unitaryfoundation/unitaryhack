@@ -701,7 +701,7 @@
     "url": "https://github.com/unitaryfoundation/metriq"
   },
   "mitiq": {
-    "amount_available": 75,
+    "amount_available": 0,
     "bounties": [
       {
         "assignees": [
@@ -717,7 +717,7 @@
           "nez0b",
           "zkasuran"
         ],
-        "state": "open",
+        "state": "closed",
         "title": "Support representations directly in PEA",
         "url": "https://github.com/unitaryfoundation/mitiq/issues/2936",
         "value": 75
@@ -753,7 +753,7 @@
     "emoji": "\ud83d\udef8\ud83c\udf1a",
     "name": "mitiq",
     "num_bounties": 5,
-    "num_open_bounties": 1,
+    "num_open_bounties": 0,
     "total_amount": 500,
     "url": "https://github.com/unitaryfoundation/mitiq"
   },

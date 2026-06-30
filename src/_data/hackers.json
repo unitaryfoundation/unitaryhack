@@ -1112,14 +1112,20 @@
   {
     "bounties": [
       {
+        "project": "mitiq",
+        "title": "Support representations directly in PEA",
+        "url": "https://github.com/unitaryfoundation/mitiq/issues/2936",
+        "value": 37
+      },
+      {
         "project": "quest",
         "title": "Optimise `getValueOfBits` and `insertBits`",
         "url": "https://github.com/QuEST-Kit/QuEST/issues/717",
         "value": 50
       }
     ],
-    "num_projects": 1,
-    "total_value": 50,
+    "num_projects": 2,
+    "total_value": 87,
     "username": "nez0b"
   },
   {
@@ -1461,6 +1467,12 @@
         "value": 125
       },
       {
+        "project": "mitiq",
+        "title": "Support representations directly in PEA",
+        "url": "https://github.com/unitaryfoundation/mitiq/issues/2936",
+        "value": 37
+      },
+      {
         "project": "paulistrings.jl",
         "title": "OpenQASM interface",
         "url": "https://github.com/nicolasloizeau/PauliStrings.jl/issues/82",
@@ -1485,8 +1497,8 @@
         "value": 150
       }
     ],
-    "num_projects": 6,
-    "total_value": 745,
+    "num_projects": 7,
+    "total_value": 782,
     "username": "zkasuran"
   }
 ]
