@@ -758,7 +758,7 @@
     "url": "https://github.com/unitaryfoundation/mitiq"
   },
   "munich-quantum-toolkit": {
-    "amount_available": 250,
+    "amount_available": 200,
     "bounties": [
       {
         "assignees": [
@@ -787,7 +787,7 @@
       },
       {
         "assignees": [],
-        "state": "open",
+        "state": "closed",
         "title": "\u2728 Dynamical QFT",
         "url": "https://github.com/munich-quantum-toolkit/bench/issues/798",
         "value": 50
@@ -796,7 +796,7 @@
     "emoji": "\u269b\ufe0f\ud83d\udee0\ufe0f",
     "name": "Munich Quantum Toolkit",
     "num_bounties": 4,
-    "num_open_bounties": 2,
+    "num_open_bounties": 1,
     "total_amount": 400,
     "url": "https://github.com/munich-quantum-toolkit/"
   },
