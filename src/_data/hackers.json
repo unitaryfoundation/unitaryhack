@@ -1392,6 +1392,12 @@
         "value": 100
       },
       {
+        "project": "metriq",
+        "title": "Noisy simulators don't work without authenticating to IBMQ Cloud",
+        "url": "https://github.com/unitaryfoundation/metriq-gym/issues/521",
+        "value": 50
+      },
+      {
         "project": "qibo",
         "title": "GPU support for the emulator",
         "url": "https://github.com/qiboteam/qibolab/issues/1414",
@@ -1404,8 +1410,8 @@
         "value": 150
       }
     ],
-    "num_projects": 4,
-    "total_value": 375,
+    "num_projects": 5,
+    "total_value": 425,
     "username": "spital"
   },
   {

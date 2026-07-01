@@ -648,7 +648,7 @@
     "url": "https://github.com/marqov-dev/marqov-sdk"
   },
   "metriq": {
-    "amount_available": 150,
+    "amount_available": 100,
     "bounties": [
       {
         "assignees": [
@@ -668,8 +668,10 @@
         "value": 100
       },
       {
-        "assignees": [],
-        "state": "open",
+        "assignees": [
+          "spital"
+        ],
+        "state": "closed",
         "title": "Noisy simulators don't work without authenticating to IBMQ Cloud",
         "url": "https://github.com/unitaryfoundation/metriq-gym/issues/521",
         "value": 50
@@ -696,7 +698,7 @@
     "emoji": "\ud83d\udcca\ufe0f\ud83d\udccf",
     "name": "Metriq",
     "num_bounties": 5,
-    "num_open_bounties": 2,
+    "num_open_bounties": 1,
     "total_amount": 500,
     "url": "https://github.com/unitaryfoundation/metriq"
   },
