@@ -986,6 +986,32 @@
   {
     "bounties": [
       {
+        "project": "ionq-core-python",
+        "title": "Add an examples/ directory demonstrating downstream-SDK integration via the extension API",
+        "url": "https://github.com/ionq/ionq-core-python/issues/56",
+        "value": 125
+      }
+    ],
+    "num_projects": 1,
+    "total_value": 125,
+    "username": "lukedev45"
+  },
+  {
+    "bounties": [
+      {
+        "project": "ionq-core-python",
+        "title": "Add an examples/ quantum-function workload (Hamiltonian energy) with parameter optimization",
+        "url": "https://github.com/ionq/ionq-core-python/issues/58",
+        "value": 150
+      }
+    ],
+    "num_projects": 1,
+    "total_value": 150,
+    "username": "mahbub570"
+  },
+  {
+    "bounties": [
+      {
         "project": "clifft",
         "title": "docs: auto-generate Python API reference via mkdocstrings",
         "url": "https://github.com/unitaryfoundation/clifft/issues/63",
