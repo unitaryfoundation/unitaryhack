@@ -433,7 +433,9 @@
         "value": 125
       },
       {
-        "assignees": [],
+        "assignees": [
+          "zhangchuan92910"
+        ],
         "state": "closed",
         "title": "Add pure-Python results post-processing helpers (counts, bitstrings, marginals, expectation values)",
         "url": "https://github.com/ionq/ionq-core-python/issues/57",

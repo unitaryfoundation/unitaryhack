@@ -1513,6 +1513,19 @@
   {
     "bounties": [
       {
+        "project": "ionq-core-python",
+        "title": "Add pure-Python results post-processing helpers (counts, bitstrings, marginals, expectation values)",
+        "url": "https://github.com/ionq/ionq-core-python/issues/57",
+        "value": 150
+      }
+    ],
+    "num_projects": 1,
+    "total_value": 150,
+    "username": "zhangchuan92910"
+  },
+  {
+    "bounties": [
+      {
         "project": "kqcircuits",
         "title": "Export layout present in KLayout GUI as an Elmer simulation",
         "url": "https://github.com/iqm-finland/KQCircuits/issues/122",
