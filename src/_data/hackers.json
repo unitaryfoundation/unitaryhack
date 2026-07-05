@@ -1138,19 +1138,6 @@
   {
     "bounties": [
       {
-        "project": "tket2",
-        "title": "Rewrite to replace non-Clifford operations with Clifford",
-        "url": "https://github.com/Quantinuum/tket2/issues/1315",
-        "value": 125
-      }
-    ],
-    "num_projects": 1,
-    "total_value": 125,
-    "username": "nathandelcid"
-  },
-  {
-    "bounties": [
-      {
         "project": "mitiq",
         "title": "Support representations directly in PEA",
         "url": "https://github.com/unitaryfoundation/mitiq/issues/2936",
@@ -1185,6 +1172,19 @@
     "num_projects": 1,
     "total_value": 400,
     "username": "nirajvenkat"
+  },
+  {
+    "bounties": [
+      {
+        "project": "tket2",
+        "title": "Rewrite to replace non-Clifford operations with Clifford",
+        "url": "https://github.com/Quantinuum/tket2/issues/1315",
+        "value": 125
+      }
+    ],
+    "num_projects": 1,
+    "total_value": 125,
+    "username": "nrdcid"
   },
   {
     "bounties": [

@@ -1961,7 +1961,7 @@
       },
       {
         "assignees": [
-          "nathandelcid"
+          "nrdcid"
         ],
         "state": "closed",
         "title": "Rewrite to replace non-Clifford operations with Clifford",
