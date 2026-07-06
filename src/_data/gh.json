@@ -277,7 +277,7 @@
     "url": "https://github.com/deltakit/deltakit"
   },
   "dynamiqs": {
-    "amount_available": 185,
+    "amount_available": 135,
     "bounties": [
       {
         "assignees": [
@@ -290,7 +290,7 @@
       },
       {
         "assignees": [],
-        "state": "open",
+        "state": "closed",
         "title": "unitaryHACK - Expand QArray manipulation utilities",
         "url": "https://github.com/dynamiqs/dynamiqs/issues/1080",
         "value": 50
@@ -324,7 +324,7 @@
     "emoji": "\ud83d\udd25",
     "name": "Dynamiqs",
     "num_bounties": 5,
-    "num_open_bounties": 2,
+    "num_open_bounties": 1,
     "total_amount": 500,
     "url": "https://github.com/dynamiqs/dynamiqs"
   },
