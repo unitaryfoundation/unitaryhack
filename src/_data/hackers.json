@@ -319,6 +319,12 @@
   {
     "bounties": [
       {
+        "project": "cuda-quantum",
+        "title": "Mathematical functions support",
+        "url": "https://github.com/NVIDIA/cuda-quantum/issues/2942",
+        "value": 100
+      },
+      {
         "project": "juice",
         "title": "\"juice config view\" command",
         "url": "https://gitlab.com/orangeqs/juice/-/work_items/292",
@@ -331,8 +337,8 @@
         "value": 100
       }
     ],
-    "num_projects": 2,
-    "total_value": 300,
+    "num_projects": 3,
+    "total_value": 400,
     "username": "LubuSeb"
   },
   {

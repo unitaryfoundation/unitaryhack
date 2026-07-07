@@ -206,7 +206,9 @@
         "value": 100
       },
       {
-        "assignees": [],
+        "assignees": [
+          "LubuSeb"
+        ],
         "state": "closed",
         "title": "Mathematical functions support",
         "url": "https://github.com/NVIDIA/cuda-quantum/issues/2942",
